@@ -91,3 +91,4 @@ python -m http.server 8000 --directory docs   # 然后访问 http://localhost:80
 从 HPC 全组 8 个成员目录扫描 15025 个计算目录，按熔淬流程（2000K 熔化→quench 300K→opt→MD）
 筛选**代表性非晶模型**（优先 opt 末帧 CONTCAR，否则 300K MD 第一帧），智能去重后得 **731 条非晶结构**。
 已知局限：少量无路径标记的晶态 opt 可能混入（见 `data/metadata/excluded_crystalline_review.tsv`）。
+# PCM_database

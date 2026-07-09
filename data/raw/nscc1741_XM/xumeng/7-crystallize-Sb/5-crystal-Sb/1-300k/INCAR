@@ -1,0 +1,60 @@
+!System settings
+   SYSTEM = Sb
+   !PREC   = accurate        low, normal, accurate
+   ISTART =      0     job   : 0-new  1-cont  2-samecut
+   ICHARG =      2     charge: 0-INIWAV 1-CHGCAR 2-atom 10-nonself
+   !ISPIN  =      1     spin polarized? 1:no 2:yes
+   !INIWAV =      1     0-jellium 1-rand
+   !NWRITE = 	 1     0-output the first/last step  1- output each step(MD)
+
+!Electronic Relaxation
+   !ENCUT  =  300.0 eV  
+   !NELM   =     60      max e SC
+   !NELMIN =      3      min e SC
+   !NELMDL =     -3      non-SC +:every -:first
+   EDIFF  =   0.000001   stopping-criterion for ELM
+   LREAL  =      A      real-space projection
+   ALGO   =   Fast      normal:38(D) fast:38-48(RMM) all:58 damped:53
+   !NSIM   =      4     # of bands at the same time
+   !MAXMIX =     80     +:keep/ionic -:empty/ionic or # e steps
+   !NBANDS  = 1000
+
+!Ionic relaxation
+   !EDIFFG =   -0.001   stopping-criterion for IOM +:energy -:force
+   NSW    =   3000        number of steps for IOM
+   IBRION =    0      ionic relax: 0-MD 1-static 2-CG 3-dampedMD
+   !ISIF   =   3            IonRelax:2|VolumeRelax:7
+   !NPACO  =    256      # of slots for PCF
+   !APACO  =   10.0      max dist for PCF
+   !NBLOCK =      1     inner block ionic cfg-XDATCAR, scale T
+   !KBLOCK =   2000     outer block PCF-PCDAT,DOS-DOSCAR
+
+!Molecular dynamics
+   POTIM  =   2.00    time-step for ionic-motion(fs)
+   TEBEG  =  300.0
+   TEEND  =  300.0     temperature during run
+   SMASS  =     -1     -3:micro|-2:const|-1:scaled|>=0:Nos
+
+!DOS related values:
+   !EMIN   =  10.00
+   !EMAX   = -10.00     energy-range for DOS
+   ISMEAR =     0     1,2:metal -5,0:sem/ins
+   SIGMA  =   0.05     broadening in eV
+   !RWIGS  = 1.566 1.577 1.535
+
+!Write flags
+   LWAVE  = .F.     write WAVECAR
+   LCHARG = .F.     write CHGCAR
+   LVTOT  = .F.    write LOCPOT, local potential
+   LELF   = .F.    write electronic localiz. function (ELF)
+   !LORBIT =      11     0 simple, 1 ext, 2 COOP (PROOUT)
+   !XML_INCAR_V = 11
+
+!Parallel flags
+   NCORE   =     12     # of nodes
+   !LPLANE =  .TRUE.
+   !LSCALU = .FALSE.
+   !LSCALAPACK = .TRUE.
+
+!Optical
+   !LEPSILON=.TRUE.

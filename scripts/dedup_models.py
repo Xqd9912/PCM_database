@@ -19,7 +19,7 @@ STAGE = re.compile(
 )
 TEMPK = re.compile(r"^\d*[-_]?\d{2,4}k$", re.I)  # 阶段温度目录 300K / 2-400K（不含 kstep）
 # 变体段：应合并（泛函 / MD 时长步长 / 采样帧）—— 方案A：frames 也合并
-FUNC = re.compile(r"(hse|blyp|pbe0?|scan|lda|gga|b3lyp|-0\.\d|pbesol)", re.I)
+FUNC = re.compile(r"(hse|blyp|pbe0?|scan|lda|gga|b3lyp|pbesol)", re.I)  # 泛函关键词；勿用 -0.\d(会误匹配压缩比/密度)
 STEP = re.compile(r"(\d+k?step|\d+\s*frames?|\d+ns|\d+ps)", re.I)  # kstep/step + frames
 # 必须保留的物理区分段：密度/尺寸/model 索引/浓度 等（frame 不保留=合并）
 KEEP = re.compile(r"(dens|density|atom|model|%|conc|scale|bond|chain)", re.I)

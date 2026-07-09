@@ -1,0 +1,1254 @@
+model_key	rep_path	how	n_merged	formula	species	counts	natoms	tebeg
+GK_xum02/grc/1-OTS/1-GeSe	GK_xum02/grc/1-OTS/1-GeSe/2-MD	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+GK_xum02/grc/1-OTS/3-GATS	GK_xum02/grc/1-OTS/3-GATS/4-MD	md-first-frame	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	300.0
+GK_xum02/grc/1-OTS/3-GATS/GATS/1-GATS	GK_xum02/grc/1-OTS/3-GATS/GATS/1-GATS/3-opt	opt-CONTCAR	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	
+GK_xum02/grc/1-OTS/3-GATS/GATS/1-GATS/analysis	GK_xum02/grc/1-OTS/3-GATS/GATS/1-GATS/analysis/1-opt	opt-CONTCAR	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	
+GK_xum02/grc/1-OTS/3-GATS/GATS/2-GATS	GK_xum02/grc/1-OTS/3-GATS/GATS/2-GATS/1-opt	opt-CONTCAR	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	
+GK_xum02/grc/1-OTS/4-GATSN	GK_xum02/grc/1-OTS/4-GATSN/1-opt	opt-CONTCAR	2	Ge28As86Te156Si15N15	Ge As Te Si N	28 86 156 15 15	300	
+GK_xum02/grc/1-OTS/IST312	GK_xum02/grc/1-OTS/IST312/3-opt	opt-CONTCAR	1	In150Sb50Te100	In Sb Te	150 50 100	300	
+GK_xum02/grc/1-OTS/InTe/19-InTe	GK_xum02/grc/1-OTS/InTe/19-InTe/MD	md-first-frame	1	In30Te270	In Te	30 270	300	300.0
+GK_xum02/grc/1-OTS/InTe/19-InTe/MD.new-MGS	GK_xum02/grc/1-OTS/InTe/19-InTe/MD.new-MGS/3-opt	opt-CONTCAR	2	In30Te270	In Te	30 270	300	
+GK_xum02/grc/1-OTS/InTe/19-InTe/MD/new	GK_xum02/grc/1-OTS/InTe/19-InTe/MD/new	md-first-frame	1	In30Te270	In Te	30 270	300	300.0
+GK_xum02/grc/1-OTS/InTe/19-InTe/new	GK_xum02/grc/1-OTS/InTe/19-InTe/new/1-300K	md-first-frame	1	In30Te270	In Te	30 270	300	300.0
+GK_xum02/grc/1-OTS/InTe/28-InTe	GK_xum02/grc/1-OTS/InTe/28-InTe/MD	md-first-frame	1	In60Te240	In Te	60 240	300	300.0
+GK_xum02/grc/1-OTS/InTe/28-InTe/2	GK_xum02/grc/1-OTS/InTe/28-InTe/2/3-opt	opt-CONTCAR	1	In60Te240	In Te	60 240	300	
+GK_xum02/grc/1-OTS/InTe/28-InTe/3	GK_xum02/grc/1-OTS/InTe/28-InTe/3/3-opt	opt-CONTCAR	1	In60Te240	In Te	60 240	300	
+GK_xum02/grc/1-OTS/InTe/28-InTe/MD-new	GK_xum02/grc/1-OTS/InTe/28-InTe/MD-new	md-first-frame	1	In60Te240	In Te	60 240	300	300.0
+GK_xum02/grc/1-OTS/InTe/28-InTe/MD.new	GK_xum02/grc/1-OTS/InTe/28-InTe/MD.new/4-opt	opt-CONTCAR	2	In60Te240	In Te	60 240	300	
+GK_xum02/grc/1-OTS/InTe/37-InTe	GK_xum02/grc/1-OTS/InTe/37-InTe/MD	md-first-frame	1	In90Te210	In Te	90 210	300	300.0
+GK_xum02/grc/1-OTS/InTe/37-InTe/2	GK_xum02/grc/1-OTS/InTe/37-InTe/2/3-opt	opt-CONTCAR	1	In90Te210	In Te	90 210	300	
+GK_xum02/grc/1-OTS/InTe/37-InTe/MD.new	GK_xum02/grc/1-OTS/InTe/37-InTe/MD.new/3-opt	opt-CONTCAR	2	In90Te210	In Te	90 210	300	
+GK_xum02/grc/1-OTS/InTe/46-InTe/1	GK_xum02/grc/1-OTS/InTe/46-InTe/1/MD	md-first-frame	1	In120Te180	In Te	120 180	300	300.0
+GK_xum02/grc/1-OTS/InTe/46-InTe/1/MD.new	GK_xum02/grc/1-OTS/InTe/46-InTe/1/MD.new/4-opt	opt-CONTCAR	2	In120Te180	In Te	120 180	300	
+GK_xum02/grc/1-OTS/InTe/55-InTe/1	GK_xum02/grc/1-OTS/InTe/55-InTe/1/MD	md-first-frame	1	In150Te150	In Te	150 150	300	300.0
+GK_xum02/grc/1-OTS/InTe/55-InTe/1/MD.new	GK_xum02/grc/1-OTS/InTe/55-InTe/1/MD.new	md-first-frame	1	In150Te150	In Te	150 150	300	300.0
+GK_xum02/grc/1-OTS/InTe/55-InTe/2	GK_xum02/grc/1-OTS/InTe/55-InTe/2/3-opt	opt-CONTCAR	2	In150Te150	In Te	150 150	300	
+GK_xum02/grc/1-OTS/InTe/55-InTe/3	GK_xum02/grc/1-OTS/InTe/55-InTe/3/3-opt	opt-CONTCAR	1	In150Te150	In Te	150 150	300	
+GK_xum02/grc/1-OTS/InTe/64-InTe/1	GK_xum02/grc/1-OTS/InTe/64-InTe/1/MD	md-first-frame	1	In180Te120	In Te	180 120	300	300.0
+GK_xum02/grc/1-OTS/InTe/64-InTe/1/MD.new	GK_xum02/grc/1-OTS/InTe/64-InTe/1/MD.new	md-first-frame	1	In180Te120	In Te	180 120	300	300.0
+GK_xum02/grc/1-OTS/InTe/64-InTe/2	GK_xum02/grc/1-OTS/InTe/64-InTe/2/MD	md-first-frame	1	In180Te120	In Te	180 120	300	300.0
+GK_xum02/grc/1-OTS/InTe/doped-IT46/1-As/3-lsf	GK_xum02/grc/1-OTS/InTe/doped-IT46/1-As/3-lsf	md-first-frame	1	In108Te162As30	In Te As	108 162 30	300	300.0
+GK_xum02/grc/1-OTS/InTe/doped-IT46/2-Si/3-lsf	GK_xum02/grc/1-OTS/InTe/doped-IT46/2-Si/3-lsf	md-first-frame	1	In108Te162Si30	In Te Si	108 162 30	300	300.0
+GK_xum02/grc/1-OTS/InTe/doped-IT46/3-C/3-lsf	GK_xum02/grc/1-OTS/InTe/doped-IT46/3-C/3-lsf	md-first-frame	1	In108Te162C30	In Te C	108 162 30	300	300.0
+GK_xum02/grc/2-Ge-Se-Te/GeSe/7-GeSe	GK_xum02/grc/2-Ge-Se-Te/GeSe/7-GeSe/2-MD	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+GK_xum02/grc/2-Ge-Se-Te/GeTe/6-GT	GK_xum02/grc/2-Ge-Se-Te/GeTe/6-GT/MD	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300.0
+GK_xum02/grc/3-Te-based/1-GeTe/1-GeTe9	GK_xum02/grc/3-Te-based/1-GeTe/1-GeTe9/MD	md-first-frame	1	Ge30Te270	Ge Te	30 270	300	300.0
+GK_xum02/grc/3-Te-based/10-AsTe/1-AsTe9	GK_xum02/grc/3-Te-based/10-AsTe/1-AsTe9/3-opt	opt-CONTCAR	2	As30Te270	As Te	30 270	300	
+GK_xum02/grc/3-Te-based/10-AsTe/3-AsTe9	GK_xum02/grc/3-Te-based/10-AsTe/3-AsTe9/3-opt	opt-CONTCAR	1	As30Te270	As Te	30 270	300	
+GK_xum02/grc/3-Te-based/10-AsTe/4-AsTe9	GK_xum02/grc/3-Te-based/10-AsTe/4-AsTe9/3-opt	opt-CONTCAR	1	As30Te270	As Te	30 270	300	
+GK_xum02/grc/3-Te-based/10-AsTe/5-AsTe9	GK_xum02/grc/3-Te-based/10-AsTe/5-AsTe9/3-opt	opt-CONTCAR	1	As30Te270	As Te	30 270	300	
+GK_xum02/grc/3-Te-based/11-SbTe/1-SbTe9	GK_xum02/grc/3-Te-based/11-SbTe/1-SbTe9/3-opt	opt-CONTCAR	2	Sb30Te270	Sb Te	30 270	300	
+GK_xum02/grc/3-Te-based/11-SbTe/1-SbTe9/MD/1	GK_xum02/grc/3-Te-based/11-SbTe/1-SbTe9/MD/1	md-first-frame	1	Sb30Te270	Sb Te	30 270	300	300.0
+GK_xum02/grc/3-Te-based/11-SbTe/2-Sb2Te3	GK_xum02/grc/3-Te-based/11-SbTe/2-Sb2Te3/3-opt	opt-CONTCAR	2	Sb120Te180	Sb Te	120 180	300	
+GK_xum02/grc/3-Te-based/11-SbTe/2-Sb2Te3/MD/1	GK_xum02/grc/3-Te-based/11-SbTe/2-Sb2Te3/MD/1	md-first-frame	1	Sb120Te180	Sb Te	120 180	300	300.0
+GK_xum02/grc/3-Te-based/11-SbTe/3-SbTe9	GK_xum02/grc/3-Te-based/11-SbTe/3-SbTe9/3-opt	opt-CONTCAR	1	Sb30Te270	Sb Te	30 270	300	
+GK_xum02/grc/3-Te-based/2-CTe/1	GK_xum02/grc/3-Te-based/2-CTe/1/MD	md-first-frame	1	C30Te270	C Te	30 270	300	300.0
+GK_xum02/grc/3-Te-based/3-AlTe/1-AlTe9	GK_xum02/grc/3-Te-based/3-AlTe/1-AlTe9/3-opt	opt-CONTCAR	2	Al30Te270	Al Te	30 270	300	
+GK_xum02/grc/3-Te-based/3-AlTe/2-A3lTe7	GK_xum02/grc/3-Te-based/3-AlTe/2-A3lTe7/3-opt	opt-CONTCAR	1	Al90Te210	Al Te	90 210	300	
+GK_xum02/grc/3-Te-based/4-BTe/1	GK_xum02/grc/3-Te-based/4-BTe/1/3-opt	opt-CONTCAR	2	B30Te270	B Te	30 270	300	
+GK_xum02/grc/3-Te-based/4-BTe/2	GK_xum02/grc/3-Te-based/4-BTe/2/3-opt	opt-CONTCAR	2	B30Te270	B Te	30 270	300	
+GK_xum02/grc/3-Te-based/4-BTe/3	GK_xum02/grc/3-Te-based/4-BTe/3/3-opt	opt-CONTCAR	1	B30Te270	B Te	30 270	300	
+GK_xum02/grc/3-Te-based/5-SiTe/1-SiTe9	GK_xum02/grc/3-Te-based/5-SiTe/1-SiTe9/3-opt	opt-CONTCAR	2	Si30Te270	Si Te	30 270	300	
+GK_xum02/grc/3-Te-based/5-SiTe/2-SiTe/1	GK_xum02/grc/3-Te-based/5-SiTe/2-SiTe/1/3-opt	opt-CONTCAR	1	Si150Te150	Si Te	150 150	300	
+GK_xum02/grc/3-Te-based/5-SiTe/2-SiTe/2	GK_xum02/grc/3-Te-based/5-SiTe/2-SiTe/2/3-opt	opt-CONTCAR	1	Si150Te150	Si Te	150 150	300	
+GK_xum02/grc/3-Te-based/5-SiTe/3-SiTe9	GK_xum02/grc/3-Te-based/5-SiTe/3-SiTe9/3-opt	opt-CONTCAR	1	Si30Te270	Si Te	30 270	300	
+GK_xum02/grc/3-Te-based/6-GaTe/1-GaTe9	GK_xum02/grc/3-Te-based/6-GaTe/1-GaTe9/3-opt	opt-CONTCAR	2	Ga30Te270	Ga Te	30 270	300	
+GK_xum02/grc/3-Te-based/6-GaTe/2-Ga2Te3	GK_xum02/grc/3-Te-based/6-GaTe/2-Ga2Te3/3-opt	opt-CONTCAR	2	Ga120Te180	Ga Te	120 180	300	
+GK_xum02/grc/3-Te-based/6-GaTe/3-Ga2Te3	GK_xum02/grc/3-Te-based/6-GaTe/3-Ga2Te3/3-opt	opt-CONTCAR	1	Ga120Te180	Ga Te	120 180	300	
+GK_xum02/grc/3-Te-based/7-SnTe/1-SnTe9	GK_xum02/grc/3-Te-based/7-SnTe/1-SnTe9/3-opt	opt-CONTCAR	2	Sn30Te270	Sn Te	30 270	300	
+GK_xum02/grc/3-Te-based/7-SnTe/2-SnTe	GK_xum02/grc/3-Te-based/7-SnTe/2-SnTe/3-opt	opt-CONTCAR	2	Sn150Te150	Sn Te	150 150	300	
+GK_xum02/grc/3-Te-based/7-SnTe/3-SnTe9/1	GK_xum02/grc/3-Te-based/7-SnTe/3-SnTe9/1/3-opt	opt-CONTCAR	1	Sn30Te270	Sn Te	30 270	300	
+GK_xum02/grc/3-Te-based/7-SnTe/3-SnTe9/2	GK_xum02/grc/3-Te-based/7-SnTe/3-SnTe9/2/3-opt	opt-CONTCAR	1	Sn30Te270	Sn Te	30 270	300	
+GK_xum02/grc/3-Te-based/8-InTe/1-InTe9	GK_xum02/grc/3-Te-based/8-InTe/1-InTe9/3-opt	opt-CONTCAR	2	In30Te270	In Te	30 270	300	
+GK_xum02/grc/3-Te-based/8-InTe/3-In2Te3/1	GK_xum02/grc/3-Te-based/8-InTe/3-In2Te3/1/3-opt	opt-CONTCAR	1	In120Te180	In Te	120 180	300	
+GK_xum02/grc/3-Te-based/8-InTe/3-In2Te3/2-y	GK_xum02/grc/3-Te-based/8-InTe/3-In2Te3/2-y/3-opt	opt-CONTCAR	1	In120Te180	In Te	120 180	300	
+GK_xum02/grc/3-Te-based/8-InTe/3-In2Te3/3	GK_xum02/grc/3-Te-based/8-InTe/3-In2Te3/3/3-opt	md-first-frame	2	In120Te180	In Te	120 180	300	300.0
+GK_xum02/grc/3-Te-based/9-ZnTe/1-ZnTe9	GK_xum02/grc/3-Te-based/9-ZnTe/1-ZnTe9/3-opt	opt-CONTCAR	2	Zn30Te270	Zn Te	30 270	300	
+GK_xum02/grc/3-Te-based/9-ZnTe/3-ZnTe9	GK_xum02/grc/3-Te-based/9-ZnTe/3-ZnTe9/3-opt	opt-CONTCAR	1	Zn30Te270	Zn Te	30 270	300	
+GK_xum02/grc/3-Te-based/Te/1-y	GK_xum02/grc/3-Te-based/Te/1-y/3-opt	opt-CONTCAR	2	Te300	Te	300	300	
+GK_xum02/grc/3-Te-based/Te/1-y/MD-1000	GK_xum02/grc/3-Te-based/Te/1-y/MD-1000	md-first-frame	1	Te300	Te	300	300	300.0
+GK_xum02/grc/3-Te-based/Te/1-y/new	GK_xum02/grc/3-Te-based/Te/1-y/new/4-opt	opt-CONTCAR	1	Te300	Te	300	300	
+GK_xum02/grc/3-Te-based/Te/1-y/new/3-lsf	GK_xum02/grc/3-Te-based/Te/1-y/new/3-lsf	md-first-frame	1	Te300	Te	300	300	300.0
+GK_xum02/grc/3-Te-based/Te/3	GK_xum02/grc/3-Te-based/Te/3/3-opt	opt-CONTCAR	1	Te300	Te	300	300	
+GK_xum02/grc/3-Te-based/Te/5-y	GK_xum02/grc/3-Te-based/Te/5-y/4-opt	opt-CONTCAR	1	Te300	Te	300	300	
+GK_xum02/grc/3-Te-based/Te/5-y/3-lsf	GK_xum02/grc/3-Te-based/Te/5-y/3-lsf	md-first-frame	1	Te300	Te	300	300	300.0
+GK_xum02/grc/As-OTS/1-GeAsS/1/4-time/1-2	GK_xum02/grc/As-OTS/1-GeAsS/1/4-time/1-2	opt-CONTCAR	1	Ge108As24S108	Ge As S	108 24 108	240	
+GK_xum02/grc/As-OTS/1-GeAsS/1/analysis	GK_xum02/grc/As-OTS/1-GeAsS/1/analysis/1-opt	opt-CONTCAR	1	Ge108As24S108	Ge As S	108 24 108	240	
+GK_xum02/grc/As-OTS/1-GeAsS/2	GK_xum02/grc/As-OTS/1-GeAsS/2/5-opt	opt-CONTCAR	1	Ge108As24S108	Ge As S	108 24 108	240	
+GK_xum02/grc/As-OTS/1-GeAsS/2/4-time/1-2	GK_xum02/grc/As-OTS/1-GeAsS/2/4-time/1-2	opt-CONTCAR	1	Ge108As24S108	Ge As S	108 24 108	240	
+GK_xum02/grc/As-OTS/1-GeAsS/3	GK_xum02/grc/As-OTS/1-GeAsS/3/1-opt	opt-CONTCAR	1	Ge108As24S108	Ge As S	108 24 108	240	
+GK_xum02/grc/As-OTS/240/GeS/1	GK_xum02/grc/As-OTS/240/GeS/1/MD	md-first-frame	1	Ge120S120	Ge S	120 120	240	300.0
+GK_xum02/grc/As-OTS/240/GeS/2	GK_xum02/grc/As-OTS/240/GeS/2/3-opt	opt-CONTCAR	2	Ge120S120	Ge S	120 120	240	
+GK_xum02/grc/As-OTS/240/GeS/3	GK_xum02/grc/As-OTS/240/GeS/3/2-opt	opt-CONTCAR	2	Ge120S120	Ge S	120 120	240	
+GK_xum02/grc/As-OTS/240/SiSe	GK_xum02/grc/As-OTS/240/SiSe/MD	md-first-frame	1	Si120Se120	Si Se	120 120	240	300.0
+GK_xum02/grc/As-OTS/240/SiTe	GK_xum02/grc/As-OTS/240/SiTe/4-opt	opt-CONTCAR	2	Si120Te120	Si Te	120 120	240	
+GK_xum02/grc/As-OTS/240/SiTe/3-relax/1-lsf	GK_xum02/grc/As-OTS/240/SiTe/3-relax/1-lsf	md-first-frame	1	Si120Te120	Si Te	120 120	240	300.0
+GK_xum02/grc/As-OTS/240/SiTe/3-relax/2-2	GK_xum02/grc/As-OTS/240/SiTe/3-relax/2-2	opt-CONTCAR	1	Si120Te120	Si Te	120 120	240	
+GK_xum02/grc/As-OTS/5-GS	GK_xum02/grc/As-OTS/5-GS/2-opt	opt-CONTCAR	2	Ge150S150	Ge S	150 150	300	
+GK_xum02/grc/As-OTS/5-GS/old	GK_xum02/grc/As-OTS/5-GS/old/MD	md-first-frame	1	Ge150S150	Ge S	150 150	300	300.0
+GK_xum02/grc/As-OTS/6-GT	GK_xum02/grc/As-OTS/6-GT/3-opt	opt-CONTCAR	3	Ge150Te150	Ge Te	150 150	300	
+GK_xum02/grc/As-OTS/8-SiAsSe	GK_xum02/grc/As-OTS/8-SiAsSe/4-opt	opt-CONTCAR	2	Si108As24Se108	Si As Se	108 24 108	240	
+GK_xum02/grc/As-OTS/GS	GK_xum02/grc/As-OTS/GS/3-opt	opt-CONTCAR	1	Ge150S150	Ge S	150 150	300	
+GK_xum02/grc/As-OTS/GT-200	GK_xum02/grc/As-OTS/GT-200/1-opt	opt-CONTCAR	1	Ge100Te100	Ge Te	100 100	200	
+GK_xum02/grc/As-OTS/GT-200/GT-c	GK_xum02/grc/As-OTS/GT-200/GT-c	md-first-frame	1	Ge54Te54	Ge Te	54 54	108	300.0
+GK_xum02/grc/As-OTS/GT-200/a-c-GT	GK_xum02/grc/As-OTS/GT-200/a-c-GT	md-first-frame	1	Ge108Te108	Ge Te	108 108	216	300.0
+GK_xum02/grc/As-OTS/GT-200/model	GK_xum02/grc/As-OTS/GT-200/model	md-first-frame	1	Ge108Te108	Ge Te	108 108	216	300.0
+GK_xum02/grc/As-OTS/GT-200/new-GT	GK_xum02/grc/As-OTS/GT-200/new-GT	md-first-frame	1	Ge108Te108	Ge Te	108 108	216	300.0
+GK_xum02/grc/As-OTS/GeAsS/6-time/1-2	GK_xum02/grc/As-OTS/GeAsS/6-time/1-2	opt-CONTCAR	1	Ge108As24S108	Ge As S	108 24 108	240	
+GK_xum02/grc/As-OTS/GeAsS/6-time/2-7	GK_xum02/grc/As-OTS/GeAsS/6-time/2-7	opt-CONTCAR	1	Ge108As24S108	Ge As S	108 24 108	240	
+GK_xum02/grc/As-OTS/GeAsS/6-time/3-2	GK_xum02/grc/As-OTS/GeAsS/6-time/3-2	opt-CONTCAR	1	Ge108As24S108	Ge As S	108 24 108	240	
+GK_xum02/grc/As-OTS/GeAsS/6-time/4-7	GK_xum02/grc/As-OTS/GeAsS/6-time/4-7	opt-CONTCAR	1	Ge108As24S108	Ge As S	108 24 108	240	
+GK_xum02/grc/As-OTS/GeAsS/7-analysis	GK_xum02/grc/As-OTS/GeAsS/7-analysis/1-opt	opt-CONTCAR	2	Ge108As24S108	Ge As S	108 24 108	240	
+GK_xum02/grc/As-OTS/GeSe	GK_xum02/grc/As-OTS/GeSe/3-opt	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+GK_xum02/grc/As-OTS/GeSe-dos/3-time/1-lsf	GK_xum02/grc/As-OTS/GeSe-dos/3-time/1-lsf	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+GK_xum02/grc/As-OTS/GeSe-dos/old-dos	GK_xum02/grc/As-OTS/GeSe-dos/old-dos/1-opt	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+GK_xum02/grc/As-OTS/GeSe-dos/old-dos/3-lsf	GK_xum02/grc/As-OTS/GeSe-dos/old-dos/3-lsf	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+GK_xum02/grc/As-OTS/N-GeSe	GK_xum02/grc/As-OTS/N-GeSe/4-opt	opt-CONTCAR	2	Ge135N30Se135	Ge N Se	135 30 135	300	
+GK_xum02/grc/As-OTS/N-GeSe/3-lsf	GK_xum02/grc/As-OTS/N-GeSe/3-lsf	md-first-frame	1	Ge135N30Se135	Ge N Se	135 30 135	300	300.0
+GK_xum02/grc/As-OTS/doped-GeSe/1-C	GK_xum02/grc/As-OTS/doped-GeSe/1-C/3-opt	opt-CONTCAR	2	Ge108C24Se108	Ge C Se	108 24 108	240	
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/1	GK_xum02/grc/As-OTS/doped-GeSe/2-N/1/4-opt	opt-CONTCAR	2	Ge108N24Se108	Ge N Se	108 24 108	240	
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/1/MD/MD-400	GK_xum02/grc/As-OTS/doped-GeSe/2-N/1/MD/MD-400	md-first-frame	1	Ge108N24Se108	Ge N Se	108 24 108	240	300.0
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-1	GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-1/3-opt	opt-CONTCAR	2	Ge108N24Se108	Ge N Se	108 24 108	240	
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-2	GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-2/2-opt	opt-CONTCAR	2	Ge108N24Se108	Ge N Se	108 24 108	240	
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-3	GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-3/2-opt	opt-CONTCAR	1	Ge108N24Se108	Ge N Se	108 24 108	240	
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-y	GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-y/3-opt	opt-CONTCAR	2	Ge108N24Se108	Ge N Se	108 24 108	240	
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/5	GK_xum02/grc/As-OTS/doped-GeSe/2-N/5/3-opt	opt-CONTCAR	2	Ge108N24Se108	Ge N Se	108 24 108	240	
+GK_xum02/grc/As-OTS/doped-GeSe/3-Sb	GK_xum02/grc/As-OTS/doped-GeSe/3-Sb/4-opt	opt-CONTCAR	2	Ge108Sb24Se108	Ge Sb Se	108 24 108	240	
+GK_xum02/grc/As-OTS/doped-GeSe/3-Sb/3-lsf	GK_xum02/grc/As-OTS/doped-GeSe/3-Sb/3-lsf	md-first-frame	1	Ge108Sb24Se108	Ge Sb Se	108 24 108	240	300.0
+GK_xum02/grc/As-OTS/doped-GeSe/4-Hf	GK_xum02/grc/As-OTS/doped-GeSe/4-Hf/3-opt	opt-CONTCAR	2	Ge108Hf24Se108	Ge Hf Se	108 24 108	240	
+GK_xum02/grc/As-OTS/doped-GeSe/5-In	GK_xum02/grc/As-OTS/doped-GeSe/5-In/3-opt	opt-CONTCAR	2	Ge108In24Se108	Ge In Se	108 24 108	240	
+GK_xum02/grc/As-OTS/doped-GeSe/6-P	GK_xum02/grc/As-OTS/doped-GeSe/6-P/3-opt	opt-CONTCAR	2	Ge108P24Se108	Ge P Se	108 24 108	240	
+GK_xum02/grc/C-Ge-Te/2-Sb2Se3-C	GK_xum02/grc/C-Ge-Te/2-Sb2Se3-C/MD	md-first-frame	1	Sb108Se162C30	Sb Se C	108 162 30	300	300.0
+GK_xum02/grc/C-Ge-Te/2-Sb2Se3-C/3-lsf	GK_xum02/grc/C-Ge-Te/2-Sb2Se3-C/3-lsf	md-first-frame	1	Sb108Se162C30	Sb Se C	108 162 30	300	300.0
+GK_xum02/grc/C-Ge-Te/2-Sb2Se3-C/C20/1-lsf	GK_xum02/grc/C-Ge-Te/2-Sb2Se3-C/C20/1-lsf	md-first-frame	1	Sb112Se168C20	Sb Se C	112 168 20	300	300.0
+GK_xum02/grc/C-Ge-Te/2-Sb2Se3-Si/3-lsf	GK_xum02/grc/C-Ge-Te/2-Sb2Se3-Si/3-lsf	md-first-frame	1	Sb108Se162Si30	Sb Se Si	108 162 30	300	300.0
+GK_xum02/grc/C-Ge-Te/3-Sb2Se3	GK_xum02/grc/C-Ge-Te/3-Sb2Se3/MD	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300.0
+GK_xum02/grc/C-Ge-Te/4-SbSeSi/3-lsf	GK_xum02/grc/C-Ge-Te/4-SbSeSi/3-lsf	md-first-frame	1	Sb108Se162Si30	Sb Se Si	108 162 30	300	300.0
+GK_xum02/grc/C-Ge-Te/C-Te/1-C10Te90	GK_xum02/grc/C-Ge-Te/C-Te/1-C10Te90/MD	md-first-frame	1	C30Te270	C Te	30 270	300	300.0
+GK_xum02/grc/C-Ge-Te/C-Te/2-C20Te80	GK_xum02/grc/C-Ge-Te/C-Te/2-C20Te80/MD	md-first-frame	1	C60Te240	C Te	60 240	300	300.0
+GK_xum02/grc/C-Ge-Te/C-Te/2-C20Te80/MD.adjust	GK_xum02/grc/C-Ge-Te/C-Te/2-C20Te80/MD.adjust	md-first-frame	1	C60Te240	C Te	60 240	300	300.0
+GK_xum02/grc/C-Ge-Te/C-Te/3-C30Te70	GK_xum02/grc/C-Ge-Te/C-Te/3-C30Te70/MD	md-first-frame	1	C90Te210	C Te	90 210	300	300.0
+GK_xum02/grc/C-Ge-Te/C-Te/3-C30Te70/8-MD-400eV	GK_xum02/grc/C-Ge-Te/C-Te/3-C30Te70/8-MD-400eV	md-first-frame	1	C90Te210	C Te	90 210	300	300.0
+GK_xum02/grc/C-Ge-Te/C-Te/3-C30Te70/MD.adjust	GK_xum02/grc/C-Ge-Te/C-Te/3-C30Te70/MD.adjust	md-first-frame	1	C90Te210	C Te	90 210	300	300.0
+GK_xum02/grc/GaS/1	GK_xum02/grc/GaS/1/3-opt	opt-CONTCAR	2	Ga150S150	Ga S	150 150	300	
+GK_xum02/grc/GaSe	GK_xum02/grc/GaSe/4-opt	opt-CONTCAR	2	Ga150Se150	Ga Se	150 150	300	
+GK_xum02/grc/GaSe/3-time	GK_xum02/grc/GaSe/3-time/2-opt	opt-CONTCAR	1	Ga150Se150	Ga Se	150 150	300	
+GK_xum02/grc/GaSe/3-time/1-lsf	GK_xum02/grc/GaSe/3-time/1-lsf	md-first-frame	1	Ga150Se150	Ga Se	150 150	300	300.0
+GK_xum02/grc/GeGaSb	GK_xum02/grc/GeGaSb/opt	opt-CONTCAR	1	Ge45Ga75Sb180	Ge Ga Sb	45 75 180	300	
+GK_xum02/grc/OTS/1-As/1-GeAsSe	GK_xum02/grc/OTS/1-As/1-GeAsSe/7-opt	opt-CONTCAR	2	Ge135As30Se135	Ge As Se	135 30 135	300	
+GK_xum02/grc/OTS/1-As/2-GeSe	GK_xum02/grc/OTS/1-As/2-GeSe/1-opt	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+GK_xum02/grc/OTS/1-As/3-GeAsSe20	GK_xum02/grc/OTS/1-As/3-GeAsSe20/7-opt	opt-CONTCAR	2	Ge120As60Se120	Ge As Se	120 60 120	300	
+GK_xum02/grc/SbS	GK_xum02/grc/SbS/4-opt	opt-CONTCAR	2	Sb120S180	Sb S	120 180	300	
+GK_xum02/grc/SbS/3-lsf	GK_xum02/grc/SbS/3-lsf	md-first-frame	1	Sb120S180	Sb S	120 180	300	300.0
+GK_xum02/grc/SbSe	GK_xum02/grc/SbSe/4-opt	opt-CONTCAR	2	Sb120Se180	Sb Se	120 180	300	
+GK_xum02/grc/SbSe/3-lsf	GK_xum02/grc/SbSe/3-lsf	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300.0
+GK_xum02/grc/SbSe/xu	GK_xum02/grc/SbSe/xu/1-opt	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+GK_xum02/grc/Si-As-Te/1-SiTe/0	GK_xum02/grc/Si-As-Te/1-SiTe/0/1-opt	opt-CONTCAR	4	Si150Te150	Si Te	150 150	300	
+GK_xum02/grc/Si-As-Te/1-SiTe/0/1-opt/0-time	GK_xum02/grc/Si-As-Te/1-SiTe/0/1-opt/0-time	opt-CONTCAR	1	Si150Te150	Si Te	150 150	300	
+GK_xum02/grc/Si-As-Te/1-SiTe/new-y/5-y	GK_xum02/grc/Si-As-Te/1-SiTe/new-y/5-y/1-opt	opt-CONTCAR	2	Si150Te150	Si Te	150 150	300	
+GK_xum02/grc/Si-As-Te/1-SiTe/new-y/6	GK_xum02/grc/Si-As-Te/1-SiTe/new-y/6/3-opt	opt-CONTCAR	2	Si150Te150	Si Te	150 150	300	
+GK_xum02/grc/Si-As-Te/3-As2Te3	GK_xum02/grc/Si-As-Te/3-As2Te3/4-opt	opt-CONTCAR	2	As120Te180	As Te	120 180	300	
+GK_xum02/grc/coorperation/Cr4Ge7	GK_xum02/grc/coorperation/Cr4Ge7/1-opt	opt-CONTCAR	1	Ge28Cr16	Ge Cr	28 16	44	
+GK_xum02/grc/coorperation/Cr4Ge7+0	GK_xum02/grc/coorperation/Cr4Ge7+0/1-opt	opt-CONTCAR	1	Ge28Cr16	Ge Cr	28 16	44	
+GK_xum02/grc/coorperation/Cr4Ge7+S	GK_xum02/grc/coorperation/Cr4Ge7+S/1-opt	opt-CONTCAR	1	Ge28Cr16	Ge Cr	28 16	44	
+GK_xum02/grc/coorperation/Cr4Ge7+U	GK_xum02/grc/coorperation/Cr4Ge7+U/1-opt	opt-CONTCAR	1	Ge28Cr16	Ge Cr	28 16	44	
+GK_xum02/grc/coorperation/Cr4Ge7+U+S	GK_xum02/grc/coorperation/Cr4Ge7+U+S/1-opt	opt-CONTCAR	1	Ge28Cr16	Ge Cr	28 16	44	
+GK_xum02/grc/coorperation/Cr4Ge7-2-ISIF/1-opt-2	GK_xum02/grc/coorperation/Cr4Ge7-2-ISIF/1-opt-2	opt-CONTCAR	1	Ge28Cr16	Ge Cr	28 16	44	
+GK_xum02/grc/coorperation/new-Cr4Ge7	GK_xum02/grc/coorperation/new-Cr4Ge7/1-opt	opt-CONTCAR	1	Ge28Cr16	Ge Cr	28 16	44	
+GK_xum02/grc/docotor-paper/1-GeSe/GeSe-240/1-l	GK_xum02/grc/docotor-paper/1-GeSe/GeSe-240/1-l/opt	opt-CONTCAR	2	Ge120Se120	Ge Se	120 120	240	
+GK_xum02/grc/docotor-paper/1-GeSe/xu-GeSe	GK_xum02/grc/docotor-paper/1-GeSe/xu-GeSe/3-opt	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+GK_xum02/grc/docotor-paper/3-GeTe6	GK_xum02/grc/docotor-paper/3-GeTe6/MD	md-first-frame	1	Ge43Te257	Ge Te	43 257	300	300.0
+GK_xum02/grc/docotor-paper/3-GeTe6/MD-4000	GK_xum02/grc/docotor-paper/3-GeTe6/MD-4000	md-first-frame	1	Ge43Te257	Ge Te	43 257	300	300.0
+GK_xum02/grc/docotor-paper/As-GeSe/1-5p	GK_xum02/grc/docotor-paper/As-GeSe/1-5p/3-opt	opt-CONTCAR	2	Ge114As12Se114	Ge As Se	114 12 114	240	
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/4-time/1-2	GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/4-time/1-2	opt-CONTCAR	1	Ge108As24Se108	Ge As Se	108 24 108	240	
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/4-time/2-7	GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/4-time/2-7	opt-CONTCAR	1	Ge108As24Se108	Ge As Se	108 24 108	240	
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/4-time/3-2	GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/4-time/3-2	opt-CONTCAR	1	Ge108As24Se108	Ge As Se	108 24 108	240	
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/4-time/4-7	GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/4-time/4-7	opt-CONTCAR	1	Ge108As24Se108	Ge As Se	108 24 108	240	
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/analysis	GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/analysis/1-opt	opt-CONTCAR	2	Ge108As24Se108	Ge As Se	108 24 108	240	
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/2/4-time/4-7	GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/2/4-time/4-7	opt-CONTCAR	1	Ge108As24Se108	Ge As Se	108 24 108	240	
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/2/analysis	GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/2/analysis/1-opt	opt-CONTCAR	2	Ge108As24Se108	Ge As Se	108 24 108	240	
+GK_xum02/grc/docotor-paper/As-GeSe/3-20p	GK_xum02/grc/docotor-paper/As-GeSe/3-20p/3-opt	opt-CONTCAR	2	Ge96As48Se96	Ge As Se	96 48 96	240	
+GK_xum02/grc/docotor-paper/N-GeSe/1-5p	GK_xum02/grc/docotor-paper/N-GeSe/1-5p/3-opt	opt-CONTCAR	2	Ge114N12Se114	Ge N Se	114 12 114	240	
+GK_xum02/grc/docotor-paper/N-GeSe/1-5p/new/1	GK_xum02/grc/docotor-paper/N-GeSe/1-5p/new/1/3-opt	opt-CONTCAR	1	Ge114N12Se114	Ge N Se	114 12 114	240	
+GK_xum02/grc/docotor-paper/N-GeSe/1-5p/new/2	GK_xum02/grc/docotor-paper/N-GeSe/1-5p/new/2/3-opt	opt-CONTCAR	1	Ge114N12Se114	Ge N Se	114 12 114	240	
+GK_xum02/grc/docotor-paper/N-GeSe/1-5p/new/3	GK_xum02/grc/docotor-paper/N-GeSe/1-5p/new/3/3-opt	opt-CONTCAR	1	Ge114N12Se114	Ge N Se	114 12 114	240	
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p	GK_xum02/grc/docotor-paper/N-GeSe/2-15p/3-opt	opt-CONTCAR	3	Ge102N36Se102	Ge N Se	102 36 102	240	
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/1	GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/1/3-opt	opt-CONTCAR	2	Ge102N36Se102	Ge N Se	102 36 102	240	
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/2	GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/2/3-opt	opt-CONTCAR	1	Ge102N36Se102	Ge N Se	102 36 102	240	
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/2/MD-y	GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/2/MD-y	md-first-frame	1	Ge102N36Se102	Ge N Se	102 36 102	240	300.0
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/3	GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/3/3-opt	opt-CONTCAR	2	Ge102N36Se102	Ge N Se	102 36 102	240	
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p	GK_xum02/grc/docotor-paper/N-GeSe/3-20p/3-opt	opt-CONTCAR	3	Ge96N48Se96	Ge N Se	96 48 96	240	
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new	GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new/3-opt	opt-CONTCAR	1	Ge96N48Se96	Ge N Se	96 48 96	240	
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new/1	GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new/1/3-opt	opt-CONTCAR	2	Ge96N48Se96	Ge N Se	96 48 96	240	
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new/2	GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new/2/3-opt	opt-CONTCAR	2	Ge96N48Se96	Ge N Se	96 48 96	240	
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new/3	GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new/3/3-opt	opt-CONTCAR	1	Ge96N48Se96	Ge N Se	96 48 96	240	
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/1	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/1/3-opt	opt-CONTCAR	2	Ge108Si24Se108	Ge Si Se	108 24 108	240	
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/1/MD-4000	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/1/MD-4000	md-first-frame	1	Ge108Si24Se108	Ge Si Se	108 24 108	240	300.0
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/300-SiGeSe	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/300-SiGeSe/3-opt	opt-CONTCAR	2	Ge135Si30Se135	Ge Si Se	135 30 135	300	
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/300-SiGeSe/MD-4000	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/300-SiGeSe/MD-4000	md-first-frame	1	Ge135Si30Se135	Ge Si Se	135 30 135	300	300.0
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/4	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/4/3-opt	opt-CONTCAR	1	Ge108Si24Se108	Ge Si Se	108 24 108	240	
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/5-y	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/5-y/3-opt	opt-CONTCAR	1	Ge108Si24Se108	Ge Si Se	108 24 108	240	
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/6	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/6/3-opt	opt-CONTCAR	1	Ge108Si24Se108	Ge Si Se	108 24 108	240	
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/8	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/8/3-opt	opt-CONTCAR	1	Ge108Si24Se108	Ge Si Se	108 24 108	240	
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GSS-r/md-10	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GSS-r/md-10	md-first-frame	1	Ge108Si24Se108	Ge Si Se	108 24 108	240	300.0
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GSS-r/md-20	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GSS-r/md-20	md-first-frame	1	Ge108Si24Se108	Ge Si Se	108 24 108	240	300.0
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GSS-r/md-30	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GSS-r/md-30	md-first-frame	1	Ge108Si24Se108	Ge Si Se	108 24 108	240	300.0
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GeSe-r	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GeSe-r/1-opt/1-opt	opt-CONTCAR	1	Ge32Se32	Ge Se	32 32	64	
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GeSe-r/md-10	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GeSe-r/md-10	md-first-frame	1	Ge120Se120	Ge Se	120 120	240	300.0
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GeSe-r/md-20	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GeSe-r/md-20	md-first-frame	1	Ge120Se120	Ge Se	120 120	240	300.0
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GeSe-r/md-30	GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GeSe-r/md-30	md-first-frame	1	Ge120Se120	Ge Se	120 120	240	300.0
+GK_xum02/grc/docotor-paper/Si-GeSe/2-5p	GK_xum02/grc/docotor-paper/Si-GeSe/2-5p/3-opt	opt-CONTCAR	2	Ge142Si16Se142	Ge Si Se	142 16 142	300	
+GK_xum02/grc/docotor-paper/Si-GeSe/3-20p	GK_xum02/grc/docotor-paper/Si-GeSe/3-20p/3-opt	opt-CONTCAR	2	Ge120Si60Se120	Ge Si Se	120 60 120	300	
+GK_xum02/grc/docotor-paper/Si-GeSe/4-5p-240	GK_xum02/grc/docotor-paper/Si-GeSe/4-5p-240/3-opt	opt-CONTCAR	2	Ge114Si12Se114	Ge Si Se	114 12 114	240	
+GK_xum02/grc/docotor-paper/Si-GeSe/4-5p-240/3-opt/2	GK_xum02/grc/docotor-paper/Si-GeSe/4-5p-240/3-opt/2	opt-CONTCAR	1	Ge114Si12Se114	Ge Si Se	114 12 114	240	
+GK_xum02/grc/docotor-paper/Si-GeSe/5-20p-240	GK_xum02/grc/docotor-paper/Si-GeSe/5-20p-240/3-opt	opt-CONTCAR	2	Ge96Si48Se96	Ge Si Se	96 48 96	240	
+GK_xum02/grc/docotor-paper/Si-GeSe/5-20p-240/3-opt/2	GK_xum02/grc/docotor-paper/Si-GeSe/5-20p-240/3-opt/2	opt-CONTCAR	1	Ge96Si48Se96	Ge Si Se	96 48 96	240	
+GK_xum02/xqd/1-PCM/1-Sb/1-model	GK_xum02/xqd/1-PCM/1-Sb/1-model/3-opt	opt-CONTCAR	2	Sb300	Sb	300	300	
+GK_xum02/xqd/1-PCM/1-Sb/1-model/6-300K-MD	GK_xum02/xqd/1-PCM/1-Sb/1-model/6-300K-MD	md-first-frame	1	Sb300	Sb	300	300	300.0
+GK_xum02/xqd/1-PCM/10-GeBiTe/0-model	GK_xum02/xqd/1-PCM/10-GeBiTe/0-model/3-MD	md-first-frame	2	Ge43Bi86Te172	Ge Bi Te	43 86 172	301	300
+GK_xum02/xqd/1-PCM/10-GeBiTe/1-model	GK_xum02/xqd/1-PCM/10-GeBiTe/1-model/3-opt	opt-CONTCAR	1	Ge43Bi86Te172	Ge Bi Te	43 86 172	301	
+GK_xum02/xqd/1-PCM/11-SiSbTe/1-model	GK_xum02/xqd/1-PCM/11-SiSbTe/1-model/3-opt	opt-CONTCAR	1	Si43Sb86Te172	Si Sb Te	43 86 172	301	
+GK_xum02/xqd/1-PCM/12-Bi_S/1-Bi2S3	GK_xum02/xqd/1-PCM/12-Bi_S/1-Bi2S3/3-opt	opt-CONTCAR	2	Bi120S180	Bi S	120 180	300	
+GK_xum02/xqd/1-PCM/12-Bi_S/2-Bi2Se3	GK_xum02/xqd/1-PCM/12-Bi_S/2-Bi2Se3/3-opt	opt-CONTCAR	2	Bi120Se180	Bi Se	120 180	300	
+GK_xum02/xqd/1-PCM/12-Bi_S/3-Bi2Te3	GK_xum02/xqd/1-PCM/12-Bi_S/3-Bi2Te3/3-opt	opt-CONTCAR	2	Bi120Te180	Bi Te	120 180	300	
+GK_xum02/xqd/1-PCM/13-GST_class/2-GST326	GK_xum02/xqd/1-PCM/13-GST_class/2-GST326/3-opt	opt-CONTCAR	1	Ge82Sb55Te163	Ge Sb Te	82 55 163	300	
+GK_xum02/xqd/1-PCM/13-GST_class/3-GST8211	GK_xum02/xqd/1-PCM/13-GST_class/3-GST8211/3-opt	opt-CONTCAR	1	Ge116Sb29Te155	Ge Sb Te	116 29 155	300	
+GK_xum02/xqd/1-PCM/14-AgSbTe2	GK_xum02/xqd/1-PCM/14-AgSbTe2/3-opt	opt-CONTCAR	1	Ag75Sb75Te150	Ag Sb Te	75 75 150	300	
+GK_xum02/xqd/1-PCM/15-GST467	GK_xum02/xqd/1-PCM/15-GST467/5-opt/0-opt7	opt-CONTCAR	5	Ge72Sb108Te126	Ge Sb Te	72 108 126	306	
+GK_xum02/xqd/1-PCM/15-GST467/225-compare	GK_xum02/xqd/1-PCM/15-GST467/225-compare/5-opt	opt-CONTCAR	4	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	
+GK_xum02/xqd/1-PCM/2-Ge15Sb85/1-model	GK_xum02/xqd/1-PCM/2-Ge15Sb85/1-model/3-opt	opt-CONTCAR	1	Ge45Sb255	Ge Sb	45 255	300	
+GK_xum02/xqd/1-PCM/3-GST124/1-model	GK_xum02/xqd/1-PCM/3-GST124/1-model/3-opt	opt-CONTCAR	1	Ge43Sb86Te172	Ge Sb Te	43 86 172	301	
+GK_xum02/xqd/1-PCM/4-GeTe/0-model	GK_xum02/xqd/1-PCM/4-GeTe/0-model/300K	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300.0
+GK_xum02/xqd/1-PCM/4-GeTe/1-model	GK_xum02/xqd/1-PCM/4-GeTe/1-model/3-opt	opt-CONTCAR	3	Ge150Te150	Ge Te	150 150	300	
+GK_xum02/xqd/1-PCM/4-GeTe/2-model	GK_xum02/xqd/1-PCM/4-GeTe/2-model/3-opt	opt-CONTCAR	1	Ge150Te150	Ge Te	150 150	300	
+GK_xum02/xqd/1-PCM/4-GeTe/2-model/5-MD/MD-300K	GK_xum02/xqd/1-PCM/4-GeTe/2-model/5-MD/MD-300K	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300
+GK_xum02/xqd/1-PCM/4-GeTe/3-512	GK_xum02/xqd/1-PCM/4-GeTe/3-512/3-opt	opt-CONTCAR	2	Ge256Te256	Ge Te	256 256	512	
+GK_xum02/xqd/1-PCM/4-GeTe/3-512/2-2000-300K	GK_xum02/xqd/1-PCM/4-GeTe/3-512/2-2000-300K	md-first-frame	1	Ge256Te256	Ge Te	256 256	512	300.0
+GK_xum02/xqd/1-PCM/4-GeTe/4-cubic/1-64atom	GK_xum02/xqd/1-PCM/4-GeTe/4-cubic/1-64atom/1-opt	opt-CONTCAR	2	Ge32Te32	Ge Te	32 32	64	
+GK_xum02/xqd/1-PCM/5-Sb2Te3/1-model	GK_xum02/xqd/1-PCM/5-Sb2Te3/1-model/3-opt	opt-CONTCAR	2	Sb120Te180	Sb Te	120 180	300	
+GK_xum02/xqd/1-PCM/5-Sb2Te3/2-model	GK_xum02/xqd/1-PCM/5-Sb2Te3/2-model/3-opt	opt-CONTCAR	1	Sb120Te180	Sb Te	120 180	300	
+GK_xum02/xqd/1-PCM/5-Sb2Te3/3-model	GK_xum02/xqd/1-PCM/5-Sb2Te3/3-model/3-opt	opt-CONTCAR	1	Sb120Te180	Sb Te	120 180	300	
+GK_xum02/xqd/1-PCM/5-Sb2Te3/4-model	GK_xum02/xqd/1-PCM/5-Sb2Te3/4-model/3-opt	opt-CONTCAR	1	Sb120Te180	Sb Te	120 180	300	
+GK_xum02/xqd/1-PCM/5-Sb2Te3/5-model	GK_xum02/xqd/1-PCM/5-Sb2Te3/5-model/3-opt	opt-CONTCAR	1	Sb120Te180	Sb Te	120 180	300	
+GK_xum02/xqd/1-PCM/6-GST225/1-model	GK_xum02/xqd/1-PCM/6-GST225/1-model/3-opt	opt-CONTCAR	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	
+GK_xum02/xqd/1-PCM/7-AIST/1-model	GK_xum02/xqd/1-PCM/7-AIST/1-model/3-opt	opt-CONTCAR	1	Ag12In9Sb201Te78	Ag In Sb Te	12 9 201 78	300	
+GK_xum02/xqd/1-PCM/8-ScSbTe/1-model	GK_xum02/xqd/1-PCM/8-ScSbTe/1-model/3-opt	opt-CONTCAR	1	Sc14Sb112Te189	Sc Sb Te	14 112 189	315	
+GK_xum02/xqd/2-OTS/1-GeSe/1-orthorhombic	GK_xum02/xqd/2-OTS/1-GeSe/1-orthorhombic/1-opt	opt-CONTCAR	1	Ge32Se32	Ge Se	32 32	64	
+GK_xum02/xqd/2-OTS/10-SbSeC	GK_xum02/xqd/2-OTS/10-SbSeC/3-opt	opt-CONTCAR	1	Sb108Se162C30	Sb Se C	108 162 30	300	
+GK_xum02/xqd/3-GeSeTe/4-40%/2	GK_xum02/xqd/3-GeSeTe/4-40%/2/3-opt	opt-CONTCAR	1	Ge150Te90Se60	Ge Te Se	150 90 60	300	
+GK_xum02/xqd/3-GeSeTe/4-40%/3	GK_xum02/xqd/3-GeSeTe/4-40%/3/3-opt	opt-CONTCAR	1	Ge150Te90Se60	Ge Te Se	150 90 60	300	
+GK_xum02/xqd/3-GeSeTe/4-40%/4	GK_xum02/xqd/3-GeSeTe/4-40%/4/3-opt	opt-CONTCAR	1	Ge150Te90Se60	Ge Te Se	150 90 60	300	
+GK_xum02/xqd/3-GeSeTe/4-40%/5	GK_xum02/xqd/3-GeSeTe/4-40%/5/3-opt	opt-CONTCAR	1	Ge150Te90Se60	Ge Te Se	150 90 60	300	
+GK_xum02/xqd/3-GeSeTe/5-50%/0K-local	GK_xum02/xqd/3-GeSeTe/5-50%/0K-local/3-opt	opt-CONTCAR	1	Ge150Te75Se75	Ge Te Se	150 75 75	300	
+GK_xum02/xqd/3-GeSeTe/5-50%/1	GK_xum02/xqd/3-GeSeTe/5-50%/1/3-opt	opt-CONTCAR	1	Ge150Te75Se75	Ge Te Se	150 75 75	300	
+GK_xum02/xqd/3-GeSeTe/5-50%/2	GK_xum02/xqd/3-GeSeTe/5-50%/2/3-opt	opt-CONTCAR	1	Ge150Te75Se75	Ge Te Se	150 75 75	300	
+GK_xum02/xqd/3-GeSeTe/5-50%/3	GK_xum02/xqd/3-GeSeTe/5-50%/3/3-opt	opt-CONTCAR	1	Ge150Te75Se75	Ge Te Se	150 75 75	300	
+GK_xum02/xqd/3-GeSeTe/5-50%/4	GK_xum02/xqd/3-GeSeTe/5-50%/4/3-opt	opt-CONTCAR	1	Ge150Te75Se75	Ge Te Se	150 75 75	300	
+GK_xum02/xqd/3-GeSeTe/5-50%/5	GK_xum02/xqd/3-GeSeTe/5-50%/5/3-opt	opt-CONTCAR	1	Ge150Te75Se75	Ge Te Se	150 75 75	300	
+GK_xum02/xqd/3-GeSeTe/6-60%/1	GK_xum02/xqd/3-GeSeTe/6-60%/1/3-opt	opt-CONTCAR	1	Ge150Te60Se90	Ge Te Se	150 60 90	300	
+GK_xum02/xqd/3-GeSeTe/6-60%/2	GK_xum02/xqd/3-GeSeTe/6-60%/2/3-opt	opt-CONTCAR	1	Ge150Te60Se90	Ge Te Se	150 60 90	300	
+GK_xum02/xqd/3-GeSeTe/7-70%/1	GK_xum02/xqd/3-GeSeTe/7-70%/1/3-opt	opt-CONTCAR	1	Ge150Te45Se105	Ge Te Se	150 45 105	300	
+GK_xum02/xqd/3-GeSeTe/7-70%/2	GK_xum02/xqd/3-GeSeTe/7-70%/2/3-opt	opt-CONTCAR	1	Ge150Te45Se105	Ge Te Se	150 45 105	300	
+GK_xum02/xqd/3-GeSeTe/7-70%/3	GK_xum02/xqd/3-GeSeTe/7-70%/3/3-opt	opt-CONTCAR	1	Ge150Te45Se105	Ge Te Se	150 45 105	300	
+GK_xum02/xqd/3-GeSeTe/7-70%/4	GK_xum02/xqd/3-GeSeTe/7-70%/4/3-opt	opt-CONTCAR	1	Ge150Te45Se105	Ge Te Se	150 45 105	300	
+GK_xum02/xqd/4-IST312	GK_xum02/xqd/4-IST312/3-opt	opt-CONTCAR	1	In24Sb8Te16	In Sb Te	24 8 16	48	
+GK_xum02/xqd/4-IST312/216	GK_xum02/xqd/4-IST312/216/3-opt	opt-CONTCAR	1	Te54Sb27In81	Te Sb In	54 27 81	162	
+GK_xum02/xqd/5-MVB/1-PbS/0-model	GK_xum02/xqd/5-MVB/1-PbS/0-model/3-opt	opt-CONTCAR	1	Pb150S150	Pb S	150 150	300	
+GK_xum02/xqd/5-MVB/1-PbS/1-model	GK_xum02/xqd/5-MVB/1-PbS/1-model/3-opt	opt-CONTCAR	1	Pb150S150	Pb S	150 150	300	
+GK_xum02/xqd/5-MVB/2-PbSe/0-model	GK_xum02/xqd/5-MVB/2-PbSe/0-model/3-opt	opt-CONTCAR	1	Pb150Se150	Pb Se	150 150	300	
+GK_xum02/xqd/5-MVB/2-PbSe/1-model/5-MD/1	GK_xum02/xqd/5-MVB/2-PbSe/1-model/5-MD/1	md-first-frame	1	Pb150Se150	Pb Se	150 150	300	300.0
+GK_xum02/xqd/5-MVB/3-PbTe/0-model	GK_xum02/xqd/5-MVB/3-PbTe/0-model/3-opt	opt-CONTCAR	1	Pb150Te150	Pb Te	150 150	300	
+GK_xum02/xqd/5-MVB/4-SnS/0-model	GK_xum02/xqd/5-MVB/4-SnS/0-model/3-opt	opt-CONTCAR	1	Sn150S150	Sn S	150 150	300	
+GK_xum02/xqd/5-MVB/6-SnTe/0-model	GK_xum02/xqd/5-MVB/6-SnTe/0-model/3-opt	opt-CONTCAR	1	Sn150Te150	Sn Te	150 150	300	
+GK_xum02/xqd/5-MVB/7-GaAs/0-model	GK_xum02/xqd/5-MVB/7-GaAs/0-model/3-opt	opt-CONTCAR	1	Ga150As150	Ga As	150 150	300	
+GK_xum02/xqd/6-SbTeSex/2-20%	GK_xum02/xqd/6-SbTeSex/2-20%/3-opt	opt-CONTCAR	1	Sb120Te144Se36	Sb Te Se	120 144 36	300	
+GK_xum02/xqd/6-SbTeSex/3-30%	GK_xum02/xqd/6-SbTeSex/3-30%/3-opt	opt-CONTCAR	1	Sb120Te126Se54	Sb Te Se	120 126 54	300	
+GK_xum02/xqd/6-SbTeSex/5-50%	GK_xum02/xqd/6-SbTeSex/5-50%/3-opt	opt-CONTCAR	1	Sb120Te90Se90	Sb Te Se	120 90 90	300	
+GK_xum02/xqd/6-SbTeSex/6-60%	GK_xum02/xqd/6-SbTeSex/6-60%/3-opt	opt-CONTCAR	1	Sb120Te72Se108	Sb Te Se	120 72 108	300	
+GK_xum02/xqd/6-SbTeSex/7-70%	GK_xum02/xqd/6-SbTeSex/7-70%/3-opt	opt-CONTCAR	1	Sb120Te54Se126	Sb Te Se	120 54 126	300	
+GK_xum02/xqd/6-SbTeSex/8-80%	GK_xum02/xqd/6-SbTeSex/8-80%/3-opt	opt-CONTCAR	1	Sb120Te36Se144	Sb Te Se	120 36 144	300	
+GK_xum02/xqd/8-In-doped/1-GeTe	GK_xum02/xqd/8-In-doped/1-GeTe/2-opt	opt-CONTCAR	4	In30Ge120Te150	In Ge Te	30 120 150	300	
+GK_xum02/xqd/8-In-doped/2-Sb2Te3	GK_xum02/xqd/8-In-doped/2-Sb2Te3/2-opt	opt-CONTCAR	4	In30Sb90Te180	In Sb Te	30 90 180	300	
+GK_xum02/xqd/8-In-doped/3-GST225	GK_xum02/xqd/8-In-doped/3-GST225/2-opt	opt-CONTCAR	4	In30Ge53Sb53Te170	In Ge Sb Te	30 53 53 170	306	
+GK_xum02/xqd/8-In-doped/4-Sb	GK_xum02/xqd/8-In-doped/4-Sb/2-opt	opt-CONTCAR	4	In30Sb270	In Sb	30 270	300	
+GK_xum02/xqd/8-In-doped/5-Ge15Sb85	GK_xum02/xqd/8-In-doped/5-Ge15Sb85/2-opt	opt-CONTCAR	4	In30Ge40Sb230	In Ge Sb	30 40 230	300	
+GK_xum02/xumeng/1-Sb2Te3	GK_xum02/xumeng/1-Sb2Te3	md-first-frame	1	Sb120Te180	Sb Te	120 180	300	300.0
+GK_xum02/xumeng/2-Sb2Se3	GK_xum02/xumeng/2-Sb2Se3	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/grc/1-OTS/1-GeAsTeSi	nscc1741_XM/grc/1-OTS/1-GeAsTeSi/1-opt2	opt-CONTCAR	1	Ge75As75Te75Si75	Ge As Te Si	75 75 75 75	300	
+nscc1741_XM/grc/1-OTS/1-GeAsTeSi/4-MD-300K-3000	nscc1741_XM/grc/1-OTS/1-GeAsTeSi/4-MD-300K-3000	md-first-frame	1	Ge75As75Te75Si75	Ge As Te Si	75 75 75 75	300	300.0
+nscc1741_XM/grc/1-OTS/2-GeAsTeSiN	nscc1741_XM/grc/1-OTS/2-GeAsTeSiN/1-opt	opt-CONTCAR	1	Ge60As60Te60Si60N60	Ge As Te Si N	60 60 60 60 60	300	
+nscc1741_XM/grc/1-OTS/2-GeAsTeSiN/4-MD-300K-3000	nscc1741_XM/grc/1-OTS/2-GeAsTeSiN/4-MD-300K-3000	md-first-frame	1	Ge60As60Te60Si60N60	Ge As Te Si N	60 60 60 60 60	300	300.0
+nscc1741_XM/grc/1-OTS/4-GATSN	nscc1741_XM/grc/1-OTS/4-GATSN/1-opt	opt-CONTCAR	1	Ge28As86Te156Si15N15	Ge As Te Si N	28 86 156 15 15	300	
+nscc1741_XM/grc/3-Te-based/12-YTe	nscc1741_XM/grc/3-Te-based/12-YTe/3-opt	opt-CONTCAR	2	Y30Te270	Y Te	30 270	300	
+nscc1741_XM/grc/3-Te-based/13-TiTe	nscc1741_XM/grc/3-Te-based/13-TiTe/3-opt	opt-CONTCAR	2	Ti30Te270	Ti Te	30 270	300	
+nscc1741_XM/grc/3-Te-based/14-ScTe	nscc1741_XM/grc/3-Te-based/14-ScTe/3-opt	opt-CONTCAR	2	Sc30Te270	Sc Te	30 270	300	
+nscc1741_XM/grc/3-Te-based/15-ZrTe	nscc1741_XM/grc/3-Te-based/15-ZrTe/3-opt	opt-CONTCAR	2	Zr30Te270	Zr Te	30 270	300	
+nscc1741_XM/grc/3-Te-based/2-CTe/2-C35Te65	nscc1741_XM/grc/3-Te-based/2-CTe/2-C35Te65/3-opt	opt-CONTCAR	2	C105Te195	C Te	105 195	300	
+nscc1741_XM/grc/3-Te-based/2-CTe/3-CT	nscc1741_XM/grc/3-Te-based/2-CTe/3-CT/3-opt	opt-CONTCAR	1	C105Te195	C Te	105 195	300	
+nscc1741_XM/grc/3-Te-based/3-AlTe/2-Al3Te7	nscc1741_XM/grc/3-Te-based/3-AlTe/2-Al3Te7/3-opt	opt-CONTCAR	2	Al90Te210	Al Te	90 210	300	
+nscc1741_XM/grc/3-Te-based/3-AlTe/3-Al3Te7	nscc1741_XM/grc/3-Te-based/3-AlTe/3-Al3Te7/3-opt	opt-CONTCAR	1	Al90Te210	Al Te	90 210	300	
+nscc1741_XM/grc/3-Te-based/3-AlTe/3-Al3Te7/3-lsf	nscc1741_XM/grc/3-Te-based/3-AlTe/3-Al3Te7/3-lsf	md-first-frame	1	Al90Te210	Al Te	90 210	300	300.0
+nscc1741_XM/grc/3-Te-based/3-AlTe/4-Al3Te7	nscc1741_XM/grc/3-Te-based/3-AlTe/4-Al3Te7/3-opt	opt-CONTCAR	1	Al90Te210	Al Te	90 210	300	
+nscc1741_XM/grc/3-Te-based/4-BTe/2-BTe3	nscc1741_XM/grc/3-Te-based/4-BTe/2-BTe3/3-opt	opt-CONTCAR	2	B75Te225	B Te	75 225	300	
+nscc1741_XM/grc/3-Te-based/4-BTe/3-BTe3	nscc1741_XM/grc/3-Te-based/4-BTe/3-BTe3/3-opt	opt-CONTCAR	1	B75Te225	B Te	75 225	300	
+nscc1741_XM/grc/3-Te-based/4-BTe/4-BTe3	nscc1741_XM/grc/3-Te-based/4-BTe/4-BTe3/3-opt	opt-CONTCAR	1	B75Te225	B Te	75 225	300	
+nscc1741_XM/grc/3-Te-based/5-SiTe/1	nscc1741_XM/grc/3-Te-based/5-SiTe/1/3-opt	opt-CONTCAR	2	Si150Te150	Si Te	150 150	300	
+nscc1741_XM/grc/3-Te-based/5-SiTe/2	nscc1741_XM/grc/3-Te-based/5-SiTe/2/3-opt	opt-CONTCAR	1	Si150Te150	Si Te	150 150	300	
+nscc1741_XM/grc/3-Te-based/9-ZnTe/2-Zn35Te65	nscc1741_XM/grc/3-Te-based/9-ZnTe/2-Zn35Te65/3-opt	opt-CONTCAR	2	Zn105Te195	Zn Te	105 195	300	
+nscc1741_XM/grc/3-Te-based/9-ZnTe/3-Zn35Te65/1/3-opt1.93	nscc1741_XM/grc/3-Te-based/9-ZnTe/3-Zn35Te65/1/3-opt1.93	opt-CONTCAR	1	Zn105Te195	Zn Te	105 195	300	
+nscc1741_XM/grc/3-Te-based/9-ZnTe/3-Zn35Te65/2	nscc1741_XM/grc/3-Te-based/9-ZnTe/3-Zn35Te65/2/3-opt	opt-CONTCAR	1	Zn105Te195	Zn Te	105 195	300	
+nscc1741_XM/grc/3-Te-based/9-ZnTe/3-Zn35Te65/3	nscc1741_XM/grc/3-Te-based/9-ZnTe/3-Zn35Te65/3/3-opt	opt-CONTCAR	1	Zn105Te195	Zn Te	105 195	300	
+nscc1741_XM/grc/GW/1-SnTe	nscc1741_XM/grc/GW/1-SnTe/1-opt	opt-CONTCAR	1	Sn4Te4	Sn Te	4 4	8	
+nscc1741_XM/grc/Ga2Te3-Zr/1-5p	nscc1741_XM/grc/Ga2Te3-Zr/1-5p/MD	md-first-frame	1	Ga114Te171Zr15	Ga Te Zr	114 171 15	300	300.0
+nscc1741_XM/grc/Ga2Te3-Zr/1-5p/3-opt.2.5	nscc1741_XM/grc/Ga2Te3-Zr/1-5p/3-opt.2.5	opt-CONTCAR	1	Ga114Te171Zr15	Ga Te Zr	114 171 15	300	
+nscc1741_XM/grc/Ga2Te3-Zr/2-10p	nscc1741_XM/grc/Ga2Te3-Zr/2-10p/MD	md-first-frame	1	Ga108Te162Zr30	Ga Te Zr	108 162 30	300	300.0
+nscc1741_XM/grc/Ga2Te3-Zr/2-10p/3-opt2.7	nscc1741_XM/grc/Ga2Te3-Zr/2-10p/3-opt2.7	opt-CONTCAR	1	Ga108Te162Zr30	Ga Te Zr	108 162 30	300	
+nscc1741_XM/grc/Ga2Te3-Zr/5-5p	nscc1741_XM/grc/Ga2Te3-Zr/5-5p/3-opt	opt-CONTCAR	1	Ga114Te171Zr15	Ga Te Zr	114 171 15	300	
+nscc1741_XM/grc/Ga2Te3-Zr/6-5p	nscc1741_XM/grc/Ga2Te3-Zr/6-5p/3-opt	opt-CONTCAR	1	Ga114Te171Zr15	Ga Te Zr	114 171 15	300	
+nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60	nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/0-300K	md-first-frame	3	Ge45Ga75Sb180	Ge Ga Sb	45 75 180	300	300.0
+nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/3-2-std	nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/3-2-std	opt-CONTCAR	1	Ge45Ga75Sb180	Ge Ga Sb	45 75 180	300	
+nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/4-2-7-std	nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/4-2-7-std	opt-CONTCAR	1	Ge45Ga75Sb180	Ge Ga Sb	45 75 180	300	
+nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/5-2-7-2-std	nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/5-2-7-2-std	opt-CONTCAR	1	Ge45Ga75Sb180	Ge Ga Sb	45 75 180	300	
+nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/6-2-7-2-7-std	nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/6-2-7-2-7-std	opt-CONTCAR	1	Ge45Ga75Sb180	Ge Ga Sb	45 75 180	300	
+nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/1-300K.1	nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/1-300K.1	md-first-frame	1	Ge60As60Te60Si60N60	Ge As Te Si N	60 60 60 60 60	300	300.0
+nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/4-2	nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/4-2	opt-CONTCAR	1	Ge60As60Te60Si60N60	Ge As Te Si N	60 60 60 60 60	300	
+nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/5-7	nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/5-7	opt-CONTCAR	1	Ge60As60Te60Si60N60	Ge As Te Si N	60 60 60 60 60	300	
+nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/6-2	nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/6-2	opt-CONTCAR	1	Ge60As60Te60Si60N60	Ge As Te Si N	60 60 60 60 60	300	
+nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/7-7	nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/7-7	opt-CONTCAR	1	Ge60As60Te60Si60N60	Ge As Te Si N	60 60 60 60 60	300	
+nscc1741_XM/grc/OTS/3-GeAsTeSiN10	nscc1741_XM/grc/OTS/3-GeAsTeSiN10/0-300K	md-first-frame	1	Ge67As67Te67Si67N32	Ge As Te Si N	67 67 67 67 32	300	300.0
+nscc1741_XM/grc/OTS/3-GeAsTeSiN10/0-300K.1	nscc1741_XM/grc/OTS/3-GeAsTeSiN10/0-300K.1	md-first-frame	1	Ge67As67Te67Si67N32	Ge As Te Si N	67 67 67 67 32	300	300.0
+nscc1741_XM/grc/OTS/3-GeAsTeSiN10/0-300K.2	nscc1741_XM/grc/OTS/3-GeAsTeSiN10/0-300K.2	md-first-frame	1	Ge67As67Te67Si67N32	Ge As Te Si N	67 67 67 67 32	300	300.0
+nscc1741_XM/grc/OTS/4-GATS	nscc1741_XM/grc/OTS/4-GATS/0-300K	md-first-frame	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	300.0
+nscc1741_XM/grc/OTS/4-GATS/0-300K.1	nscc1741_XM/grc/OTS/4-GATS/0-300K.1	md-first-frame	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	300.0
+nscc1741_XM/grc/OTS/4-GATS/0-300K.2	nscc1741_XM/grc/OTS/4-GATS/0-300K.2	md-first-frame	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	300.0
+nscc1741_XM/grc/OTS/4-GATS/0-300K.3	nscc1741_XM/grc/OTS/4-GATS/0-300K.3	md-first-frame	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	300.0
+nscc1741_XM/grc/OTS/4-GATS/0-300K.4	nscc1741_XM/grc/OTS/4-GATS/0-300K.4	md-first-frame	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	300.0
+nscc1741_XM/grc/OTS/4-GATS/0-300K.5	nscc1741_XM/grc/OTS/4-GATS/0-300K.5	md-first-frame	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	300.0
+nscc1741_XM/grc/OTS/4-GATS/3-2	nscc1741_XM/grc/OTS/4-GATS/3-2	opt-CONTCAR	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	
+nscc1741_XM/grc/OTS/4-GATS/4-7	nscc1741_XM/grc/OTS/4-GATS/4-7	opt-CONTCAR	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	
+nscc1741_XM/grc/OTS/4-GATS/5-2	nscc1741_XM/grc/OTS/4-GATS/5-2	opt-CONTCAR	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	
+nscc1741_XM/grc/OTS/4-GATS/6-7	nscc1741_XM/grc/OTS/4-GATS/6-7	opt-CONTCAR	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	
+nscc1741_XM/grc/OTS/4-GATS/new-300K	nscc1741_XM/grc/OTS/4-GATS/new-300K	md-first-frame	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	300.0
+nscc1741_XM/grc/OTS/5-GATSN	nscc1741_XM/grc/OTS/5-GATSN/0-300K	md-first-frame	1	Ge28As86Te156Si15N15	Ge As Te Si N	28 86 156 15 15	300	300.0
+nscc1741_XM/grc/OTS/5-GATSN/0-300K.1	nscc1741_XM/grc/OTS/5-GATSN/0-300K.1	md-first-frame	1	Ge28As86Te156Si15N15	Ge As Te Si N	28 86 156 15 15	300	300.0
+nscc1741_XM/grc/OTS/5-GATSN/3-2	nscc1741_XM/grc/OTS/5-GATSN/3-2	opt-CONTCAR	1	Ge28As86Te156Si15N15	Ge As Te Si N	28 86 156 15 15	300	
+nscc1741_XM/grc/OTS/5-GATSN/4-7	nscc1741_XM/grc/OTS/5-GATSN/4-7	opt-CONTCAR	1	Ge28As86Te156Si15N15	Ge As Te Si N	28 86 156 15 15	300	
+nscc1741_XM/grc/OTS/5-GATSN/5-2	nscc1741_XM/grc/OTS/5-GATSN/5-2	opt-CONTCAR	1	Ge28As86Te156Si15N15	Ge As Te Si N	28 86 156 15 15	300	
+nscc1741_XM/grc/OTS/5-GATSN/6-7	nscc1741_XM/grc/OTS/5-GATSN/6-7	opt-CONTCAR	1	Ge28As86Te156Si15N15	Ge As Te Si N	28 86 156 15 15	300	
+nscc1741_XM/grc/OTS/6-GATS	nscc1741_XM/grc/OTS/6-GATS/0-300K	md-first-frame	1	Ge30As90Te144Si36	Ge As Te Si	30 90 144 36	300	300.0
+nscc1741_XM/grc/OTS/6-GATS/0-300K.1	nscc1741_XM/grc/OTS/6-GATS/0-300K.1	md-first-frame	1	Ge30As90Te144Si36	Ge As Te Si	30 90 144 36	300	300.0
+nscc1741_XM/grc/OTS/6-GATS/0-300K.5	nscc1741_XM/grc/OTS/6-GATS/0-300K.5	md-first-frame	1	Ge30As90Te165Si15	Ge As Te Si	30 90 165 15	300	300.0
+nscc1741_XM/grc/OTS/GeAsSe.2	nscc1741_XM/grc/OTS/GeAsSe.2/300K	md-first-frame	2	Ge100As100Se100	Ge As Se	100 100 100	300	300.0
+nscc1741_XM/grc/OTS/GeAsSe.2/2.7	nscc1741_XM/grc/OTS/GeAsSe.2/2.7	opt-CONTCAR	1	Ge100As100Se100	Ge As Se	100 100 100	300	
+nscc1741_XM/grc/OTS/GeAsSe.2/2.7.2	nscc1741_XM/grc/OTS/GeAsSe.2/2.7.2	opt-CONTCAR	1	Ge100As100Se100	Ge As Se	100 100 100	300	
+nscc1741_XM/grc/OTS/GeAsSe.2/2.7.2.7	nscc1741_XM/grc/OTS/GeAsSe.2/2.7.2.7	opt-CONTCAR	1	Ge100As100Se100	Ge As Se	100 100 100	300	
+nscc1741_XM/grc/OTS/GeAsSe.2/2.std.F	nscc1741_XM/grc/OTS/GeAsSe.2/2.std.F	opt-CONTCAR	1	Ge100As100Se100	Ge As Se	100 100 100	300	
+nscc1741_XM/grc/OTS/GeAsSeSi	nscc1741_XM/grc/OTS/GeAsSeSi/300K	md-first-frame	1	Ge75As75Se75Si75	Ge As Se Si	75 75 75 75	300	300.0
+nscc1741_XM/grc/OTS/GeAsSeSi/2	nscc1741_XM/grc/OTS/GeAsSeSi/2	opt-CONTCAR	1	Ge75As75Se75Si75	Ge As Se Si	75 75 75 75	300	
+nscc1741_XM/grc/OTS/GeAsSeSi/2.7	nscc1741_XM/grc/OTS/GeAsSeSi/2.7	opt-CONTCAR	1	Ge75As75Se75Si75	Ge As Se Si	75 75 75 75	300	
+nscc1741_XM/grc/OTS/GeAsSeSi/2.7.2	nscc1741_XM/grc/OTS/GeAsSeSi/2.7.2	opt-CONTCAR	1	Ge75As75Se75Si75	Ge As Se Si	75 75 75 75	300	
+nscc1741_XM/grc/OTS/GeAsSeSi/2.7.2.7	nscc1741_XM/grc/OTS/GeAsSeSi/2.7.2.7	opt-CONTCAR	1	Ge75As75Se75Si75	Ge As Se Si	75 75 75 75	300	
+nscc1741_XM/grc/OTS/GeAsSeSi/youhua	nscc1741_XM/grc/OTS/GeAsSeSi/youhua	md-first-frame	1	Ge75As75Se75Si75	Ge As Se Si	75 75 75 75	300	300.0
+nscc1741_XM/grc/OTS/GeAsTeSi.3	nscc1741_XM/grc/OTS/GeAsTeSi.3/300K	md-first-frame	1	Ge75As75Te75Si75	Ge As Te Si	75 75 75 75	300	300.0
+nscc1741_XM/grc/OTS/GeAsTeSi.3/0-300K.F	nscc1741_XM/grc/OTS/GeAsTeSi.3/0-300K.F	md-first-frame	1	Ge75As75Te75Si75	Ge As Te Si	75 75 75 75	300	300.0
+nscc1741_XM/grc/OTS/GeAsTeSi.3/1-0-300K	nscc1741_XM/grc/OTS/GeAsTeSi.3/1-0-300K	md-first-frame	1	Ge75As75Te75Si75	Ge As Te Si	75 75 75 75	300	300.0
+nscc1741_XM/grc/OTS/GeAsTeSi.3/2	nscc1741_XM/grc/OTS/GeAsTeSi.3/2	opt-CONTCAR	1	Ge75As75Te75Si75	Ge As Te Si	75 75 75 75	300	
+nscc1741_XM/grc/OTS/GeAsTeSi.3/2.7	nscc1741_XM/grc/OTS/GeAsTeSi.3/2.7	opt-CONTCAR	1	Ge75As75Te75Si75	Ge As Te Si	75 75 75 75	300	
+nscc1741_XM/grc/OTS/GeAsTeSi.3/2.7.2	nscc1741_XM/grc/OTS/GeAsTeSi.3/2.7.2	opt-CONTCAR	1	Ge75As75Te75Si75	Ge As Te Si	75 75 75 75	300	
+nscc1741_XM/grc/OTS/GeAsTeSi.3/2.7.2.7	nscc1741_XM/grc/OTS/GeAsTeSi.3/2.7.2.7	opt-CONTCAR	1	Ge75As75Te75Si75	Ge As Te Si	75 75 75 75	300	
+nscc1741_XM/grc/OTS/GeSe.5	nscc1741_XM/grc/OTS/GeSe.5/300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/grc/OTS/GeSe.5/2	nscc1741_XM/grc/OTS/GeSe.5/2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/grc/OTS/GeSe.5/2.7	nscc1741_XM/grc/OTS/GeSe.5/2.7	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/grc/OTS/GeSe.5/2.7.2	nscc1741_XM/grc/OTS/GeSe.5/2.7.2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/grc/OTS/GeSe.5/2.7.2.7	nscc1741_XM/grc/OTS/GeSe.5/2.7.2.7	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/grc/OTS/GeSe.5/300K-300K	nscc1741_XM/grc/OTS/GeSe.5/300K-300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/grc/OTS/GeSeN.4/2000K-2000K	nscc1741_XM/grc/OTS/GeSeN.4/2000K-2000K	md-first-frame	1	Ge100Se100N100	Ge Se N	100 100 100	300	300.0
+nscc1741_XM/grc/OTS/GeSeSi.6	nscc1741_XM/grc/OTS/GeSeSi.6/300K	md-first-frame	1	Ge100Se100Si100	Ge Se Si	100 100 100	300	300.0
+nscc1741_XM/grc/OTS/GeSeSi.6/0-300K.F	nscc1741_XM/grc/OTS/GeSeSi.6/0-300K.F	md-first-frame	1	Ge100Se100Si100	Ge Se Si	100 100 100	300	300.0
+nscc1741_XM/grc/OTS/GeSeSi.6/2	nscc1741_XM/grc/OTS/GeSeSi.6/2	opt-CONTCAR	1	Ge100Se100Si100	Ge Se Si	100 100 100	300	
+nscc1741_XM/grc/OTS/GeSeSi.6/2.7	nscc1741_XM/grc/OTS/GeSeSi.6/2.7	opt-CONTCAR	1	Ge100Se100Si100	Ge Se Si	100 100 100	300	
+nscc1741_XM/grc/OTS/GeSeSi.6/2.7.2	nscc1741_XM/grc/OTS/GeSeSi.6/2.7.2	opt-CONTCAR	1	Ge100Se100Si100	Ge Se Si	100 100 100	300	
+nscc1741_XM/grc/OTS/GeSeSi.6/2.7.2.7	nscc1741_XM/grc/OTS/GeSeSi.6/2.7.2.7	opt-CONTCAR	1	Ge100Se100Si100	Ge Se Si	100 100 100	300	
+nscc1741_XM/grc/OTS/GeSeTe	nscc1741_XM/grc/OTS/GeSeTe/0-300K	md-first-frame	1	Ge100Se100Te100	Ge Se Te	100 100 100	300	300.0
+nscc1741_XM/grc/OTS/SiAsTe.1	nscc1741_XM/grc/OTS/SiAsTe.1/300K	md-first-frame	1	Si100As100Te100	Si As Te	100 100 100	300	300.0
+nscc1741_XM/grc/OTS/SiAsTe.1/0-300K.F	nscc1741_XM/grc/OTS/SiAsTe.1/0-300K.F	md-first-frame	1	Si100As100Te100	Si As Te	100 100 100	300	300.0
+nscc1741_XM/grc/OTS/SiAsTe.1/2	nscc1741_XM/grc/OTS/SiAsTe.1/2	opt-CONTCAR	1	Si100As100Te100	Si As Te	100 100 100	300	
+nscc1741_XM/grc/OTS/SiAsTe.1/2.7	nscc1741_XM/grc/OTS/SiAsTe.1/2.7	opt-CONTCAR	1	Si100As100Te100	Si As Te	100 100 100	300	
+nscc1741_XM/grc/OTS/SiAsTe.1/2.7.2	nscc1741_XM/grc/OTS/SiAsTe.1/2.7.2	opt-CONTCAR	1	Si100As100Te100	Si As Te	100 100 100	300	
+nscc1741_XM/grc/OTS/SiAsTe.1/2.7.2.7	nscc1741_XM/grc/OTS/SiAsTe.1/2.7.2.7	opt-CONTCAR	1	Si100As100Te100	Si As Te	100 100 100	300	
+nscc1741_XM/grc/ZnSb/1-ZSB0/0-300K.1	nscc1741_XM/grc/ZnSb/1-ZSB0/0-300K.1	md-first-frame	1	Zn120Sb180	Zn Sb	120 180	300	300.0
+nscc1741_XM/grc/ZnSb/1-ZSB0/0-300K.2	nscc1741_XM/grc/ZnSb/1-ZSB0/0-300K.2	md-first-frame	1	Zn120Sb180	Zn Sb	120 180	300	300.0
+nscc1741_XM/grc/ZnSb/2-ZSB1/0-300K.1	nscc1741_XM/grc/ZnSb/2-ZSB1/0-300K.1	md-first-frame	1	Zn116Bi10Sb174	Zn Bi Sb	116 10 174	300	300.0
+nscc1741_XM/grc/ZnSb/3-ZSB2	nscc1741_XM/grc/ZnSb/3-ZSB2/0-300K	md-first-frame	1	Zn114Bi15Sb171	Zn Bi Sb	114 15 171	300	300.0
+nscc1741_XM/grc/ZnSb/4-ZSB3	nscc1741_XM/grc/ZnSb/4-ZSB3/0-300K	md-first-frame	1	Zn110Bi25Sb165	Zn Bi Sb	110 25 165	300	300.0
+nscc1741_XM/grc/ZnSb/5-ZSB4	nscc1741_XM/grc/ZnSb/5-ZSB4/0-300K	md-first-frame	1	Zn104Bi40Sb156	Zn Bi Sb	104 40 156	300	300.0
+nscc1741_XM/grc/ZnSb/6-ZSB5	nscc1741_XM/grc/ZnSb/6-ZSB5/0-300K	md-first-frame	1	Zn98Bi55Sb147	Zn Bi Sb	98 55 147	300	300.0
+nscc1741_XM/grc/ZnSb/7-ZSB6	nscc1741_XM/grc/ZnSb/7-ZSB6/0-300K	md-first-frame	1	Zn92Bi70Sb138	Zn Bi Sb	92 70 138	300	300.0
+nscc1741_XM/grc/ZnSb/8-ZSO	nscc1741_XM/grc/ZnSb/8-ZSO/0-300K	md-first-frame	1	Zn136O28Sb136	Zn O Sb	136 28 136	300	300.0
+nscc1741_XM/grc/ZnSb/8-ZSO/0-300K.1	nscc1741_XM/grc/ZnSb/8-ZSO/0-300K.1	md-first-frame	1	Zn136O28Sb136	Zn O Sb	136 28 136	300	300.0
+nscc1741_XM/grc/ZnSb/8-ZSO/0-300K.2	nscc1741_XM/grc/ZnSb/8-ZSO/0-300K.2	md-first-frame	1	Zn136O28Sb136	Zn O Sb	136 28 136	300	300.0
+nscc1741_XM/grc/ZnSb/8-ZSO/0-300K.3	nscc1741_XM/grc/ZnSb/8-ZSO/0-300K.3	md-first-frame	1	Zn136O28Sb136	Zn O Sb	136 28 136	300	300.0
+nscc1741_XM/xqd/1-PCM/1-GeTe-cubic/1	nscc1741_XM/xqd/1-PCM/1-GeTe-cubic/1/1-opt	opt-CONTCAR	1	Ge4Te4	Ge Te	4 4	8	
+nscc1741_XM/xqd/1-PCM/1-GeTe-cubic/2	nscc1741_XM/xqd/1-PCM/1-GeTe-cubic/2/1-opt	opt-CONTCAR	1	Ge4Te4	Ge Te	4 4	8	
+nscc1741_XM/xqd/1-PCM/13-GeSbSe225	nscc1741_XM/xqd/1-PCM/13-GeSbSe225/3-opt	opt-CONTCAR	1	Ge68Sb68Se170	Ge Sb Se	68 68 170	306	
+nscc1741_XM/xqd/1-PCM/15-IST	nscc1741_XM/xqd/1-PCM/15-IST/3-opt	opt-CONTCAR	1	In150Sb50Te100	In Sb Te	150 50 100	300	
+nscc1741_XM/xqd/1-PCM/C-doped/1-GeTe	nscc1741_XM/xqd/1-PCM/C-doped/1-GeTe/5-MD	md-first-frame	1	Ge135Te135C30	Ge Te C	135 135 30	300	300.0
+nscc1741_XM/xqd/1-PCM/C-doped/2-GST225	nscc1741_XM/xqd/1-PCM/C-doped/2-GST225/4-opt	opt-CONTCAR	2	Ge63Sb63Te150C30	Ge Sb Te C	63 63 150 30	306	
+nscc1741_XM/xqd/1-PCM/C-doped/3-GST147	nscc1741_XM/xqd/1-PCM/C-doped/3-GST147/4-opt	opt-CONTCAR	2	Ge20Sb90Te160C30	Ge Sb Te C	20 90 160 30	300	
+nscc1741_XM/xqd/1-PCM/GeGaSb	nscc1741_XM/xqd/1-PCM/GeGaSb/3-opt	opt-CONTCAR	1	Ge45Ga75Sb180	Ge Ga Sb	45 75 180	300	
+nscc1741_XM/xqd/2-OTS/0-Te	nscc1741_XM/xqd/2-OTS/0-Te/4-MD/300K	md-first-frame	1	Te300	Te	300	300	300.0
+nscc1741_XM/xqd/2-OTS/0-Te/4-MD/300K/1	nscc1741_XM/xqd/2-OTS/0-Te/4-MD/300K/1	md-first-frame	1	Te300	Te	300	300	300.0
+nscc1741_XM/xqd/2-OTS/02-Ge	nscc1741_XM/xqd/2-OTS/02-Ge/4-MD	md-first-frame	1	Ge300	Ge	300	300	300.0
+nscc1741_XM/xqd/2-OTS/1-GeSe/0-model	nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/1	nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/1	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/2	nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/2	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/3	nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/3	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/400K/1	nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/400K/1	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	400.0
+nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/400K/2	nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/400K/2	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	400.0
+nscc1741_XM/xqd/2-OTS/1-GeSe/1-model	nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/300k	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/1	nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/1/300k	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300
+nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/1/component/2	nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/1/component/2	md-first-frame	1	Ge130Se170	Ge Se	130 170	300	300.0
+nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/1/component/5	nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/1/component/5	md-first-frame	1	Ge170Se130	Ge Se	170 130	300	300.0
+nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/400K/1-5000	nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/400K/1-5000	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	400.0
+nscc1741_XM/xqd/2-OTS/1-GeSe/2-model_MGS	nscc1741_XM/xqd/2-OTS/1-GeSe/2-model_MGS/2-MD	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xqd/2-OTS/1-GeSe/3-model-mgs	nscc1741_XM/xqd/2-OTS/1-GeSe/3-model-mgs/03-opt	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xqd/2-OTS/11-Sb2S3/0-model	nscc1741_XM/xqd/2-OTS/11-Sb2S3/0-model/opt	opt-CONTCAR	2	Sb120S180	Sb S	120 180	300	
+nscc1741_XM/xqd/2-OTS/12-SbSeC/10%	nscc1741_XM/xqd/2-OTS/12-SbSeC/10%/4-300K/opt	opt-CONTCAR	4	Sb108Se162C30	Sb Se C	108 162 30	300	
+nscc1741_XM/xqd/2-OTS/12-SbSeC/10%/3-300K-T	nscc1741_XM/xqd/2-OTS/12-SbSeC/10%/3-300K-T/opt	opt-CONTCAR	1	Sb108Se162C30	Sb Se C	108 162 30	300	
+nscc1741_XM/xqd/2-OTS/12-SbSeC/15%	nscc1741_XM/xqd/2-OTS/12-SbSeC/15%/3-opt	opt-CONTCAR	2	Sb102Se153C45	Sb Se C	102 153 45	300	
+nscc1741_XM/xqd/2-OTS/12-SbSeC/5%	nscc1741_XM/xqd/2-OTS/12-SbSeC/5%/3-opt	opt-CONTCAR	8	Sb114Se171C15	Sb Se C	114 171 15	300	
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model	nscc1741_XM/xqd/2-OTS/2-GeS/1-model/3-opt	opt-CONTCAR	3	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/1	nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/1	md-first-frame	1	Ge135S165	Ge S	135 165	300	300
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/2	nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/2	md-first-frame	1	Ge120S180	Ge S	120 180	300	300
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/3	nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/3	md-first-frame	1	Ge160S140	Ge S	160 140	300	300
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/4	nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/4	md-first-frame	1	Ge170S130	Ge S	170 130	300	300
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/5	nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/5	md-first-frame	1	Ge180S120	Ge S	180 120	300	300
+nscc1741_XM/xqd/2-OTS/4-GeTe6/1-model	nscc1741_XM/xqd/2-OTS/4-GeTe6/1-model/3-opt	opt-CONTCAR	1	Ge43Te257	Ge Te	43 257	300	
+nscc1741_XM/xqd/2-OTS/4-GeTe6/1-model/6-mgs	nscc1741_XM/xqd/2-OTS/4-GeTe6/1-model/6-mgs/03-opt	opt-CONTCAR	2	Ge43Te257	Ge Te	43 257	300	
+nscc1741_XM/xqd/2-OTS/4-GeTe6/2-model/6-mgs	nscc1741_XM/xqd/2-OTS/4-GeTe6/2-model/6-mgs/01-MD	md-first-frame	1	Ge43Te257	Ge Te	43 257	300	300.0
+nscc1741_XM/xqd/2-OTS/4-GeTe6/2-model/MD-300K	nscc1741_XM/xqd/2-OTS/4-GeTe6/2-model/MD-300K	md-first-frame	1	Ge43Te257	Ge Te	43 257	300	300
+nscc1741_XM/xqd/2-OTS/4-GeTe6/3-model-mgs	nscc1741_XM/xqd/2-OTS/4-GeTe6/3-model-mgs/03-opt	opt-CONTCAR	2	Ge43Te257	Ge Te	43 257	300	
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/01-model_hse	nscc1741_XM/xqd/2-OTS/5-Sb2Se3/01-model_hse/2-opt2	opt-CONTCAR	3	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/1-model_F	nscc1741_XM/xqd/2-OTS/5-Sb2Se3/1-model_F/4-MD/300K	md-first-frame	3	Sb120Se180	Sb Se	120 180	300	300
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/1-model_F/4-MD/600K/xdatcar	nscc1741_XM/xqd/2-OTS/5-Sb2Se3/1-model_F/4-MD/600K/xdatcar	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/2-model_T	nscc1741_XM/xqd/2-OTS/5-Sb2Se3/2-model_T/3-opt	opt-CONTCAR	2	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/3-model	nscc1741_XM/xqd/2-OTS/5-Sb2Se3/3-model/3-opt	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/3-model/5-mgs	nscc1741_XM/xqd/2-OTS/5-Sb2Se3/3-model/5-mgs/01-MD	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300.0
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/4-model	nscc1741_XM/xqd/2-OTS/5-Sb2Se3/4-model/3-opt	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/5-model-mgs	nscc1741_XM/xqd/2-OTS/5-Sb2Se3/5-model-mgs/03-opt	opt-CONTCAR	2	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xqd/2-OTS/9-GeSe3/1-model	nscc1741_XM/xqd/2-OTS/9-GeSe3/1-model/3-opt	opt-CONTCAR	2	Ge75Se225	Ge Se	75 225	300	
+nscc1741_XM/xqd/3-GeSeTe/1-10%/1-model	nscc1741_XM/xqd/3-GeSeTe/1-10%/1-model/3-opt	opt-CONTCAR	1	Ge150Te135Se15	Ge Te Se	150 135 15	300	
+nscc1741_XM/xqd/3-GeSeTe/2-20%/1-model	nscc1741_XM/xqd/3-GeSeTe/2-20%/1-model/3-opt	opt-CONTCAR	1	Ge150Te120Se30	Ge Te Se	150 120 30	300	
+nscc1741_XM/xqd/3-GeSeTe/3-30%/1-model	nscc1741_XM/xqd/3-GeSeTe/3-30%/1-model/3-opt	opt-CONTCAR	1	Ge150Te105Se45	Ge Te Se	150 105 45	300	
+nscc1741_XM/xqd/3-GeSeTe/4-40%/1-model	nscc1741_XM/xqd/3-GeSeTe/4-40%/1-model/3-opt	opt-CONTCAR	1	Ge150Te90Se60	Ge Te Se	150 90 60	300	
+nscc1741_XM/xqd/3-GeSeTe/4-40%/1-model/MD/new_MD_300K	nscc1741_XM/xqd/3-GeSeTe/4-40%/1-model/MD/new_MD_300K	md-first-frame	1	Ge150Te90Se60	Ge Te Se	150 90 60	300	300
+nscc1741_XM/xqd/3-GeSeTe/4-40%/2-model	nscc1741_XM/xqd/3-GeSeTe/4-40%/2-model/3-opt	opt-CONTCAR	1	Ge150Te90Se60	Ge Te Se	150 90 60	300	
+nscc1741_XM/xqd/3-GeSeTe/5-50%/2-model	nscc1741_XM/xqd/3-GeSeTe/5-50%/2-model/3-opt	opt-CONTCAR	1	Ge150Te75Se75	Ge Te Se	150 75 75	300	
+nscc1741_XM/xqd/3-GeSeTe/5-50%/3-model	nscc1741_XM/xqd/3-GeSeTe/5-50%/3-model/3-opt	opt-CONTCAR	1	Ge150Te75Se75	Ge Te Se	150 75 75	300	
+nscc1741_XM/xqd/3-GeSeTe/6-60%/1-model	nscc1741_XM/xqd/3-GeSeTe/6-60%/1-model/3-opt	opt-CONTCAR	1	Ge150Te60Se90	Ge Te Se	150 60 90	300	
+nscc1741_XM/xqd/3-GeSeTe/8-80%/1-model	nscc1741_XM/xqd/3-GeSeTe/8-80%/1-model/3-opt	opt-CONTCAR	1	Ge150Te120Se30	Ge Te Se	150 120 30	300	
+nscc1741_XM/xqd/4-Sb2SeTe3/3-30%	nscc1741_XM/xqd/4-Sb2SeTe3/3-30%/3-opt	opt-CONTCAR	1	Sb120Se54Te126	Sb Se Te	120 54 126	300	
+nscc1741_XM/xqd/4-Sb2SeTe3/4-40%	nscc1741_XM/xqd/4-Sb2SeTe3/4-40%/3-opt	opt-CONTCAR	1	Sb120Se72Te108	Sb Se Te	120 72 108	300	
+nscc1741_XM/xqd/4-Sb2SeTe3/5-50%	nscc1741_XM/xqd/4-Sb2SeTe3/5-50%/3-opt	opt-CONTCAR	1	Sb120Se90Te90	Sb Se Te	120 90 90	300	
+nscc1741_XM/xqd/4-Sb2SeTe3/6-60%	nscc1741_XM/xqd/4-Sb2SeTe3/6-60%/3-opt	opt-CONTCAR	1	Sb120Se108Te72	Sb Se Te	120 108 72	300	
+nscc1741_XM/xqd/4-Sb2SeTe3/7-70%	nscc1741_XM/xqd/4-Sb2SeTe3/7-70%/3-opt	opt-CONTCAR	1	Sb120Se126Te54	Sb Se Te	120 126 54	300	
+nscc1741_XM/xqd/4-Sb2SeTe3/8-80%	nscc1741_XM/xqd/4-Sb2SeTe3/8-80%/3-opt	opt-CONTCAR	1	Sb120Se144Te36	Sb Se Te	120 144 36	300	
+nscc1741_XM/xqd/4-Sb2SeTe3/9-90%	nscc1741_XM/xqd/4-Sb2SeTe3/9-90%/3-opt	opt-CONTCAR	1	Sb120Se162Te18	Sb Se Te	120 162 18	300	
+nscc1741_XM/xqd/5-Sb-X/2-ZnSb	nscc1741_XM/xqd/5-Sb-X/2-ZnSb/3-opt	opt-CONTCAR	1	Zn45Sb255	Zn Sb	45 255	300	
+nscc1741_XM/xumeng/1-PCM/1-Sb	nscc1741_XM/xumeng/1-PCM/1-Sb/4-opt2	opt-CONTCAR	6	Sb300	Sb	300	300	
+nscc1741_XM/xumeng/1-PCM/1-Sb/pressure/1-0Gpa	nscc1741_XM/xumeng/1-PCM/1-Sb/pressure/1-0Gpa	md-first-frame	1	Sb300	Sb	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/1-Sb/pressure/2-2%	nscc1741_XM/xumeng/1-PCM/1-Sb/pressure/2-2%	md-first-frame	1	Sb300	Sb	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/1-Sb/pressure/3-5%	nscc1741_XM/xumeng/1-PCM/1-Sb/pressure/3-5%	md-first-frame	1	Sb300	Sb	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/1-Sb/temperature	nscc1741_XM/xumeng/1-PCM/1-Sb/temperature/1-300k	md-first-frame	2	Sb300	Sb	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/1-Sb/vdos/1-vdos-0-5000	nscc1741_XM/xumeng/1-PCM/1-Sb/vdos/1-vdos-0-5000	md-first-frame	1	Sb300	Sb	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/1-Sb/vdos/2-vdos-5000	nscc1741_XM/xumeng/1-PCM/1-Sb/vdos/2-vdos-5000	md-first-frame	1	Sb300	Sb	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/10-SnTe	nscc1741_XM/xumeng/1-PCM/10-SnTe/3-opt2	opt-CONTCAR	4	Sn150Te150	Sn Te	150 150	300	
+nscc1741_XM/xumeng/1-PCM/10-SnTe/temperature	nscc1741_XM/xumeng/1-PCM/10-SnTe/temperature/1-300k	md-first-frame	2	Sn150Te150	Sn Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/10-SnTe/vdos/1-0-3000	nscc1741_XM/xumeng/1-PCM/10-SnTe/vdos/1-0-3000	md-first-frame	1	Sn150Te150	Sn Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/12-PbSe	nscc1741_XM/xumeng/1-PCM/12-PbSe/4-opt7	opt-CONTCAR	4	Pb150Se150	Pb Se	150 150	300	
+nscc1741_XM/xumeng/1-PCM/12-PbSe/vdos/1-vdos-0-5000	nscc1741_XM/xumeng/1-PCM/12-PbSe/vdos/1-vdos-0-5000	md-first-frame	1	Pb150Se150	Pb Se	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/13-GeS	nscc1741_XM/xumeng/1-PCM/13-GeS/3-opt2	opt-CONTCAR	4	Ge150S150	Ge S	150 150	300	3000.0
+nscc1741_XM/xumeng/1-PCM/13-GeS/vdos/1-0-3000	nscc1741_XM/xumeng/1-PCM/13-GeS/vdos/1-0-3000	md-first-frame	1	Ge150S150	Ge S	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si	nscc1741_XM/xumeng/1-PCM/14-Si/3-opt2	opt-CONTCAR	4	Si300	Si	300	300	3000.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/1-2-2000	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/1-2-2000	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/10-0.5-4000	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/10-0.5-4000	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/11-1-1000	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/11-1-1000	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/12-1-2000	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/12-1-2000	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/13-1-5000	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/13-1-5000	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/14-1-5000-0	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/14-1-5000-0	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/15-1-3000-0	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/15-1-3000-0	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/2-1-1000	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/2-1-1000	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/3-1-2000	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/3-1-2000	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/4-1-3000	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/4-1-3000	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/5-2-5000	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/5-2-5000	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/6-5-400	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/6-5-400	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/7-1-5000	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/7-1-5000	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/8-10000	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/8-10000	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/9-0.5-2000	nscc1741_XM/xumeng/1-PCM/14-Si/vdos/9-0.5-2000	md-first-frame	1	Si300	Si	300	300	300.0
+nscc1741_XM/xumeng/1-PCM/15-GST-225	nscc1741_XM/xumeng/1-PCM/15-GST-225/3-opt2	opt-CONTCAR	8	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	3000.0
+nscc1741_XM/xumeng/1-PCM/15-GST-225/pressure/1-0GPa	nscc1741_XM/xumeng/1-PCM/15-GST-225/pressure/1-0GPa	md-first-frame	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300.0
+nscc1741_XM/xumeng/1-PCM/15-GST-225/pressure/2-2%	nscc1741_XM/xumeng/1-PCM/15-GST-225/pressure/2-2%	md-first-frame	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300.0
+nscc1741_XM/xumeng/1-PCM/15-GST-225/pressure/3-5%	nscc1741_XM/xumeng/1-PCM/15-GST-225/pressure/3-5%	md-first-frame	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300.0
+nscc1741_XM/xumeng/1-PCM/15-GST-225/pressure/4-10%	nscc1741_XM/xumeng/1-PCM/15-GST-225/pressure/4-10%	md-first-frame	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300.0
+nscc1741_XM/xumeng/1-PCM/15-GST-225/vdos/1-0-3000	nscc1741_XM/xumeng/1-PCM/15-GST-225/vdos/1-0-3000	md-first-frame	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300.0
+nscc1741_XM/xumeng/1-PCM/15-GST-225/vdos/2-1-4000	nscc1741_XM/xumeng/1-PCM/15-GST-225/vdos/2-1-4000	md-first-frame	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300.0
+nscc1741_XM/xumeng/1-PCM/15-GST-225/vdos/3-2-4000	nscc1741_XM/xumeng/1-PCM/15-GST-225/vdos/3-2-4000	md-first-frame	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300.0
+nscc1741_XM/xumeng/1-PCM/15-GST-225/vdos/4-0-6000	nscc1741_XM/xumeng/1-PCM/15-GST-225/vdos/4-0-6000	md-first-frame	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300.0
+nscc1741_XM/xumeng/1-PCM/16-AIST	nscc1741_XM/xumeng/1-PCM/16-AIST/3-opt2	opt-CONTCAR	4	Ag12In9Sb201Te78	Ag In Sb Te	12 9 201 78	300	3000.0
+nscc1741_XM/xumeng/1-PCM/16-AIST/vdos/1-0-5000	nscc1741_XM/xumeng/1-PCM/16-AIST/vdos/1-0-5000	md-first-frame	1	Ag12In9Sb201Te78	Ag In Sb Te	12 9 201 78	300	300.0
+nscc1741_XM/xumeng/1-PCM/17-SST	nscc1741_XM/xumeng/1-PCM/17-SST/3-opt2	opt-CONTCAR	4	Sc14Sb112Te189	Sc Sb Te	14 112 189	315	3000.0
+nscc1741_XM/xumeng/1-PCM/18-SnSb2Te4	nscc1741_XM/xumeng/1-PCM/18-SnSb2Te4/3-opt2	opt-CONTCAR	4	Sn43Sb86Te172	Sn Sb Te	43 86 172	301	
+nscc1741_XM/xumeng/1-PCM/19-GeBiTe	nscc1741_XM/xumeng/1-PCM/19-GeBiTe/3-opt2	opt-CONTCAR	4	Ge43Bi86Te172	Ge Bi Te	43 86 172	301	3000.0
+nscc1741_XM/xumeng/1-PCM/2-Ge15Sb85	nscc1741_XM/xumeng/1-PCM/2-Ge15Sb85/4-opt2	opt-CONTCAR	4	Ge45Sb255	Ge Sb	45 255	300	
+nscc1741_XM/xumeng/1-PCM/2-Ge15Sb85/vdos/1-0-3000	nscc1741_XM/xumeng/1-PCM/2-Ge15Sb85/vdos/1-0-3000	md-first-frame	1	Ge45Sb255	Ge Sb	45 255	300	300.0
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5	nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/3-opt2	opt-CONTCAR	10	Ge68Sb68Se170	Ge Sb Se	68 68 170	306	3000.0
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/7-3000-300	nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/7-3000-300	opt-CONTCAR	4	Ge68Sb68Se170	Ge Sb Se	68 68 170	306	3000.0
+nscc1741_XM/xumeng/1-PCM/21-PbTe	nscc1741_XM/xumeng/1-PCM/21-PbTe/3-opt2	opt-CONTCAR	4	Pb150Te150	Pb Te	150 150	300	3000.0
+nscc1741_XM/xumeng/1-PCM/21-PbTe/temperature	nscc1741_XM/xumeng/1-PCM/21-PbTe/temperature/1-300k	md-first-frame	2	Pb150Te150	Pb Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/21-PbTe/vdos/1-0-3000MD	nscc1741_XM/xumeng/1-PCM/21-PbTe/vdos/1-0-3000MD	md-first-frame	1	Pb150Te150	Pb Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/22-SnSe	nscc1741_XM/xumeng/1-PCM/22-SnSe/3-opt2	opt-CONTCAR	4	Sn150Se150	Sn Se	150 150	300	3000.0
+nscc1741_XM/xumeng/1-PCM/23-SnS	nscc1741_XM/xumeng/1-PCM/23-SnS/3-opt2	opt-CONTCAR	5	Sn150S150	Sn S	150 150	300	3000.0
+nscc1741_XM/xumeng/1-PCM/24-SiSbTe	nscc1741_XM/xumeng/1-PCM/24-SiSbTe/3-opt2	opt-CONTCAR	8	Si43Sb86Te172	Si Sb Te	43 86 172	301	3000.0
+nscc1741_XM/xumeng/1-PCM/25-PbS	nscc1741_XM/xumeng/1-PCM/25-PbS/3-opt2	opt-CONTCAR	4	Pb150S150	Pb S	150 150	300	3000.0
+nscc1741_XM/xumeng/1-PCM/26-SiTe	nscc1741_XM/xumeng/1-PCM/26-SiTe/3-opt2	opt-CONTCAR	5	Si150Te150	Si Te	150 150	300	3000.0
+nscc1741_XM/xumeng/1-PCM/26-SiTe/vdos/1-0-3000MD	nscc1741_XM/xumeng/1-PCM/26-SiTe/vdos/1-0-3000MD	md-first-frame	1	Si150Te150	Si Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/27-SiSe	nscc1741_XM/xumeng/1-PCM/27-SiSe/8-opt2	opt-CONTCAR	4	Si150Se150	Si Se	150 150	300	2000.0
+nscc1741_XM/xumeng/1-PCM/28-GeTe6	nscc1741_XM/xumeng/1-PCM/28-GeTe6/3-opt7	opt-CONTCAR	4	Ge43Te257	Ge Te	43 257	300	
+nscc1741_XM/xumeng/1-PCM/3-SiGe	nscc1741_XM/xumeng/1-PCM/3-SiGe/4-opt2	opt-CONTCAR	6	Si150Ge150	Si Ge	150 150	300	
+nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/0-0GP	nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/0-0GP	md-first-frame	1	Si150Ge150	Si Ge	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/1-0GPa	nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/1-0GPa	md-first-frame	1	Si150Ge150	Si Ge	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/2-2%	nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/2-2%	md-first-frame	1	Si150Ge150	Si Ge	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/3-5%	nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/3-5%	md-first-frame	1	Si150Ge150	Si Ge	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/4-10%	nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/4-10%	md-first-frame	1	Si150Ge150	Si Ge	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/NPT-test	nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/NPT-test	md-first-frame	1	Si150Ge150	Si Ge	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/3-SiGe/temperature	nscc1741_XM/xumeng/1-PCM/3-SiGe/temperature/2-400k	md-first-frame	2	Si150Ge150	Si Ge	150 150	300	400.0
+nscc1741_XM/xumeng/1-PCM/30-GaSb	nscc1741_XM/xumeng/1-PCM/30-GaSb/3-opt2	opt-CONTCAR	8	Ga150Sb150	Ga Sb	150 150	300	3000.0
+nscc1741_XM/xumeng/1-PCM/31-GaAs	nscc1741_XM/xumeng/1-PCM/31-GaAs/3-opt2	opt-CONTCAR	3	Ga150As150	Ga As	150 150	300	
+nscc1741_XM/xumeng/1-PCM/31-GaAs/vdos/1-0-3000MD	nscc1741_XM/xumeng/1-PCM/31-GaAs/vdos/1-0-3000MD	md-first-frame	1	Ga150As150	Ga As	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/31-GaAs/vdos/2-0-300MD	nscc1741_XM/xumeng/1-PCM/31-GaAs/vdos/2-0-300MD	md-first-frame	1	Ga150As150	Ga As	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/5-opt7	opt-CONTCAR	2	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/3-MD-300k	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/3-MD-300k	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300.0
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/4-MD-300k	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/4-MD-300k	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300.0
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/bbc	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/bbc/1-opt3	opt-CONTCAR	1	Sb64Se64	Sb Se	64 64	128	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/bbc/2-opt2-0.9	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/bbc/2-opt2-0.9	opt-CONTCAR	1	Sb64Se64	Sb Se	64 64	128	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/bbc/3-opt2-0.95	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/bbc/3-opt2-0.95	opt-CONTCAR	1	Sb64Se64	Sb Se	64 64	128	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/crystal	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/crystal/1-opt3	opt-CONTCAR	1	Sb16Se24	Sb Se	16 24	40	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/crystal/2-MD-300k	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/crystal/2-MD-300k	md-first-frame	1	Sb16Se24	Sb Se	16 24	40	300.0
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/0-EOS	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/0-EOS	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300.0
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/1-20GPa	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/1-20GPa	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300.0
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/2-10GPa	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/2-10GPa	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300.0
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/3-35GPa	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/3-35GPa	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300.0
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/4-50GPa	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/4-50GPa	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300.0
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/5-16GPa	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/5-16GPa/1-opt2	opt-CONTCAR	2	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/6-25GPa	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/6-25GPa	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300.0
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/1-2%	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/1-2%	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/10-11%	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/10-11%	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/11-10.5	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/11-10.5	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/2-5%	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/2-5%	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/3-10%	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/3-10%	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/4-15%	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/4-15%	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/5-20%	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/5-20%	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/6-17%	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/6-17%	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/7-13%	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/7-13%	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/8-18%	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/8-18%	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/9-19%	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/9-19%	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/0-0GPa	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/0-0GPa	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300.0
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/1-10GPa	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/1-10GPa/1-opt2	opt-CONTCAR	2	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/2-20GPa	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/2-20GPa/1-opt2	opt-CONTCAR	2	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/3-35GPa	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/3-35GPa/1-opt2	opt-CONTCAR	2	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/4-50GPa	nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/4-50GPa/1-opt2	opt-CONTCAR	2	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/1-PCM/33-ZnTe	nscc1741_XM/xumeng/1-PCM/33-ZnTe/4-opt7	opt-CONTCAR	4	Zn150Te150	Zn Te	150 150	300	
+nscc1741_XM/xumeng/1-PCM/4-GST_124	nscc1741_XM/xumeng/1-PCM/4-GST_124/10-opt2	opt-CONTCAR	4	Ge43Sb86Te172	Ge Sb Te	43 86 172	301	
+nscc1741_XM/xumeng/1-PCM/4-GST_124/vdos/1-vdos-0-5000	nscc1741_XM/xumeng/1-PCM/4-GST_124/vdos/1-vdos-0-5000	md-first-frame	1	Ge43Sb86Te172	Ge Sb Te	43 86 172	301	300.0
+nscc1741_XM/xumeng/1-PCM/4-GST_124/vdos/2-vdos-0-10000	nscc1741_XM/xumeng/1-PCM/4-GST_124/vdos/2-vdos-0-10000	md-first-frame	1	Ge43Sb86Te172	Ge Sb Te	43 86 172	301	300.0
+nscc1741_XM/xumeng/1-PCM/4-GST_124/vdos/3-vdos-0-3000-3	nscc1741_XM/xumeng/1-PCM/4-GST_124/vdos/3-vdos-0-3000-3	md-first-frame	1	Ge43Sb86Te172	Ge Sb Te	43 86 172	301	300.0
+nscc1741_XM/xumeng/1-PCM/4-GST_124/vdos/4-vdos-0-10000-4	nscc1741_XM/xumeng/1-PCM/4-GST_124/vdos/4-vdos-0-10000-4	md-first-frame	1	Ge43Sb86Te172	Ge Sb Te	43 86 172	301	300.0
+nscc1741_XM/xumeng/1-PCM/5-GeTe	nscc1741_XM/xumeng/1-PCM/5-GeTe/6-opt2	opt-CONTCAR	6	Ge150Te150	Ge Te	150 150	300	
+nscc1741_XM/xumeng/1-PCM/5-GeTe/1-vacf-1000	nscc1741_XM/xumeng/1-PCM/5-GeTe/1-vacf-1000	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/5-GeTe/15-MD-300	nscc1741_XM/xumeng/1-PCM/5-GeTe/15-MD-300	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/5-GeTe/pressure/1-0GPa	nscc1741_XM/xumeng/1-PCM/5-GeTe/pressure/1-0GPa	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/5-GeTe/pressure/2-2%	nscc1741_XM/xumeng/1-PCM/5-GeTe/pressure/2-2%	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/5-GeTe/pressure/3-5%	nscc1741_XM/xumeng/1-PCM/5-GeTe/pressure/3-5%	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/5-GeTe/temperature	nscc1741_XM/xumeng/1-PCM/5-GeTe/temperature/2-400k	md-first-frame	2	Ge150Te150	Ge Te	150 150	300	400.0
+nscc1741_XM/xumeng/1-PCM/5-GeTe/vdos/1-vacf-1000	nscc1741_XM/xumeng/1-PCM/5-GeTe/vdos/1-vacf-1000	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/5-GeTe/vdos/2-vacf-5000	nscc1741_XM/xumeng/1-PCM/5-GeTe/vdos/2-vacf-5000	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/5-GeTe/vdos/3-vdos-3000-0	nscc1741_XM/xumeng/1-PCM/5-GeTe/vdos/3-vdos-3000-0	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/5-GeTe/vdos/4-vdos-0-10000	nscc1741_XM/xumeng/1-PCM/5-GeTe/vdos/4-vdos-0-10000	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/6-Sb2Te3	nscc1741_XM/xumeng/1-PCM/6-Sb2Te3/4-opt2	opt-CONTCAR	5	Sb120Te180	Sb Te	120 180	300	
+nscc1741_XM/xumeng/1-PCM/6-Sb2Te3/vdos/1-0-3000	nscc1741_XM/xumeng/1-PCM/6-Sb2Te3/vdos/1-0-3000	md-first-frame	1	Sb120Te180	Sb Te	120 180	300	300.0
+nscc1741_XM/xumeng/1-PCM/7-GeSe	nscc1741_XM/xumeng/1-PCM/7-GeSe/20-opt7	opt-CONTCAR	8	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/1-PCM/7-GeSe/temperature	nscc1741_XM/xumeng/1-PCM/7-GeSe/temperature/1-300k	md-first-frame	2	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/1-vdos-0-3000	nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/1-vdos-0-3000	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/2-vdos-0-10000	nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/2-vdos-0-10000	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf	nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf-5000	nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf-5000	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf-5000-2	nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf-5000-2	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf-5000-2/vacf-5000	nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf-5000-2/vacf-5000	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf-5000/vacf-5000	nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf-5000/vacf-5000	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf2	nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf2	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/1-PCM/8-SiC	nscc1741_XM/xumeng/1-PCM/8-SiC/3-opt2	opt-CONTCAR	5	Si150C150	Si C	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/0-1.00	nscc1741_XM/xumeng/10-OTS-pressure/0-1.00/2-opt	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/0-1.00/1-MD-300K	nscc1741_XM/xumeng/10-OTS-pressure/0-1.00/1-MD-300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/10-OTS-pressure/1-0.99	nscc1741_XM/xumeng/10-OTS-pressure/1-0.99/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/10-0.95	nscc1741_XM/xumeng/10-OTS-pressure/10-0.95/1-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/11-0.935	nscc1741_XM/xumeng/10-OTS-pressure/11-0.935/1-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/11-0.935/3-MD-300K	nscc1741_XM/xumeng/10-OTS-pressure/11-0.935/3-MD-300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/10-OTS-pressure/12-0.925	nscc1741_XM/xumeng/10-OTS-pressure/12-0.925/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/13-0.945	nscc1741_XM/xumeng/10-OTS-pressure/13-0.945/1-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/14-0.947	nscc1741_XM/xumeng/10-OTS-pressure/14-0.947/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/15-0.948	nscc1741_XM/xumeng/10-OTS-pressure/15-0.948/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/16-0.949	nscc1741_XM/xumeng/10-OTS-pressure/16-0.949/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/17-0.9495	nscc1741_XM/xumeng/10-OTS-pressure/17-0.9495/1-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/18-0.943	nscc1741_XM/xumeng/10-OTS-pressure/18-0.943/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/2-0.98	nscc1741_XM/xumeng/10-OTS-pressure/2-0.98/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/2-0.98/3-MD-300K	nscc1741_XM/xumeng/10-OTS-pressure/2-0.98/3-MD-300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/10-OTS-pressure/4-0.96	nscc1741_XM/xumeng/10-OTS-pressure/4-0.96/1-opt2	opt-CONTCAR	3	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/4-0.96/3-MD-300K	nscc1741_XM/xumeng/10-OTS-pressure/4-0.96/3-MD-300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/10-OTS-pressure/4-0.96/relax/4-opt2-98	nscc1741_XM/xumeng/10-OTS-pressure/4-0.96/relax/4-opt2-98	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/5-0.92	nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/3-MD-300K	nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/3-MD-300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/4-opt2-94	nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/4-opt2-94	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/6-opt2-98	nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/6-opt2-98	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/8-opt2-100	nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/8-opt2-100	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/6-0.9	nscc1741_XM/xumeng/10-OTS-pressure/6-0.9/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/6-0.9/3-MD-300K	nscc1741_XM/xumeng/10-OTS-pressure/6-0.9/3-MD-300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/10-OTS-pressure/7-0.85	nscc1741_XM/xumeng/10-OTS-pressure/7-0.85/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/8-0.94	nscc1741_XM/xumeng/10-OTS-pressure/8-0.94/1-opt2	opt-CONTCAR	3	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/8-0.94/MD-300K	nscc1741_XM/xumeng/10-OTS-pressure/8-0.94/MD-300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/10-OTS-pressure/8-0.94/mgs_rebuild	nscc1741_XM/xumeng/10-OTS-pressure/8-0.94/mgs_rebuild/1-opt2	opt-CONTCAR	1	Ge150Se149	Ge Se	150 149	299	
+nscc1741_XM/xumeng/10-OTS-pressure/8-0.94/mgs_rebuild/8-opt2-fix	nscc1741_XM/xumeng/10-OTS-pressure/8-0.94/mgs_rebuild/8-opt2-fix	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/9-0.93	nscc1741_XM/xumeng/10-OTS-pressure/9-0.93/1-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/GeS/1-0.96	nscc1741_XM/xumeng/10-OTS-pressure/GeS/1-0.96/1-opt2	opt-CONTCAR	1	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/GeS/2-0.94	nscc1741_XM/xumeng/10-OTS-pressure/GeS/2-0.94/1-opt2	opt-CONTCAR	1	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/GeS/3-0.93	nscc1741_XM/xumeng/10-OTS-pressure/GeS/3-0.93/1-opt2	opt-CONTCAR	1	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/GeS/4-0.92	nscc1741_XM/xumeng/10-OTS-pressure/GeS/4-0.92/1-opt2	opt-CONTCAR	1	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/GeTe6/0-1.00	nscc1741_XM/xumeng/10-OTS-pressure/GeTe6/0-1.00/2-MD	md-first-frame	1	Ge43Te257	Ge Te	43 257	300	300.0
+nscc1741_XM/xumeng/10-OTS-pressure/GeTe6/1-0.96	nscc1741_XM/xumeng/10-OTS-pressure/GeTe6/1-0.96/1-opt2	opt-CONTCAR	1	Ge43Te257	Ge Te	43 257	300	
+nscc1741_XM/xumeng/10-OTS-pressure/GeTe6/2-0.98	nscc1741_XM/xumeng/10-OTS-pressure/GeTe6/2-0.98/1-opt2	opt-CONTCAR	1	Ge43Te257	Ge Te	43 257	300	
+nscc1741_XM/xumeng/10-OTS-pressure/SiSe	nscc1741_XM/xumeng/10-OTS-pressure/SiSe/1-300K	md-first-frame	1	Si150Se150	Si Se	150 150	300	300.0
+nscc1741_XM/xumeng/10-OTS-pressure/SiSe/pressure	nscc1741_XM/xumeng/10-OTS-pressure/SiSe/pressure/1-opt2	opt-CONTCAR	1	Si150Se150	Si Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/SnSe/1-opt2-97	nscc1741_XM/xumeng/10-OTS-pressure/SnSe/1-opt2-97	opt-CONTCAR	1	Sn150Se150	Sn Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/SnSe/7-MD-300K	nscc1741_XM/xumeng/10-OTS-pressure/SnSe/7-MD-300K	md-first-frame	1	Sn150Se150	Sn Se	150 150	300	300.0
+nscc1741_XM/xumeng/10-OTS-pressure/SnSe/old	nscc1741_XM/xumeng/10-OTS-pressure/SnSe/old/2-opt2	opt-CONTCAR	3	Sn150Se150	Sn Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/cubic-GeSe	nscc1741_XM/xumeng/10-OTS-pressure/cubic-GeSe/1-opt2	opt-CONTCAR	1	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/10-OTS-pressure/doped/1-Sn	nscc1741_XM/xumeng/10-OTS-pressure/doped/1-Sn/1-opt2	opt-CONTCAR	2	Ge149Se150Sn1	Ge Se Sn	149 150 1	300	
+nscc1741_XM/xumeng/10-OTS-pressure/doped/2-Si	nscc1741_XM/xumeng/10-OTS-pressure/doped/2-Si/1-opt2	opt-CONTCAR	1	Ge100Si50Se150	Ge Si Se	100 50 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom	nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/1-opt2	opt-CONTCAR	6	Ge140Sn10Se150	Ge Sn Se	140 10 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/6-dos	nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/6-dos/MD	md-first-frame	1	Ge120Sn30Se150	Ge Sn Se	120 30 150	300	300.0
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/9-2-opt2	nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/9-2-opt2	opt-CONTCAR	1	Ge75Sn75Se150	Ge Sn Se	75 75 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/success	nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/success/12-MD	md-first-frame	1	Ge100Sn50Se150	Ge Sn Se	100 50 150	300	300.0
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/success/13-dos	nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/success/13-dos/1-opt2	opt-CONTCAR	1	Ge101Sn49Se150	Ge Sn Se	101 49 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/doped/4-Te	nscc1741_XM/xumeng/10-OTS-pressure/doped/4-Te/1-opt2	opt-CONTCAR	3	Ge150Se100Te50	Ge Se Te	150 100 50	300	
+nscc1741_XM/xumeng/10-OTS-pressure/doped/5-C	nscc1741_XM/xumeng/10-OTS-pressure/doped/5-C/1-opt2	opt-CONTCAR	1	Ge100C50Se150	Ge C Se	100 50 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/doped/6-B	nscc1741_XM/xumeng/10-OTS-pressure/doped/6-B/1-opt2	opt-CONTCAR	1	Ge100B50Se150	Ge B Se	100 50 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/doped/7-N	nscc1741_XM/xumeng/10-OTS-pressure/doped/7-N/1-opt2	opt-CONTCAR	1	Ge100N50Se150	Ge N Se	100 50 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/relax/1-94-95/4-opt2-95	nscc1741_XM/xumeng/10-OTS-pressure/relax/1-94-95/4-opt2-95	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/relax/2-96	nscc1741_XM/xumeng/10-OTS-pressure/relax/2-96/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/relax/3-0.98	nscc1741_XM/xumeng/10-OTS-pressure/relax/3-0.98/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/relax/4-1.00	nscc1741_XM/xumeng/10-OTS-pressure/relax/4-1.00/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/10-OTS-pressure/relax/5-0.99	nscc1741_XM/xumeng/10-OTS-pressure/relax/5-0.99/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/11-OTS-C_chain/1-model1	nscc1741_XM/xumeng/11-OTS-C_chain/1-model1/1-opt2	opt-CONTCAR	1	Ge146Se150C4	Ge Se C	146 150 4	300	
+nscc1741_XM/xumeng/11-OTS-C_chain/2-model2	nscc1741_XM/xumeng/11-OTS-C_chain/2-model2/2-opt2	opt-CONTCAR	1	Ge146Se150C4	Ge Se C	146 150 4	300	
+nscc1741_XM/xumeng/11-OTS-C_chain/2-model2/1-MD-600K	nscc1741_XM/xumeng/11-OTS-C_chain/2-model2/1-MD-600K	md-first-frame	1	Ge146Se150C4	Ge Se C	146 150 4	300	300.0
+nscc1741_XM/xumeng/11-OTS-C_chain/Si_chain/1-model1	nscc1741_XM/xumeng/11-OTS-C_chain/Si_chain/1-model1/2-opt2	opt-CONTCAR	1	Ge146Se150Si4	Ge Se Si	146 150 4	300	
+nscc1741_XM/xumeng/11-OTS-C_chain/Si_chain/1-model1/1-MD-300K	nscc1741_XM/xumeng/11-OTS-C_chain/Si_chain/1-model1/1-MD-300K	md-first-frame	1	Ge146Se150Si4	Ge Se Si	146 150 4	300	300.0
+nscc1741_XM/xumeng/11-OTS-C_chain/Si_chain/2-model2	nscc1741_XM/xumeng/11-OTS-C_chain/Si_chain/2-model2/2-opt2	opt-CONTCAR	1	Ge146Se150Si4	Ge Se Si	146 150 4	300	
+nscc1741_XM/xumeng/11-OTS-C_chain/Si_chain/3-model3	nscc1741_XM/xumeng/11-OTS-C_chain/Si_chain/3-model3/1-opt2	opt-CONTCAR	1	Ge146Se151Si4	Ge Se Si	146 151 4	301	
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/20-GST225	nscc1741_XM/xumeng/12-ml-dielectric/0-GST/20-GST225/1-opt2	opt-CONTCAR	2	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/20-GST225/c-opt2	nscc1741_XM/xumeng/12-ml-dielectric/0-GST/20-GST225/c-opt2	opt-CONTCAR	1	Ge2Sb2Te5	Ge Sb Te	2 2 5	9	
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/22-GST147	nscc1741_XM/xumeng/12-ml-dielectric/0-GST/22-GST147/2-opt2	opt-CONTCAR	2	Ge17Sb66Te117	Ge Sb Te	17 66 117	200	
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/25-GST124	nscc1741_XM/xumeng/12-ml-dielectric/0-GST/25-GST124/1-opt2	opt-CONTCAR	1	Ge43Sb86Te172	Ge Sb Te	43 86 172	301	
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/25-GST124/c-opt2	nscc1741_XM/xumeng/12-ml-dielectric/0-GST/25-GST124/c-opt2	opt-CONTCAR	1	Ge3Sb6Te12	Ge Sb Te	3 6 12	21	
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/27-AgSbTe	nscc1741_XM/xumeng/12-ml-dielectric/0-GST/27-AgSbTe/2-opt2	opt-CONTCAR	1	Ag50Sb50Te100	Ag Sb Te	50 50 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/44-GST415	nscc1741_XM/xumeng/12-ml-dielectric/0-GST/44-GST415/1-3000K	md-first-frame	1	Ge80Sb20Te100	Ge Sb Te	80 20 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/1-B/1-BS2/a	nscc1741_XM/xumeng/12-ml-dielectric/1-B/1-BS2/a/3-opt	opt-CONTCAR	1	B66S132	B S	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/1-B/1-BS2/a/2-3000K-300K	nscc1741_XM/xumeng/12-ml-dielectric/1-B/1-BS2/a/2-3000K-300K	md-first-frame	1	B66S132	B S	66 132	198	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/1-B/2-BSe2-Monoclinic	nscc1741_XM/xumeng/12-ml-dielectric/1-B/2-BSe2-Monoclinic/2-opt2	opt-CONTCAR	2	B80Se120	B Se	80 120	200	
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/1-PbS-cubic	nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/1-PbS-cubic/2-opt2	opt-CONTCAR	2	Pb100S100	Pb S	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/1-PbS-cubic/c	nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/1-PbS-cubic/c/2-opt2	opt-CONTCAR	1	Pb4S4	Pb S	4 4	8	
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/2-PbSe-cubic	nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/2-PbSe-cubic/2-opt2	opt-CONTCAR	2	Pb100Se100	Pb Se	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/2-PbSe-cubic/c	nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/2-PbSe-cubic/c/2-opt2	opt-CONTCAR	1	Pb4Se4	Pb Se	4 4	8	
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/3-PbTe-cubic	nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/3-PbTe-cubic/2-opt2	opt-CONTCAR	2	Pb100Te100	Pb Te	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/3-PbTe-cubic/c	nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/3-PbTe-cubic/c/2-opt2	opt-CONTCAR	1	Te4Pb4	Te Pb	4 4	8	
+nscc1741_XM/xumeng/12-ml-dielectric/11-P/55-P2Se3	nscc1741_XM/xumeng/12-ml-dielectric/11-P/55-P2Se3/2-opt2	opt-CONTCAR	2	P80Se120	P Se	80 120	200	
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/1-As2S3-triclinic	nscc1741_XM/xumeng/12-ml-dielectric/12-As/1-As2S3-triclinic/6-opt2	opt-CONTCAR	2	As80S120	As S	80 120	200	
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/1-As2S3-triclinic/0-AsS2	nscc1741_XM/xumeng/12-ml-dielectric/12-As/1-As2S3-triclinic/0-AsS2/2-opt2	opt-CONTCAR	2	As66S132	As S	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/1-As2S3-triclinic/boson	nscc1741_XM/xumeng/12-ml-dielectric/12-As/1-As2S3-triclinic/boson	md-first-frame	1	As80S120	As S	80 120	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/2-As2Se3-monoclinic	nscc1741_XM/xumeng/12-ml-dielectric/12-As/2-As2Se3-monoclinic/2-opt2	opt-CONTCAR	2	As80Se120	As Se	80 120	200	
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/2-As2Se3-monoclinic/z-AsSe2	nscc1741_XM/xumeng/12-ml-dielectric/12-As/2-As2Se3-monoclinic/z-AsSe2/opt2	opt-CONTCAR	2	As66Se132	As Se	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/3-As2Te3-monoclinic	nscc1741_XM/xumeng/12-ml-dielectric/12-As/3-As2Te3-monoclinic/2-opt2	opt-CONTCAR	2	As80Te120	As Te	80 120	200	
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/3-As2Te3-monoclinic/00-c	nscc1741_XM/xumeng/12-ml-dielectric/12-As/3-As2Te3-monoclinic/00-c/2-opt2	opt-CONTCAR	1	As66Te132	As Te	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/3-As2Te3-monoclinic/z-AsTe2	nscc1741_XM/xumeng/12-ml-dielectric/12-As/3-As2Te3-monoclinic/z-AsTe2/2-opt2	opt-CONTCAR	2	As66Te132	As Te	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/4-AsS-monoclinic/a	nscc1741_XM/xumeng/12-ml-dielectric/12-As/4-AsS-monoclinic/a/3-opt	opt-CONTCAR	1	As100S100	As S	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/4-AsS-monoclinic/c	nscc1741_XM/xumeng/12-ml-dielectric/12-As/4-AsS-monoclinic/c/1-opt	opt-CONTCAR	1	As16S16	As S	16 16	32	
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/5-AsSe-monoclinic/a	nscc1741_XM/xumeng/12-ml-dielectric/12-As/5-AsSe-monoclinic/a/3-opt	opt-CONTCAR	1	As100Se100	As Se	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/6-AsTe-cubic/a	nscc1741_XM/xumeng/12-ml-dielectric/12-As/6-AsTe-cubic/a/3-opt	opt-CONTCAR	1	As100Te100	As Te	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/6-AsTe-cubic/c	nscc1741_XM/xumeng/12-ml-dielectric/12-As/6-AsTe-cubic/c/1-opt	opt-CONTCAR	1	As4Te4	As Te	4 4	8	
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic	nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic/3-opt2	opt-CONTCAR	3	Sb66Se132	Sb Se	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic/c	nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic/c/opt3	opt-CONTCAR	1	Sb8Se12	Sb Se	8 12	20	
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic/c-bader	nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic/c-bader/opt3	opt-CONTCAR	1	Sb8Se12	Sb Se	8 12	20	
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic/die	nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic/die	opt-CONTCAR	1	Sb66Se132	Sb Se	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal	nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal/3-opt2	opt-CONTCAR	3	Sb66Te132	Sb Te	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal/4-die	nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal/4-die	opt-CONTCAR	1	Sb66Te132	Sb Te	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal/6-die	nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal/6-die	opt-CONTCAR	1	Sb66Te132	Sb Te	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal/c-opt3	nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal/c-opt3	opt-CONTCAR	1	Sb6Te9	Sb Te	6 9	15	
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/5-SbTe	nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/5-SbTe/opt3	opt-CONTCAR	1	Sb6Te6	Sb Te	6 6	12	
+nscc1741_XM/xumeng/12-ml-dielectric/14-Bi/1-Bi2S3-Orthorhombic	nscc1741_XM/xumeng/12-ml-dielectric/14-Bi/1-Bi2S3-Orthorhombic/2-opt2	opt-CONTCAR	2	Bi66S132	Bi S	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/14-Bi/2-Bi2Se3-Trigonal	nscc1741_XM/xumeng/12-ml-dielectric/14-Bi/2-Bi2Se3-Trigonal/2-opt2	opt-CONTCAR	3	Bi66Se132	Bi Se	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/14-Bi/3-Bi2Te3-Trigonal	nscc1741_XM/xumeng/12-ml-dielectric/14-Bi/3-Bi2Te3-Trigonal/5-opt2	opt-CONTCAR	2	Bi80Te120	Bi Te	80 120	200	
+nscc1741_XM/xumeng/12-ml-dielectric/15-Zn/1-ZnS-cubic	nscc1741_XM/xumeng/12-ml-dielectric/15-Zn/1-ZnS-cubic/2-opt2	opt-CONTCAR	1	Zn100S100	Zn S	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/15-Zn/2-ZnSe-cubic	nscc1741_XM/xumeng/12-ml-dielectric/15-Zn/2-ZnSe-cubic/2-opt2	opt-CONTCAR	1	Zn100Se100	Zn Se	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/16-Cd/1-CdS-hexagonal	nscc1741_XM/xumeng/12-ml-dielectric/16-Cd/1-CdS-hexagonal/2-opt2	opt-CONTCAR	1	Cd100S100	Cd S	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/16-Cd/2-CdSe-cubic	nscc1741_XM/xumeng/12-ml-dielectric/16-Cd/2-CdSe-cubic/2-opt2	opt-CONTCAR	1	Cd100Se100	Cd Se	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/16-Cd/2-CdSe-cubic/a	nscc1741_XM/xumeng/12-ml-dielectric/16-Cd/2-CdSe-cubic/a/3-opt	opt-CONTCAR	1	Cd100Se100	Cd Se	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/16-Cd/3-CdTe-cubic	nscc1741_XM/xumeng/12-ml-dielectric/16-Cd/3-CdTe-cubic/2-opt2	opt-CONTCAR	2	Cd100Te100	Cd Te	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/17-Hg/47-HgSe-cubic	nscc1741_XM/xumeng/12-ml-dielectric/17-Hg/47-HgSe-cubic/2-opt2	opt-CONTCAR	2	Hg100Se100	Hg Se	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/17-Hg/48-HgTe-cubic	nscc1741_XM/xumeng/12-ml-dielectric/17-Hg/48-HgTe-cubic/2-opt2	opt-CONTCAR	2	Hg100Te100	Hg Te	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/2-Al/1-Al2S3	nscc1741_XM/xumeng/12-ml-dielectric/2-Al/1-Al2S3/2-opt2	opt-CONTCAR	2	Al80S120	Al S	80 120	200	
+nscc1741_XM/xumeng/12-ml-dielectric/2-Al/2-Al2Se3-monoclinic	nscc1741_XM/xumeng/12-ml-dielectric/2-Al/2-Al2Se3-monoclinic/2-opt2	opt-CONTCAR	2	Al80Se120	Al Se	80 120	200	
+nscc1741_XM/xumeng/12-ml-dielectric/2-Al/3-Al2Te3-monoclinic/a-die1	nscc1741_XM/xumeng/12-ml-dielectric/2-Al/3-Al2Te3-monoclinic/a-die1	opt-CONTCAR	1	Al120Te180	Al Te	120 180	300	
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/1-GaS-Hexagonal/a	nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/1-GaS-Hexagonal/a/3-opt	opt-CONTCAR	1	Ga99S99	Ga S	99 99	198	
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/1-GaS-Hexagonal/a/2-3000-300K	nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/1-GaS-Hexagonal/a/2-3000-300K	md-first-frame	1	Ga99S99	Ga S	99 99	198	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/2-GaSe-Hexagonal/a	nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/2-GaSe-Hexagonal/a/3-opt	opt-CONTCAR	1	Ga99Se99	Ga Se	99 99	198	
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/3-GaTe-hex_mon/a	nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/3-GaTe-hex_mon/a/3-opt	opt-CONTCAR	1	Ga100Te100	Ga Te	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/3-GaTe-hex_mon/a/2-3000K-300K	nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/3-GaTe-hex_mon/a/2-3000K-300K	md-first-frame	1	Ga100Te100	Ga Te	100 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/4-Ga2S3-Monoclinic	nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/4-Ga2S3-Monoclinic/2-opt2	opt-CONTCAR	3	As66S132	As S	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/5-Ga2Se3-Monoclinic	nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/5-Ga2Se3-Monoclinic/5-opt2	opt-CONTCAR	2	Ga80Se120	Ga Se	80 120	200	
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/5-Ga2Se3-Monoclinic/GaSe2	nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/5-Ga2Se3-Monoclinic/GaSe2/2-opt2	opt-CONTCAR	2	Ga66Se132	Ga Se	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/6-Ga2Te3-mon/a	nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/6-Ga2Te3-mon/a/2-opt2	opt-CONTCAR	1	Ga120Te180	Ga Te	120 180	300	
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/7-GaSe2/c-cubic	nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/7-GaSe2/c-cubic/2-opt3	opt-CONTCAR	1	Ga48Se96	Ga Se	48 96	144	
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/1-InS-orthorhombic	nscc1741_XM/xumeng/12-ml-dielectric/4-In/1-InS-orthorhombic/2-opt2	opt-CONTCAR	1	In100S100	In S	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/3-InTe-cubic/1-InTe	nscc1741_XM/xumeng/12-ml-dielectric/4-In/3-InTe-cubic/1-InTe/2-opt2	opt-CONTCAR	1	In100Te100	In Te	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/3-InTe-cubic/c-die2-tetragonal	nscc1741_XM/xumeng/12-ml-dielectric/4-In/3-InTe-cubic/c-die2-tetragonal	opt-CONTCAR	1	In4Te4	In Te	4 4	8	
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/3-InTe-cubic/c-opt2	nscc1741_XM/xumeng/12-ml-dielectric/4-In/3-InTe-cubic/c-opt2	opt-CONTCAR	1	In4Te4	In Te	4 4	8	
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/4-In2S3-tetragonal/a	nscc1741_XM/xumeng/12-ml-dielectric/4-In/4-In2S3-tetragonal/a/3-opt	opt-CONTCAR	1	In120S180	In S	120 180	300	
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/4-In2S3-tetragonal/a2	nscc1741_XM/xumeng/12-ml-dielectric/4-In/4-In2S3-tetragonal/a2/3-opt	opt-CONTCAR	1	In120S180	In S	120 180	300	
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/5-In2Se3-hexagonal	nscc1741_XM/xumeng/12-ml-dielectric/4-In/5-In2Se3-hexagonal/4-3000K	md-first-frame	1	In80Se120	In Se	80 120	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/6-In2Te3-orthorhombic/a	nscc1741_XM/xumeng/12-ml-dielectric/4-In/6-In2Te3-orthorhombic/a/4-3000K	md-first-frame	1	In80Te120	In Te	80 120	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/42-AgInTe2	nscc1741_XM/xumeng/12-ml-dielectric/42-AgInTe2/2-opt2	opt-CONTCAR	2	Ag50In50Te100	Ag In Te	50 50 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/1-Tl2S5-orthorhombic/a/2-3000-300K	nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/1-Tl2S5-orthorhombic/a/2-3000-300K	md-first-frame	1	Tl57S143	Tl S	57 143	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/2-TlSe-tetragonal/a	nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/2-TlSe-tetragonal/a/3-opt	opt-CONTCAR	1	Tl100Se100	Tl Se	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/3-TlTe-tetragonal/a	nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/3-TlTe-tetragonal/a/2-opt2	opt-CONTCAR	2	Tl100Te100	Tl Te	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/4-Tl2Se3-monoclinic	nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/4-Tl2Se3-monoclinic/2-opt2	opt-CONTCAR	2	Tl80Se120	Tl Se	80 120	200	
+nscc1741_XM/xumeng/12-ml-dielectric/6-C/2-CSe	nscc1741_XM/xumeng/12-ml-dielectric/6-C/2-CSe/2-opt2	opt-CONTCAR	1	C80Se120	C Se	80 120	200	
+nscc1741_XM/xumeng/12-ml-dielectric/6-C/3-CSe2-orthorhombic	nscc1741_XM/xumeng/12-ml-dielectric/6-C/3-CSe2-orthorhombic/2-opt2	opt-CONTCAR	2	C66Se134	C Se	66 134	200	
+nscc1741_XM/xumeng/12-ml-dielectric/60-GeSbSe	nscc1741_XM/xumeng/12-ml-dielectric/60-GeSbSe	opt-CONTCAR	1	Ge68Sb68Se170	Ge Sb Se	68 68 170	306	
+nscc1741_XM/xumeng/12-ml-dielectric/7-Si/1-SiS2-orthorhombic/a	nscc1741_XM/xumeng/12-ml-dielectric/7-Si/1-SiS2-orthorhombic/a/3-opt	opt-CONTCAR	1	Si66S132	Si S	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/7-Si/1-SiS2-orthorhombic/a/2-3000-300K	nscc1741_XM/xumeng/12-ml-dielectric/7-Si/1-SiS2-orthorhombic/a/2-3000-300K	md-first-frame	1	Si66S132	Si S	66 132	198	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/7-Si/2-SiSe2-orthorhombic/a	nscc1741_XM/xumeng/12-ml-dielectric/7-Si/2-SiSe2-orthorhombic/a/3-opt	opt-CONTCAR	1	Si66Se132	Si Se	66 132	198	
+nscc1741_XM/xumeng/12-ml-dielectric/7-Si/2-SiSe2-orthorhombic/a/2-3000-300K	nscc1741_XM/xumeng/12-ml-dielectric/7-Si/2-SiSe2-orthorhombic/a/2-3000-300K	md-first-frame	1	Si66Se132	Si Se	66 132	198	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/7-Si/SiS-orthorhombic-2d	nscc1741_XM/xumeng/12-ml-dielectric/7-Si/SiS-orthorhombic-2d/2-opt2	opt-CONTCAR	2	Si100S100	Si S	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/--GeTe2	nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/--GeTe2/2-opt2	opt-CONTCAR	2	Ge66Te134	Ge Te	66 134	200	
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/1-GeS-orthorhombic/1-c	nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/1-GeS-orthorhombic/1-c/opt3	opt-CONTCAR	1	Ge4S4	Ge S	4 4	8	
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/2-GeSe-orthorhombic/c-GeSe	nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/2-GeSe-orthorhombic/c-GeSe/opt3	opt-CONTCAR	1	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/3-GeTe	nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/3-GeTe/3-opt2	opt-CONTCAR	5	Ge100Te100	Ge Te	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/4-GeS2-monoclinic/a/a1	nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/4-GeS2-monoclinic/a/a1/3-opt	opt-CONTCAR	1	Ge100S200	Ge S	100 200	300	
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/1-SnS-orthorhombic	nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/1-SnS-orthorhombic/2-opt2	opt-CONTCAR	2	Sn150S150	Sn S	150 150	300	
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/2-SnSe-orthorhombic	nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/2-SnSe-orthorhombic/2-opt2	opt-CONTCAR	2	Sn100Se100	Sn Se	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/2-SnSe-orthorhombic/c	nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/2-SnSe-orthorhombic/c/opt3	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/3-SnTe-cubic	nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/3-SnTe-cubic/2-opt2	opt-CONTCAR	1	Sn100Te100	Sn Te	100 100	200	
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/4-SnS2-trigonal/a	nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/4-SnS2-trigonal/a/3-opt	opt-CONTCAR	1	Sn100S200	Sn S	100 200	300	
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/4-SnS2-trigonal/a/2-3000-300K	nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/4-SnS2-trigonal/a/2-3000-300K	md-first-frame	1	Sn100S200	Sn S	100 200	300	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/5-Sn2S3-orthorhombic/a	nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/5-Sn2S3-orthorhombic/a/3-opt	opt-CONTCAR	1	Sn120S180	Sn S	120 180	300	
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/5-Sn2S3-orthorhombic/a/2-3000-300K	nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/5-Sn2S3-orthorhombic/a/2-3000-300K	md-first-frame	1	Sn120S180	Sn S	120 180	300	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/6-SnSe2-trigonal/a	nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/6-SnSe2-trigonal/a/3-opt	opt-CONTCAR	2	Sn100Se200	Sn Se	100 200	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/1-Bi10	nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/1-Bi10/1-300K	md-first-frame	1	Sb66Se132	Sb Se	66 132	198	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/5-Bi50	nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/5-Bi50/1-300K	md-first-frame	1	Bi20Sb60Se120	Bi Sb Se	20 60 120	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/6-Bi60	nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/6-Bi60/1-300K	md-first-frame	1	Bi32Sb48Se120	Bi Sb Se	32 48 120	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/7-Bi70	nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/7-Bi70/1-300K	md-first-frame	1	Bi44Sb36Se120	Bi Sb Se	44 36 120	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/8-Bi80	nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/8-Bi80/1-300K	md-first-frame	1	Bi56Sb24Se120	Bi Sb Se	56 24 120	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/9-Bi90	nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/9-Bi90/1-300K	md-first-frame	1	Bi68Sb12Se120	Bi Sb Se	68 12 120	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/1-Sb10	nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/1-Sb10/1-300K	md-first-frame	1	Ge90Sb10Te100	Ge Sb Te	90 10 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/2-Sb20	nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/2-Sb20/1-300K	md-first-frame	1	Ge80Sb20Te100	Ge Sb Te	80 20 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/3-Sb30	nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/3-Sb30/1-300K	md-first-frame	1	Ge70Sb30Te100	Ge Sb Te	70 30 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/4-Sb40	nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/4-Sb40/1-300K	md-first-frame	1	Ge60Sb40Te100	Ge Sb Te	60 40 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/5-Sb50	nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/5-Sb50/1-300K	md-first-frame	1	Ge50Sb50Te100	Ge Sb Te	50 50 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/6-Sb60	nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/6-Sb60/1-300K	md-first-frame	1	Ge40Sb60Te100	Ge Sb Te	40 60 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/1-As10	nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/1-As10	md-first-frame	1	Ge135As15Se150	Ge As Se	135 15 150	300	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/2-As20	nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/2-As20	md-first-frame	1	Ge120As30Se150	Ge As Se	120 30 150	300	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/3-As30	nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/3-As30	md-first-frame	1	Ge105As45Se150	Ge As Se	105 45 150	300	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/4-As40	nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/4-As40	md-first-frame	1	Ge90As60Se150	Ge As Se	90 60 150	300	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/5-As50	nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/5-As50	md-first-frame	1	Ge75As75Se150	Ge As Se	75 75 150	300	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/6-As60	nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/6-As60	md-first-frame	1	Ge60As90Se150	Ge As Se	60 90 150	300	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/1-Sn10	nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/1-Sn10/1-300K	md-first-frame	1	Ge90Sn10Te100	Ge Sn Te	90 10 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/2-Sn20	nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/2-Sn20/1-300K	md-first-frame	1	Ge80Sn20Te100	Ge Sn Te	80 20 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/3-Sn30	nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/3-Sn30/1-300K	md-first-frame	1	Ge70Sn30Te100	Ge Sn Te	70 30 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/4-Sn40	nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/4-Sn40/1-300K	md-first-frame	1	Ge60Sn40Te100	Ge Sn Te	60 40 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/5-Sn50	nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/5-Sn50/1-300K	md-first-frame	1	Ge50Sn50Te100	Ge Sn Te	50 50 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/6-Sn60	nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/6-Sn60/1-300K	md-first-frame	1	Ge40Sn60Te100	Ge Sn Te	40 60 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/7-Sn70	nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/7-Sn70/1-300K	md-first-frame	1	Ge30Sn70Te100	Ge Sn Te	30 70 100	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/5-Ga-GeSe/1-Ga	nscc1741_XM/xumeng/12-ml-dielectric/dope/5-Ga-GeSe/1-Ga	md-first-frame	1	Ge135Ga15Se150	Ge Ga Se	135 15 150	300	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/5-Ga-GeSe/2-Ga	nscc1741_XM/xumeng/12-ml-dielectric/dope/5-Ga-GeSe/2-Ga	md-first-frame	1	Ge135Ga15Se150	Ge Ga Se	135 15 150	300	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/5-Ga-GeSe/3-Ga	nscc1741_XM/xumeng/12-ml-dielectric/dope/5-Ga-GeSe/3-Ga	md-first-frame	1	Ge120Ga30Se150	Ge Ga Se	120 30 150	300	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/Ge-Sb2Te3/0	nscc1741_XM/xumeng/12-ml-dielectric/dope/Ge-Sb2Te3/0/1-3000K	md-first-frame	1	Ge7Sb59Te132	Ge Sb Te	7 59 132	198	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/Ge-Sb2Te3/1-Ge	nscc1741_XM/xumeng/12-ml-dielectric/dope/Ge-Sb2Te3/1-Ge	md-first-frame	1	Sb72Ge8Te120	Sb Ge Te	72 8 120	200	300.0
+nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/10%	nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/10%	opt-CONTCAR	1	Ge150Te135Se15	Ge Te Se	150 135 15	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/20%	nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/20%	opt-CONTCAR	1	Ge150Te120Se30	Ge Te Se	150 120 30	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/30%	nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/30%	opt-CONTCAR	1	Ge150Te105Se45	Ge Te Se	150 105 45	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/4-40%	nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/4-40%	opt-CONTCAR	1	Ge150Te90Se60	Ge Te Se	150 90 60	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/5-50%	nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/5-50%	opt-CONTCAR	1	Ge150Te75Se75	Ge Te Se	150 75 75	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/6-60%	nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/6-60%	opt-CONTCAR	1	Ge150Te60Se90	Ge Te Se	150 60 90	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe	nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/3-opt	opt-CONTCAR	1	Sb120Se90Te90	Sb Se Te	120 90 90	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/10%	nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/10%	opt-CONTCAR	1	Sb120Se18Te162	Sb Se Te	120 18 162	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/3-30%	nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/3-30%	opt-CONTCAR	1	Sb120Se54Te126	Sb Se Te	120 54 126	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/4-40%	nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/4-40%	opt-CONTCAR	1	Sb120Se72Te108	Sb Se Te	120 72 108	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/6-60%	nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/6-60%	opt-CONTCAR	1	Sb120Se108Te72	Sb Se Te	120 108 72	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/7-70%	nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/7-70%	opt-CONTCAR	1	Sb120Se126Te54	Sb Se Te	120 126 54	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/8-80%	nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/8-80%	opt-CONTCAR	1	Sb120Se144Te36	Sb Se Te	120 144 36	300	
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/90%	nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/90%	opt-CONTCAR	1	Sb120Se162Te18	Sb Se Te	120 162 18	300	
+nscc1741_XM/xumeng/13-dielectric/1-GeS/1-c	nscc1741_XM/xumeng/13-dielectric/1-GeS/1-c/opt3	opt-CONTCAR	1	Ge4S4	Ge S	4 4	8	
+nscc1741_XM/xumeng/13-dielectric/2-SnSe/2-a	nscc1741_XM/xumeng/13-dielectric/2-SnSe/2-a/1-opt3	opt-CONTCAR	1	Sn150Se150	Sn Se	150 150	300	
+nscc1741_XM/xumeng/13-dielectric/2-SnSe/2-a/die	nscc1741_XM/xumeng/13-dielectric/2-SnSe/2-a/die	opt-CONTCAR	1	Sn150Se150	Sn Se	150 150	300	
+nscc1741_XM/xumeng/13-dielectric/2-SnSe/3-c	nscc1741_XM/xumeng/13-dielectric/2-SnSe/3-c/opt3	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/13-dielectric/2-SnSe/3-c/die	nscc1741_XM/xumeng/13-dielectric/2-SnSe/3-c/die	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/13-dielectric/3-GeSe2	nscc1741_XM/xumeng/13-dielectric/3-GeSe2/opt3	opt-CONTCAR	1	Ge24Se48	Ge Se	24 48	72	
+nscc1741_XM/xumeng/13-dielectric/4-As2S3	nscc1741_XM/xumeng/13-dielectric/4-As2S3/opt3	opt-CONTCAR	1	As8S12	As S	8 12	20	
+nscc1741_XM/xumeng/13-dielectric/5-As2Se3	nscc1741_XM/xumeng/13-dielectric/5-As2Se3/opt3	opt-CONTCAR	1	As8Se12	As Se	8 12	20	
+nscc1741_XM/xumeng/13-dielectric/6-ZnSe/2-die	nscc1741_XM/xumeng/13-dielectric/6-ZnSe/2-die	opt-CONTCAR	1	Zn2Se2	Zn Se	2 2	4	
+nscc1741_XM/xumeng/13-dielectric/PCMs/1-As2Te3-9897	nscc1741_XM/xumeng/13-dielectric/PCMs/1-As2Te3-9897/opt3	opt-CONTCAR	1	Te9As6	Te As	9 6	15	
+nscc1741_XM/xumeng/13-dielectric/PCMs/10-Bi8Te7	nscc1741_XM/xumeng/13-dielectric/PCMs/10-Bi8Te7/opt3	opt-CONTCAR	1	Bi24Te21	Bi Te	24 21	45	
+nscc1741_XM/xumeng/13-dielectric/PCMs/11-Bi8Te9	nscc1741_XM/xumeng/13-dielectric/PCMs/11-Bi8Te9/opt3	opt-CONTCAR	1	Bi24Te27	Bi Te	24 27	51	
+nscc1741_XM/xumeng/13-dielectric/PCMs/12-BiSb3Te6	nscc1741_XM/xumeng/13-dielectric/PCMs/12-BiSb3Te6/opt3	opt-CONTCAR	1	Bi3Sb9Te18	Bi Sb Te	3 9 18	30	
+nscc1741_XM/xumeng/13-dielectric/PCMs/13-BiSe	nscc1741_XM/xumeng/13-dielectric/PCMs/13-BiSe/opt3	opt-CONTCAR	1	Bi6Se6	Bi Se	6 6	12	
+nscc1741_XM/xumeng/13-dielectric/PCMs/14-BiTe	nscc1741_XM/xumeng/13-dielectric/PCMs/14-BiTe/opt3	opt-CONTCAR	1	Bi6Te6	Bi Te	6 6	12	
+nscc1741_XM/xumeng/13-dielectric/PCMs/15-BiSbTe3	nscc1741_XM/xumeng/13-dielectric/PCMs/15-BiSbTe3/opt3	opt-CONTCAR	1	Bi3Sb3Te9	Bi Sb Te	3 3 9	15	
+nscc1741_XM/xumeng/13-dielectric/PCMs/16-CdPbSe	nscc1741_XM/xumeng/13-dielectric/PCMs/16-CdPbSe/opt3	opt-CONTCAR	1	Cd3Pb9Se12	Cd Pb Se	3 9 12	24	
+nscc1741_XM/xumeng/13-dielectric/PCMs/17-Ge2Bi2Te5	nscc1741_XM/xumeng/13-dielectric/PCMs/17-Ge2Bi2Te5/opt3	opt-CONTCAR	1	Ge2Bi2Te5	Ge Bi Te	2 2 5	9	
+nscc1741_XM/xumeng/13-dielectric/PCMs/18-Ge2Sb2Te5	nscc1741_XM/xumeng/13-dielectric/PCMs/18-Ge2Sb2Te5/opt3	opt-CONTCAR	1	Ge2Sb2Te5	Ge Sb Te	2 2 5	9	
+nscc1741_XM/xumeng/13-dielectric/PCMs/19-Ge2Sb2Te5-2	nscc1741_XM/xumeng/13-dielectric/PCMs/19-Ge2Sb2Te5-2/opt3	opt-CONTCAR	1	Ge2Sb2Te5	Ge Sb Te	2 2 5	9	
+nscc1741_XM/xumeng/13-dielectric/PCMs/2-Bi14S8Te13	nscc1741_XM/xumeng/13-dielectric/PCMs/2-Bi14S8Te13/opt3	opt-CONTCAR	1	Bi42Te39S24	Bi Te S	42 39 24	105	
+nscc1741_XM/xumeng/13-dielectric/PCMs/20-Ge2TeSe	nscc1741_XM/xumeng/13-dielectric/PCMs/20-Ge2TeSe/opt3	opt-CONTCAR	1	Ge6Te3Se3	Ge Te Se	6 3 3	12	
+nscc1741_XM/xumeng/13-dielectric/PCMs/21-Ge3Te2Se	nscc1741_XM/xumeng/13-dielectric/PCMs/21-Ge3Te2Se/opt3	opt-CONTCAR	1	Ge3Te2Se1	Ge Te Se	3 2 1	6	
+nscc1741_XM/xumeng/13-dielectric/PCMs/22-GeAs2Te4	nscc1741_XM/xumeng/13-dielectric/PCMs/22-GeAs2Te4/opt3	opt-CONTCAR	1	Ge3Te12As6	Ge Te As	3 12 6	21	
+nscc1741_XM/xumeng/13-dielectric/PCMs/23-GeAs4Te7	nscc1741_XM/xumeng/13-dielectric/PCMs/23-GeAs4Te7/opt3	opt-CONTCAR	1	Ge1Te7As4	Ge Te As	1 7 4	12	
+nscc1741_XM/xumeng/13-dielectric/PCMs/24-GePb4Te5	nscc1741_XM/xumeng/13-dielectric/PCMs/24-GePb4Te5/opt3	opt-CONTCAR	1	Ge3Te15Pb12	Ge Te Pb	3 15 12	30	
+nscc1741_XM/xumeng/13-dielectric/PCMs/25-GeSb2Te4	nscc1741_XM/xumeng/13-dielectric/PCMs/25-GeSb2Te4/opt3	opt-CONTCAR	1	Ge3Sb6Te12	Ge Sb Te	3 6 12	21	
+nscc1741_XM/xumeng/13-dielectric/PCMs/26-GeSb2Te4-2	nscc1741_XM/xumeng/13-dielectric/PCMs/26-GeSb2Te4-2/opt3	opt-CONTCAR	1	Ge3Sb6Te12	Ge Sb Te	3 6 12	21	
+nscc1741_XM/xumeng/13-dielectric/PCMs/27-GeSb4Te4	nscc1741_XM/xumeng/13-dielectric/PCMs/27-GeSb4Te4/opt3	opt-CONTCAR	1	Ge1Sb4Te4	Ge Sb Te	1 4 4	9	
+nscc1741_XM/xumeng/13-dielectric/PCMs/28-GeSb4Te7	nscc1741_XM/xumeng/13-dielectric/PCMs/28-GeSb4Te7/opt3	opt-CONTCAR	1	Ge1Sb4Te7	Ge Sb Te	1 4 7	12	
+nscc1741_XM/xumeng/13-dielectric/PCMs/29-GeSb	nscc1741_XM/xumeng/13-dielectric/PCMs/29-GeSb/opt3	opt-CONTCAR	1	Ge4Sb4	Ge Sb	4 4	8	
+nscc1741_XM/xumeng/13-dielectric/PCMs/3-Bi2Se2Te	nscc1741_XM/xumeng/13-dielectric/PCMs/3-Bi2Se2Te/opt3	opt-CONTCAR	1	Bi6Te3Se6	Bi Te Se	6 3 6	15	
+nscc1741_XM/xumeng/13-dielectric/PCMs/31-InBi3Se6	nscc1741_XM/xumeng/13-dielectric/PCMs/31-InBi3Se6/opt3	opt-CONTCAR	1	In3Bi9Se18	In Bi Se	3 9 18	30	
+nscc1741_XM/xumeng/13-dielectric/PCMs/32-K2Bi8Se13	nscc1741_XM/xumeng/13-dielectric/PCMs/32-K2Bi8Se13/opt3	opt-CONTCAR	1	K4Bi16Se26	K Bi Se	4 16 26	46	
+nscc1741_XM/xumeng/13-dielectric/PCMs/33-KBiSe2	nscc1741_XM/xumeng/13-dielectric/PCMs/33-KBiSe2/opt3	opt-CONTCAR	1	K4Bi4Se8	K Bi Se	4 4 8	16	
+nscc1741_XM/xumeng/13-dielectric/PCMs/34-Pb2Bi2Se5	nscc1741_XM/xumeng/13-dielectric/PCMs/34-Pb2Bi2Se5/opt3	opt-CONTCAR	1	Bi2Pb2Se5	Bi Pb Se	2 2 5	9	
+nscc1741_XM/xumeng/13-dielectric/PCMs/35-PbBi2Se4	nscc1741_XM/xumeng/13-dielectric/PCMs/35-PbBi2Se4/opt3	opt-CONTCAR	1	Bi6Pb3Se12	Bi Pb Se	6 3 12	21	
+nscc1741_XM/xumeng/13-dielectric/PCMs/36-PbBi2Te4	nscc1741_XM/xumeng/13-dielectric/PCMs/36-PbBi2Te4/opt3	opt-CONTCAR	1	Bi6Te12Pb3	Bi Te Pb	6 12 3	21	
+nscc1741_XM/xumeng/13-dielectric/PCMs/37-PbBi2Te4-2	nscc1741_XM/xumeng/13-dielectric/PCMs/37-PbBi2Te4-2/opt3	opt-CONTCAR	1	Bi6Te12Pb3	Bi Te Pb	6 12 3	21	
+nscc1741_XM/xumeng/13-dielectric/PCMs/38-PbBi4Te7	nscc1741_XM/xumeng/13-dielectric/PCMs/38-PbBi4Te7/opt3	opt-CONTCAR	1	Bi4Te7Pb1	Bi Te Pb	4 7 1	12	
+nscc1741_XM/xumeng/13-dielectric/PCMs/39-PbBi6Te10	nscc1741_XM/xumeng/13-dielectric/PCMs/39-PbBi6Te10/opt3	opt-CONTCAR	1	Bi18Te30Pb3	Bi Te Pb	18 30 3	51	
+nscc1741_XM/xumeng/13-dielectric/PCMs/4-Bi2Se2Te-2	nscc1741_XM/xumeng/13-dielectric/PCMs/4-Bi2Se2Te-2/opt3	opt-CONTCAR	1	Bi6Te3Se6	Bi Te Se	6 3 6	15	
+nscc1741_XM/xumeng/13-dielectric/PCMs/40-PbSb4Te7	nscc1741_XM/xumeng/13-dielectric/PCMs/40-PbSb4Te7/opt3	opt-CONTCAR	1	Sb4Te7Pb1	Sb Te Pb	4 7 1	12	
+nscc1741_XM/xumeng/13-dielectric/PCMs/41-Sb16Te3	nscc1741_XM/xumeng/13-dielectric/PCMs/41-Sb16Te3/opt3	opt-CONTCAR	1	Sb48Te9	Sb Te	48 9	57	
+nscc1741_XM/xumeng/13-dielectric/PCMs/42-Sb2Se2Te	nscc1741_XM/xumeng/13-dielectric/PCMs/42-Sb2Se2Te/opt3	opt-CONTCAR	1	Sb6Te3Se6	Sb Te Se	6 3 6	15	
+nscc1741_XM/xumeng/13-dielectric/PCMs/43-Sb2SeTe2	nscc1741_XM/xumeng/13-dielectric/PCMs/43-Sb2SeTe2/opt3	opt-CONTCAR	1	Sb6Te6Se3	Sb Te Se	6 6 3	15	
+nscc1741_XM/xumeng/13-dielectric/PCMs/44-Sb2Te	nscc1741_XM/xumeng/13-dielectric/PCMs/44-Sb2Te/opt3	opt-CONTCAR	1	Sb6Te3	Sb Te	6 3	9	
+nscc1741_XM/xumeng/13-dielectric/PCMs/45-Sb8Te3	nscc1741_XM/xumeng/13-dielectric/PCMs/45-Sb8Te3/opt3	opt-CONTCAR	1	Sb24Te9	Sb Te	24 9	33	
+nscc1741_XM/xumeng/13-dielectric/PCMs/46-SbTe	nscc1741_XM/xumeng/13-dielectric/PCMs/46-SbTe/opt3	opt-CONTCAR	1	Sb6Te6	Sb Te	6 6	12	
+nscc1741_XM/xumeng/13-dielectric/PCMs/47-Sn2GeTe3	nscc1741_XM/xumeng/13-dielectric/PCMs/47-Sn2GeTe3/opt3	opt-CONTCAR	1	Sn2Ge1Te3	Sn Ge Te	2 1 3	6	
+nscc1741_XM/xumeng/13-dielectric/PCMs/48-SnBi4Te7	nscc1741_XM/xumeng/13-dielectric/PCMs/48-SnBi4Te7/opt3	opt-CONTCAR	1	Sn1Bi4Te7	Sn Bi Te	1 4 7	12	
+nscc1741_XM/xumeng/13-dielectric/PCMs/49-SnSb2Te4	nscc1741_XM/xumeng/13-dielectric/PCMs/49-SnSb2Te4/opt3	opt-CONTCAR	1	Sn3Sb6Te12	Sn Sb Te	3 6 12	21	
+nscc1741_XM/xumeng/13-dielectric/PCMs/5-Bi4S3Te3	nscc1741_XM/xumeng/13-dielectric/PCMs/5-Bi4S3Te3/opt3	opt-CONTCAR	1	Bi12Te9S9	Bi Te S	12 9 9	30	
+nscc1741_XM/xumeng/13-dielectric/PCMs/50-In3SbTe2	nscc1741_XM/xumeng/13-dielectric/PCMs/50-In3SbTe2/opt3	opt-CONTCAR	1	In3Sb1Te2	In Sb Te	3 1 2	6	
+nscc1741_XM/xumeng/13-dielectric/PCMs/6-Bi4Se3	nscc1741_XM/xumeng/13-dielectric/PCMs/6-Bi4Se3/opt3	opt-CONTCAR	1	Bi12Se9	Bi Se	12 9	21	
+nscc1741_XM/xumeng/13-dielectric/PCMs/7-Bi4Te3	nscc1741_XM/xumeng/13-dielectric/PCMs/7-Bi4Te3/opt3	opt-CONTCAR	1	Bi12Te9	Bi Te	12 9	21	
+nscc1741_XM/xumeng/13-dielectric/PCMs/8-Bi8Se7	nscc1741_XM/xumeng/13-dielectric/PCMs/8-Bi8Se7/opt3	opt-CONTCAR	1	Bi24Se21	Bi Se	24 21	45	
+nscc1741_XM/xumeng/13-dielectric/PCMs/9-Bi8Se9	nscc1741_XM/xumeng/13-dielectric/PCMs/9-Bi8Se9/opt3	opt-CONTCAR	1	Bi24Se27	Bi Se	24 27	51	
+nscc1741_XM/xumeng/14-elf-born/GeSe/3-die	nscc1741_XM/xumeng/14-elf-born/GeSe/3-die	opt-CONTCAR	1	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/14-elf-born/GeTe	nscc1741_XM/xumeng/14-elf-born/GeTe/opt3	opt-CONTCAR	1	Ge3Te3	Ge Te	3 3	6	
+nscc1741_XM/xumeng/2-Sb-PCM/1-Sb/1-Sb	nscc1741_XM/xumeng/2-Sb-PCM/1-Sb/1-Sb/2-opt2	opt-CONTCAR	2	Sb300	Sb	300	300	
+nscc1741_XM/xumeng/2-Sb-PCM/1-Sb/2-Sb	nscc1741_XM/xumeng/2-Sb-PCM/1-Sb/2-Sb/3-opt2	opt-CONTCAR	1	Sb300	Sb	300	300	
+nscc1741_XM/xumeng/2-Sb-PCM/1-Sb/2-Sb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/1-Sb/2-Sb/2-MD-3000	md-first-frame	1	Sb300	Sb	300	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/1-Sb/crystal	nscc1741_XM/xumeng/2-Sb-PCM/1-Sb/crystal/1-opt3	opt-CONTCAR	1	Sb48	Sb	48	48	
+nscc1741_XM/xumeng/2-Sb-PCM/10-AlSb/1-AlSb	nscc1741_XM/xumeng/2-Sb-PCM/10-AlSb/1-AlSb/3-opt2	opt-CONTCAR	2	Al45Sb255	Al Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/10-AlSb/1-AlSb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/10-AlSb/1-AlSb/2-MD-3000	md-first-frame	1	Al45Sb255	Al Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/11-TiSb/1-TiSb	nscc1741_XM/xumeng/2-Sb-PCM/11-TiSb/1-TiSb/3-opt2	opt-CONTCAR	2	Ti45Sb255	Ti Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/11-TiSb/1-TiSb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/11-TiSb/1-TiSb/2-MD-3000	md-first-frame	1	Ti45Sb255	Ti Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/12-ScSb	nscc1741_XM/xumeng/2-Sb-PCM/12-ScSb/3-opt2	opt-CONTCAR	2	Sc45Sb255	Sc Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/12-ScSb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/12-ScSb/2-MD-3000	md-first-frame	1	Sc45Sb255	Sc Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/12-ScSb/crystal	nscc1741_XM/xumeng/2-Sb-PCM/12-ScSb/crystal/1-opt3	opt-CONTCAR	1	Sb41Sc7	Sb Sc	41 7	48	
+nscc1741_XM/xumeng/2-Sb-PCM/13-YSb	nscc1741_XM/xumeng/2-Sb-PCM/13-YSb/3-opt2	opt-CONTCAR	2	Y45Sb255	Y Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/13-YSb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/13-YSb/2-MD-3000	md-first-frame	1	Y45Sb255	Y Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/13-YSb/crystal	nscc1741_XM/xumeng/2-Sb-PCM/13-YSb/crystal/1-opt3	opt-CONTCAR	1	Sb41Y7	Sb Y	41 7	48	
+nscc1741_XM/xumeng/2-Sb-PCM/14-ZrSb	nscc1741_XM/xumeng/2-Sb-PCM/14-ZrSb/3-opt2	opt-CONTCAR	2	Zr45Sb255	Zr Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/14-ZrSb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/14-ZrSb/2-MD-3000	md-first-frame	1	Zr45Sb255	Zr Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/14-ZrSb/crystal	nscc1741_XM/xumeng/2-Sb-PCM/14-ZrSb/crystal/1-opt3	opt-CONTCAR	1	Sb41Zr7	Sb Zr	41 7	48	
+nscc1741_XM/xumeng/2-Sb-PCM/17-CdSb	nscc1741_XM/xumeng/2-Sb-PCM/17-CdSb/3-opt2	opt-CONTCAR	3	Cd45Sb255	Cd Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/17-CdSb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/17-CdSb/2-MD-3000	md-first-frame	1	Cd45Sb255	Cd Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/17-CdSb/crystal	nscc1741_XM/xumeng/2-Sb-PCM/17-CdSb/crystal/1-opt3	opt-CONTCAR	1	Sb41Cd7	Sb Cd	41 7	48	
+nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/1-SnSb	nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/1-SnSb/3-opt2	opt-CONTCAR	1	Sn45Sb255	Sn Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/1-SnSb/2-MD-300K	nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/1-SnSb/2-MD-300K	md-first-frame	1	Sn45Sb255	Sn Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/2-SnSb	nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/2-SnSb/3-opt2	opt-CONTCAR	1	Sn45Sb255	Sn Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/2-SnSb/2-MD-3000K	nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/2-SnSb/2-MD-3000K	md-first-frame	1	Sn45Sb255	Sn Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/crystal	nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/crystal/1-opt3	opt-CONTCAR	1	Sb41Sn7	Sb Sn	41 7	48	
+nscc1741_XM/xumeng/2-Sb-PCM/4-GaSb	nscc1741_XM/xumeng/2-Sb-PCM/4-GaSb/3-opt2	opt-CONTCAR	1	Ga45Sb255	Ga Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/4-GaSb/2-MD-300K	nscc1741_XM/xumeng/2-Sb-PCM/4-GaSb/2-MD-300K	md-first-frame	1	Ga45Sb255	Ga Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/4-GaSb/crystal	nscc1741_XM/xumeng/2-Sb-PCM/4-GaSb/crystal/1-opt3	opt-CONTCAR	1	Sb41Ga7	Sb Ga	41 7	48	
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/1-InSb	nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/1-InSb/3-opt2	opt-CONTCAR	1	In45Sb255	In Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/1-InSb/2-MD-300K	nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/1-InSb/2-MD-300K	md-first-frame	1	In45Sb255	In Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/2-InSb	nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/2-InSb/3-opt2	opt-CONTCAR	1	In45Sb255	In Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/2-InSb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/2-InSb/2-MD-3000	md-first-frame	1	In45Sb255	In Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/3-InSb	nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/3-InSb/3-opt2	opt-CONTCAR	1	In45Sb255	In Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/3-InSb/4-MD-300	nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/3-InSb/4-MD-300	md-first-frame	1	In45Sb255	In Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/crystal	nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/crystal/1-opt3	opt-CONTCAR	1	Sb41In7	Sb In	41 7	48	
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/1-ZnSb	nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/1-ZnSb/3-opt2	opt-CONTCAR	4	Zn45Sb255	Zn Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/1-ZnSb/2-MD-300K	nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/1-ZnSb/2-MD-300K	md-first-frame	1	Zn45Sb255	Zn Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/3-ZnSb	nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/3-ZnSb/3-opt2	opt-CONTCAR	4	Zn45Sb255	Zn Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/3-ZnSb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/3-ZnSb/2-MD-3000	md-first-frame	1	Zn45Sb255	Zn Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/GST225	nscc1741_XM/xumeng/2-Sb-PCM/GST225/1-300K	md-first-frame	3	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/crystal	nscc1741_XM/xumeng/2-Sb-PCM/crystal/1-opt3	opt-CONTCAR	1	Sb48	Sb	48	48	
+nscc1741_XM/xumeng/2-Sb-PCM/o/2-GeSb	nscc1741_XM/xumeng/2-Sb-PCM/o/2-GeSb/3-opt2	opt-CONTCAR	1	Ge45Sb255	Ge Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/o/2-GeSb/2-MD-300K	nscc1741_XM/xumeng/2-Sb-PCM/o/2-GeSb/2-MD-300K	md-first-frame	1	Ge45Sb255	Ge Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/o/2-GeSb/6-MD-300K	nscc1741_XM/xumeng/2-Sb-PCM/o/2-GeSb/6-MD-300K	md-first-frame	1	Ge45Sb255	Ge Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/o/2-GeSb/crystal	nscc1741_XM/xumeng/2-Sb-PCM/o/2-GeSb/crystal	opt-CONTCAR	1	Sb43Ge5	Sb Ge	43 5	48	
+nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/1-CuSb	nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/1-CuSb/3-opt2	opt-CONTCAR	3	Cu45Sb255	Cu Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/1-CuSb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/1-CuSb/2-MD-3000	md-first-frame	1	Cu45Sb255	Cu Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/3-CuSb	nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/3-CuSb/3-opt2	opt-CONTCAR	2	Cu45Sb255	Cu Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/3-CuSb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/3-CuSb/2-MD-3000	md-first-frame	1	Cu45Sb255	Cu Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/1-AgSb	nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/1-AgSb/3-opt2	opt-CONTCAR	2	Ag45Sb255	Ag Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/1-AgSb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/1-AgSb/2-MD-3000	md-first-frame	1	Ag45Sb255	Ag Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/2-AgSb	nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/2-AgSb/3-opt2	opt-CONTCAR	2	Ag45Sb255	Ag Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/2-AgSb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/2-AgSb/2-MD-3000	md-first-frame	1	Ag45Sb255	Ag Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/o/9-SiSb/1-SiSb	nscc1741_XM/xumeng/2-Sb-PCM/o/9-SiSb/1-SiSb/3-opt2	opt-CONTCAR	2	Si45Sb255	Si Sb	45 255	300	
+nscc1741_XM/xumeng/2-Sb-PCM/o/9-SiSb/1-SiSb/2-MD-3000	nscc1741_XM/xumeng/2-Sb-PCM/o/9-SiSb/1-SiSb/2-MD-3000	md-first-frame	1	Si45Sb255	Si Sb	45 255	300	300.0
+nscc1741_XM/xumeng/2-Sb-PCM/o/9-SiSb/2-SiSb	nscc1741_XM/xumeng/2-Sb-PCM/o/9-SiSb/2-SiSb/2-300K	md-first-frame	1	Si45Sb255	Si Sb	45 255	300	300.0
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/3-GeTe	nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/3-GeTe/1-opt2	opt-CONTCAR	2	Ge150Te150	Ge Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/3-GeTe/4-MD-300-3000	nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/3-GeTe/4-MD-300-3000	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/4-SnTe	nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/4-SnTe/1-opt2	opt-CONTCAR	2	Sn150Te150	Sn Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/4-SnTe/4-MD-300-3000	nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/4-SnTe/4-MD-300-3000	md-first-frame	1	Sn150Te150	Sn Te	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/6-BTe/1-dos	nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/6-BTe/1-dos/1-opt2	opt-CONTCAR	1	B75Te225	B Te	75 225	300	
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/6-BTe/1-dos/0-a/2-300	nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/6-BTe/1-dos/0-a/2-300	md-first-frame	1	B75Te225	B Te	75 225	300	300.0
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/8-GeSeTe	nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/8-GeSeTe/1-opt2	opt-CONTCAR	1	Ge150Se39Te111	Ge Se Te	150 39 111	300	
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/8-GeSeTe/0-a	nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/8-GeSeTe/0-a	md-first-frame	1	Ge150Se39Te111	Ge Se Te	150 39 111	300	300.0
+nscc1741_XM/xumeng/3-OTS/1-GeSe/0-dos/1-SnTe-GeSe	nscc1741_XM/xumeng/3-OTS/1-GeSe/0-dos/1-SnTe-GeSe/1-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/0-dos/2-SnTe-GeSe	nscc1741_XM/xumeng/3-OTS/1-GeSe/0-dos/2-SnTe-GeSe/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/1-dos-T	nscc1741_XM/xumeng/3-OTS/1-GeSe/1-dos-T/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/1-dos-T/4-MD-300-3000	nscc1741_XM/xumeng/3-OTS/1-GeSe/1-dos-T/4-MD-300-3000	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/1-GeSe/10-dos	nscc1741_XM/xumeng/3-OTS/1-GeSe/10-dos/2-opt2	opt-CONTCAR	3	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/11-dos	nscc1741_XM/xumeng/3-OTS/1-GeSe/11-dos/2-opt2	opt-CONTCAR	2	Ge149Se151	Ge Se	149 151	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/5-dos-T	nscc1741_XM/xumeng/3-OTS/1-GeSe/5-dos-T/3-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/5-dos-T/0-GeSe	nscc1741_XM/xumeng/3-OTS/1-GeSe/5-dos-T/0-GeSe/1-opt2	opt-CONTCAR	1	Ge149Se151	Ge Se	149 151	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/6-dos	nscc1741_XM/xumeng/3-OTS/1-GeSe/6-dos/7-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/6-dos/1-1500-300k	nscc1741_XM/xumeng/3-OTS/1-GeSe/6-dos/1-1500-300k	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/1-GeSe/7-dos	nscc1741_XM/xumeng/3-OTS/1-GeSe/7-dos/2-opt2	opt-CONTCAR	4	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/1-300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/1-2%	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/1-2%/2-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/2-5%	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/2-5%/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/3-10%	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/3-10%/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/4-7%	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/4-7%/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/5-3%	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/5-3%/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/6-4%	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/6-4%/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/7-6%	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/7-6%/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/7-MD-3000	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/7-MD-3000	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/4-rebuild	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/4-rebuild/14-opt2	opt-CONTCAR	7	Ge152Se151	Ge Se	152 151	303	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/5-rebuild	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/5-rebuild/2-opt2	opt-CONTCAR	8	Ge151Se151	Ge Se	151 151	302	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/5-rebuild/3-dos-T	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/5-rebuild/3-dos-T/2-opt2	opt-CONTCAR	1	Ge151Se151	Ge Se	151 151	302	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/2-Ge+Se	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/2-Ge+Se/2-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/3-Ge+Se+Ge	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/3-Ge+Se+Ge/2-opt2	opt-CONTCAR	3	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/9-fix-atoms/1-break-chain	nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/9-fix-atoms/1-break-chain/1-opt2	opt-CONTCAR	1	Ge149Se149	Ge Se	149 149	298	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/9-dos	nscc1741_XM/xumeng/3-OTS/1-GeSe/9-dos/1-300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/1-GeSe/C-GeSe	nscc1741_XM/xumeng/3-OTS/1-GeSe/C-GeSe/2-opt2	opt-CONTCAR	1	Ge149Se150C1	Ge Se C	149 150 1	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/C-GeSe/5-opt2-As	nscc1741_XM/xumeng/3-OTS/1-GeSe/C-GeSe/5-opt2-As	opt-CONTCAR	1	Ge149Se150As1	Ge Se As	149 150 1	300	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/Tem-dos/15-1000-300k	nscc1741_XM/xumeng/3-OTS/1-GeSe/Tem-dos/15-1000-300k	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/1-GeSe/aging/1-MD-300K	nscc1741_XM/xumeng/3-OTS/1-GeSe/aging/1-MD-300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/0-Se-doped	nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/0-Se-doped/1-opt3	opt-CONTCAR	1	Ge32Se33	Ge Se	32 33	65	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/1-GeSe	nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/1-GeSe/1-opt3	opt-CONTCAR	2	Ge32Se32	Ge Se	32 32	64	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/2-GeSe-Ge-doped	nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/2-GeSe-Ge-doped/1-opt3	opt-CONTCAR	1	Ge33Se32	Ge Se	33 32	65	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/3-GeSe+Se	nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/3-GeSe+Se/7-opt3	opt-CONTCAR	4	Ge128Se129	Ge Se	128 129	257	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/3-GeSe+Se/10-opt2-removeSe	nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/3-GeSe+Se/10-opt2-removeSe	opt-CONTCAR	1	Ge128Se129	Ge Se	128 129	257	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/4-GeSe1+1Se	nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/4-GeSe1+1Se/1-opt3	opt-CONTCAR	1	Ge33Se32	Ge Se	33 32	65	
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/5-GeSe-As-doped	nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/5-GeSe-As-doped/1-opt3	opt-CONTCAR	3	Ge30As2Se32	Ge As Se	30 2 32	64	
+nscc1741_XM/xumeng/3-OTS/11-AsTe/1-dos	nscc1741_XM/xumeng/3-OTS/11-AsTe/1-dos/1-opt2	opt-CONTCAR	8	As150Te150	As Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/11-AsTe/2-dos	nscc1741_XM/xumeng/3-OTS/11-AsTe/2-dos/2-opt2	opt-CONTCAR	4	As150Te150	As Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/11-AsTe/3-dos	nscc1741_XM/xumeng/3-OTS/11-AsTe/3-dos/2-opt2	opt-CONTCAR	3	As150Te150	As Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/11-AsTe/4-dos	nscc1741_XM/xumeng/3-OTS/11-AsTe/4-dos/2-opt2	opt-CONTCAR	2	As150Te150	As Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/11-AsTe/5-dos	nscc1741_XM/xumeng/3-OTS/11-AsTe/5-dos/2-opt2	opt-CONTCAR	2	As150Te150	As Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/11-AsTe/AsSe	nscc1741_XM/xumeng/3-OTS/11-AsTe/AsSe/2-opt2	opt-CONTCAR	5	As150Se150	As Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/12-AlTe/0-Al2Te3	nscc1741_XM/xumeng/3-OTS/12-AlTe/0-Al2Te3/2-opt2	opt-CONTCAR	7	Al120Te180	Al Te	120 180	300	
+nscc1741_XM/xumeng/3-OTS/12-AlTe/0-Al2Te3/12-dos-T	nscc1741_XM/xumeng/3-OTS/12-AlTe/0-Al2Te3/12-dos-T/2-opt2	opt-CONTCAR	1	Al120Te179	Al Te	120 179	299	
+nscc1741_XM/xumeng/3-OTS/12-AlTe/1-dos	nscc1741_XM/xumeng/3-OTS/12-AlTe/1-dos/1-opt2	opt-CONTCAR	5	Al150Te150	Al Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/12-AlTe/2-dos	nscc1741_XM/xumeng/3-OTS/12-AlTe/2-dos/2-opt2	opt-CONTCAR	2	Al150Te150	Al Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/12-AlTe/3-dos	nscc1741_XM/xumeng/3-OTS/12-AlTe/3-dos/2-opt2	opt-CONTCAR	3	Al150Te150	Al Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/12-AlTe/4-dos	nscc1741_XM/xumeng/3-OTS/12-AlTe/4-dos/2-opt2	opt-CONTCAR	1	Al150Te150	Al Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/12-AlTe/design	nscc1741_XM/xumeng/3-OTS/12-AlTe/design/2-opt2	opt-CONTCAR	3	Al153Te151	Al Te	153 151	304	
+nscc1741_XM/xumeng/3-OTS/13-SnSe	nscc1741_XM/xumeng/3-OTS/13-SnSe/2-opt2	opt-CONTCAR	2	Sn150Se150	Sn Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/13-SnSe/7-MD-300K	nscc1741_XM/xumeng/3-OTS/13-SnSe/7-MD-300K	md-first-frame	1	Sn150Se150	Sn Se	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/13-SnSe/GeSe-opt	nscc1741_XM/xumeng/3-OTS/13-SnSe/GeSe-opt	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/14-BTe/0-a	nscc1741_XM/xumeng/3-OTS/14-BTe/0-a/3-opt2	opt-CONTCAR	1	B120Te180	B Te	120 180	300	
+nscc1741_XM/xumeng/3-OTS/14-BTe/1-dos	nscc1741_XM/xumeng/3-OTS/14-BTe/1-dos/2-opt2	opt-CONTCAR	3	B120Te180	B Te	120 180	300	
+nscc1741_XM/xumeng/3-OTS/14-BTe/2-dos	nscc1741_XM/xumeng/3-OTS/14-BTe/2-dos/1-opt2	opt-CONTCAR	2	B120Te180	B Te	120 180	300	
+nscc1741_XM/xumeng/3-OTS/15-GaTe/1-dos	nscc1741_XM/xumeng/3-OTS/15-GaTe/1-dos/2-opt2	opt-CONTCAR	4	Ga120Te180	Ga Te	120 180	300	
+nscc1741_XM/xumeng/3-OTS/15-GaTe/1-dos/4-MD-300K	nscc1741_XM/xumeng/3-OTS/15-GaTe/1-dos/4-MD-300K	md-first-frame	1	Ga120Te180	Ga Te	120 180	300	300.0
+nscc1741_XM/xumeng/3-OTS/15-GaTe/2-dos	nscc1741_XM/xumeng/3-OTS/15-GaTe/2-dos/2-opt2	opt-CONTCAR	1	Ga120Te180	Ga Te	120 180	300	
+nscc1741_XM/xumeng/3-OTS/16-GaSe/1-dos	nscc1741_XM/xumeng/3-OTS/16-GaSe/1-dos/2-opt2	opt-CONTCAR	3	Ga150Se150	Ga Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/16-GaSe/2-dos	nscc1741_XM/xumeng/3-OTS/16-GaSe/2-dos/2-opt2	opt-CONTCAR	4	Ga150Se150	Ga Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/16-GaSe/3-dos	nscc1741_XM/xumeng/3-OTS/16-GaSe/3-dos/2-opt2	opt-CONTCAR	1	Ga150Se150	Ga Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/17-GaS	nscc1741_XM/xumeng/3-OTS/17-GaS/2-opt2	opt-CONTCAR	2	Ga150S150	Ga S	150 150	300	
+nscc1741_XM/xumeng/3-OTS/18-InSe	nscc1741_XM/xumeng/3-OTS/18-InSe/2-opt2	opt-CONTCAR	3	In150Se150	In Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/19-BiSe	nscc1741_XM/xumeng/3-OTS/19-BiSe/2-opt2	opt-CONTCAR	3	Bi120Se180	Bi Se	120 180	300	
+nscc1741_XM/xumeng/3-OTS/2-SiTe/1-dos	nscc1741_XM/xumeng/3-OTS/2-SiTe/1-dos/1-opt2	opt-CONTCAR	5	Si150Te150	Si Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/2-SiTe/1-dos/4-MD-300-3000	nscc1741_XM/xumeng/3-OTS/2-SiTe/1-dos/4-MD-300-3000	md-first-frame	1	Si150Te150	Si Te	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/2-SiTe/3-dos	nscc1741_XM/xumeng/3-OTS/2-SiTe/3-dos/1-opt2	opt-CONTCAR	2	Si150Te150	Si Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/2-SiTe/dos2	nscc1741_XM/xumeng/3-OTS/2-SiTe/dos2/1-opt2	opt-CONTCAR	4	Si150Te150	Si Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/3-GeS/1-dos	nscc1741_XM/xumeng/3-OTS/3-GeS/1-dos/1-opt2	opt-CONTCAR	6	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xumeng/3-OTS/3-GeS/2-dos	nscc1741_XM/xumeng/3-OTS/3-GeS/2-dos/1-opt2	opt-CONTCAR	4	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos	nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/1-opt2	opt-CONTCAR	5	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/6-dos-m	nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/6-dos-m/2-opt2	opt-CONTCAR	2	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/new	nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/new/1-opt2	opt-CONTCAR	3	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xumeng/3-OTS/3-GeS/4-dos-F	nscc1741_XM/xumeng/3-OTS/3-GeS/4-dos-F/1-opt2	opt-CONTCAR	4	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xumeng/3-OTS/3-GeS/5-dos-F	nscc1741_XM/xumeng/3-OTS/3-GeS/5-dos-F/1-opt2	opt-CONTCAR	4	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xumeng/3-OTS/3-GeS/6-dos-T	nscc1741_XM/xumeng/3-OTS/3-GeS/6-dos-T/1-opt2	opt-CONTCAR	5	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xumeng/3-OTS/3-GeS/8-dos2-GeS	nscc1741_XM/xumeng/3-OTS/3-GeS/8-dos2-GeS/1-opt2	opt-CONTCAR	3	Ge150S150	Ge S	150 150	300	
+nscc1741_XM/xumeng/3-OTS/4-SiSe/1-dos	nscc1741_XM/xumeng/3-OTS/4-SiSe/1-dos/1-opt2	opt-CONTCAR	4	Si150Se150	Si Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/4-SiSe/1-dos/0-a	nscc1741_XM/xumeng/3-OTS/4-SiSe/1-dos/0-a/1-300K	md-first-frame	1	Si150Se150	Si Se	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/4-SiSe/2-dos-f/0-a	nscc1741_XM/xumeng/3-OTS/4-SiSe/2-dos-f/0-a/2-opt2	opt-CONTCAR	3	Si150Se150	Si Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/4-SiSe/3-dos	nscc1741_XM/xumeng/3-OTS/4-SiSe/3-dos/2-opt2	opt-CONTCAR	6	Si150Se150	Si Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos	nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/2-opt2	opt-CONTCAR	5	Si150Se150	Si Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/11-dos	nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/11-dos/2-opt2	opt-CONTCAR	3	Si150Se150	Si Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/7-dos	nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/7-dos/1-300K	md-first-frame	1	Si150Se150	Si Se	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T	nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/2-opt2	opt-CONTCAR	7	Si150Se150	Si Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/10-opy2	nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/10-opy2	opt-CONTCAR	1	Si150Se150	Si Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/13-dos-T	nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/13-dos-T/1-300K	md-first-frame	1	Si150Se150	Si Se	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/new	nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/new/4-opt2	opt-CONTCAR	3	Si150Se150	Si Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/4-SiSe/6-dos	nscc1741_XM/xumeng/3-OTS/4-SiSe/6-dos/2-opt2	opt-CONTCAR	2	Si150Se150	Si Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/5-GeSeAs25/1-dos	nscc1741_XM/xumeng/3-OTS/5-GeSeAs25/1-dos/2-opt2	opt-CONTCAR	6	Ge90As60Se150	Ge As Se	90 60 150	300	
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/1-dos	nscc1741_XM/xumeng/3-OTS/6-GeSe2/1-dos/1-opt2	opt-CONTCAR	2	Ge100Se200	Ge Se	100 200	300	
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/1-dos/0-a	nscc1741_XM/xumeng/3-OTS/6-GeSe2/1-dos/0-a/2-300k	md-first-frame	1	Ge100Se200	Ge Se	100 200	300	300.0
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/2-dos	nscc1741_XM/xumeng/3-OTS/6-GeSe2/2-dos/1-opt2	opt-CONTCAR	2	Ge100Se200	Ge Se	100 200	300	
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/2-dos/0-a	nscc1741_XM/xumeng/3-OTS/6-GeSe2/2-dos/0-a/2-300k	md-first-frame	1	Ge100Se200	Ge Se	100 200	300	300.0
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/3-dos	nscc1741_XM/xumeng/3-OTS/6-GeSe2/3-dos/1-opt2	opt-CONTCAR	3	Ge100Se200	Ge Se	100 200	300	
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/3-dos/0-a	nscc1741_XM/xumeng/3-OTS/6-GeSe2/3-dos/0-a/2-300k	md-first-frame	1	Ge100Se200	Ge Se	100 200	300	300.0
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/4-dos-T	nscc1741_XM/xumeng/3-OTS/6-GeSe2/4-dos-T/3-opt2	opt-CONTCAR	2	Ge100Se200	Ge Se	100 200	300	
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/5-dos	nscc1741_XM/xumeng/3-OTS/6-GeSe2/5-dos/2-opt2	opt-CONTCAR	3	Ge100Se200	Ge Se	100 200	300	
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/1-dos	nscc1741_XM/xumeng/3-OTS/7-GeTe6/1-dos/2-opt2	opt-CONTCAR	7	Ge43Te257	Ge Te	43 257	300	
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/2-dos	nscc1741_XM/xumeng/3-OTS/7-GeTe6/2-dos/2-opt2	opt-CONTCAR	3	Ge43Te257	Ge Te	43 257	300	
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/3-dos	nscc1741_XM/xumeng/3-OTS/7-GeTe6/3-dos/2-opt2	opt-CONTCAR	3	Ge43Te257	Ge Te	43 257	300	
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/4-dos	nscc1741_XM/xumeng/3-OTS/7-GeTe6/4-dos/1-opt2	opt-CONTCAR	1	Ge43Te257	Ge Te	43 257	300	
+nscc1741_XM/xumeng/3-OTS/9-ZnTe/1-dos	nscc1741_XM/xumeng/3-OTS/9-ZnTe/1-dos/1-opt2	opt-CONTCAR	2	Zn150Te150	Zn Te	150 150	300	
+nscc1741_XM/xumeng/3-OTS/9-ZnTe/1-dos/a-300K	nscc1741_XM/xumeng/3-OTS/9-ZnTe/1-dos/a-300K	md-first-frame	1	Zn150Te150	Zn Te	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/GeS2	nscc1741_XM/xumeng/3-OTS/GeS2/2-opt2	opt-CONTCAR	1	Ge100S200	Ge S	100 200	300	
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/6-SiAsTe	nscc1741_XM/xumeng/3-OTS/OTS-3-4/6-SiAsTe/1-opt2	opt-CONTCAR	1	Si135AS30Te135	Si AS Te	135 30 135	300	
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/6-SiAsTe/4-MD-300-3000	nscc1741_XM/xumeng/3-OTS/OTS-3-4/6-SiAsTe/4-MD-300-3000	md-first-frame	1	Si135AS30Te135	Si AS Te	135 30 135	300	300.0
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/6-SiAsTe/a-300k	nscc1741_XM/xumeng/3-OTS/OTS-3-4/6-SiAsTe/a-300k	md-first-frame	1	Si135AS30Te135	Si AS Te	135 30 135	300	300.0
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/1-dos	nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/1-dos/1-opt2	opt-CONTCAR	1	Ge135As30Se135	Ge As Se	135 30 135	300	
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/1-dos/4-MD-300-3000	nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/1-dos/4-MD-300-3000	md-first-frame	1	Ge135As30Se135	Ge As Se	135 30 135	300	300.0
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/1-dos/a-300K	nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/1-dos/a-300K	md-first-frame	1	Ge135As30Se135	Ge As Se	135 30 135	300	300.0
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/2-dos	nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/2-dos/1-opt2	opt-CONTCAR	8	Ge135As30Se135	Ge As Se	135 30 135	300	
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/3-dos	nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/3-dos/1-opt2	opt-CONTCAR	3	Ge135As30Se135	Ge As Se	135 30 135	300	
+nscc1741_XM/xumeng/3-OTS/ml-OTS/1-dos	nscc1741_XM/xumeng/3-OTS/ml-OTS/1-dos/1-300K	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/3-OTS/ml-OTS/36-dos	nscc1741_XM/xumeng/3-OTS/ml-OTS/36-dos/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/1-dos-T	nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/1-dos-T/2-opt2	opt-CONTCAR	5	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/2-dos-T	nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/2-dos-T/2-opt2	opt-CONTCAR	4	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/3-dos	nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/3-dos/2-opt2	opt-CONTCAR	3	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/4-dos-T	nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/4-dos-T/2-opt2	opt-CONTCAR	4	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/5-dos-T	nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/5-dos-T/2-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/6-dos	nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/6-dos/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/7-dos-T	nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/7-dos-T/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/8-dos-T1	nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/8-dos-T1/2-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/9-dos-T	nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/9-dos-T/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/10-dos-T	nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/10-dos-T/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/11-dos-T1	nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/11-dos-T1/2-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/12-dos	nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/12-dos/2-opt2	opt-CONTCAR	3	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/13-dos-T1	nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/13-dos-T1/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/14-dos-T	nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/14-dos-T/2-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/15-dos-T	nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/15-dos-T/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/16-dos	nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/16-dos/2-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/17-dos-T1	nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/17-dos-T1/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/18-dos	nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/18-dos/2-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/19-dos	nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/19-dos/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/20-dos	nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/20-dos/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/21-dos	nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/21-dos/2-opt2	opt-CONTCAR	5	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/22-dos	nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/22-dos/2-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/23-dos	nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/23-dos/2-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/24-dos	nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/24-dos/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/25-dos-24	nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/25-dos-24/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/26-dos-22	nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/26-dos-22/2-opt2	opt-CONTCAR	4	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/27-dos-25	nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/27-dos-25/2-opt2	opt-CONTCAR	3	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/28-dos-23	nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/28-dos-23/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/29-dos-28	nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/29-dos-28/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/30-dos-21	nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/30-dos-21/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/31-dos-29	nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/31-dos-29/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/32-dos-30	nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/32-dos-30/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/33-dos-27	nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/33-dos-27/2-opt2	opt-CONTCAR	3	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/34-dos-31	nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/34-dos-31/2-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/35-dos-32	nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/35-dos-32/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/36-dos-35	nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/36-dos-35/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/37-dos-34	nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/37-dos-34/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/38-dos-33	nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/38-dos-33/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/39-dos-36	nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/39-dos-36/2-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/40-dos-37	nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/40-dos-37/2-opt2	opt-CONTCAR	3	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/41-dos-38	nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/41-dos-38/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/42-dos-40	nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/42-dos-40/2-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/43-dos-39	nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/43-dos-39/2-opt2	opt-CONTCAR	3	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/44-dos-41	nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/44-dos-41/2-opt2	opt-CONTCAR	5	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/45-dos-42	nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/45-dos-42/2-opt2	opt-CONTCAR	4	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/46-dos-43	nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/46-dos-43/2-opt2	opt-CONTCAR	5	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/47-dos-44	nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/47-dos-44/2-opt2	opt-CONTCAR	3	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/4-Sb-TeSeS/1-Sb2Te3	nscc1741_XM/xumeng/4-Sb-TeSeS/1-Sb2Te3/2-opt2	opt-CONTCAR	3	Sb120Te180	Sb Te	120 180	300	
+nscc1741_XM/xumeng/4-Sb-TeSeS/1-Sb2Te3/7-MD-4000	nscc1741_XM/xumeng/4-Sb-TeSeS/1-Sb2Te3/7-MD-4000	md-first-frame	1	Sb120Te180	Sb Te	120 180	300	300.0
+nscc1741_XM/xumeng/4-Sb-TeSeS/2-Sb2Se3	nscc1741_XM/xumeng/4-Sb-TeSeS/2-Sb2Se3/6-opt2	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/4-Sb-TeSeS/2-Sb2Se3/8-300K-MD	nscc1741_XM/xumeng/4-Sb-TeSeS/2-Sb2Se3/8-300K-MD	md-first-frame	1	Sb120Se180	Sb Se	120 180	300	300.0
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3	nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/2-opt2	opt-CONTCAR	5	Sb120S180	Sb S	120 180	300	
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/0-dos	nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/0-dos/2-opt2	opt-CONTCAR	2	Sb120S180	Sb S	120 180	300	
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/10-MD-4000	nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/10-MD-4000	md-first-frame	1	Sb120S180	Sb S	120 180	300	300.0
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/4-MD-2000	nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/4-MD-2000/1-opt2	opt-CONTCAR	2	Sb120S180	Sb S	120 180	300	
+nscc1741_XM/xumeng/5-KSS/1-KSS-a-1	nscc1741_XM/xumeng/5-KSS/1-KSS-a-1/5-opt7	opt-CONTCAR	8	Sb112Se182K28	Sb Se K	112 182 28	322	
+nscc1741_XM/xumeng/5-KSS/1-KSS-a-1/10-MD-300k	nscc1741_XM/xumeng/5-KSS/1-KSS-a-1/10-MD-300k	md-first-frame	1	Sb112Se182K28	Sb Se K	112 182 28	322	300.0
+nscc1741_XM/xumeng/5-KSS/2-KSS-a-2	nscc1741_XM/xumeng/5-KSS/2-KSS-a-2/5-opt7	opt-CONTCAR	6	Sb112Se182K28	Sb Se K	112 182 28	322	
+nscc1741_XM/xumeng/5-KSS/3-KSS-a-2-2	nscc1741_XM/xumeng/5-KSS/3-KSS-a-2-2/5-opt2	opt-CONTCAR	5	Sb112Se182K28	Sb Se K	112 182 28	322	
+nscc1741_XM/xumeng/5-KSS/crystal/4-MD-300	nscc1741_XM/xumeng/5-KSS/crystal/4-MD-300	md-first-frame	1	Sb112Se182K28	Sb Se K	112 182 28	322	300.0
+nscc1741_XM/xumeng/6-boson/2-GeTe	nscc1741_XM/xumeng/6-boson/2-GeTe/opt	opt-CONTCAR	2	Ge150Te150	Ge Te	150 150	300	
+nscc1741_XM/xumeng/6-boson/3-GST/1-amorphous	nscc1741_XM/xumeng/6-boson/3-GST/1-amorphous/2-300K	md-first-frame	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300.0
+nscc1741_XM/xumeng/6-boson/3-GST/2-cubic	nscc1741_XM/xumeng/6-boson/3-GST/2-cubic/1-opt3	opt-CONTCAR	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+nscc1741_XM/xumeng/6-boson/3-GST/3-hex	nscc1741_XM/xumeng/6-boson/3-GST/3-hex/1-opt3	opt-CONTCAR	1	Ge32Sb48Te96	Ge Sb Te	32 48 96	176	
+nscc1741_XM/xumeng/6-boson/3-GST/5-cubic-no-void	nscc1741_XM/xumeng/6-boson/3-GST/5-cubic-no-void/1-opt3	opt-CONTCAR	1	Ge54Sb54Te108	Ge Sb Te	54 54 108	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb	nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/3-400k	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/1-600k/0-crystal	nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/1-600k/0-crystal/2-opt	opt-CONTCAR	4	Sb216	Sb	216	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/1-600k/0-crystal/1-opt-box	nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/1-600k/0-crystal/1-opt-box	opt-CONTCAR	1	Sb216	Sb	216	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/5-MD-300k	nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/5-MD-300k	md-first-frame	1	Sb216	Sb	216	216	300.0
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/2-C10/0-crystal	nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/2-C10/0-crystal/2-opt	opt-CONTCAR	2	Sb195C21	Sb C	195 21	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/2-C10/0-crystal/1-opt-box	nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/2-C10/0-crystal/1-opt-box	opt-CONTCAR	1	Sb195C21	Sb C	195 21	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/3-C5/0-crystal	nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/3-C5/0-crystal/2-opt	opt-CONTCAR	1	Sb205C11	Sb C	205 11	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/3-C5/0-crystal/1-opt-box	nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/3-C5/0-crystal/1-opt-box	opt-CONTCAR	1	Sb205C11	Sb C	205 11	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/amorphous	nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/amorphous/2-opt	opt-CONTCAR	2	Sb195C21	Sb C	195 21	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/amorphous/5-MD-300k	nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/amorphous/5-MD-300k	md-first-frame	1	Sb195C21	Sb C	195 21	216	300.0
+nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/2-Si10/0-crystal	nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/2-Si10/0-crystal/2-opt	opt-CONTCAR	1	Sb195Si21	Sb Si	195 21	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/2-Si10/0-crystal/1-opt-box	nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/2-Si10/0-crystal/1-opt-box	opt-CONTCAR	1	Sb195Si21	Sb Si	195 21	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/3-Si5/0-crystal	nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/3-Si5/0-crystal/2-opt	opt-CONTCAR	1	Sb205Si11	Sb Si	205 11	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/3-Si5/0-crystal/1-opt-box	nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/3-Si5/0-crystal/1-opt-box	opt-CONTCAR	1	Sb205Si11	Sb Si	205 11	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/amorphous	nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/amorphous/3-opt	opt-CONTCAR	2	Sb195Si21	Sb Si	195 21	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/amorphous/5-MD-300k	nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/amorphous/5-MD-300k	md-first-frame	1	Sb195Si21	Sb Si	195 21	216	300.0
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/2-Ge10/0-crystal	nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/2-Ge10/0-crystal/2-opt	opt-CONTCAR	2	Sb195Ge21	Sb Ge	195 21	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/2-Ge10/0-crystal/1-opt-box	nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/2-Ge10/0-crystal/1-opt-box	opt-CONTCAR	1	Sb195Ge21	Sb Ge	195 21	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/3-Ge5/0-crystal	nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/3-Ge5/0-crystal/2-opt	opt-CONTCAR	2	Sb205Ge11	Sb Ge	205 11	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/3-Ge5/0-crystal/1-opt-box	nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/3-Ge5/0-crystal/1-opt-box	opt-CONTCAR	1	Sb205Ge11	Sb Ge	205 11	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/amorphous	nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/amorphous/2-opt	opt-CONTCAR	3	Sb195Ge21	Sb Ge	195 21	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/amorphous/5-MD-300k	nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/amorphous/5-MD-300k	md-first-frame	1	Sb195Ge21	Sb Ge	195 21	216	300.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/2-Sn10/0-crystal	nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/2-Sn10/0-crystal/2-opt	opt-CONTCAR	1	Sb195Sn21	Sb Sn	195 21	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/2-Sn10/0-crystal/1-opt-box	nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/2-Sn10/0-crystal/1-opt-box	opt-CONTCAR	1	Sb195Sn21	Sb Sn	195 21	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/3-Sn5/0-crystal	nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/3-Sn5/0-crystal/2-opt	opt-CONTCAR	1	Sb205Sn11	Sb Sn	205 11	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/3-Sn5/0-crystal/1-opt-box	nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/3-Sn5/0-crystal/1-opt-box	opt-CONTCAR	1	Sb205Sn11	Sb Sn	205 11	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/amorphous	nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/amorphous/2-opt	opt-CONTCAR	3	Sb195Sn21	Sb Sn	195 21	216	
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/amorphous/5-MD-300k	nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/amorphous/5-MD-300k	md-first-frame	1	Sb195Sn21	Sb Sn	195 21	216	300.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/1-300k	md-first-frame	2	Sb216	Sb	216	216	300.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/10-seeds	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/10-seeds	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/2	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/2	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/3	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/3	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/4	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/4	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/5	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/5	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/6	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/6	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/10	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/10	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/11	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/11	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/12	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/12	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/13	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/13	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/14	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/14	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/2	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/2	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/3	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/3	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/4	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/4	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/5	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/5	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/6	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/6	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/7	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/7	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/8	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/8	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/9	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/9	md-first-frame	1	Sb216	Sb	216	216	400.0
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/7-1300k-300k-2w/1	nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/7-1300k-300k-2w/1	md-first-frame	1	Sb216	Sb	216	216	300.0
+nscc1741_XM/xumeng/8-GeAsSe/1-dos	nscc1741_XM/xumeng/8-GeAsSe/1-dos/2-opt2	opt-CONTCAR	4	Ge96As72Se96	Ge As Se	96 72 96	264	
+nscc1741_XM/xumeng/8-GeAsSe/2-dos	nscc1741_XM/xumeng/8-GeAsSe/2-dos/2-opt2	opt-CONTCAR	2	Ge96As72Se96	Ge As Se	96 72 96	264	
+nscc1741_XM/xumeng/8-GeAsSe/3-dos	nscc1741_XM/xumeng/8-GeAsSe/3-dos/2-opt2	opt-CONTCAR	1	Ge96As72Se96	Ge As Se	96 72 96	264	
+nscc1741_XM/xumeng/8-GeAsSe/4-dos	nscc1741_XM/xumeng/8-GeAsSe/4-dos/2-opt2	opt-CONTCAR	1	Ge96As72Se96	Ge As Se	96 72 96	264	
+nscc1741_XM/xumeng/8-GeAsSe/5-dos	nscc1741_XM/xumeng/8-GeAsSe/5-dos/2-opt2	opt-CONTCAR	1	Ge96As72Se96	Ge As Se	96 72 96	264	
+nscc1741_XM/xumeng/9-CrGeTe	nscc1741_XM/xumeng/9-CrGeTe/MD	md-first-frame	1	Cr54Ge54Te162	Cr Ge Te	54 54 162	270	300.0
+nscc1741_XM/xumeng/GST225	nscc1741_XM/xumeng/GST225/1-300K	md-first-frame	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300.0
+nscc1741_XM/xumeng/GeTe	nscc1741_XM/xumeng/GeTe	opt-CONTCAR	1	Ge3Te3	Ge Te	3 3	6	
+nscc1741_XM/xumeng/Sb2Se3	nscc1741_XM/xumeng/Sb2Se3/1-opt2	opt-CONTCAR	3	Sb120Se180	Sb Se	120 180	300	
+nscc1741_XM/xumeng/SnSe/1-pnma	nscc1741_XM/xumeng/SnSe/1-pnma/1-opt3	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/1-pnma/4-op	nscc1741_XM/xumeng/SnSe/1-pnma/4-op	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/2-cmcm	nscc1741_XM/xumeng/SnSe/2-cmcm/1-opt3	opt-CONTCAR	2	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/2-cmcm/4-op	nscc1741_XM/xumeng/SnSe/2-cmcm/4-op	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/2-cmcm/7-op2	nscc1741_XM/xumeng/SnSe/2-cmcm/7-op2	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/3-mid3	nscc1741_XM/xumeng/SnSe/3-mid3/1-opt3	opt-CONTCAR	3	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/3-mid3/4-op	nscc1741_XM/xumeng/SnSe/3-mid3/4-op	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/4-mid4/1-opt2-1	nscc1741_XM/xumeng/SnSe/4-mid4/1-opt2-1	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/4-mid4/2-opt2-2	nscc1741_XM/xumeng/SnSe/4-mid4/2-opt2-2	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/4-mid4/4-op	nscc1741_XM/xumeng/SnSe/4-mid4/4-op	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/5-mid1/4-op	nscc1741_XM/xumeng/SnSe/5-mid1/4-op	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/6-mid2/4-op	nscc1741_XM/xumeng/SnSe/6-mid2/4-op	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/7-mid5/4-op	nscc1741_XM/xumeng/SnSe/7-mid5/4-op	opt-CONTCAR	1	Sn4Se4	Sn Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/GeSe/1-pnma	nscc1741_XM/xumeng/SnSe/GeSe/1-pnma/1-opt3	opt-CONTCAR	2	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/GeSe/1-pnma/4-op	nscc1741_XM/xumeng/SnSe/GeSe/1-pnma/4-op	opt-CONTCAR	1	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/GeSe/2-cmcm	nscc1741_XM/xumeng/SnSe/GeSe/2-cmcm/1-opt3	opt-CONTCAR	1	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/GeSe/2-cmcm/4-op	nscc1741_XM/xumeng/SnSe/GeSe/2-cmcm/4-op	opt-CONTCAR	1	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/GeSe/3-mid1/4-op	nscc1741_XM/xumeng/SnSe/GeSe/3-mid1/4-op	opt-CONTCAR	1	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/GeSe/4-mid2/4-op	nscc1741_XM/xumeng/SnSe/GeSe/4-mid2/4-op	opt-CONTCAR	1	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/GeSe/5-mid3/4-op	nscc1741_XM/xumeng/SnSe/GeSe/5-mid3/4-op	opt-CONTCAR	1	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/GeSe/6-mid4/4-op	nscc1741_XM/xumeng/SnSe/GeSe/6-mid4/4-op	opt-CONTCAR	1	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/SnSe/GeSe/7-mid5/4-op	nscc1741_XM/xumeng/SnSe/GeSe/7-mid5/4-op	opt-CONTCAR	1	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/born_charge	nscc1741_XM/xumeng/born_charge/opt3	opt-CONTCAR	1	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/born_charge/2-GeTe	nscc1741_XM/xumeng/born_charge/2-GeTe/opt3	opt-CONTCAR	1	Ge3Te3	Ge Te	3 3	6	
+nscc1741_XM/xumeng/born_charge/3-Sb	nscc1741_XM/xumeng/born_charge/3-Sb/opt3	opt-CONTCAR	1	Sb6	Sb	6	6	
+nscc1741_XM/xumeng/born_charge/4-SbTe2	nscc1741_XM/xumeng/born_charge/4-SbTe2/opt3	opt-CONTCAR	1	Sb1Te2	Sb Te	1 2	3	
+nscc1741_XM/xumeng/born_charge/5-SnTe	nscc1741_XM/xumeng/born_charge/5-SnTe/opt3	opt-CONTCAR	1	Sn4Te4	Sn Te	4 4	8	
+nscc1741_XM/xumeng/born_charge/8-Bi2Se3	nscc1741_XM/xumeng/born_charge/8-Bi2Se3/opt3	opt-CONTCAR	1	Bi6Se9	Bi Se	6 9	15	
+nscc1741_XM/xumeng/born_charge/GeSe-cubic	nscc1741_XM/xumeng/born_charge/GeSe-cubic/opt3	opt-CONTCAR	1	Ge4Se4	Ge Se	4 4	8	
+nscc1741_XM/xumeng/old/CrP4	nscc1741_XM/xumeng/old/CrP4/1-opt3	opt-CONTCAR	1	P16Cr4	P Cr	16 4	20	
+nscc1741_XM/xumeng/old/Ge15Sb85	nscc1741_XM/xumeng/old/Ge15Sb85	md-first-frame	1	Ge45Sb255	Ge Sb	45 255	300	300.0
+nscc1741_XM/xumeng/old/GeSbO/amorphous	nscc1741_XM/xumeng/old/GeSbO/amorphous/4-300k	md-first-frame	1	Ge45O45Sb210	Ge O Sb	45 45 210	300	300.0
+nscc1741_XM/xumeng/old/LiDH	nscc1741_XM/xumeng/old/LiDH/3-120K/1-opt2	opt-CONTCAR	6	C64H96N8Pb4I16	C H N Pb I	64 96 8 4 16	188	
+nscc1741_XM/xumeng/old/LiDH/1-0K	nscc1741_XM/xumeng/old/LiDH/1-0K/1-opt3	opt-CONTCAR	2	C64H96N8Pb4I16	C H N Pb I	64 96 8 4 16	188	
+nscc1741_XM/xumeng/old/LiDH/2-290K/2-MD-290K	nscc1741_XM/xumeng/old/LiDH/2-290K/2-MD-290K	md-first-frame	1	C64H96N8Pb4I16	C H N Pb I	64 96 8 4 16	188	290.0
+nscc1741_XM/xumeng/old/LiDH/2-290K/6-MD-290K	nscc1741_XM/xumeng/old/LiDH/2-290K/6-MD-290K	md-first-frame	1	C64H96N8Pb4I16	C H N Pb I	64 96 8 4 16	188	290.0
+nscc1741_XM/xumeng/old/LiDH/2-290K/7-MD-290K	nscc1741_XM/xumeng/old/LiDH/2-290K/7-MD-290K	md-first-frame	1	C64H96N8Pb4I16	C H N Pb I	64 96 8 4 16	188	290.0
+nscc1741_XM/xumeng/old/LiDH/2-290K/8-MD-290K	nscc1741_XM/xumeng/old/LiDH/2-290K/8-MD-290K	md-first-frame	1	C64H96N8Pb4I16	C H N Pb I	64 96 8 4 16	188	290.0
+nscc1741_XM/xumeng/qiyingbing/1-guize/1	nscc1741_XM/xumeng/qiyingbing/1-guize/1/1-opt3	opt-CONTCAR	1	Ge32Sb48Te96	Ge Sb Te	32 48 96	176	
+nscc1741_XM/xumeng/qiyingbing/1-guize/1/2-MD-300k	nscc1741_XM/xumeng/qiyingbing/1-guize/1/2-MD-300k	md-first-frame	1	Ge32Sb48Te96	Ge Sb Te	32 48 96	176	300.0
+nscc1741_XM/xumeng/qiyingbing/1-guize/2	nscc1741_XM/xumeng/qiyingbing/1-guize/2/1-opt3	opt-CONTCAR	1	Ge38Sb42Te96	Ge Sb Te	38 42 96	176	
+nscc1741_XM/xumeng/qiyingbing/1-guize/2/2-MD-300k	nscc1741_XM/xumeng/qiyingbing/1-guize/2/2-MD-300k	md-first-frame	1	Ge38Sb42Te96	Ge Sb Te	38 42 96	176	300.0
+nscc1741_XM/xumeng/qiyingbing/1-guize/3	nscc1741_XM/xumeng/qiyingbing/1-guize/3/1-opt3	opt-CONTCAR	1	Ge39Sb39Te96	Ge Sb Te	39 39 96	174	
+nscc1741_XM/xumeng/qiyingbing/1-guize/3/2-MD-300k	nscc1741_XM/xumeng/qiyingbing/1-guize/3/2-MD-300k	md-first-frame	1	Ge39Sb39Te96	Ge Sb Te	39 39 96	174	300.0
+nscc1741_XM/xumeng/qiyingbing/2-suiji/1	nscc1741_XM/xumeng/qiyingbing/2-suiji/1/1-opt3	opt-CONTCAR	1	Ge38Sb38Te96	Ge Sb Te	38 38 96	172	
+nscc1741_XM/xumeng/qiyingbing/2-suiji/1/2-MD-300k	nscc1741_XM/xumeng/qiyingbing/2-suiji/1/2-MD-300k	md-first-frame	1	Ge38Sb38Te96	Ge Sb Te	38 38 96	172	300.0
+nscc1741_XM/xumeng/qiyingbing/2-suiji/2	nscc1741_XM/xumeng/qiyingbing/2-suiji/2/1-opt3	opt-CONTCAR	1	Ge38Sb38Te96	Ge Sb Te	38 38 96	172	
+nscc1741_XM/xumeng/qiyingbing/2-suiji/2/2-MD-300k	nscc1741_XM/xumeng/qiyingbing/2-suiji/2/2-MD-300k	md-first-frame	1	Ge32Sb48Te96	Ge Sb Te	32 48 96	176	300.0
+nscc1741_XM/xumeng/qiyingbing/2-suiji/3-GST-c216	nscc1741_XM/xumeng/qiyingbing/2-suiji/3-GST-c216/1-opt3	opt-CONTCAR	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+nscc1741_XM/xumeng/qiyingbing/2-suiji/3-GST-c216/2-MD-300K	nscc1741_XM/xumeng/qiyingbing/2-suiji/3-GST-c216/2-MD-300K	md-first-frame	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	300.0
+nscc1741_XM/xumeng/qiyingbing/2-suiji/3-GST-c216/3-MD-400K	nscc1741_XM/xumeng/qiyingbing/2-suiji/3-GST-c216/3-MD-400K	md-first-frame	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	400.0
+nscc1741_XM/xumeng/qiyingbing/2-suiji/4-GST-c160	nscc1741_XM/xumeng/qiyingbing/2-suiji/4-GST-c160/1-opt3	opt-CONTCAR	1	Ge32Sb32Te80	Ge Sb Te	32 32 80	144	
+nscc1741_XM/xumeng/qiyingbing/2-suiji/4-GST-c160/2-MD-300K	nscc1741_XM/xumeng/qiyingbing/2-suiji/4-GST-c160/2-MD-300K	md-first-frame	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	300.0
+nscc1741_XM/xumeng/qiyingbing/2-suiji/4-GST-c160/test	nscc1741_XM/xumeng/qiyingbing/2-suiji/4-GST-c160/test	md-first-frame	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	300.0
+nscc1741_XM/xumeng/qiyingbing/2-suiji/4-GST-c160/test2	nscc1741_XM/xumeng/qiyingbing/2-suiji/4-GST-c160/test2	md-first-frame	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	300.0
+nscc1741_XM/xumeng/soap-MD/1-GeSe	nscc1741_XM/xumeng/soap-MD/1-GeSe/3-MD	md-first-frame	2	Ge150Se150	Ge Se	150 150	300	300.0
+nscc1741_XM/xumeng/soap-MD/1-GeSe/1	nscc1741_XM/xumeng/soap-MD/1-GeSe/1/1-opt2	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/soap-MD/2-GeTe	nscc1741_XM/xumeng/soap-MD/2-GeTe/1-300K	md-first-frame	1	Ge100Te100	Ge Te	100 100	200	300.0
+nscc1741_XM/xumeng/soap-MD/generation	nscc1741_XM/xumeng/soap-MD/generation/1-opt2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+nscc1741_XM/xumeng/xumeng/0-SbX/1-SbC	nscc1741_XM/xumeng/xumeng/0-SbX/1-SbC/1-opt2	opt-CONTCAR	3	Sb205C11	Sb C	205 11	216	
+nscc1741_XM/xumeng/xumeng/0-SbX/2-SbSi	nscc1741_XM/xumeng/xumeng/0-SbX/2-SbSi/1-opt2	opt-CONTCAR	3	Sb205Si11	Sb Si	205 11	216	
+nscc1741_XM/xumeng/xumeng/0-SbX/3-SbGe	nscc1741_XM/xumeng/xumeng/0-SbX/3-SbGe/1-opt2	opt-CONTCAR	3	Sb205Ge11	Sb Ge	205 11	216	
+nscc1741_XM/xumeng/xumeng/0-SbX/4-SbSn	nscc1741_XM/xumeng/xumeng/0-SbX/4-SbSn/1-opt2	opt-CONTCAR	3	Sb205Sn11	Sb Sn	205 11	216	
+nscc1741_XM/xumeng/xumeng/4-GeTe	nscc1741_XM/xumeng/xumeng/4-GeTe/4-opt2	opt-CONTCAR	4	Ge150Te150	Ge Te	150 150	300	
+nscc1741_XM/xumeng/xumeng/9-SnS	nscc1741_XM/xumeng/xumeng/9-SnS/5-opt7	opt-CONTCAR	4	Sn100S200	Sn S	100 200	300	
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/1-Sb	nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/1-Sb	opt-CONTCAR	1	Sb300	Sb	300	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/15-GST225	nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/15-GST225	opt-CONTCAR	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/16-AIST	nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/16-AIST	opt-CONTCAR	1	Ag12In9Sb201Te78	Ag In Sb Te	12 9 201 78	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/17-SST	nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/17-SST	opt-CONTCAR	1	Sc14Sb112Te189	Sc Sb Te	14 112 189	315	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/18-SnSb2Te4	nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/18-SnSb2Te4	opt-CONTCAR	1	Sn43Sb86Te172	Sn Sb Te	43 86 172	301	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/2-Ge15Sb85	nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/2-Ge15Sb85	opt-CONTCAR	1	Ge45Sb255	Ge Sb	45 255	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/24-SiSbTe	nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/24-SiSbTe	opt-CONTCAR	1	Si43Sb86Te172	Si Sb Te	43 86 172	301	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/4-GST-124	nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/4-GST-124	opt-CONTCAR	1	Ge43Sb86Te172	Ge Sb Te	43 86 172	301	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/5-GeTe	nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/5-GeTe	opt-CONTCAR	1	Ge150Te150	Ge Te	150 150	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/6-Sb2Te3	nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/6-Sb2Te3	opt-CONTCAR	1	Sb120Te180	Sb Te	120 180	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/10-SnTe	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/10-SnTe	opt-CONTCAR	1	Sn150Te150	Sn Te	150 150	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/11-SiO2	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/11-SiO2	opt-CONTCAR	1	Si100O200	Si O	100 200	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/12-PbSe	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/12-PbSe	opt-CONTCAR	1	Pb150Se150	Pb Se	150 150	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/13-GeS	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/13-GeS	opt-CONTCAR	1	Ge150S150	Ge S	150 150	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/14-Si	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/14-Si	opt-CONTCAR	1	Si300	Si	300	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/20-Ge2Sb2Se5	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/20-Ge2Sb2Se5	opt-CONTCAR	1	Ge68Sb68Se170	Ge Sb Se	68 68 170	306	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/21-PbTe	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/21-PbTe	opt-CONTCAR	1	Pb150Te150	Pb Te	150 150	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/22-SnSe	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/22-SnSe	opt-CONTCAR	1	Sn150Se150	Sn Se	150 150	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/23-SnS	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/23-SnS	opt-CONTCAR	1	Sn150S150	Sn S	150 150	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/24-PbS	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/24-PbS	opt-CONTCAR	1	Pb150S150	Pb S	150 150	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/3-SiGe	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/3-SiGe	opt-CONTCAR	1	Si150Ge150	Si Ge	150 150	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/7-GeSe	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/7-GeSe	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/7-GeSe/2-GeSe	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/7-GeSe/2-GeSe	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/8-SiC	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/8-SiC	opt-CONTCAR	1	Si150C150	Si C	150 150	300	3000.0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/9-SnS	nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/9-SnS	opt-CONTCAR	1	Sn100S200	Sn S	100 200	300	3000.0

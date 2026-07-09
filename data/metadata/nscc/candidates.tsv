@@ -1,0 +1,1913 @@
+path	type	species	counts	natoms	contcar_size	tebeg	teend	nsw
+GK_xum02/xqd/5-MVB/3-PbTe/0-model/3-opt	opt	Pb Te	150 150	300	33303			50
+GK_xum02/xqd/5-MVB/4-SnS/0-model/3-opt	opt	Sn S	150 150	300	33303			50
+GK_xum02/xqd/5-MVB/2-PbSe/0-model/3-opt	opt	Pb Se	150 150	300	33303			50
+GK_xum02/xqd/5-MVB/6-SnTe/0-model/3-opt	opt	Sn Te	150 150	300	33303			30
+GK_xum02/xqd/5-MVB/7-GaAs/0-model/3-opt	opt	Ga As	150 150	300	33303			200
+GK_xum02/xqd/5-MVB/1-PbS/1-model/3-opt	opt	Pb S	150 150	300	33303			200
+GK_xum02/xqd/5-MVB/1-PbS/0-model/3-opt	opt	Pb S	150 150	300	33303			30
+GK_xum02/xqd/8-In-doped/1-GeTe/2-opt	opt	In Ge Te	30 120 150	300	33314			300
+GK_xum02/xqd/8-In-doped/1-GeTe/03-opt	opt	In Ge Te	30 120 150	300	33314			300
+GK_xum02/xqd/8-In-doped/2-Sb2Te3/2-opt	opt	In Sb Te	30 90 180	300	33314			500
+GK_xum02/xqd/8-In-doped/2-Sb2Te3/03-opt	opt	In Sb Te	30 90 180	300	33314			500
+GK_xum02/xqd/8-In-doped/3-GST225/2-opt	opt	In Ge Sb Te	30 53 53 170	306	33985			300
+GK_xum02/xqd/8-In-doped/4-Sb/2-opt	opt	In Sb	30 270	300	33303			300
+GK_xum02/xqd/8-In-doped/4-Sb/03-opt	opt	In Sb	30 270	300	33303			300
+GK_xum02/xqd/8-In-doped/5-Ge15Sb85/2-opt	opt	In Ge Sb	30 40 230	300	33314			300
+GK_xum02/xqd/8-In-doped/5-Ge15Sb85/03-opt	opt	In Ge Sb	30 40 230	300	33314			300
+GK_xum02/xqd/1-PCM/1-Sb/1-model/3-opt	opt	Sb	300	300	33292			100
+GK_xum02/xqd/1-PCM/2-Ge15Sb85/1-model/3-opt	opt	Ge Sb	45 255	300	33303			100
+GK_xum02/xqd/1-PCM/10-GeBiTe/1-model/3-opt	opt	Ge Bi Te	43 86 172	301	33424			50
+GK_xum02/xqd/1-PCM/4-GeTe/1-model/3-opt	opt	Ge Te	150 150	300	33303			100
+GK_xum02/xqd/1-PCM/4-GeTe/2-model/3-opt	opt	Ge Te	150 150	300	33303			200
+GK_xum02/xqd/1-PCM/4-GeTe/3-512/3-opt	opt	Ge Te	256 256	512	56623			1000
+GK_xum02/xqd/1-PCM/4-GeTe/4-cubic/1-64atom/1-opt	opt	Ge Te	32 32	64	7343			1000
+GK_xum02/xqd/1-PCM/5-Sb2Te3/1-model/3-opt	opt	Sb Te	120 180	300	33303			
+GK_xum02/xqd/1-PCM/5-Sb2Te3/2-model/3-opt	opt	Sb Te	120 180	300	33303			1000
+GK_xum02/xqd/1-PCM/5-Sb2Te3/3-model/3-opt	opt	Sb Te	120 180	300	33303			1000
+GK_xum02/xqd/1-PCM/5-Sb2Te3/4-model/3-opt	opt	Sb Te	120 180	300	33303			1000
+GK_xum02/xqd/1-PCM/5-Sb2Te3/5-model/3-opt	opt	Sb Te	120 180	300	33303			1000
+GK_xum02/xqd/1-PCM/6-GST225/1-model/3-opt	opt	Ge Sb Te	68 68 170	306	33974			
+GK_xum02/xqd/1-PCM/8-ScSbTe/1-model/3-opt	opt	Sc Sb Te	14 112 189	315	34964			100
+GK_xum02/xqd/1-PCM/3-GST124/1-model/3-opt	opt	Ge Sb Te	43 86 172	301	33424			100
+GK_xum02/xqd/1-PCM/11-SiSbTe/1-model/3-opt	opt	Si Sb Te	43 86 172	301	33424			50
+GK_xum02/xqd/1-PCM/7-AIST/1-model/3-opt	opt	Ag In Sb Te	12 9 201 78	300	33325			50
+GK_xum02/xqd/1-PCM/12-Bi_S/1-Bi2S3/3-opt	opt	Bi S	120 180	300	33303			200
+GK_xum02/xqd/1-PCM/12-Bi_S/2-Bi2Se3/3-opt	opt	Bi Se	120 180	300	33303			100
+GK_xum02/xqd/1-PCM/12-Bi_S/3-Bi2Te3/3-opt	opt	Bi Te	120 180	300	33303			300
+GK_xum02/xqd/1-PCM/14-AgSbTe2/3-opt	opt	Ag Sb Te	75 75 150	300	33314			300
+GK_xum02/xqd/1-PCM/13-GST_class/2-GST326/3-opt	opt	Ge Sb Te	82 55 163	300	33314			200
+GK_xum02/xqd/1-PCM/13-GST_class/3-GST8211/3-opt	opt	Ge Sb Te	116 29 155	300	33314			100
+GK_xum02/xqd/1-PCM/15-GST467/225-compare/5-opt	opt	Ge Sb Te	68 68 170	306	33974			1000
+GK_xum02/xqd/1-PCM/15-GST467/225-compare/51-opt-3000step	opt	Ge Sb Te	68 68 170	306	33974			1000
+GK_xum02/xqd/1-PCM/15-GST467/225-compare/52-opt-5000step	opt	Ge Sb Te	68 68 170	306	33974			1000
+GK_xum02/xqd/1-PCM/15-GST467/5-opt/0-opt7	opt	Ge Sb Te	72 108 126	306	33974			1000
+GK_xum02/xqd/1-PCM/15-GST467/5-opt	opt	Ge Sb Te	72 108 126	306	33974			1000
+GK_xum02/xqd/1-PCM/15-GST467/51-opt-3000step	opt	Ge Sb Te	72 108 126	306	33974			1000
+GK_xum02/xqd/1-PCM/15-GST467/52-opt-5000step	opt	Ge Sb Te	72 108 126	306	33974			1000
+GK_xum02/xqd/2-OTS/1-GeSe/1-orthorhombic/1-opt	opt	Ge Se	32 32	64	7343			1000
+GK_xum02/xqd/2-OTS/10-SbSeC/3-opt	opt	Sb Se C	108 162 30	300	33314			500
+GK_xum02/xqd/3-GeSeTe/7-70%/1/3-opt	opt	Ge Te Se	150 45 105	300	33314			50
+GK_xum02/xqd/3-GeSeTe/7-70%/2/3-opt	opt	Ge Te Se	150 45 105	300	33314			50
+GK_xum02/xqd/3-GeSeTe/7-70%/3/3-opt	opt	Ge Te Se	150 45 105	300	33314			100
+GK_xum02/xqd/3-GeSeTe/7-70%/4/3-opt	opt	Ge Te Se	150 45 105	300	33314			1000
+GK_xum02/xqd/3-GeSeTe/5-50%/0K-local/3-opt	opt	Ge Te Se	150 75 75	300	33314			200
+GK_xum02/xqd/3-GeSeTe/5-50%/1/3-opt	opt	Ge Te Se	150 75 75	300	33314			
+GK_xum02/xqd/3-GeSeTe/5-50%/2/3-opt	opt	Ge Te Se	150 75 75	300	33314			
+GK_xum02/xqd/3-GeSeTe/5-50%/3/3-opt	opt	Ge Te Se	150 75 75	300	33314			
+GK_xum02/xqd/3-GeSeTe/5-50%/4/3-opt	opt	Ge Te Se	150 75 75	300	33314			100
+GK_xum02/xqd/3-GeSeTe/5-50%/5/3-opt	opt	Ge Te Se	150 75 75	300	33314			200
+GK_xum02/xqd/3-GeSeTe/6-60%/1/3-opt	opt	Ge Te Se	150 60 90	300	33314			1000
+GK_xum02/xqd/3-GeSeTe/6-60%/2/3-opt	opt	Ge Te Se	150 60 90	300	33314			1000
+GK_xum02/xqd/3-GeSeTe/4-40%/2/3-opt	opt	Ge Te Se	150 90 60	300	33314			100
+GK_xum02/xqd/3-GeSeTe/4-40%/3/3-opt	opt	Ge Te Se	150 90 60	300	33314			100
+GK_xum02/xqd/3-GeSeTe/4-40%/4/3-opt	opt	Ge Te Se	150 90 60	300	33314			50
+GK_xum02/xqd/3-GeSeTe/4-40%/5/3-opt	opt	Ge Te Se	150 90 60	300	33314			200
+GK_xum02/xqd/4-IST312/3-opt	opt	In Sb Te	24 8 16	48	5594			500
+GK_xum02/xqd/4-IST312/216/3-opt	opt	Te Sb In	54 27 81	162	18134			500
+GK_xum02/xqd/6-SbTeSex/5-50%/3-opt	opt	Sb Te Se	120 90 90	300	33314			200
+GK_xum02/xqd/6-SbTeSex/6-60%/3-opt	opt	Sb Te Se	120 72 108	300	33314			300
+GK_xum02/xqd/6-SbTeSex/7-70%/3-opt	opt	Sb Te Se	120 54 126	300	33314			300
+GK_xum02/xqd/6-SbTeSex/8-80%/3-opt	opt	Sb Te Se	120 36 144	300	33314			300
+GK_xum02/xqd/6-SbTeSex/2-20%/3-opt	opt	Sb Te Se	120 144 36	300	33314			300
+GK_xum02/xqd/6-SbTeSex/3-30%/3-opt	opt	Sb Te Se	120 126 54	300	33314			300
+GK_xum02/xumeng/2-Sb2Se3	opt	Sb Se	120 180	300	33303			2000
+GK_xum02/grc/SbSe/4-opt	opt	Sb Se	120 180	300	33303			500
+GK_xum02/grc/SbSe/xu/1-opt	opt	Sb Se	120 180	300	33303			500
+GK_xum02/grc/OTS/1-As/2-GeSe/1-opt	opt	Ge Se	150 150	300	33303			2000
+GK_xum02/grc/OTS/1-As/1-GeAsSe/7-opt	opt	Ge As Se	135 30 135	300	33314			2000
+GK_xum02/grc/OTS/1-As/3-GeAsSe20/7-opt	opt	Ge As Se	120 60 120	300	33314			2000
+GK_xum02/grc/docotor-paper/Si-GeSe/2-5p/3-opt	opt	Ge Si Se	142 16 142	300	33314			300
+GK_xum02/grc/docotor-paper/Si-GeSe/3-20p/3-opt	opt	Ge Si Se	120 60 120	300	33314			300
+GK_xum02/grc/docotor-paper/Si-GeSe/5-20p-240/3-opt/2	opt	Ge Si Se	96 48 96	240	26714			100
+GK_xum02/grc/docotor-paper/Si-GeSe/5-20p-240/3-opt	opt	Ge Si Se	96 48 96	240	26714			100
+GK_xum02/grc/docotor-paper/Si-GeSe/4-5p-240/3-opt/2	opt	Ge Si Se	114 12 114	240	26714			300
+GK_xum02/grc/docotor-paper/Si-GeSe/4-5p-240/3-opt	opt	Ge Si Se	114 12 114	240	26714			300
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/1/3-opt	opt	Ge Si Se	108 24 108	240	26714			500
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/300-SiGeSe/3-opt	opt	Ge Si Se	135 30 135	300	33314			100
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/4/3-opt	opt	Ge Si Se	108 24 108	240	26714			500
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/5-y/3-opt	opt	Ge Si Se	108 24 108	240	26714			500
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/6/3-opt	opt	Ge Si Se	108 24 108	240	26714			500
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/8/3-opt	opt	Ge Si Se	108 24 108	240	26714			500
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GeSe-r/1-opt/1-opt	opt	Ge Se	32 32	64	7343			500
+GK_xum02/grc/docotor-paper/1-GeSe/xu-GeSe/3-opt	opt	Ge Se	150 150	300	33303			50
+GK_xum02/grc/docotor-paper/1-GeSe/GeSe-240/1-l/opt	opt	Ge Se	120 120	240	26703			50
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/2/4-time/4-7	opt	Ge As Se	108 24 108	240	26714			2000
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/2/analysis/1-opt	opt	Ge As Se	108 24 108	240	26714			2000
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/4-time/2-7	opt	Ge As Se	108 24 108	240	26714			2000
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/4-time/3-2	opt	Ge As Se	108 24 108	240	26714			2000
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/4-time/4-7	opt	Ge As Se	108 24 108	240	26714			2000
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/4-time/1-2	opt	Ge As Se	108 24 108	240	26714			2000
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/analysis/1-opt	opt	Ge As Se	108 24 108	240	26714			2000
+GK_xum02/grc/docotor-paper/As-GeSe/1-5p/3-opt	opt	Ge As Se	114 12 114	240	26714			300
+GK_xum02/grc/docotor-paper/As-GeSe/3-20p/3-opt	opt	Ge As Se	96 48 96	240	26714			300
+GK_xum02/grc/docotor-paper/N-GeSe/1-5p/3-opt	opt	Ge N Se	114 12 114	240	26714			300
+GK_xum02/grc/docotor-paper/N-GeSe/1-5p/new/1/3-opt	opt	Ge N Se	114 12 114	240	26714			500
+GK_xum02/grc/docotor-paper/N-GeSe/1-5p/new/2/3-opt	opt	Ge N Se	114 12 114	240	26714			500
+GK_xum02/grc/docotor-paper/N-GeSe/1-5p/new/3/3-opt	opt	Ge N Se	114 12 114	240	26714			300
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p/3-opt	opt	Ge N Se	96 48 96	240	26714			300
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p/4-scf/1-600K/3-opt	opt	Ge N Se	96 48 96	240	26714			500
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new/1/3-opt	opt	Ge N Se	96 48 96	240	26714			500
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new/2/3-opt	opt	Ge N Se	96 48 96	240	26714			500
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new/3/3-opt	opt	Ge N Se	96 48 96	240	26714			500
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new/3-opt	opt	Ge N Se	96 48 96	240	26714			500
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p/3-opt	opt	Ge N Se	102 36 102	240	26714			500
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/1/3-opt	opt	Ge N Se	102 36 102	240	26714			500
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/2/3-opt	opt	Ge N Se	102 36 102	240	26714			500
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/3/3-opt	opt	Ge N Se	102 36 102	240	26714			500
+GK_xum02/grc/GeGaSb/opt	opt	Ge Ga Sb	45 75 180	300	33314			2000
+GK_xum02/grc/As-OTS/GeAsS/6-time/1-2	opt	Ge As S	108 24 108	240	26714			2000
+GK_xum02/grc/As-OTS/GeAsS/6-time/2-7	opt	Ge As S	108 24 108	240	26714			2000
+GK_xum02/grc/As-OTS/GeAsS/6-time/3-2	opt	Ge As S	108 24 108	240	26714			2000
+GK_xum02/grc/As-OTS/GeAsS/6-time/4-7	opt	Ge As S	108 24 108	240	26714			2000
+GK_xum02/grc/As-OTS/GeAsS/7-analysis/1-opt	opt	Ge As S	108 24 108	240	26714			2000
+GK_xum02/grc/As-OTS/1-GeAsS/1/4-time/1-2	opt	Ge As S	108 24 108	240	26714			2000
+GK_xum02/grc/As-OTS/1-GeAsS/1/analysis/1-opt	opt	Ge As S	108 24 108	240	26714			2000
+GK_xum02/grc/As-OTS/1-GeAsS/2/5-opt	opt	Ge As S	108 24 108	240	26714			2000
+GK_xum02/grc/As-OTS/1-GeAsS/2/4-time/1-2	opt	Ge As S	108 24 108	240	26714			2000
+GK_xum02/grc/As-OTS/1-GeAsS/3/1-opt	opt	Ge As S	108 24 108	240	26714			2000
+GK_xum02/grc/As-OTS/N-GeSe/4-opt	opt	Ge N Se	135 30 135	300	33314			300
+GK_xum02/grc/As-OTS/5-GS/2-opt	opt	Ge S	150 150	300	33303			50
+GK_xum02/grc/As-OTS/6-GT/3-opt	opt	Ge Te	150 150	300	33303			2000
+GK_xum02/grc/As-OTS/GT-200/1-opt	opt	Ge Te	100 100	200	22303			2000
+GK_xum02/grc/As-OTS/GS/3-opt	opt	Ge S	150 150	300	33303			20
+GK_xum02/grc/As-OTS/GeSe/3-opt	opt	Ge Se	150 150	300	33303			2000
+GK_xum02/grc/As-OTS/240/GeS/2/3-opt	opt	Ge S	120 120	240	26703			2000
+GK_xum02/grc/As-OTS/240/GeS/3/2-opt	opt	Ge S	120 120	240	26703			2000
+GK_xum02/grc/As-OTS/240/SiTe/3-relax/2-2	opt	Si Te	120 120	240	26703			2000
+GK_xum02/grc/As-OTS/240/SiTe/4-opt	opt	Si Te	120 120	240	26703			2000
+GK_xum02/grc/As-OTS/GeSe-dos/old-dos/1-opt	opt	Ge Se	150 150	300	33303			2000
+GK_xum02/grc/As-OTS/8-SiAsSe/4-opt	opt	Si As Se	108 24 108	240	26714			2000
+GK_xum02/grc/As-OTS/doped-GeSe/1-C/3-opt	opt	Ge C Se	108 24 108	240	26714			500
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/5/3-opt	opt	Ge N Se	108 24 108	240	26714			500
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-3/2-opt	opt	Ge N Se	108 24 108	240	26714			500
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/1/4-opt	opt	Ge N Se	108 24 108	240	26714			500
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-2/2-opt	opt	Ge N Se	108 24 108	240	26714			500
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-1/3-opt	opt	Ge N Se	108 24 108	240	26714			100
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-y/3-opt	opt	Ge N Se	108 24 108	240	26714			500
+GK_xum02/grc/As-OTS/doped-GeSe/3-Sb/4-opt	opt	Ge Sb Se	108 24 108	240	26714			500
+GK_xum02/grc/As-OTS/doped-GeSe/4-Hf/3-opt	opt	Ge Hf Se	108 24 108	240	26714			500
+GK_xum02/grc/As-OTS/doped-GeSe/5-In/3-opt	opt	Ge In Se	108 24 108	240	26714			500
+GK_xum02/grc/As-OTS/doped-GeSe/6-P/3-opt	opt	Ge P Se	108 24 108	240	26714			500
+GK_xum02/grc/SbS/4-opt	opt	Sb S	120 180	300	33303			500
+GK_xum02/grc/GaSe/3-time/2-opt	opt	Ga Se	150 150	300	33303			2000
+GK_xum02/grc/GaSe/4-opt	opt	Ga Se	150 150	300	33303			2000
+GK_xum02/grc/1-OTS/3-GATS/GATS/1-GATS/3-opt	opt	Ge As Te Si	30 90 165 15	300	33325			2000
+GK_xum02/grc/1-OTS/3-GATS/GATS/1-GATS/analysis/1-opt	opt	Ge As Te Si	30 90 165 15	300	33325			2000
+GK_xum02/grc/1-OTS/3-GATS/GATS/2-GATS/1-opt	opt	Ge As Te Si	30 90 165 15	300	33325			2000
+GK_xum02/grc/1-OTS/4-GATSN/1-opt	opt	Ge As Te Si N	28 86 156 15 15	300	33336			2000
+GK_xum02/grc/1-OTS/IST312/3-opt	opt	In Sb Te	150 50 100	300	33314			2000
+GK_xum02/grc/1-OTS/InTe/19-InTe/MD.new-MGS/3-opt	opt	In Te	30 270	300	33303			1000
+GK_xum02/grc/1-OTS/InTe/37-InTe/2/3-opt	opt	In Te	90 210	300	33303			500
+GK_xum02/grc/1-OTS/InTe/37-InTe/MD.new/3-opt	opt	In Te	90 210	300	33303			1000
+GK_xum02/grc/1-OTS/InTe/55-InTe/2/3-opt	opt	In Te	150 150	300	33303			500
+GK_xum02/grc/1-OTS/InTe/55-InTe/3/3-opt	opt	In Te	150 150	300	33303			500
+GK_xum02/grc/1-OTS/InTe/28-InTe/2/3-opt	opt	In Te	60 240	300	33303			50
+GK_xum02/grc/1-OTS/InTe/28-InTe/3/3-opt	opt	In Te	60 240	300	33303			50
+GK_xum02/grc/1-OTS/InTe/28-InTe/MD.new/4-opt	opt	In Te	60 240	300	33303			1000
+GK_xum02/grc/1-OTS/InTe/46-InTe/1/MD.new/4-opt	opt	In Te	120 180	300	33303			1000
+GK_xum02/grc/coorperation/Cr4Ge7/1-opt	opt	Ge Cr	28 16	44	5143			2000
+GK_xum02/grc/coorperation/new-Cr4Ge7/1-opt	opt	Ge Cr	28 16	44	5143			2000
+GK_xum02/grc/coorperation/Cr4Ge7-2-ISIF/1-opt-2	opt	Ge Cr	28 16	44	5143			2000
+GK_xum02/grc/coorperation/Cr4Ge7+U+S/1-opt	opt	Ge Cr	28 16	44	5143			2000
+GK_xum02/grc/coorperation/Cr4Ge7+U/1-opt	opt	Ge Cr	28 16	44	5143			2000
+GK_xum02/grc/coorperation/Cr4Ge7+S/1-opt	opt	Ge Cr	28 16	44	5143			2000
+GK_xum02/grc/coorperation/Cr4Ge7+0/1-opt	opt	Ge Cr	28 16	44	5143			2000
+GK_xum02/grc/Si-As-Te/1-SiTe/new-y/6/3-opt	opt	Si Te	150 150	300	33303			2000
+GK_xum02/grc/Si-As-Te/1-SiTe/new-y/5-y/1-opt	opt	Si Te	150 150	300	33303			2000
+GK_xum02/grc/Si-As-Te/1-SiTe/0/1-opt	opt	Si Te	150 150	300	33303			2000
+GK_xum02/grc/Si-As-Te/1-SiTe/0/1-opt/0-time	opt	Si Te	150 150	300	33303			2000
+GK_xum02/grc/Si-As-Te/1-SiTe/0/1-opt/1-opt	opt	Si Te	150 150	300	33303			2000
+GK_xum02/grc/Si-As-Te/3-As2Te3/4-opt	opt	As Te	120 180	300	33303			2000
+GK_xum02/grc/3-Te-based/3-AlTe/2-A3lTe7/3-opt	opt	Al Te	90 210	300	33303			50
+GK_xum02/grc/3-Te-based/3-AlTe/1-AlTe9/3-opt	opt	Al Te	30 270	300	33303			1000
+GK_xum02/grc/3-Te-based/4-BTe/2/3-opt	opt	B Te	30 270	300	33303			1000
+GK_xum02/grc/3-Te-based/4-BTe/3/3-opt	opt	B Te	30 270	300	33303			50
+GK_xum02/grc/3-Te-based/4-BTe/1/3-opt	opt	B Te	30 270	300	33303			50
+GK_xum02/grc/3-Te-based/5-SiTe/3-SiTe9/3-opt	opt	Si Te	30 270	300	33303			1000
+GK_xum02/grc/3-Te-based/5-SiTe/2-SiTe/2/3-opt	opt	Si Te	150 150	300	33303			50
+GK_xum02/grc/3-Te-based/5-SiTe/2-SiTe/1/3-opt	opt	Si Te	150 150	300	33303			100
+GK_xum02/grc/3-Te-based/5-SiTe/1-SiTe9/3-opt	opt	Si Te	30 270	300	33303			100
+GK_xum02/grc/3-Te-based/6-GaTe/2-Ga2Te3/3-opt	opt	Ga Te	120 180	300	33303			1000
+GK_xum02/grc/3-Te-based/6-GaTe/3-Ga2Te3/3-opt	opt	Ga Te	120 180	300	33303			1000
+GK_xum02/grc/3-Te-based/6-GaTe/1-GaTe9/3-opt	opt	Ga Te	30 270	300	33303			1000
+GK_xum02/grc/3-Te-based/7-SnTe/2-SnTe/3-opt	opt	Sn Te	150 150	300	33303			1000
+GK_xum02/grc/3-Te-based/7-SnTe/3-SnTe9/1/3-opt	opt	Sn Te	30 270	300	33303			500
+GK_xum02/grc/3-Te-based/7-SnTe/3-SnTe9/2/3-opt	opt	Sn Te	30 270	300	33303			1000
+GK_xum02/grc/3-Te-based/7-SnTe/1-SnTe9/3-opt	opt	Sn Te	30 270	300	33303			1000
+GK_xum02/grc/3-Te-based/8-InTe/3-In2Te3/2-y/3-opt	opt	In Te	120 180	300	33303			800
+GK_xum02/grc/3-Te-based/8-InTe/3-In2Te3/1/3-opt	opt	In Te	120 180	300	33303			100
+GK_xum02/grc/3-Te-based/8-InTe/1-InTe9/3-opt	opt	In Te	30 270	300	33303			1000
+GK_xum02/grc/3-Te-based/9-ZnTe/3-ZnTe9/3-opt	opt	Zn Te	30 270	300	33303			1000
+GK_xum02/grc/3-Te-based/9-ZnTe/1-ZnTe9/3-opt	opt	Zn Te	30 270	300	33303			1000
+GK_xum02/grc/3-Te-based/10-AsTe/3-AsTe9/3-opt	opt	As Te	30 270	300	33303			1000
+GK_xum02/grc/3-Te-based/10-AsTe/4-AsTe9/3-opt	opt	As Te	30 270	300	33303			500
+GK_xum02/grc/3-Te-based/10-AsTe/1-AsTe9/3-opt	opt	As Te	30 270	300	33303			1000
+GK_xum02/grc/3-Te-based/10-AsTe/5-AsTe9/3-opt	opt	As Te	30 270	300	33303			30
+GK_xum02/grc/3-Te-based/11-SbTe/3-SbTe9/3-opt	opt	Sb Te	30 270	300	33303			1000
+GK_xum02/grc/3-Te-based/11-SbTe/1-SbTe9/3-opt	opt	Sb Te	30 270	300	33303			1000
+GK_xum02/grc/3-Te-based/11-SbTe/2-Sb2Te3/3-opt	opt	Sb Te	120 180	300	33303			1000
+GK_xum02/grc/3-Te-based/Te/5-y/4-opt	opt	Te	300	300	33292			200
+GK_xum02/grc/3-Te-based/Te/3/3-opt	opt	Te	300	300	33292			300
+GK_xum02/grc/3-Te-based/Te/1-y/3-opt	opt	Te	300	300	33292			500
+GK_xum02/grc/3-Te-based/Te/1-y/new/4-opt	opt	Te	300	300	33292			500
+GK_xum02/grc/GaS/1/3-opt	opt	Ga S	150 150	300	33303			500
+nscc1741_XM/xqd/4-Sb2SeTe3/5-50%/3-opt	opt	Sb Se Te	120 90 90	300	33314			200
+nscc1741_XM/xqd/4-Sb2SeTe3/6-60%/3-opt	opt	Sb Se Te	120 108 72	300	33314			200
+nscc1741_XM/xqd/4-Sb2SeTe3/7-70%/3-opt	opt	Sb Se Te	120 126 54	300	33314			200
+nscc1741_XM/xqd/4-Sb2SeTe3/4-40%/3-opt	opt	Sb Se Te	120 72 108	300	33314			50
+nscc1741_XM/xqd/4-Sb2SeTe3/3-30%/3-opt	opt	Sb Se Te	120 54 126	300	33314			200
+nscc1741_XM/xqd/4-Sb2SeTe3/8-80%/3-opt	opt	Sb Se Te	120 144 36	300	33314			50
+nscc1741_XM/xqd/4-Sb2SeTe3/9-90%/3-opt	opt	Sb Se Te	120 162 18	300	33314			200
+nscc1741_XM/xqd/1-PCM/1-GeTe-cubic/2/1-opt	opt	Ge Te	4 4	8	1183			200
+nscc1741_XM/xqd/1-PCM/1-GeTe-cubic/1/1-opt	opt	Ge Te	4 4	8	1183			100
+nscc1741_XM/xqd/1-PCM/C-doped/2-GST225/4-opt	opt	Ge Sb Te C	63 63 150 30	306	33985			300
+nscc1741_XM/xqd/1-PCM/C-doped/3-GST147/4-opt	opt	Ge Sb Te C	20 90 160 30	300	33325			300
+nscc1741_XM/xqd/1-PCM/GeGaSb/3-opt	opt	Ge Ga Sb	45 75 180	300	33314			30
+nscc1741_XM/xqd/1-PCM/13-GeSbSe225/3-opt	opt	Ge Sb Se	68 68 170	306	33974			200
+nscc1741_XM/xqd/1-PCM/15-IST/3-opt	opt	In Sb Te	150 50 100	300	33314			200
+nscc1741_XM/xqd/2-OTS/4-GeTe6/3-model-mgs/03-opt	opt	Ge Te	43 257	300	33303			30
+nscc1741_XM/xqd/2-OTS/4-GeTe6/1-model/3-opt	opt	Ge Te	43 257	300	33303			1000
+nscc1741_XM/xqd/2-OTS/4-GeTe6/1-model/6-mgs/03-opt	opt	Ge Te	43 257	300	33303			1000
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/3-model/3-opt	opt	Sb Se	120 180	300	33303			100
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/4-model/3-opt	opt	Sb Se	120 180	300	33303			1000
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/01-model_hse/2-opt2	opt	Sb Se	120 180	300	33303			1000
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/01-model_hse/41-opt	opt	Sb Se	120 180	300	33303			1000
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/01-model_hse/51-opt	opt	Sb Se	120 180	300	33303			1000
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/2-model_T/3-opt	opt	Sb Se	120 180	300	33303			200
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/5-model-mgs/03-opt	opt	Sb Se	120 180	300	33303			500
+nscc1741_XM/xqd/2-OTS/1-GeSe/3-model-mgs/03-opt	opt	Ge Se	150 150	300	33303			500
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model/3-opt	opt	Ge S	150 150	300	33303			200
+nscc1741_XM/xqd/2-OTS/9-GeSe3/1-model/3-opt	opt	Ge Se	75 225	300	33303			50
+nscc1741_XM/xqd/2-OTS/11-Sb2S3/0-model/opt	opt	Sb S	120 180	300	33303			20
+nscc1741_XM/xqd/2-OTS/12-SbSeC/5%/3-opt	opt	Sb Se C	114 171 15	300	33314			1000
+nscc1741_XM/xqd/2-OTS/12-SbSeC/5%/31-opt	opt	Sb Se C	114 171 15	300	33314			1000
+nscc1741_XM/xqd/2-OTS/12-SbSeC/5%/32-opt	opt	Sb Se C	114 171 15	300	33314			1000
+nscc1741_XM/xqd/2-OTS/12-SbSeC/5%/33-opt	opt	Sb Se C	114 171 15	300	33314			1000
+nscc1741_XM/xqd/2-OTS/12-SbSeC/5%/34-opt	opt	Sb Se C	114 171 15	300	33314			1000
+nscc1741_XM/xqd/2-OTS/12-SbSeC/15%/3-opt	opt	Sb Se C	102 153 45	300	33314			1000
+nscc1741_XM/xqd/2-OTS/12-SbSeC/10%/3-300K-T/opt	opt	Sb Se C	108 162 30	300	33314			1000
+nscc1741_XM/xqd/2-OTS/12-SbSeC/10%/4-300K/opt	opt	Sb Se C	108 162 30	300	33314			500
+nscc1741_XM/xqd/2-OTS/12-SbSeC/10%/5-300K/opt	opt	Sb Se C	108 162 30	300	33314			1000
+nscc1741_XM/xqd/2-OTS/12-SbSeC/10%/6-300K/opt	opt	Sb Se C	108 162 30	300	33314			1000
+nscc1741_XM/xqd/2-OTS/12-SbSeC/10%/7-300K/opt	opt	Sb Se C	108 162 30	300	33314			1000
+nscc1741_XM/xqd/5-Sb-X/2-ZnSb/3-opt	opt	Zn Sb	45 255	300	33303			1000
+nscc1741_XM/xqd/3-GeSeTe/4-40%/1-model/3-opt	opt	Ge Te Se	150 90 60	300	33314			1000
+nscc1741_XM/xqd/3-GeSeTe/4-40%/2-model/3-opt	opt	Ge Te Se	150 90 60	300	33314			1000
+nscc1741_XM/xqd/3-GeSeTe/8-80%/1-model/3-opt	opt	Ge Te Se	150 120 30	300	33314			100
+nscc1741_XM/xqd/3-GeSeTe/5-50%/3-model/3-opt	opt	Ge Te Se	150 75 75	300	33314			500
+nscc1741_XM/xqd/3-GeSeTe/5-50%/2-model/3-opt	opt	Ge Te Se	150 75 75	300	33314			1000
+nscc1741_XM/xqd/3-GeSeTe/1-10%/1-model/3-opt	opt	Ge Te Se	150 135 15	300	33314			100
+nscc1741_XM/xqd/3-GeSeTe/2-20%/1-model/3-opt	opt	Ge Te Se	150 120 30	300	33314			100
+nscc1741_XM/xqd/3-GeSeTe/3-30%/1-model/3-opt	opt	Ge Te Se	150 105 45	300	33314			100
+nscc1741_XM/xqd/3-GeSeTe/6-60%/1-model/3-opt	opt	Ge Te Se	150 60 90	300	33314			1000
+nscc1741_XM/xumeng/born_charge/3-Sb/opt3	opt	Sb	6	6	952			500
+nscc1741_XM/xumeng/born_charge/2-GeTe/opt3	opt	Ge Te	3 3	6	963			500
+nscc1741_XM/xumeng/born_charge/opt3	opt	Ge Se	4 4	8	1183			500
+nscc1741_XM/xumeng/born_charge/4-SbTe2/opt3	opt	Sb Te	1 2	3	633			500
+nscc1741_XM/xumeng/born_charge/5-SnTe/opt3	opt	Sn Te	4 4	8	1183			500
+nscc1741_XM/xumeng/born_charge/GeSe-cubic/opt3	opt	Ge Se	4 4	8	1183			500
+nscc1741_XM/xumeng/born_charge/8-Bi2Se3/opt3	opt	Bi Se	6 9	15	1953			500
+nscc1741_XM/xumeng/old/CrP4/1-opt3	opt	P Cr	16 4	20	2503			1000
+nscc1741_XM/xumeng/old/LiDH/3-120K/1-opt2	opt	C H N Pb I	64 96 8 4 16	188	21016			2000
+nscc1741_XM/xumeng/old/LiDH/1-0K/1-opt3	opt	C H N Pb I	64 96 8 4 16	188	21016			2000
+nscc1741_XM/xumeng/old/LiDH/1-0K/2-opt2	opt	C H N Pb I	64 96 8 4 16	188	21016			2000
+nscc1741_XM/xumeng/old/LiDH/2-290K/1-opt2	opt	C H N Pb I	64 96 8 4 16	188	21016			2000
+nscc1741_XM/xumeng/old/LiDH/2-290K/5-opt2	opt	C H N Pb I	64 96 8 4 16	188	21016			2000
+nscc1741_XM/xumeng/old/LiDH/4-180K/1-opt2	opt	C H N Pb I	64 96 8 4 16	188	21016			2000
+nscc1741_XM/xumeng/old/LiDH/5-240K/1-opt2	opt	C H N Pb I	64 96 8 4 16	188	21016			2000
+nscc1741_XM/xumeng/5-KSS/1-KSS-a-1/5-opt7	opt	Sb Se K	112 182 28	322	35734			2000
+nscc1741_XM/xumeng/5-KSS/1-KSS-a-1/6-opt2	opt	Sb Se K	112 182 28	322	35734			2000
+nscc1741_XM/xumeng/5-KSS/1-KSS-a-1/7-opt7	opt	Sb Se K	112 182 28	322	35734			2000
+nscc1741_XM/xumeng/5-KSS/1-KSS-a-1/8-opt2	opt	Sb Se K	112 182 28	322	35734			2000
+nscc1741_XM/xumeng/5-KSS/2-KSS-a-2/5-opt7	opt	Sb Se K	112 182 28	322	35734			2000
+nscc1741_XM/xumeng/5-KSS/2-KSS-a-2/6-opt2	opt	Sb Se K	112 182 28	322	35734			2000
+nscc1741_XM/xumeng/5-KSS/2-KSS-a-2/7-opt7	opt	Sb Se K	112 182 28	322	35734			2000
+nscc1741_XM/xumeng/5-KSS/3-KSS-a-2-2/5-opt2	opt	Sb Se K	112 182 28	322	35734			2000
+nscc1741_XM/xumeng/5-KSS/3-KSS-a-2-2/4-opt7	opt	Sb Se K	112 182 28	322	35734			2000
+nscc1741_XM/xumeng/5-KSS/3-KSS-a-2-2/8-opt2	opt	Sb Se K	112 182 28	322	35734			2000
+nscc1741_XM/xumeng/10-OTS-pressure/4-0.96/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/4-0.96/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/4-0.96/relax/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/4-0.96/relax/4-opt2-98	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/4-opt2-94	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/6-opt2-98	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/8-opt2-100	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/1-0.99/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/2-0.98/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/6-0.9/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/7-0.85/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/8-0.94/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/8-0.94/4-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/8-0.94/relax	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/8-0.94/mgs_rebuild/1-opt2	opt	Ge Se	150 149	299	33193			2000
+nscc1741_XM/xumeng/10-OTS-pressure/8-0.94/mgs_rebuild/8-opt2-fix	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/10-OTS-pressure/0-1.00/2-opt	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/9-0.93/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/9-0.93/relax/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/10-0.95/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/10-0.95/relax/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/11-0.935/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/11-0.935/4-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/12-0.925/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/13-0.945/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/13-0.945/relax/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/14-0.947/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/15-0.948/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/16-0.949/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/17-0.9495/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/17-0.9495/relax	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/GeS/1-0.96/1-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/GeS/2-0.94/1-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/GeS/3-0.93/1-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/GeS/4-0.92/1-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/18-0.943/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/relax/2-96/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/relax/1-94-95/4-opt2-95	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/relax/3-0.98/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/relax/4-1.00/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/relax/5-0.99/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/GeTe6/1-0.96/1-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/GeTe6/2-0.98/1-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/cubic-GeSe/1-opt2	opt	Ge Se	4 4	8	1183			2000
+nscc1741_XM/xumeng/10-OTS-pressure/SnSe/1-opt2-97	opt	Sn Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/SnSe/old/1-opt7	opt	Sn Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/SnSe/old/2-opt2	opt	Sn Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/10-OTS-pressure/SnSe/old/4-opt2	opt	Sn Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/10-OTS-pressure/SiSe/pressure/1-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/1-Sn/1-opt2	opt	Ge Se Sn	149 150 1	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/1-Sn/3-opt2	opt	Ge Se Sn	145 150 5	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/2-Si/1-opt2	opt	Ge Si Se	100 50 150	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/1-opt2	opt	Ge Sn Se	140 10 150	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/3-opt2	opt	Ge Sn Se	130 20 150	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/5-opt2	opt	Ge Sn Se	120 30 150	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/7-opt2	opt	Ge Sn Se	135 15 150	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/9-opt2	opt	Ge Sn Se	100 50 150	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/11-opt2	opt	Ge Sn Se	100 50 150	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/9-2-opt2	opt	Ge Sn Se	75 75 150	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/success/13-dos/1-opt2	opt	Ge Sn Se	101 49 150	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/4-Te/1-opt2	opt	Ge Se Te	150 100 50	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/4-Te/3-opt2	opt	Ge Se Te	150 50 100	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/4-Te/5-opt2	opt	Ge Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/5-C/1-opt2	opt	Ge C Se	100 50 150	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/6-B/1-opt2	opt	Ge B Se	100 50 150	300	33314			2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/7-N/1-opt2	opt	Ge N Se	100 50 150	300	33314			2000
+nscc1741_XM/xumeng/6-boson/2-GeTe/opt	opt	Ge Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/6-boson/3-GST/2-cubic/1-opt3	opt	Ge Sb Te	43 43 108	194	21654			2000
+nscc1741_XM/xumeng/6-boson/3-GST/3-hex/1-opt3	opt	Ge Sb Te	32 48 96	176	19674			2000
+nscc1741_XM/xumeng/6-boson/3-GST/5-cubic-no-void/1-opt3	opt	Ge Sb Te	54 54 108	216	24074			2000
+nscc1741_XM/xumeng/4-Sb-TeSeS/1-Sb2Te3/2-opt2	opt	Sb Te	120 180	300	33303			2000
+nscc1741_XM/xumeng/4-Sb-TeSeS/1-Sb2Te3/5-opt2	opt	Sb Te	120 180	300	33303			2000
+nscc1741_XM/xumeng/4-Sb-TeSeS/2-Sb2Se3/6-opt2	opt	Sb Se	120 180	300	33303			1000
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/2-opt2	opt	Sb S	120 180	300	33303			2000
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/4-MD-2000/1-opt2	opt	Sb S	120 180	300	33303			2000
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/5-opt2	opt	Sb S	120 180	300	33303			2000
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/8-opt2	opt	Sb S	120 180	300	33303			2000
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/0-dos/2-opt2	opt	Sb S	120 180	300	33303			2000
+nscc1741_XM/xumeng/8-GeAsSe/2-dos/2-opt2	opt	Ge As Se	96 72 96	264	29354			2000
+nscc1741_XM/xumeng/8-GeAsSe/3-dos/2-opt2	opt	Ge As Se	96 72 96	264	29354			2000
+nscc1741_XM/xumeng/8-GeAsSe/4-dos/2-opt2	opt	Ge As Se	96 72 96	264	29354			2000
+nscc1741_XM/xumeng/8-GeAsSe/5-dos/2-opt2	opt	Ge As Se	96 72 96	264	29354			2000
+nscc1741_XM/xumeng/8-GeAsSe/1-dos/2-opt2	opt	Ge As Se	96 72 96	264	29354			2000
+nscc1741_XM/xumeng/8-GeAsSe/1-dos/4-opt2	opt	Ge As Se	96 72 96	264	29354			2000
+nscc1741_XM/xumeng/8-GeAsSe/1-dos/6-opt2	opt	Ge As Se	96 72 96	264	29354			2000
+nscc1741_XM/xumeng/SnSe/1-pnma/1-opt3	opt	Sn Se	4 4	8	1183			2000
+nscc1741_XM/xumeng/SnSe/1-pnma/4-op	opt	Sn Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/2-cmcm/1-opt3	opt	Sn Se	4 4	8	1183			2000
+nscc1741_XM/xumeng/SnSe/2-cmcm/4-op	opt	Sn Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/2-cmcm/5-opt3	opt	Sn Se	4 4	8	1183			2000
+nscc1741_XM/xumeng/SnSe/2-cmcm/7-op2	opt	Sn Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/5-mid1/4-op	opt	Sn Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/3-mid3/1-opt3	opt	Sn Se	4 4	8	1183			2000
+nscc1741_XM/xumeng/SnSe/3-mid3/2-opt2	opt	Sn Se	4 4	8	1183			2000
+nscc1741_XM/xumeng/SnSe/3-mid3/5-opt2	opt	Sn Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/3-mid3/4-op	opt	Sn Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/6-mid2/4-op	opt	Sn Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/4-mid4/1-opt2-1	opt	Sn Se	4 4	8	1183			2000
+nscc1741_XM/xumeng/SnSe/4-mid4/2-opt2-2	opt	Sn Se	4 4	8	1183			2000
+nscc1741_XM/xumeng/SnSe/4-mid4/4-op	opt	Sn Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/7-mid5/4-op	opt	Sn Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/GeSe/1-pnma/1-opt3	opt	Ge Se	4 4	8	1183			2000
+nscc1741_XM/xumeng/SnSe/GeSe/1-pnma/2-opt3	opt	Ge Se	4 4	8	1183			2000
+nscc1741_XM/xumeng/SnSe/GeSe/1-pnma/4-op	opt	Ge Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/GeSe/2-cmcm/1-opt3	opt	Ge Se	4 4	8	1183			2000
+nscc1741_XM/xumeng/SnSe/GeSe/2-cmcm/4-op	opt	Ge Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/GeSe/3-mid1/4-op	opt	Ge Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/GeSe/6-mid4/4-op	opt	Ge Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/GeSe/7-mid5/4-op	opt	Ge Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/GeSe/4-mid2/4-op	opt	Ge Se	4 4	8	1183			0
+nscc1741_XM/xumeng/SnSe/GeSe/5-mid3/4-op	opt	Ge Se	4 4	8	1183			0
+nscc1741_XM/xumeng/qiyingbing/1-guize/1/1-opt3	opt	Ge Sb Te	32 48 96	176	19674			2000
+nscc1741_XM/xumeng/qiyingbing/1-guize/2/1-opt3	opt	Ge Sb Te	38 42 96	176	19674			2000
+nscc1741_XM/xumeng/qiyingbing/1-guize/3/1-opt3	opt	Ge Sb Te	39 39 96	174	19454			2000
+nscc1741_XM/xumeng/qiyingbing/2-suiji/1/1-opt3	opt	Ge Sb Te	38 38 96	172	19234			2000
+nscc1741_XM/xumeng/qiyingbing/2-suiji/2/1-opt3	opt	Ge Sb Te	38 38 96	172	19234			2000
+nscc1741_XM/xumeng/qiyingbing/2-suiji/4-GST-c160/1-opt3	opt	Ge Sb Te	32 32 80	144	16154			2000
+nscc1741_XM/xumeng/qiyingbing/2-suiji/3-GST-c216/1-opt3	opt	Ge Sb Te	43 43 108	194	21654			2000
+nscc1741_XM/xumeng/12-ml-dielectric/16-Cd/2-CdSe-cubic/2-opt2	opt	Cd Se	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/16-Cd/2-CdSe-cubic/a/3-opt	opt	Cd Se	100 100	200	22303			1000
+nscc1741_XM/xumeng/12-ml-dielectric/16-Cd/1-CdS-hexagonal/2-opt2	opt	Cd S	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/16-Cd/3-CdTe-cubic/2-opt2	opt	Cd Te	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/3-InTe-cubic/1-InTe/2-opt2	opt	In Te	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/3-InTe-cubic/c-opt2	opt	In Te	4 4	8	1183			2000
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/3-InTe-cubic/c-die2-tetragonal	opt	In Te	4 4	8	1183			0
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/1-InS-orthorhombic/2-opt2	opt	In S	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/4-In2S3-tetragonal/a/3-opt	opt	In S	120 180	300	33303			1000
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/4-In2S3-tetragonal/a2/3-opt	opt	In S	120 180	300	33303			1000
+nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/2-TlSe-tetragonal/a/3-opt	opt	Tl Se	100 100	200	22303			1000
+nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/4-Tl2Se3-monoclinic/2-opt2	opt	Tl Se	80 120	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/3-TlTe-tetragonal/a/2-opt2	opt	Tl Te	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/6-C/2-CSe/2-opt2	opt	C Se	80 120	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/6-C/3-CSe2-orthorhombic/2-opt2	opt	C Se	66 134	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/2-PbSe-cubic/2-opt2	opt	Pb Se	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/2-PbSe-cubic/c/2-opt2	opt	Pb Se	4 4	8	1183			500
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/1-PbS-cubic/2-opt2	opt	Pb S	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/1-PbS-cubic/c/2-opt2	opt	Pb S	4 4	8	1183			2000
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/3-PbTe-cubic/2-opt2	opt	Pb Te	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/3-PbTe-cubic/c/2-opt2	opt	Te Pb	4 4	8	1183			2000
+nscc1741_XM/xumeng/12-ml-dielectric/15-Zn/2-ZnSe-cubic/2-opt2	opt	Zn Se	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/15-Zn/1-ZnS-cubic/2-opt2	opt	Zn S	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/17-Hg/47-HgSe-cubic/2-opt2	opt	Hg Se	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/17-Hg/48-HgTe-cubic/2-opt2	opt	Hg Te	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/11-P/55-P2Se3/2-opt2	opt	P Se	80 120	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/22-GST147/2-opt2	opt	Ge Sb Te	17 66 117	200	22314			2000
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/25-GST124/1-opt2	opt	Ge Sb Te	43 86 172	301	33424			2000
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/25-GST124/c-opt2	opt	Ge Sb Te	3 6 12	21	2624			2000
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/20-GST225/1-opt2	opt	Ge Sb Te	68 68 170	306	33974			2000
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/20-GST225/2-opt2	opt	Ge Sb Te	2 2 5	9	1304			2000
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/20-GST225/c-opt2	opt	Ge Sb Te	2 2 5	9	1304			2000
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/27-AgSbTe/2-opt2	opt	Ag Sb Te	50 50 100	200	22314			2000
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/1-As2S3-triclinic/6-opt2	opt	As S	80 120	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/1-As2S3-triclinic/0-AsS2/2-opt2	opt	As S	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/2-As2Se3-monoclinic/z-AsSe2/opt2	opt	As Se	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/2-As2Se3-monoclinic/2-opt2	opt	As Se	80 120	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/3-As2Te3-monoclinic/2-opt2	opt	As Te	80 120	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/3-As2Te3-monoclinic/z-AsTe2/2-opt2	opt	As Te	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/3-As2Te3-monoclinic/00-c/2-opt2	opt	As Te	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/4-AsS-monoclinic/c/1-opt	opt	As S	16 16	32	3823			500
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/4-AsS-monoclinic/a/3-opt	opt	As S	100 100	200	22303			1000
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/6-AsTe-cubic/c/1-opt	opt	As Te	4 4	8	1183			500
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/6-AsTe-cubic/a/3-opt	opt	As Te	100 100	200	22303			1000
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/5-AsSe-monoclinic/a/3-opt	opt	As Se	100 100	200	22303			1000
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal/3-opt2	opt	Sb Te	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal/4-die	opt	Sb Te	66 132	198	22083			0
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal/5-opt3	opt	Sb Te	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal/6-die	opt	Sb Te	66 132	198	22083			0
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal/c-opt3	opt	Sb Te	6 9	15	1953			500
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic/3-opt2	opt	Sb Se	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic/die	opt	Sb Se	66 132	198	22083			0
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic/6-opt3	opt	Sb Se	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic/c/opt3	opt	Sb Se	8 12	20	2503			2000
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic/c-bader/opt3	opt	Sb Se	8 12	20	2503			2000
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/5-SbTe/opt3	opt	Sb Te	6 6	12	1623			1000
+nscc1741_XM/xumeng/12-ml-dielectric/14-Bi/3-Bi2Te3-Trigonal/2-opt2	opt	Bi Te	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/14-Bi/3-Bi2Te3-Trigonal/5-opt2	opt	Bi Te	80 120	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/14-Bi/1-Bi2S3-Orthorhombic/2-opt2	opt	Bi S	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/14-Bi/2-Bi2Se3-Trigonal/2-opt2	opt	Bi Se	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/14-Bi/2-Bi2Se3-Trigonal/5-opt2	opt	Bi Se	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/7-Si/SiS-orthorhombic-2d/2-opt2	opt	Si S	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/7-Si/1-SiS2-orthorhombic/a/3-opt	opt	Si S	66 132	198	22083			100
+nscc1741_XM/xumeng/12-ml-dielectric/7-Si/2-SiSe2-orthorhombic/a/3-opt	opt	Si Se	66 132	198	22083			100
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/2-SnSe-orthorhombic/2-opt2	opt	Sn Se	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/2-SnSe-orthorhombic/c/opt3	opt	Sn Se	4 4	8	1183			500
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/1-SnS-orthorhombic/2-opt2	opt	Sn S	150 150	300	33303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/4-SnS2-trigonal/a/3-opt	opt	Sn S	100 200	300	33303			300
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/5-Sn2S3-orthorhombic/a/3-opt	opt	Sn S	120 180	300	33303			300
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/6-SnSe2-trigonal/a/3-opt	opt	Sn Se	100 200	300	33303			1000
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/3-SnTe-cubic/2-opt2	opt	Sn Te	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/6-Ga2Te3-mon/a/2-opt2	opt	Ga Te	120 180	300	33303			1000
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/5-Ga2Se3-Monoclinic/5-opt2	opt	Ga Se	80 120	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/5-Ga2Se3-Monoclinic/GaSe2/2-opt2	opt	Ga Se	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/2-GaSe-Hexagonal/a/3-opt	opt	Ga Se	99 99	198	22083			1000
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/3-GaTe-hex_mon/a/3-opt	opt	Ga Te	100 100	200	22303			1000
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/1-GaS-Hexagonal/a/3-opt	opt	Ga S	99 99	198	22083			1000
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/4-Ga2S3-Monoclinic/2-opt2	opt	As S	66 132	198	22083			2000
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/7-GaSe2/c-cubic/2-opt3	opt	Ga Se	48 96	144	16143			2000
+nscc1741_XM/xumeng/12-ml-dielectric/1-B/1-BS2/a/3-opt	opt	B S	66 132	198	22083			1000
+nscc1741_XM/xumeng/12-ml-dielectric/1-B/2-BSe2-Monoclinic/2-opt2	opt	B Se	80 120	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/2-Al/3-Al2Te3-monoclinic/a-die1	opt	Al Te	120 180	300	33303			0
+nscc1741_XM/xumeng/12-ml-dielectric/2-Al/1-Al2S3/2-opt2	opt	Al S	80 120	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/2-Al/2-Al2Se3-monoclinic/2-opt2	opt	Al Se	80 120	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/3-GeTe/3-opt2	opt	Ge Te	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/3-GeTe/6-opt2	opt	Ge Te	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/3-GeTe/9-opt2	opt	Ge Te	100 100	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/--GeTe2/2-opt2	opt	Ge Te	66 134	200	22303			2000
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/1-GeS-orthorhombic/1-c/opt3	opt	Ge S	4 4	8	1183			500
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/2-GeSe-orthorhombic/c-GeSe/opt3	opt	Ge Se	4 4	8	1183			500
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/4-GeS2-monoclinic/a/a1/3-opt	opt	Ge S	100 200	300	33303			1000
+nscc1741_XM/xumeng/12-ml-dielectric/42-AgInTe2/2-opt2	opt	Ag In Te	50 50 100	200	22314			2000
+nscc1741_XM/xumeng/12-ml-dielectric/60-GeSbSe	opt	Ge Sb Se	68 68 170	306	33974			200
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/3-opt	opt	Sb Se Te	120 90 90	300	33314			200
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/90%	opt	Sb Se Te	120 162 18	300	33314			200
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/10%	opt	Sb Se Te	120 18 162	300	33314			200
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/3-30%	opt	Sb Se Te	120 54 126	300	33314			200
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/4-40%	opt	Sb Se Te	120 72 108	300	33314			50
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/6-60%	opt	Sb Se Te	120 108 72	300	33314			200
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/7-70%	opt	Sb Se Te	120 126 54	300	33314			200
+nscc1741_XM/xumeng/12-ml-dielectric/dope/SbSeTe/8-80%	opt	Sb Se Te	120 144 36	300	33314			50
+nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/10%	opt	Ge Te Se	150 135 15	300	33314			100
+nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/20%	opt	Ge Te Se	150 120 30	300	33314			100
+nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/30%	opt	Ge Te Se	150 105 45	300	33314			100
+nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/4-40%	opt	Ge Te Se	150 90 60	300	33314			1000
+nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/5-50%	opt	Ge Te Se	150 75 75	300	33314			500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/GeSeTe/6-60%	opt	Ge Te Se	150 60 90	300	33314			1000
+nscc1741_XM/xumeng/Sb2Se3/1-opt2	opt	Sb Se	120 180	300	33303			1000
+nscc1741_XM/xumeng/Sb2Se3/3-opt2	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/Sb2Se3/4-opt2	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/2-C10/0-crystal/2-opt	opt	Sb C	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/2-C10/0-crystal/3-opt7	opt	Sb C	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/2-C10/0-crystal/1-opt-box	opt	Sb C	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/amorphous/2-opt	opt	Sb C	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/amorphous/3-opt	opt	Sb C	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/3-C5/0-crystal/2-opt	opt	Sb C	205 11	216	58531			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/3-C5/0-crystal/1-opt-box	opt	Sb C	205 11	216	58531			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/1-600k/0-crystal/1-opt-box	opt	Sb	216	216	55909			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/1-600k/0-crystal/2-opt	opt	Sb	216	216	55909			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/1-600k/0-crystal/3-opt7	opt	Sb	216	216	55909			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/1-600k/0-crystal/4-opt2	opt	Sb	216	216	55909			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/1-600k/0-crystal/5-opt7	opt	Sb	216	216	55909			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/3-Si5/0-crystal/1-opt-box	opt	Sb Si	205 11	216	58531			2000
+nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/3-Si5/0-crystal/2-opt	opt	Sb Si	205 11	216	58531			2000
+nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/2-Si10/0-crystal/1-opt-box	opt	Sb Si	195 21	216	55920			2000
+nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/2-Si10/0-crystal/2-opt	opt	Sb Si	195 21	216	55920			2000
+nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/amorphous/3-opt	opt	Sb Si	195 21	216	55920			2000
+nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/amorphous/2-opt	opt	Sb Si	195 21	216	55920			2000
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/2-Ge10/0-crystal/2-opt	opt	Sb Ge	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/2-Ge10/0-crystal/1-opt-box	opt	Sb Ge	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/2-Ge10/0-crystal/3-opt7	opt	Sb Ge	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/3-Ge5/0-crystal/2-opt	opt	Sb Ge	205 11	216	58531			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/3-Ge5/0-crystal/1-opt-box	opt	Sb Ge	205 11	216	58531			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/3-Ge5/0-crystal/3-opt7	opt	Sb Ge	205 11	216	58531			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/amorphous/2-opt	opt	Sb Ge	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/amorphous/3-opt	opt	Sb Ge	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/amorphous/6-opt7	opt	Sb Ge	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/3-Sn5/0-crystal/1-opt-box	opt	Sb Sn	205 11	216	58531			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/3-Sn5/0-crystal/2-opt	opt	Sb Sn	205 11	216	58531			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/2-Sn10/0-crystal/1-opt-box	opt	Sb Sn	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/2-Sn10/0-crystal/2-opt	opt	Sb Sn	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/amorphous/2-opt	opt	Sb Sn	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/amorphous/3-opt	opt	Sb Sn	195 21	216	55920			3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/amorphous/4-opt7	opt	Sb Sn	195 21	216	55920			3000
+nscc1741_XM/xumeng/soap-MD/1-GeSe/1/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/soap-MD/generation/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/xumeng/0-SbX/1-SbC/1-opt2	opt	Sb C	205 11	216	55920			2000
+nscc1741_XM/xumeng/xumeng/0-SbX/1-SbC/2-opt7	opt	Sb C	205 11	216	55920			2000
+nscc1741_XM/xumeng/xumeng/0-SbX/1-SbC/3-opt2	opt	Sb C	205 11	216	55920			2000
+nscc1741_XM/xumeng/xumeng/0-SbX/2-SbSi/1-opt2	opt	Sb Si	205 11	216	55920			2000
+nscc1741_XM/xumeng/xumeng/0-SbX/2-SbSi/2-opt7	opt	Sb Si	205 11	216	55920			2000
+nscc1741_XM/xumeng/xumeng/0-SbX/2-SbSi/3-opt2	opt	Sb Si	205 11	216	55920			2000
+nscc1741_XM/xumeng/xumeng/0-SbX/3-SbGe/1-opt2	opt	Sb Ge	205 11	216	55920			2000
+nscc1741_XM/xumeng/xumeng/0-SbX/3-SbGe/2-opt7	opt	Sb Ge	205 11	216	55920			2000
+nscc1741_XM/xumeng/xumeng/0-SbX/3-SbGe/3-opt2	opt	Sb Ge	205 11	216	55920			2000
+nscc1741_XM/xumeng/xumeng/0-SbX/4-SbSn/1-opt2	opt	Sb Sn	205 11	216	55920			2000
+nscc1741_XM/xumeng/xumeng/0-SbX/4-SbSn/2-opt7	opt	Sb Sn	205 11	216	55920			2000
+nscc1741_XM/xumeng/xumeng/0-SbX/4-SbSn/3-opt2	opt	Sb Sn	205 11	216	55920			2000
+nscc1741_XM/xumeng/xumeng/4-GeTe/4-opt2	opt	Ge Te	150 150	300	77508			3000
+nscc1741_XM/xumeng/xumeng/4-GeTe/5-opt7	opt	Ge Te	150 150	300	77508			3000
+nscc1741_XM/xumeng/xumeng/4-GeTe/6-opt2	opt	Ge Te	150 150	300	77508			3000
+nscc1741_XM/xumeng/xumeng/4-GeTe/7-opt7	opt	Ge Te	150 150	300	77508			3000
+nscc1741_XM/xumeng/xumeng/9-SnS/5-opt7	opt	Sn S	100 200	300	77508			3000
+nscc1741_XM/xumeng/xumeng/9-SnS/4-opt2	opt	Sn S	100 200	300	77508			3000
+nscc1741_XM/xumeng/xumeng/9-SnS/6-opt2	opt	Sn S	100 200	300	77508			3000
+nscc1741_XM/xumeng/xumeng/9-SnS/7-opt7	opt	Sn S	100 200	300	77508			3000
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/1-Sb	opt	Sb	300	300	77497	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/2-Ge15Sb85	opt	Ge Sb	45 255	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/4-GST-124	opt	Ge Sb Te	43 86 172	301	77776	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/5-GeTe	opt	Ge Te	150 150	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/6-Sb2Te3	opt	Sb Te	120 180	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/15-GST225	opt	Ge Sb Te	68 68 170	306	79061	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/16-AIST	opt	Ag In Sb Te	12 9 201 78	300	77530	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/17-SST	opt	Sc Sb Te	14 112 189	315	81374	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/18-SnSb2Te4	opt	Sn Sb Te	43 86 172	301	77776	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/1-pcm/24-SiSbTe	opt	Si Sb Te	43 86 172	301	77776	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/10-SnTe	opt	Sn Te	150 150	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/11-SiO2	opt	Si O	100 200	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/12-PbSe	opt	Pb Se	150 150	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/3-SiGe	opt	Si Ge	150 150	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/7-GeSe	opt	Ge Se	150 150	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/7-GeSe/2-GeSe	opt	Ge Se	150 150	300	33303	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/8-SiC	opt	Si C	150 150	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/9-SnS	opt	Sn S	100 200	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/21-PbTe	opt	Pb Te	150 150	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/14-Si	opt	Si	300	300	77497	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/13-GeS	opt	Ge S	150 150	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/20-Ge2Sb2Se5	opt	Ge Sb Se	68 68 170	306	79061	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/22-SnSe	opt	Sn Se	150 150	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/23-SnS	opt	Sn S	150 150	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/xumeng/lobster/amorphous/2-npcm/24-PbS	opt	Pb S	150 150	300	77508	3000.0	3000.0	0
+nscc1741_XM/xumeng/3-OTS/1-GeSe/1-dos-T/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/7-dos/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/7-dos/4-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/7-dos/6-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/6-dos/7-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/2-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/4-rebuild/2-opt2	opt	Ge Se	151 151	302	37166			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/4-rebuild/4-opt2	opt	Ge Se	150 151	301	37044			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/4-rebuild/6-opt2	opt	Ge Se	151 151	302	37166			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/4-rebuild/8-opt2	opt	Ge Se	150 151	301	33413			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/4-rebuild/10-opt2	opt	Ge Se	151 151	302	33523			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/4-rebuild/14-opt2	opt	Ge Se	152 151	303	37288			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/4-rebuild/12-opt2	opt	Ge Se	151 151	302	37166			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/5-rebuild/2-opt2	opt	Ge Se	151 151	302	37166			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/5-rebuild/4-scf/2-opt2	opt	Ge Se	151 151	302	37166			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/5-rebuild/6-opt2	opt	Ge Se	151 151	302	37166			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/5-rebuild/9-opt2	opt	Ge Se	151 151	302	37166			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/5-rebuild/11-opt2	opt	Ge Se	151 151	302	37166			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/5-rebuild/14-opt2	opt	Ge Se	151 151	302	37166			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/5-rebuild/3-dos-T/2-opt2	opt	Ge Se	151 151	302	37166			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/2-Ge+Se/2-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/2-Ge+Se/5-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/3-Ge+Se+Ge/2-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/3-Ge+Se+Ge/5-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/3-Ge+Se+Ge/8-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/9-fix-atoms/1-break-chain/1-opt2	opt	Ge Se	149 149	298	33083			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/1-2%/2-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/1-2%/5-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/4-7%/2-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/3-10%/2-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/2-5%/2-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/5-3%/2-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/6-4%/2-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/0-pressure/7-6%/2-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/1-GeSe/1-opt3	opt	Ge Se	32 32	64	7343			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/1-GeSe/4-opt3	opt	Ge Se	32 32	64	7343			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/2-GeSe-Ge-doped/1-opt3	opt	Ge Se	33 32	65	7453			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/3-GeSe+Se/1-opt3	opt	Ge Se	32 33	65	8252			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/3-GeSe+Se/3-opt3	opt	Ge Se	32 34	66	8374			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/3-GeSe+Se/5-opt3	opt	Ge Se	64 65	129	16060			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/3-GeSe+Se/7-opt3	opt	Ge Se	128 129	257	28573			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/3-GeSe+Se/10-opt2-removeSe	opt	Ge Se	128 129	257	28573			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/4-GeSe1+1Se/1-opt3	opt	Ge Se	33 32	65	8252			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/5-GeSe-As-doped/1-opt3	opt	Ge As Se	30 2 32	64	7354			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/5-GeSe-As-doped/3-opt3	opt	Ge As Se	30 2 32	64	7354			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/5-GeSe-As-doped/5-opt3	opt	Ge As Se	30 2 32	64	7354			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/crystal/0-Se-doped/1-opt3	opt	Ge Se	32 33	65	7453			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/10-dos/2-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/10-dos/4-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/5-dos-T/3-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/5-dos-T/4-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/5-dos-T/0-GeSe/1-opt2	opt	Ge Se	149 151	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/11-dos/2-opt2	opt	Ge Se	149 151	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/11-dos/5-opt2	opt	Ge Se	150 150	300	36922			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/C-GeSe/2-opt2	opt	Ge Se C	149 150 1	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/C-GeSe/5-opt2-As	opt	Ge Se As	149 150 1	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/0-dos/1-SnTe-GeSe/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/0-dos/1-SnTe-GeSe/3-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/0-dos/2-SnTe-GeSe/1-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/2-SiTe/3-dos/1-opt2	opt	Si Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/2-SiTe/dos2/1-opt2	opt	Si Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/2-SiTe/dos2/4-opt2	opt	Si Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/2-SiTe/dos2/6-opt2	opt	Si Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/2-SiTe/dos2/8-opt2	opt	Si Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/2-SiTe/1-dos/1-opt2	opt	Si Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/2-SiTe/1-dos/8-opt2	opt	Si Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/2-SiTe/1-dos/11-opt2	opt	Si Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/2-dos/1-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/2-dos/3-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/2-dos/5-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/1-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/3-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/5-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/7-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/9-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/new/1-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/new/4-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/6-dos-m/2-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/5-dos-F/1-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/5-dos-F/3-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/5-dos-F/5-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/1-dos/1-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/1-dos/4-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/1-dos/6-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/1-dos/8-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/1-dos/10-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/4-dos-F/1-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/4-dos-F/3-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/4-dos-F/5-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/4-dos-F/7-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/6-dos-T/1-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/6-dos-T/4-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/8-dos2-GeS/1-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/8-dos2-GeS/3-opt2	opt	Ge S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/9-ZnTe/1-dos/1-opt2	opt	Zn Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/9-ZnTe/1-dos/6-opt2	opt	Zn Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/14-BTe/0-a/3-opt2	opt	B Te	120 180	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/14-BTe/2-dos/1-opt2	opt	B Te	120 180	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/14-BTe/2-dos/3-opt2	opt	B Te	120 180	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/14-BTe/1-dos/2-opt2	opt	B Te	120 180	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/14-BTe/1-dos/4-opt2	opt	B Te	120 180	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/5-GeSeAs25/1-dos/2-opt2	opt	Ge As Se	90 60 150	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/5-GeSeAs25/1-dos/4-opt2	opt	Ge As Se	90 60 150	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/5-GeSeAs25/1-dos/9-opt2	opt	Ge As Se	90 60 150	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/5-GeSeAs25/1-dos/7-opt2	opt	Ge As Se	90 60 150	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/5-GeSeAs25/1-dos/11-opt2	opt	Ge As Se	90 60 150	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/6-dos/2-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/3-dos/2-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/3-dos/4-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/3-dos/7-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/2-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/4-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/6-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/8-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/10-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/11-dos/2-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/11-dos/5-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/2-dos-f/0-a/2-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/2-dos-f/0-a/4-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/1-dos/1-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/1-dos/3-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/1-dos/7-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/2-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/4-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/6-opt3	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/8-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/new/4-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/new/6-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/new/8-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/10-opy2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/12-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/md/2-opt2	opt	Si Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/3-GeTe/1-opt2	opt	Ge Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/3-GeTe/6-opt2	opt	Ge Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/4-SnTe/1-opt2	opt	Sn Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/4-SnTe/6-opt2	opt	Sn Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/8-GeSeTe/1-opt2	opt	Ge Se Te	150 39 111	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/6-BTe/1-dos/1-opt2	opt	B Te	75 225	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/2-dos/1-opt2	opt	Ge Se	100 200	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/2-dos/3-opt2	opt	Ge Se	100 200	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/3-dos/1-opt2	opt	Ge Se	100 200	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/3-dos/3-opt2	opt	Ge Se	100 200	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/3-dos/7-opt2	opt	Ge Se	100 200	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/1-dos/1-opt2	opt	Ge Se	100 200	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/1-dos/6-opt2	opt	Ge Se	100 200	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/4-dos-T/3-opt2	opt	Ge Se	100 200	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/4-dos-T/5-opt2	opt	Ge Se	100 200	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/5-dos/2-opt2	opt	Ge Se	100 200	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/5-dos/4-opt2	opt	Ge Se	100 200	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/2-dos/2-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/2-dos/4-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/2-dos/6-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/1-dos/2-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/1-dos/4-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/1-dos/6-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/1-dos/8-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/1-dos/10-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/1-dos/12-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/3-dos/2-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/3-dos/5-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/3-dos/8-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/4-dos/1-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/2-dos/1-opt2	opt	Ge As Se	135 30 135	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/2-dos/4-opt2	opt	Ge As Se	135 30 135	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/2-dos/7-opt2	opt	Ge As Se	135 30 135	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/2-dos/9-opt2	opt	Ge As Se	135 30 135	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/2-dos/11-opt2	opt	Ge As Se	135 30 135	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/3-dos/1-opt2	opt	Ge As Se	135 30 135	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/3-dos/3-opt2	opt	Ge As Se	135 30 135	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/1-dos/1-opt2	opt	Ge As Se	135 30 135	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/6-SiAsTe/1-opt2	opt	Si AS Te	135 30 135	300	33314			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/1-dos/1-opt2	opt	As Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/1-dos/4-opt2	opt	As Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/1-dos/7-opt2	opt	As Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/1-dos/10-opt2	opt	As Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/2-dos/2-opt2	opt	As Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/2-dos/4-opt2	opt	As Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/2-dos/7-opt2	opt	As Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/3-dos/2-opt2	opt	As Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/3-dos/5-opt2	opt	As Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/4-dos/2-opt2	opt	As Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/4-dos/5-opt2	opt	As Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/5-dos/2-opt2	opt	As Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/5-dos/5-opt2	opt	As Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/AsSe/2-opt2	opt	As Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/AsSe/94-opt	opt	As Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/AsSe/96-opt	opt	As Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/AsSe/98-opt	opt	As Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/AsSe/95-opt	opt	As Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/1-dos/1-opt2	opt	Al Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/1-dos/3-opt2	opt	Al Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/1-dos/6-opt2	opt	Al Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/1-dos/9-opt2	opt	Al Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/2-dos/2-opt2	opt	Al Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/2-dos/5-opt2	opt	Al Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/3-dos/2-opt2	opt	Al Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/3-dos/5-opt2	opt	Al Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/4-dos/2-opt2	opt	Al Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/design/2-opt2	opt	Al Te	153 151	304	37410			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/design/4-opt2	opt	Al Te	153 151	304	37410			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/0-Al2Te3/2-opt2	opt	Al Te	120 180	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/0-Al2Te3/5-opt2	opt	Al Te	120 180	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/0-Al2Te3/8-opt2	opt	Al Te	120 180	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/0-Al2Te3/11-opt2	opt	Al Te	120 180	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/0-Al2Te3/14-opt2	opt	Al Te	120 180	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/12-AlTe/0-Al2Te3/12-dos-T/2-opt2	opt	Al Te	120 179	299	33193			2000
+nscc1741_XM/xumeng/3-OTS/13-SnSe/2-opt2	opt	Sn Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/13-SnSe/5-opt2	opt	Sn Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/13-SnSe/GeSe-opt	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/15-GaTe/2-dos/2-opt2	opt	Ga Te	120 180	300	33303			1000
+nscc1741_XM/xumeng/3-OTS/15-GaTe/1-dos/2-opt2	opt	Ga Te	120 180	300	33303			1000
+nscc1741_XM/xumeng/3-OTS/15-GaTe/1-dos/5-opt2	opt	Ga Te	120 180	300	33303			1000
+nscc1741_XM/xumeng/3-OTS/15-GaTe/1-dos/7-opt2	opt	Ga Te	120 180	300	33303			1000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/1-dos-T/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/1-dos-T/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/1-dos-T/8-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/2-dos-T/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/2-dos-T/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/3-dos/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/3-dos/4-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/4-dos-T/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/4-dos-T/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/4-dos-T/8-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/5-dos-T/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/6-dos/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/7-dos-T/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/8-dos-T1/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/8-dos-T1/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/9-dos-T/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/20-dos/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/21-dos/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/21-dos/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/21-dos/8-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/21-dos/11-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/21-dos/14-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/22-dos/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/22-dos/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/23-dos/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/23-dos/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/24-dos/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/25-dos-24/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/26-dos-22/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/26-dos-22/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/26-dos-22/8-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/26-dos-22/11-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/27-dos-25/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/27-dos-25/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/27-dos-25/8-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/28-dos-23/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/3-dos-20/29-dos-28/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/30-dos-21/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/31-dos-29/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/32-dos-30/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/33-dos-27/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/33-dos-27/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/33-dos-27/8-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/34-dos-31/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/34-dos-31/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/36-dos-35/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/35-dos-32/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/37-dos-34/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/38-dos-33/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/39-dos-36/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/4-dos-30/39-dos-36/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/40-dos-37/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/40-dos-37/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/40-dos-37/8-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/41-dos-38/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/42-dos-40/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/44-dos-41/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/44-dos-41/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/44-dos-41/8-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/44-dos-41/11-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/44-dos-41/14-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/43-dos-39/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/43-dos-39/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/43-dos-39/8-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/45-dos-42/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/45-dos-42/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/45-dos-42/8-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/45-dos-42/11-opt	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/46-dos-43/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/46-dos-43/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/46-dos-43/8-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/46-dos-43/11-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/46-dos-43/14-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/47-dos-44/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/47-dos-44/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/5-dos-40/47-dos-44/8-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/10-dos-T/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/11-dos-T1/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/11-dos-T1/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/12-dos/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/12-dos/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/12-dos/8-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/13-dos-T1/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/14-dos-T/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/14-dos-T/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/15-dos-T/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/16-dos/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/16-dos/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/17-dos-T1/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/18-dos/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/18-dos/5-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/2-dos-10/19-dos/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/ml-OTS/36-dos/2-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/16-GaSe/2-dos/2-opt2	opt	Ga Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/16-GaSe/2-dos/5-opt2	opt	Ga Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/16-GaSe/2-dos/8-opt2	opt	Ga Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/16-GaSe/2-dos/11-opt2	opt	Ga Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/16-GaSe/3-dos/2-opt2	opt	Ga Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/16-GaSe/1-dos/2-opt2	opt	Ga Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/16-GaSe/1-dos/5-opt2	opt	Ga Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/17-GaS/2-opt2	opt	Ga S	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/18-InSe/2-opt2	opt	In Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/18-InSe/5-opt2	opt	In Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/19-BiSe/2-opt2	opt	Bi Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/19-BiSe/5-opt2	opt	Bi Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/3-OTS/GeS2/2-opt2	opt	Ge S	100 200	300	33303			2000
+nscc1741_XM/xumeng/GeTe	opt	Ge Te	3 3	6	963			2000
+nscc1741_XM/xumeng/1-PCM/1-Sb/4-opt2	opt	Sb	300	300	77497			3000
+nscc1741_XM/xumeng/1-PCM/1-Sb/5-opt7	opt	Sb	300	300	77497			3000
+nscc1741_XM/xumeng/1-PCM/1-Sb/6-opt2	opt	Sb	300	300	77497			3000
+nscc1741_XM/xumeng/1-PCM/1-Sb/7-opt7	opt	Sb	300	300	77497			3000
+nscc1741_XM/xumeng/1-PCM/1-Sb/11-opt2	opt	Sb	300	300	77497			3000
+nscc1741_XM/xumeng/1-PCM/1-Sb/12-opt7	opt	Sb	300	300	33292			3000
+nscc1741_XM/xumeng/1-PCM/2-Ge15Sb85/4-opt2	opt	Ge Sb	45 255	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/2-Ge15Sb85/5-opt7	opt	Ge Sb	45 255	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/2-Ge15Sb85/7-opt7	opt	Ge Sb	45 255	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/2-Ge15Sb85/6-opt2	opt	Ge Sb	45 255	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/20-opt7	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/21-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/23-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/14-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/15-opt7	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/16-opt2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/17-opt7	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/3-SiGe/4-opt2	opt	Si Ge	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/3-SiGe/5-opt7	opt	Si Ge	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/3-SiGe/6-opt2	opt	Si Ge	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/3-SiGe/7-opt7	opt	Si Ge	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/3-SiGe/8-opt7	opt	Si Ge	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/3-SiGe/11-opt2	opt	Si Ge	150 150	300	33303			3000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/6-opt2	opt	Ge Te	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/7-opt7	opt	Ge Te	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/12-opt2	opt	Ge Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/13-opt7	opt	Ge Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/14-opt2	opt	Ge Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/16-opt2	opt	Ge Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/4-GST_124/10-opt2	opt	Ge Sb Te	43 86 172	301	77776			3000
+nscc1741_XM/xumeng/1-PCM/4-GST_124/11-opt7	opt	Ge Sb Te	43 86 172	301	33424			3000
+nscc1741_XM/xumeng/1-PCM/4-GST_124/12-opt2	opt	Ge Sb Te	43 86 172	301	33424			3000
+nscc1741_XM/xumeng/1-PCM/4-GST_124/13-opt7	opt	Ge Sb Te	43 86 172	301	33424			3000
+nscc1741_XM/xumeng/1-PCM/6-Sb2Te3/4-opt2	opt	Sb Te	120 180	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/6-Sb2Te3/5-opt7	opt	Sb Te	120 180	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/6-Sb2Te3/6-opt2	opt	Sb Te	120 180	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/6-Sb2Te3/7-opt7	opt	Sb Te	120 180	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/6-Sb2Te3/8-opt2	opt	Sb Te	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/8-SiC/3-opt2	opt	Si C	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/8-SiC/4-opt7	opt	Si C	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/8-SiC/5-opt2	opt	Si C	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/8-SiC/6-opt7	opt	Si C	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/8-SiC/7-opt2	opt	Si C	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/10-SnTe/3-opt2	opt	Sn Te	150 150	300	77508			2000
+nscc1741_XM/xumeng/1-PCM/10-SnTe/4-opt7	opt	Sn Te	150 150	300	77508			2000
+nscc1741_XM/xumeng/1-PCM/10-SnTe/5-opt2	opt	Sn Te	150 150	300	77508			2000
+nscc1741_XM/xumeng/1-PCM/10-SnTe/6-opt7	opt	Sn Te	150 150	300	77508			2000
+nscc1741_XM/xumeng/1-PCM/12-PbSe/4-opt7	opt	Pb Se	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/12-PbSe/5-opt2	opt	Pb Se	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/12-PbSe/3-opt2	opt	Pb Se	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/12-PbSe/6-opt7	opt	Pb Se	150 150	300	77508			3000
+nscc1741_XM/xumeng/1-PCM/13-GeS/3-opt2	opt	Ge S	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/13-GeS/4-opt7	opt	Ge S	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/13-GeS/5-opt2	opt	Ge S	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/13-GeS/6-opt7	opt	Ge S	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/14-Si/3-opt2	opt	Si	300	300	77497	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/14-Si/4-opt7	opt	Si	300	300	77497	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/14-Si/5-opt2	opt	Si	300	300	77497	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/14-Si/6-opt7	opt	Si	300	300	77497	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/3-opt2	opt	Ge Sb Te	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/4-opt7	opt	Ge Sb Te	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/5-opt2	opt	Ge Sb Te	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/6-opt7	opt	Ge Sb Te	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/8-opt2	opt	Ge Sb Te	68 68 170	306	79061			2000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/9-opt7	opt	Ge Sb Te	68 68 170	306	79061			2000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/10-opt2	opt	Ge Sb Te	68 68 170	306	79061			2000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/11-opt7	opt	Ge Sb Te	68 68 170	306	79061			2000
+nscc1741_XM/xumeng/1-PCM/16-AIST/3-opt2	opt	Ag In Sb Te	12 9 201 78	300	77530	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/16-AIST/4-opt	opt	Ag In Sb Te	12 9 201 78	300	77530	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/16-AIST/5-opt2	opt	Ag In Sb Te	12 9 201 78	300	77530	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/16-AIST/6-opt7	opt	Ag In Sb Te	12 9 201 78	300	77530	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/17-SST/3-opt2	opt	Sc Sb Te	14 112 189	315	81374	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/17-SST/4-opt7	opt	Sc Sb Te	14 112 189	315	81374	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/17-SST/5-opt2	opt	Sc Sb Te	14 112 189	315	81374	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/17-SST/6-opt7	opt	Sc Sb Te	14 112 189	315	81374	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/18-SnSb2Te4/3-opt2	opt	Sn Sb Te	43 86 172	301	77776			3000
+nscc1741_XM/xumeng/1-PCM/18-SnSb2Te4/4-opt7	opt	Sn Sb Te	43 86 172	301	77776			3000
+nscc1741_XM/xumeng/1-PCM/18-SnSb2Te4/5-opt2	opt	Sn Sb Te	43 86 172	301	77776			3000
+nscc1741_XM/xumeng/1-PCM/18-SnSb2Te4/6-opt7	opt	Sn Sb Te	43 86 172	301	77776			3000
+nscc1741_XM/xumeng/1-PCM/19-GeBiTe/3-opt2	opt	Ge Bi Te	43 86 172	301	77776	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/19-GeBiTe/4-opt7	opt	Ge Bi Te	43 86 172	301	77776	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/19-GeBiTe/5-opt2	opt	Ge Bi Te	43 86 172	301	77776	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/19-GeBiTe/6-opt7	opt	Ge Bi Te	43 86 172	301	77776	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/3-opt2	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/4-opt7	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/4-opt7/3-opt2	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/5-opt2	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/5-opt2/4-opt7	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/5-opt2/4-opt7/3-opt2	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/6-opt7	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/6-opt7/5-opt2	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/6-opt7/5-opt2/4-opt7	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/6-opt7/5-opt2/4-opt7/3-opt2	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/7-3000-300	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/7-3000-300/5-opt2	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/7-3000-300/5-opt2/4-opt7	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/20-Ge2Sb2Se5/7-3000-300/5-opt2/4-opt7/3-opt2	opt	Ge Sb Se	68 68 170	306	79061	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/21-PbTe/3-opt2	opt	Pb Te	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/21-PbTe/4-opt7	opt	Pb Te	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/21-PbTe/5-opt2	opt	Pb Te	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/21-PbTe/6-opt7	opt	Pb Te	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/22-SnSe/3-opt2	opt	Sn Se	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/22-SnSe/4-opt7	opt	Sn Se	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/22-SnSe/5-opt2	opt	Sn Se	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/22-SnSe/6-opt7	opt	Sn Se	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/25-PbS/3-opt2	opt	Pb S	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/25-PbS/4-opt7	opt	Pb S	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/25-PbS/5-opt2	opt	Pb S	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/25-PbS/6-opt7	opt	Pb S	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/23-SnS/3-opt2	opt	Sn S	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/23-SnS/4-opt7	opt	Sn S	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/23-SnS/5-opt2	opt	Sn S	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/23-SnS/6-opt7	opt	Sn S	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/23-SnS/7-opt2	opt	Sn S	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/24-SiSbTe/3-opt2	opt	Si Sb Te	43 86 172	301	77776	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/24-SiSbTe/4-opt7	opt	Si Sb Te	43 86 172	301	77776	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/24-SiSbTe/5-opt2	opt	Si Sb Te	43 86 172	301	77776	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/24-SiSbTe/6-opt7	opt	Si Sb Te	43 86 172	301	77776	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/24-SiSbTe/8-opt2	opt	Si Sb Te	43 86 172	301	77776			2000
+nscc1741_XM/xumeng/1-PCM/24-SiSbTe/9-opt7	opt	Si Sb Te	43 86 172	301	77776			2000
+nscc1741_XM/xumeng/1-PCM/24-SiSbTe/10-opt2	opt	Si Sb Te	43 86 172	301	77776			2000
+nscc1741_XM/xumeng/1-PCM/24-SiSbTe/11-opt7	opt	Si Sb Te	43 86 172	301	77776			2000
+nscc1741_XM/xumeng/1-PCM/26-SiTe/3-opt2	opt	Si Te	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/26-SiTe/4-opt7	opt	Si Te	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/26-SiTe/5-opt2	opt	Si Te	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/26-SiTe/6-opt7	opt	Si Te	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/27-SiSe/8-opt2	opt	Si Se	150 150	300	77508	2000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/27-SiSe/9-opt7	opt	Si Se	150 150	300	77508	2000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/27-SiSe/10-opt2	opt	Si Se	150 150	300	77508	2000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/27-SiSe/11-opt7	opt	Si Se	150 150	300	77508	2000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/30-GaSb/3-opt2	opt	Ga Sb	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/30-GaSb/4-opt7	opt	Ga Sb	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/30-GaSb/5-opt2	opt	Ga Sb	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/30-GaSb/6-opt7	opt	Ga Sb	150 150	300	77508	3000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/30-GaSb/8-opt2	opt	Ga Sb	150 150	300	77508	2000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/30-GaSb/9-opt7	opt	Ga Sb	150 150	300	77508	2000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/30-GaSb/10-opt2	opt	Ga Sb	150 150	300	77508	2000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/30-GaSb/11-opt7	opt	Ga Sb	150 150	300	77508	2000.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/31-GaAs/3-opt2	opt	Ga As	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/31-GaAs/4-opt7	opt	Ga As	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/31-GaAs/5-opt2	opt	Ga As	150 150	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/bbc/1-opt3	opt	Sb Se	64 64	128	14383			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/bbc/2-opt2-0.9	opt	Sb Se	64 64	128	14383			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/bbc/3-opt2-0.95	opt	Sb Se	64 64	128	14383			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/5-opt7	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/6-opt2	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/1-2%	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/2-5%	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/3-10%	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/5-20%	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/4-15%	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/6-17%	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/7-13%	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/8-18%	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/9-19%	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/10-11%	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/EOS/11-10.5	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/2-20GPa/1-opt2	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/3-35GPa/1-opt2	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/4-50GPa/1-opt2	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/1-10GPa/1-opt2	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/5-16GPa/1-opt2	opt	Sb Se	120 180	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/crystal/1-opt3	opt	Sb Se	16 24	40	4703			2000
+nscc1741_XM/xumeng/1-PCM/28-GeTe6/3-opt7	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/28-GeTe6/5-opt2	opt	Ge Te	43 257	300	33303			2000
+nscc1741_XM/xumeng/1-PCM/33-ZnTe/4-opt7	opt	Zn Te	150 150	300	33303			200
+nscc1741_XM/xumeng/1-PCM/33-ZnTe/5-opt2	opt	Zn Te	150 150	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/1-Sb/2-Sb/3-opt2	opt	Sb	300	300	33292			2000
+nscc1741_XM/xumeng/2-Sb-PCM/1-Sb/crystal/1-opt3	opt	Sb	48	48	5572			2000
+nscc1741_XM/xumeng/2-Sb-PCM/1-Sb/1-Sb/2-opt2	opt	Sb	300	300	33292			2000
+nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/2-SnSb/3-opt2	opt	Sn Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/crystal/1-opt3	opt	Sb Sn	41 7	48	5583			2000
+nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/1-SnSb/3-opt2	opt	Sn Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/4-GaSb/3-opt2	opt	Ga Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/4-GaSb/crystal/1-opt3	opt	Sb Ga	41 7	48	5583			2000
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/2-InSb/3-opt2	opt	In Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/3-InSb/3-opt2	opt	In Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/crystal/1-opt3	opt	Sb In	41 7	48	5583			2000
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/1-InSb/3-opt2	opt	In Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/1-ZnSb/3-opt2	opt	Zn Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/1-ZnSb/7-opt2	opt	Zn Sb	45 255	300	33303			20
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/3-ZnSb/3-opt2	opt	Zn Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/crystal/1-opt3	opt	Sb	48	48	5572			2000
+nscc1741_XM/xumeng/2-Sb-PCM/10-AlSb/1-AlSb/3-opt2	opt	Al Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/11-TiSb/1-TiSb/3-opt2	opt	Ti Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/12-ScSb/3-opt2	opt	Sc Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/12-ScSb/crystal/1-opt3	opt	Sb Sc	41 7	48	5583			2000
+nscc1741_XM/xumeng/2-Sb-PCM/13-YSb/3-opt2	opt	Y Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/13-YSb/crystal/1-opt3	opt	Sb Y	41 7	48	5583			2000
+nscc1741_XM/xumeng/2-Sb-PCM/14-ZrSb/3-opt2	opt	Zr Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/14-ZrSb/crystal/1-opt3	opt	Sb Zr	41 7	48	5583			2000
+nscc1741_XM/xumeng/2-Sb-PCM/o/2-GeSb/3-opt2	opt	Ge Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/o/2-GeSb/crystal	opt	Sb Ge	43 5	48	5583			2000
+nscc1741_XM/xumeng/2-Sb-PCM/o/9-SiSb/1-SiSb/3-opt2	opt	Si Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/3-CuSb/3-opt2	opt	Cu Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/1-CuSb/3-opt2	opt	Cu Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/2-AgSb/3-opt2	opt	Ag Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/1-AgSb/3-opt2	opt	Ag Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/17-CdSb/3-opt2	opt	Cd Sb	45 255	300	33303			2000
+nscc1741_XM/xumeng/2-Sb-PCM/17-CdSb/crystal/1-opt3	opt	Sb Cd	41 7	48	5583			2000
+nscc1741_XM/xumeng/11-OTS-C_chain/1-model1/1-opt2	opt	Ge Se C	146 150 4	300	33314			2000
+nscc1741_XM/xumeng/11-OTS-C_chain/2-model2/2-opt2	opt	Ge Se C	146 150 4	300	33314			2000
+nscc1741_XM/xumeng/11-OTS-C_chain/Si_chain/2-model2/2-opt2	opt	Ge Se Si	146 150 4	300	33314			2000
+nscc1741_XM/xumeng/11-OTS-C_chain/Si_chain/3-model3/1-opt2	opt	Ge Se Si	146 151 4	301	33424			2000
+nscc1741_XM/xumeng/11-OTS-C_chain/Si_chain/1-model1/2-opt2	opt	Ge Se Si	146 150 4	300	33314			2000
+nscc1741_XM/xumeng/13-dielectric/3-GeSe2/opt3	opt	Ge Se	24 48	72	8223			500
+nscc1741_XM/xumeng/13-dielectric/1-GeS/1-c/opt3	opt	Ge S	4 4	8	1183			500
+nscc1741_XM/xumeng/13-dielectric/2-SnSe/2-a/die	opt	Sn Se	150 150	300	33303			0
+nscc1741_XM/xumeng/13-dielectric/2-SnSe/2-a/1-opt3	opt	Sn Se	150 150	300	33303			500
+nscc1741_XM/xumeng/13-dielectric/2-SnSe/3-c/opt3	opt	Sn Se	4 4	8	1183			500
+nscc1741_XM/xumeng/13-dielectric/2-SnSe/3-c/die	opt	Sn Se	4 4	8	1183			0
+nscc1741_XM/xumeng/13-dielectric/4-As2S3/opt3	opt	As S	8 12	20	2503			500
+nscc1741_XM/xumeng/13-dielectric/5-As2Se3/opt3	opt	As Se	8 12	20	2503			500
+nscc1741_XM/xumeng/13-dielectric/6-ZnSe/2-die	opt	Zn Se	2 2	4	743			0
+nscc1741_XM/xumeng/13-dielectric/PCMs/1-As2Te3-9897/opt3	opt	Te As	9 6	15	1953			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/2-Bi14S8Te13/opt3	opt	Bi Te S	42 39 24	105	11864			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/3-Bi2Se2Te/opt3	opt	Bi Te Se	6 3 6	15	1964			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/4-Bi2Se2Te-2/opt3	opt	Bi Te Se	6 3 6	15	1964			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/5-Bi4S3Te3/opt3	opt	Bi Te S	12 9 9	30	3614			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/6-Bi4Se3/opt3	opt	Bi Se	12 9	21	2613			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/7-Bi4Te3/opt3	opt	Bi Te	12 9	21	2613			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/8-Bi8Se7/opt3	opt	Bi Se	24 21	45	5253			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/9-Bi8Se9/opt3	opt	Bi Se	24 27	51	5913			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/10-Bi8Te7/opt3	opt	Bi Te	24 21	45	5253			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/11-Bi8Te9/opt3	opt	Bi Te	24 27	51	5913			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/12-BiSb3Te6/opt3	opt	Bi Sb Te	3 9 18	30	3614			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/13-BiSe/opt3	opt	Bi Se	6 6	12	1623			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/14-BiTe/opt3	opt	Bi Te	6 6	12	1623			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/15-BiSbTe3/opt3	opt	Bi Sb Te	3 3 9	15	1964			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/16-CdPbSe/opt3	opt	Cd Pb Se	3 9 12	24	2954			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/17-Ge2Bi2Te5/opt3	opt	Ge Bi Te	2 2 5	9	1304			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/18-Ge2Sb2Te5/opt3	opt	Ge Sb Te	2 2 5	9	1304			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/19-Ge2Sb2Te5-2/opt3	opt	Ge Sb Te	2 2 5	9	1304			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/20-Ge2TeSe/opt3	opt	Ge Te Se	6 3 3	12	1634			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/21-Ge3Te2Se/opt3	opt	Ge Te Se	3 2 1	6	974			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/22-GeAs2Te4/opt3	opt	Ge Te As	3 12 6	21	2624			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/23-GeAs4Te7/opt3	opt	Ge Te As	1 7 4	12	1634			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/24-GePb4Te5/opt3	opt	Ge Te Pb	3 15 12	30	3614			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/25-GeSb2Te4/opt3	opt	Ge Sb Te	3 6 12	21	2624			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/26-GeSb2Te4-2/opt3	opt	Ge Sb Te	3 6 12	21	2624			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/27-GeSb4Te4/opt3	opt	Ge Sb Te	1 4 4	9	1304			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/28-GeSb4Te7/opt3	opt	Ge Sb Te	1 4 7	12	1634			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/29-GeSb/opt3	opt	Ge Sb	4 4	8	1183			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/31-InBi3Se6/opt3	opt	In Bi Se	3 9 18	30	3614			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/32-K2Bi8Se13/opt3	opt	K Bi Se	4 16 26	46	5374			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/33-KBiSe2/opt3	opt	K Bi Se	4 4 8	16	2074			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/34-Pb2Bi2Se5/opt3	opt	Bi Pb Se	2 2 5	9	1304			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/35-PbBi2Se4/opt3	opt	Bi Pb Se	6 3 12	21	2624			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/36-PbBi2Te4/opt3	opt	Bi Te Pb	6 12 3	21	2624			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/37-PbBi2Te4-2/opt3	opt	Bi Te Pb	6 12 3	21	2624			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/38-PbBi4Te7/opt3	opt	Bi Te Pb	4 7 1	12	1634			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/39-PbBi6Te10/opt3	opt	Bi Te Pb	18 30 3	51	5924			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/40-PbSb4Te7/opt3	opt	Sb Te Pb	4 7 1	12	1634			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/41-Sb16Te3/opt3	opt	Sb Te	48 9	57	6573			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/42-Sb2Se2Te/opt3	opt	Sb Te Se	6 3 6	15	1964			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/43-Sb2SeTe2/opt3	opt	Sb Te Se	6 6 3	15	1964			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/44-Sb2Te/opt3	opt	Sb Te	6 3	9	1293			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/45-Sb8Te3/opt3	opt	Sb Te	24 9	33	3933			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/46-SbTe/opt3	opt	Sb Te	6 6	12	1623			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/47-Sn2GeTe3/opt3	opt	Sn Ge Te	2 1 3	6	974			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/48-SnBi4Te7/opt3	opt	Sn Bi Te	1 4 7	12	1634			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/49-SnSb2Te4/opt3	opt	Sn Sb Te	3 6 12	21	2624			500
+nscc1741_XM/xumeng/13-dielectric/PCMs/50-In3SbTe2/opt3	opt	In Sb Te	3 1 2	6	974			500
+nscc1741_XM/xumeng/14-elf-born/GeTe/opt3	opt	Ge Te	3 3	6	963			500
+nscc1741_XM/xumeng/14-elf-born/GeSe/3-die	opt	Ge Se	4 4	8	1183			0
+nscc1741_XM/grc/OTS/GeAsSeSi/2.7	opt	Ge As Se Si	75 75 75 75	300	33325			2000
+nscc1741_XM/grc/OTS/GeAsSeSi/2.7.2	opt	Ge As Se Si	75 75 75 75	300	33325			2000
+nscc1741_XM/grc/OTS/GeAsSeSi/2	opt	Ge As Se Si	75 75 75 75	300	33325			2000
+nscc1741_XM/grc/OTS/GeAsSeSi/2.7.2.7	opt	Ge As Se Si	75 75 75 75	300	33325			2000
+nscc1741_XM/grc/OTS/GeSe.5/2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/grc/OTS/GeSe.5/2.7	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/grc/OTS/GeSe.5/2.7.2	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/grc/OTS/GeSe.5/2.7.2.7	opt	Ge Se	150 150	300	33303			2000
+nscc1741_XM/grc/OTS/SiAsTe.1/2	opt	Si As Te	100 100 100	300	33314			2000
+nscc1741_XM/grc/OTS/SiAsTe.1/2.7	opt	Si As Te	100 100 100	300	33314			2000
+nscc1741_XM/grc/OTS/SiAsTe.1/2.7.2	opt	Si As Te	100 100 100	300	33314			2000
+nscc1741_XM/grc/OTS/SiAsTe.1/2.7.2.7	opt	Si As Te	100 100 100	300	33314			2000
+nscc1741_XM/grc/OTS/GeAsSe.2/2.std.F	opt	Ge As Se	100 100 100	300	33314			2000
+nscc1741_XM/grc/OTS/GeAsSe.2/2.7	opt	Ge As Se	100 100 100	300	33314			2000
+nscc1741_XM/grc/OTS/GeAsSe.2/2.7.2.7	opt	Ge As Se	100 100 100	300	33314			2000
+nscc1741_XM/grc/OTS/GeAsSe.2/2.7.2	opt	Ge As Se	100 100 100	300	33314			2000
+nscc1741_XM/grc/OTS/GeAsTeSi.3/2	opt	Ge As Te Si	75 75 75 75	300	33325			2000
+nscc1741_XM/grc/OTS/GeAsTeSi.3/2.7	opt	Ge As Te Si	75 75 75 75	300	33325			2000
+nscc1741_XM/grc/OTS/GeAsTeSi.3/2.7.2	opt	Ge As Te Si	75 75 75 75	300	33325			2000
+nscc1741_XM/grc/OTS/GeAsTeSi.3/2.7.2.7	opt	Ge As Te Si	75 75 75 75	300	33325			2000
+nscc1741_XM/grc/OTS/GeSeSi.6/2	opt	Ge Se Si	100 100 100	300	33314			2000
+nscc1741_XM/grc/OTS/GeSeSi.6/2.7	opt	Ge Se Si	100 100 100	300	33314			2000
+nscc1741_XM/grc/OTS/GeSeSi.6/2.7.2	opt	Ge Se Si	100 100 100	300	33314			2000
+nscc1741_XM/grc/OTS/GeSeSi.6/2.7.2.7	opt	Ge Se Si	100 100 100	300	33314			2000
+nscc1741_XM/grc/OTS/4-GATS/3-2	opt	Ge As Te Si	30 90 165 15	300	33325			2000
+nscc1741_XM/grc/OTS/4-GATS/4-7	opt	Ge As Te Si	30 90 165 15	300	33325			2000
+nscc1741_XM/grc/OTS/4-GATS/5-2	opt	Ge As Te Si	30 90 165 15	300	33325			2000
+nscc1741_XM/grc/OTS/4-GATS/6-7	opt	Ge As Te Si	30 90 165 15	300	33325			2000
+nscc1741_XM/grc/OTS/5-GATSN/3-2	opt	Ge As Te Si N	28 86 156 15 15	300	33336			2000
+nscc1741_XM/grc/OTS/5-GATSN/5-2	opt	Ge As Te Si N	28 86 156 15 15	300	33336			2000
+nscc1741_XM/grc/OTS/5-GATSN/4-7	opt	Ge As Te Si N	28 86 156 15 15	300	33336			2000
+nscc1741_XM/grc/OTS/5-GATSN/6-7	opt	Ge As Te Si N	28 86 156 15 15	300	33336			2000
+nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/6-2	opt	Ge As Te Si N	60 60 60 60 60	300	33336			2000
+nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/5-7	opt	Ge As Te Si N	60 60 60 60 60	300	33336			2000
+nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/7-7	opt	Ge As Te Si N	60 60 60 60 60	300	33336			2000
+nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/4-2	opt	Ge As Te Si N	60 60 60 60 60	300	33336			2000
+nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/3-2-std	opt	Ge Ga Sb	45 75 180	300	33314			2000
+nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/4-2-7-std	opt	Ge Ga Sb	45 75 180	300	33314			2000
+nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/5-2-7-2-std	opt	Ge Ga Sb	45 75 180	300	33314			2000
+nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/6-2-7-2-7-std	opt	Ge Ga Sb	45 75 180	300	33314			2000
+nscc1741_XM/grc/1-OTS/1-GeAsTeSi/1-opt2	opt	Ge As Te Si	75 75 75 75	300	33325			2000
+nscc1741_XM/grc/1-OTS/2-GeAsTeSiN/1-opt	opt	Ge As Te Si N	60 60 60 60 60	300	33336			2000
+nscc1741_XM/grc/1-OTS/4-GATSN/1-opt	opt	Ge As Te Si N	28 86 156 15 15	300	33336			2000
+nscc1741_XM/grc/3-Te-based/2-CTe/3-CT/3-opt	opt	C Te	105 195	300	33303			500
+nscc1741_XM/grc/3-Te-based/2-CTe/2-C35Te65/3-opt	opt	C Te	105 195	300	33303			500
+nscc1741_XM/grc/3-Te-based/4-BTe/3-BTe3/3-opt	opt	B Te	75 225	300	33303			1000
+nscc1741_XM/grc/3-Te-based/4-BTe/2-BTe3/3-opt	opt	B Te	75 225	300	33303			1000
+nscc1741_XM/grc/3-Te-based/4-BTe/4-BTe3/3-opt	opt	B Te	75 225	300	33303			500
+nscc1741_XM/grc/3-Te-based/3-AlTe/2-Al3Te7/3-opt	opt	Al Te	90 210	300	33303			50
+nscc1741_XM/grc/3-Te-based/3-AlTe/3-Al3Te7/3-opt	opt	Al Te	90 210	300	33303			1000
+nscc1741_XM/grc/3-Te-based/3-AlTe/4-Al3Te7/3-opt	opt	Al Te	90 210	300	33303			50
+nscc1741_XM/grc/3-Te-based/9-ZnTe/2-Zn35Te65/3-opt	opt	Zn Te	105 195	300	33303			1000
+nscc1741_XM/grc/3-Te-based/9-ZnTe/3-Zn35Te65/3/3-opt	opt	Zn Te	105 195	300	33303			1000
+nscc1741_XM/grc/3-Te-based/9-ZnTe/3-Zn35Te65/1/3-opt1.93	opt	Zn Te	105 195	300	33303			100
+nscc1741_XM/grc/3-Te-based/9-ZnTe/3-Zn35Te65/2/3-opt	opt	Zn Te	105 195	300	33303			1000
+nscc1741_XM/grc/3-Te-based/5-SiTe/2/3-opt	opt	Si Te	150 150	300	33303			1000
+nscc1741_XM/grc/3-Te-based/5-SiTe/1/3-opt	opt	Si Te	150 150	300	33303			50
+nscc1741_XM/grc/3-Te-based/12-YTe/3-opt	opt	Y Te	30 270	300	33303			1000
+nscc1741_XM/grc/3-Te-based/13-TiTe/3-opt	opt	Ti Te	30 270	300	33303			1000
+nscc1741_XM/grc/3-Te-based/14-ScTe/3-opt	opt	Sc Te	30 270	300	33303			1000
+nscc1741_XM/grc/3-Te-based/15-ZrTe/3-opt	opt	Zr Te	30 270	300	33303			1000
+nscc1741_XM/grc/Ga2Te3-Zr/2-10p/3-opt2.7	opt	Ga Te Zr	108 162 30	300	33314			500
+nscc1741_XM/grc/Ga2Te3-Zr/1-5p/3-opt.2.5	opt	Ga Te Zr	114 171 15	300	33314			500
+nscc1741_XM/grc/Ga2Te3-Zr/5-5p/3-opt	opt	Ga Te Zr	114 171 15	300	33314			500
+nscc1741_XM/grc/Ga2Te3-Zr/6-5p/3-opt	opt	Ga Te Zr	114 171 15	300	33314			500
+nscc1741_XM/grc/GW/1-SnTe/1-opt	opt	Sn Te	4 4	8	1183			300
+GK_xum02/xqd/5-MVB/2-PbSe/1-model/5-MD/1	md-amorphous	Pb Se	150 150	300	77508	300.0	300.0	3000
+GK_xum02/xqd/8-In-doped/1-GeTe/3-MD	md-amorphous	In Ge Te	30 120 150	300	77519	300.0	300.0	2000
+GK_xum02/xqd/8-In-doped/1-GeTe/04-MD	md-amorphous	In Ge Te	30 120 150	300	77519	300.0	300.0	2000
+GK_xum02/xqd/8-In-doped/2-Sb2Te3/3-MD	md-amorphous	In Sb Te	30 90 180	300	77519	300.0	300.0	2000
+GK_xum02/xqd/8-In-doped/2-Sb2Te3/04-MD	md-amorphous	In Sb Te	30 90 180	300	77519	300.0	300.0	2000
+GK_xum02/xqd/8-In-doped/3-GST225/3-MD	md-amorphous	In Ge Sb Te	30 53 53 170	306	79072	300.0	300.0	2000
+GK_xum02/xqd/8-In-doped/3-GST225/03-opt	md-amorphous	In Ge Sb Te	30 53 53 170	306	33985	300.0	300.0	2000
+GK_xum02/xqd/8-In-doped/3-GST225/04-MD	md-amorphous	In Ge Sb Te	30 53 53 170	306	79072	300.0	300.0	2000
+GK_xum02/xqd/8-In-doped/4-Sb/3-MD	md-amorphous	In Sb	30 270	300	77508	300.0	300.0	2000
+GK_xum02/xqd/8-In-doped/4-Sb/04-MD	md-amorphous	In Sb	30 270	300	77508	300.0	300.0	2000
+GK_xum02/xqd/8-In-doped/5-Ge15Sb85/3-MD	md-amorphous	In Ge Sb	30 40 230	300	77519	300.0	300.0	2000
+GK_xum02/xqd/8-In-doped/5-Ge15Sb85/04-MD	md-amorphous	In Ge Sb	30 40 230	300	77519	300.0	300.0	2000
+GK_xum02/xqd/1-PCM/1-Sb/1-model/5-MD/5-MD	md-amorphous	Sb	300	300	77497	300.0	300.0	500
+GK_xum02/xqd/1-PCM/1-Sb/1-model/6-300K-MD	md-amorphous	Sb	300	300	77497	300.0	300.0	2000
+GK_xum02/xqd/1-PCM/10-GeBiTe/0-model/3-MD	md-amorphous	Ge Bi Te	43 86 172	301	77776	300	300	500
+GK_xum02/xqd/1-PCM/10-GeBiTe/0-model/4-MD	md-amorphous	Ge Bi Te	43 86 172	301	77776	300	300	500
+GK_xum02/xqd/1-PCM/4-GeTe/1-model/4-MD/3-MD	md-amorphous	Ge Te	150 150	300	77508	300	300	500
+GK_xum02/xqd/1-PCM/4-GeTe/1-model/4-MD/300k	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	2000
+GK_xum02/xqd/1-PCM/4-GeTe/2-model/5-MD/MD-300K	md-amorphous	Ge Te	150 150	300	77508	300	300	2000
+GK_xum02/xqd/1-PCM/4-GeTe/0-model/300K	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	2000
+GK_xum02/xqd/1-PCM/4-GeTe/3-512/5-MD	md-amorphous	Ge Te	256 256	512	131992	300.0	300.0	1000
+GK_xum02/xqd/1-PCM/4-GeTe/3-512/2-2000-300K	md-amorphous	Ge Te	256 256	512	131992	300.0	300.0	1000
+GK_xum02/xqd/1-PCM/4-GeTe/4-cubic/1-64atom/2-MD	md-amorphous	Ge Te	32 32	64	16856	300.0	300.0	1000
+GK_xum02/xqd/1-PCM/5-Sb2Te3/1-model/4-MD/300K	md-amorphous	Sb Te	120 180	300	77508	300	300	2000
+GK_xum02/xqd/1-PCM/12-Bi_S/1-Bi2S3/5-MD/300K	md-amorphous	Bi S	120 180	300	77508	300.0	300.0	2000
+GK_xum02/xqd/1-PCM/12-Bi_S/2-Bi2Se3/5-MD/300K	md-amorphous	Bi Se	120 180	300	77508	300.0	300.0	2000
+GK_xum02/xqd/1-PCM/12-Bi_S/3-Bi2Te3/5-MD/300K	md-amorphous	Bi Te	120 180	300	77508	300.0	300.0	2000
+GK_xum02/xqd/1-PCM/15-GST467/225-compare/6-MD	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	3000
+GK_xum02/xqd/1-PCM/15-GST467/6-MD	md-amorphous	Ge Sb Te	72 108 126	306	79061	300.0	300.0	3000
+GK_xum02/xumeng/1-Sb2Te3	md-amorphous	Sb Te	120 180	300	77508	300.0	300.0	4000
+GK_xum02/grc/SbSe/3-lsf	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	100
+GK_xum02/grc/SbSe/MD	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	2000
+GK_xum02/grc/OTS/1-As/2-GeSe/2-MD	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+GK_xum02/grc/OTS/1-As/1-GeAsSe/MD	md-amorphous	Ge As Se	135 30 135	300	77519	300.0	300.0	2000
+GK_xum02/grc/OTS/1-As/3-GeAsSe20/MD	md-amorphous	Ge As Se	120 60 120	300	77519	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/3-GeTe6/MD	md-amorphous	Ge Te	43 257	300	77508	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/3-GeTe6/MD-4000	md-amorphous	Ge Te	43 257	300	77508	300.0	300.0	4000
+GK_xum02/grc/docotor-paper/Si-GeSe/2-5p/MD	md-amorphous	Ge Si Se	142 16 142	300	77519	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/Si-GeSe/3-20p/MD	md-amorphous	Ge Si Se	120 60 120	300	77519	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/Si-GeSe/5-20p-240/MD	md-amorphous	Ge Si Se	96 48 96	240	62099	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/Si-GeSe/4-5p-240/MD	md-amorphous	Ge Si Se	114 12 114	240	62099	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/1/MD	md-amorphous	Ge Si Se	108 24 108	240	62099	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/1/MD-4000	md-amorphous	Ge Si Se	108 24 108	240	62099	300.0	300.0	4000
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/300-SiGeSe/MD	md-amorphous	Ge Si Se	135 30 135	300	77519	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/300-SiGeSe/MD-4000	md-amorphous	Ge Si Se	135 30 135	300	77519	300.0	300.0	4000
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GSS-r/md-10	md-amorphous	Ge Si Se	108 24 108	240	62099	300.0	300.0	4000
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GSS-r/md-20	md-amorphous	Ge Si Se	108 24 108	240	62099	300.0	300.0	4000
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GSS-r/md-30	md-amorphous	Ge Si Se	108 24 108	240	62099	300.0	300.0	4000
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GeSe-r/md-30	md-amorphous	Ge Se	120 120	240	62088	300.0	300.0	4000
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GeSe-r/md-10	md-amorphous	Ge Se	120 120	240	62088	300.0	300.0	4000
+GK_xum02/grc/docotor-paper/Si-GeSe/1-10p/GeSe-r/md-20	md-amorphous	Ge Se	120 120	240	62088	300.0	300.0	4000
+GK_xum02/grc/docotor-paper/1-GeSe/xu-GeSe/MD	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	4000
+GK_xum02/grc/docotor-paper/1-GeSe/GeSe-240/1-l/MD	md-amorphous	Ge Se	120 120	240	62088	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/2/analysis/MD	md-amorphous	Ge As Se	108 24 108	240	62099	300.0	300.0	4000
+GK_xum02/grc/docotor-paper/As-GeSe/2-10p/3-GeAsSe/1-y/analysis/MD	md-amorphous	Ge As Se	108 24 108	240	62099	300.0	300.0	4000
+GK_xum02/grc/docotor-paper/As-GeSe/1-5p/MD	md-amorphous	Ge As Se	114 12 114	240	62099	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/As-GeSe/3-20p/MD	md-amorphous	Ge As Se	96 48 96	240	62099	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/N-GeSe/1-5p/MD	md-amorphous	Ge N Se	114 12 114	240	62099	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p/MD	md-amorphous	Ge N Se	96 48 96	240	62099	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new/1/MD	md-amorphous	Ge N Se	96 48 96	240	62099	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/N-GeSe/3-20p/new/2/MD	md-amorphous	Ge N Se	96 48 96	240	62099	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/1/MD	md-amorphous	Ge N Se	102 36 102	240	62099	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/2/MD-y	md-amorphous	Ge N Se	102 36 102	240	62099	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p/new/3/MD	md-amorphous	Ge N Se	102 36 102	240	62099	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p/MD	md-amorphous	Ge N Se	102 36 102	240	62099	300.0	300.0	2000
+GK_xum02/grc/docotor-paper/N-GeSe/2-15p/MD/md1	md-amorphous	Ge N Se	102 36 102	240	62099	300.0	300.0	2000
+GK_xum02/grc/C-Ge-Te/C-Te/1-C10Te90/MD	md-amorphous	C Te	30 270	300	77508	300.0	300.0	2000
+GK_xum02/grc/C-Ge-Te/C-Te/2-C20Te80/MD	md-amorphous	C Te	60 240	300	77508	300.0	300.0	2000
+GK_xum02/grc/C-Ge-Te/C-Te/2-C20Te80/MD.adjust	md-amorphous	C Te	60 240	300	77508	300.0	300.0	947
+GK_xum02/grc/C-Ge-Te/C-Te/3-C30Te70/MD	md-amorphous	C Te	90 210	300	77508	300.0	300.0	2000
+GK_xum02/grc/C-Ge-Te/C-Te/3-C30Te70/MD.adjust	md-amorphous	C Te	90 210	300	77508	300.0	300.0	2000
+GK_xum02/grc/C-Ge-Te/C-Te/3-C30Te70/8-MD-400eV	md-amorphous	C Te	90 210	300	77508	300.0	300.0	100
+GK_xum02/grc/C-Ge-Te/2-Sb2Se3-C/3-lsf	md-amorphous	Sb Se C	108 162 30	300	77519	300.0	300.0	500
+GK_xum02/grc/C-Ge-Te/2-Sb2Se3-C/C20/1-lsf	md-amorphous	Sb Se C	112 168 20	300	77519	300.0	300.0	1000
+GK_xum02/grc/C-Ge-Te/2-Sb2Se3-C/MD	md-amorphous	Sb Se C	108 162 30	300	77519	300.0	300.0	500
+GK_xum02/grc/C-Ge-Te/3-Sb2Se3/MD	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	500
+GK_xum02/grc/C-Ge-Te/2-Sb2Se3-Si/3-lsf	md-amorphous	Sb Se Si	108 162 30	300	77519	300.0	300.0	500
+GK_xum02/grc/C-Ge-Te/4-SbSeSi/3-lsf	md-amorphous	Sb Se Si	108 162 30	300	77519	300.0	300.0	500
+GK_xum02/grc/As-OTS/GeAsS/7-analysis/MD	md-amorphous	Ge As S	108 24 108	240	62099	300.0	300.0	4000
+GK_xum02/grc/As-OTS/N-GeSe/3-lsf	md-amorphous	Ge N Se	135 30 135	300	77519	300.0	300.0	200
+GK_xum02/grc/As-OTS/N-GeSe/MD	md-amorphous	Ge N Se	135 30 135	300	77519	300.0	300.0	2000
+GK_xum02/grc/As-OTS/5-GS/1-300K	md-amorphous	Ge S	150 150	300	77508	300.0	300.0	200
+GK_xum02/grc/As-OTS/5-GS/old/MD	md-amorphous	Ge S	150 150	300	77508	300.0	300.0	3000
+GK_xum02/grc/As-OTS/6-GT/MD	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	2000
+GK_xum02/grc/As-OTS/6-GT/300K	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	100
+GK_xum02/grc/As-OTS/GT-200/a-c-GT	md-amorphous	Ge Te	108 108	216	58531	300.0	300.0	20
+GK_xum02/grc/As-OTS/GT-200/model	md-amorphous	Ge Te	108 108	216	58531	300.0	300.0	30
+GK_xum02/grc/As-OTS/GT-200/GT-c	md-amorphous	Ge Te	54 54	108	29479	300.0	300.0	10
+GK_xum02/grc/As-OTS/GT-200/new-GT	md-amorphous	Ge Te	108 108	216	58531	300.0	300.0	30
+GK_xum02/grc/As-OTS/240/GeS/2/2-300K	md-amorphous	Ge S	120 120	240	62088	300.0	300.0	200
+GK_xum02/grc/As-OTS/240/GeS/3/1-300K	md-amorphous	Ge S	120 120	240	62088	300.0	300.0	500
+GK_xum02/grc/As-OTS/240/GeS/1/MD	md-amorphous	Ge S	120 120	240	62088	300.0	300.0	2000
+GK_xum02/grc/As-OTS/240/SiTe/3-relax/1-lsf	md-amorphous	Si Te	120 120	240	62088	300.0	300.0	200
+GK_xum02/grc/As-OTS/240/SiTe/MD	md-amorphous	Si Te	120 120	240	62088	300.0	300.0	2000
+GK_xum02/grc/As-OTS/240/SiSe/MD	md-amorphous	Si Se	120 120	240	62088	300.0	300.0	2000
+GK_xum02/grc/As-OTS/GeSe-dos/old-dos/3-lsf	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	50
+GK_xum02/grc/As-OTS/GeSe-dos/3-time/1-lsf	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	100
+GK_xum02/grc/As-OTS/8-SiAsSe/MD	md-amorphous	Si As Se	108 24 108	240	62099	300.0	300.0	3000
+GK_xum02/grc/As-OTS/doped-GeSe/1-C/4-md	md-amorphous	Ge C Se	108 24 108	240	62099	300.0	300.0	2000
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/5/MD	md-amorphous	Ge N Se	108 24 108	240	62099	300.0	300.0	2000
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/1/MD	md-amorphous	Ge N Se	108 24 108	240	62099	300.0	300.0	2000
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/1/MD/MD-400	md-amorphous	Ge N Se	108 24 108	240	62099	300.0	300.0	4000
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-2/MD	md-amorphous	Ge N Se	108 24 108	240	62099	300.0	300.0	2000
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-1/MD	md-amorphous	Ge N Se	108 24 108	240	62099	300.0	300.0	2000
+GK_xum02/grc/As-OTS/doped-GeSe/2-N/4-y/MD	md-amorphous	Ge N Se	108 24 108	240	62099	300.0	300.0	2000
+GK_xum02/grc/As-OTS/doped-GeSe/3-Sb/3-lsf	md-amorphous	Ge Sb Se	108 24 108	240	62099	300.0	300.0	100
+GK_xum02/grc/As-OTS/doped-GeSe/3-Sb/MD	md-amorphous	Ge Sb Se	108 24 108	240	62099	300.0	300.0	2000
+GK_xum02/grc/As-OTS/doped-GeSe/4-Hf/MD	md-amorphous	Ge Hf Se	108 24 108	240	62099	300.0	300.0	2000
+GK_xum02/grc/As-OTS/doped-GeSe/5-In/MD	md-amorphous	Ge In Se	108 24 108	240	62099	300.0	300.0	2000
+GK_xum02/grc/As-OTS/doped-GeSe/6-P/MD	md-amorphous	Ge P Se	108 24 108	240	62099	300.0	300.0	2000
+GK_xum02/grc/SbS/3-lsf	md-amorphous	Sb S	120 180	300	77508	300.0	300.0	100
+GK_xum02/grc/SbS/MD	md-amorphous	Sb S	120 180	300	77508	300.0	300.0	2000
+GK_xum02/grc/GaSe/3-time/1-lsf	md-amorphous	Ga Se	150 150	300	77508	300.0	300.0	100
+GK_xum02/grc/GaSe/MD	md-amorphous	Ga Se	150 150	300	77508	300.0	300.0	2000
+GK_xum02/grc/1-OTS/3-GATS/4-MD	md-amorphous	Ge As Te Si	30 90 165 15	300	77530	300.0	300.0	2000
+GK_xum02/grc/1-OTS/4-GATSN/4-MD	md-amorphous	Ge As Te Si N	28 86 156 15 15	300	77541	300.0	300.0	2000
+GK_xum02/grc/1-OTS/1-GeSe/2-MD	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+GK_xum02/grc/1-OTS/InTe/19-InTe/MD.new-MGS	md-amorphous	In Te	30 270	300	77508	300.0	300.0	1000
+GK_xum02/grc/1-OTS/InTe/19-InTe/MD	md-amorphous	In Te	30 270	300	77508	300.0	300.0	2000
+GK_xum02/grc/1-OTS/InTe/19-InTe/MD/new	md-amorphous	In Te	30 270	300	77508	300.0	300.0	1000
+GK_xum02/grc/1-OTS/InTe/19-InTe/new/1-300K	md-amorphous	In Te	30 270	300	77508	300.0	300.0	500
+GK_xum02/grc/1-OTS/InTe/37-InTe/MD	md-amorphous	In Te	90 210	300	77508	300.0	300.0	4000
+GK_xum02/grc/1-OTS/InTe/37-InTe/MD.new	md-amorphous	In Te	90 210	300	77508	300.0	300.0	1000
+GK_xum02/grc/1-OTS/InTe/55-InTe/1/MD	md-amorphous	In Te	150 150	300	77508	300.0	300.0	3000
+GK_xum02/grc/1-OTS/InTe/55-InTe/1/MD.new	md-amorphous	In Te	150 150	300	77508	300.0	300.0	1000
+GK_xum02/grc/1-OTS/InTe/55-InTe/2/MD	md-amorphous	In Te	150 150	300	77508	300.0	300.0	1000
+GK_xum02/grc/1-OTS/InTe/28-InTe/MD	md-amorphous	In Te	60 240	300	77508	300.0	300.0	2000
+GK_xum02/grc/1-OTS/InTe/28-InTe/MD-new	md-amorphous	In Te	60 240	300	77508	300.0	300.0	2000
+GK_xum02/grc/1-OTS/InTe/28-InTe/MD.new	md-amorphous	In Te	60 240	300	77508	300.0	300.0	1000
+GK_xum02/grc/1-OTS/InTe/46-InTe/1/MD.new	md-amorphous	In Te	120 180	300	77508	300.0	300.0	1000
+GK_xum02/grc/1-OTS/InTe/46-InTe/1/MD	md-amorphous	In Te	120 180	300	77508	300.0	300.0	2000
+GK_xum02/grc/1-OTS/InTe/64-InTe/1/MD	md-amorphous	In Te	180 120	300	77508	300.0	300.0	3000
+GK_xum02/grc/1-OTS/InTe/64-InTe/1/MD.new	md-amorphous	In Te	180 120	300	77508	300.0	300.0	1000
+GK_xum02/grc/1-OTS/InTe/64-InTe/2/MD	md-amorphous	In Te	180 120	300	77508	300.0	300.0	1000
+GK_xum02/grc/1-OTS/InTe/doped-IT46/1-As/3-lsf	md-amorphous	In Te As	108 162 30	300	77519	300.0	300.0	2000
+GK_xum02/grc/1-OTS/InTe/doped-IT46/2-Si/3-lsf	md-amorphous	In Te Si	108 162 30	300	77519	300.0	300.0	2000
+GK_xum02/grc/1-OTS/InTe/doped-IT46/3-C/3-lsf	md-amorphous	In Te C	108 162 30	300	77519	300.0	300.0	1000
+GK_xum02/grc/Si-As-Te/1-SiTe/new-y/6/MD	md-amorphous	Si Te	150 150	300	77508	300.0	300.0	500
+GK_xum02/grc/Si-As-Te/1-SiTe/new-y/5-y/md	md-amorphous	Si Te	150 150	300	77508	300.0	300.0	2000
+GK_xum02/grc/Si-As-Te/1-SiTe/0/0-300K	md-amorphous	Si Te	150 150	300	77508	300.0	300.0	2000
+GK_xum02/grc/Si-As-Te/1-SiTe/0/MD	md-amorphous	Si Te	150 150	300	77508	300.0	300.0	2000
+GK_xum02/grc/Si-As-Te/3-As2Te3/MD	md-amorphous	As Te	120 180	300	77508	300.0	300.0	2000
+GK_xum02/grc/2-Ge-Se-Te/GeTe/6-GT/MD	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	2000
+GK_xum02/grc/2-Ge-Se-Te/GeSe/7-GeSe/2-MD	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/3-AlTe/1-AlTe9/MD	md-amorphous	Al Te	30 270	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/1-GeTe/1-GeTe9/MD	md-amorphous	Ge Te	30 270	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/2-CTe/1/MD	md-amorphous	C Te	30 270	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/4-BTe/2/300K	md-amorphous	B Te	30 270	300	77508	300.0	300.0	300
+GK_xum02/grc/3-Te-based/4-BTe/1/MD	md-amorphous	B Te	30 270	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/5-SiTe/1-SiTe9/MD	md-amorphous	Si Te	30 270	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/6-GaTe/2-Ga2Te3/MD	md-amorphous	Ga Te	120 180	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/6-GaTe/1-GaTe9/MD	md-amorphous	Ga Te	30 270	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/7-SnTe/2-SnTe/MD	md-amorphous	Sn Te	150 150	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/7-SnTe/1-SnTe9/MD	md-amorphous	Sn Te	30 270	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/8-InTe/3-In2Te3/3/3-opt	md-amorphous	In Te	120 180	300	33303	300.0	300.0	1352
+GK_xum02/grc/3-Te-based/8-InTe/3-In2Te3/3/MD	md-amorphous	In Te	120 180	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/8-InTe/1-InTe9/MD	md-amorphous	In Te	30 270	300	77508	300.0	300.0	1352
+GK_xum02/grc/3-Te-based/9-ZnTe/1-ZnTe9/MD	md-amorphous	Zn Te	30 270	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/10-AsTe/1-AsTe9/MD	md-amorphous	As Te	30 270	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/11-SbTe/1-SbTe9/MD	md-amorphous	Sb Te	30 270	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/11-SbTe/1-SbTe9/MD/1	md-amorphous	Sb Te	30 270	300	77508	300.0	300.0	1000
+GK_xum02/grc/3-Te-based/11-SbTe/2-Sb2Te3/MD	md-amorphous	Sb Te	120 180	300	77508	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/11-SbTe/2-Sb2Te3/MD/1	md-amorphous	Sb Te	120 180	300	77508	300.0	300.0	1000
+GK_xum02/grc/3-Te-based/Te/5-y/3-lsf	md-amorphous	Te	300	300	77497	300.0	300.0	100
+GK_xum02/grc/3-Te-based/Te/1-y/MD	md-amorphous	Te	300	300	77497	300.0	300.0	2000
+GK_xum02/grc/3-Te-based/Te/1-y/MD-1000	md-amorphous	Te	300	300	77497	300.0	300.0	1000
+GK_xum02/grc/3-Te-based/Te/1-y/new/3-lsf	md-amorphous	Te	300	300	77497	300.0	300.0	50
+GK_xum02/grc/GaS/1/MD	md-amorphous	Ga S	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xqd/1-PCM/C-doped/1-GeTe/5-MD	md-amorphous	Ge Te C	135 135 30	300	77519	300.0	300.0	1000
+nscc1741_XM/xqd/1-PCM/C-doped/2-GST225/5-MD	md-amorphous	Ge Sb Te C	63 63 150 30	306	79072	300.0	300.0	1000
+nscc1741_XM/xqd/1-PCM/C-doped/3-GST147/5-MD	md-amorphous	Ge Sb Te C	20 90 160 30	300	0	300.0	300.0	1000
+nscc1741_XM/xqd/2-OTS/4-GeTe6/2-model/MD-300K	md-amorphous	Ge Te	43 257	300	77508	300	300	2000
+nscc1741_XM/xqd/2-OTS/4-GeTe6/2-model/6-mgs/01-MD	md-amorphous	Ge Te	43 257	300	77508	300.0	300.0	2000
+nscc1741_XM/xqd/2-OTS/4-GeTe6/3-model-mgs/01-MD	md-amorphous	Ge Te	43 257	300	77508	400.0	400.0	5000
+nscc1741_XM/xqd/2-OTS/4-GeTe6/1-model/6-mgs/02-MD	md-amorphous	Ge Te	43 257	300	77508	400.0	400.0	2000
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/3-model/5-mgs/01-MD	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	2000
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/1-model_F/4-MD/300K	md-amorphous	Sb Se	120 180	300	77508	300	300	2000
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/1-model_F/4-MD/600K	md-amorphous	Sb Se	120 180	300	77508	300	300	1000
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/1-model_F/4-MD/600K/1000step	md-amorphous	Sb Se	120 180	300	77508	300	300	1000
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/1-model_F/4-MD/600K/xdatcar	md-amorphous	Sb Se	120 180	300	0	300	300	3000
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/2-model_T/4-MD/400K	md-amorphous	Sb Se	120 180	300	77508	400.0	400.0	5000
+nscc1741_XM/xqd/2-OTS/5-Sb2Se3/5-model-mgs/02-MD	md-amorphous	Sb Se	120 180	300	77508	400.0	400.0	5000
+nscc1741_XM/xqd/2-OTS/1-GeSe/2-model_MGS/2-MD	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/2	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	5000
+nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/3	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	5000
+nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/400K/1	md-amorphous	Ge Se	150 150	300	77508	400.0	400.0	5000
+nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/400K/2	md-amorphous	Ge Se	150 150	300	77508	400.0	400.0	5000
+nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/aging/1	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	5000
+nscc1741_XM/xqd/2-OTS/1-GeSe/0-model/300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/300k	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/400K/1-5000	md-amorphous	Ge Se	150 150	300	77508	400.0	400.0	5000
+nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/1/300k	md-amorphous	Ge Se	150 150	300	77508	300	300	2000
+nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/1/component/2	md-amorphous	Ge Se	130 170	300	77508	300.0	300.0	300
+nscc1741_XM/xqd/2-OTS/1-GeSe/1-model/4-MD/1/component/5	md-amorphous	Ge Se	170 130	300	77508	300.0	300.0	300
+nscc1741_XM/xqd/2-OTS/1-GeSe/3-model-mgs/02-MD	md-amorphous	Ge Se	150 150	300	77508	400.0	400.0	5000
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/1	md-amorphous	Ge S	135 165	300	77508	300	300	300
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/2	md-amorphous	Ge S	120 180	300	77508	300	300	300
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/3	md-amorphous	Ge S	160 140	300	77508	300	300	300
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/5	md-amorphous	Ge S	180 120	300	77508	300	300	300
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/component/4	md-amorphous	Ge S	170 130	300	77508	300	300	300
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/1-MD/300K	md-amorphous	Ge S	150 150	300	77508	300	300	2000
+nscc1741_XM/xqd/2-OTS/2-GeS/1-model/5-MD/2-MD	md-amorphous	Ge S	150 150	300	77508	300.0	300.0	200
+nscc1741_XM/xqd/2-OTS/0-Te/4-MD/300K	md-amorphous	Te	300	300	77497	300.0	300.0	2000
+nscc1741_XM/xqd/2-OTS/0-Te/4-MD/300K/1	md-amorphous	Te	300	300	77497	300.0	300.0	2000
+nscc1741_XM/xqd/2-OTS/9-GeSe3/1-model/2-relax	md-amorphous	Ge Se	75 225	300	77508	300.0	300.0	300
+nscc1741_XM/xqd/2-OTS/11-Sb2S3/0-model/relax	md-amorphous	Sb S	120 180	300	77508	300.0	300.0	200
+nscc1741_XM/xqd/2-OTS/02-Ge/4-MD	md-amorphous	Ge	300	300	77497	300.0	300.0	2000
+nscc1741_XM/xqd/2-OTS/12-SbSeC/5%/62-MD	md-amorphous	Sb Se C	114 171 15	300	77519	300.0	300.0	2000
+nscc1741_XM/xqd/2-OTS/12-SbSeC/5%/23-300K/500step	md-amorphous	Sb Se C	114 171 15	300	77519	400.0	400.0	500
+nscc1741_XM/xqd/2-OTS/12-SbSeC/5%/23-300K/500step/100step	md-amorphous	Sb Se C	114 171 15	300	77519	400.0	400.0	100
+nscc1741_XM/xqd/2-OTS/12-SbSeC/15%/6-MD	md-amorphous	Sb Se C	102 153 45	300	77519	300.0	300.0	3000
+nscc1741_XM/xqd/3-GeSeTe/4-40%/1-model/MD/new_MD_300K	md-amorphous	Ge Te Se	150 90 60	300	77519	300	300	2000
+nscc1741_XM/xumeng/old/LiDH/2-290K/2-MD-290K	md-amorphous	C H N Pb I	64 96 8 4 16	188	48757	290.0	290.0	2000
+nscc1741_XM/xumeng/old/LiDH/2-290K/6-MD-290K	md-amorphous	C H N Pb I	64 96 8 4 16	188	48757	290.0	290.0	2000
+nscc1741_XM/xumeng/old/LiDH/2-290K/7-MD-290K	md-amorphous	C H N Pb I	64 96 8 4 16	188	48757	290.0	290.0	4000
+nscc1741_XM/xumeng/old/LiDH/2-290K/8-MD-290K	md-amorphous	C H N Pb I	64 96 8 4 16	188	48757	290.0	290.0	4000
+nscc1741_XM/xumeng/old/LiDH/2-290K/9-290K	md-amorphous	C H N Pb I	64 96 8 4 16	188	48757	290.0	290.0	4000
+nscc1741_XM/xumeng/old/Ge15Sb85	md-amorphous	Ge Sb	45 255	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/old/GeSbO/amorphous/4-300k	md-amorphous	Ge O Sb	45 45 210	300	77519	300.0	300.0	2000
+nscc1741_XM/xumeng/5-KSS/1-KSS-a-1/3-300k	md-amorphous	Sb Se K	112 182 28	322	83173	300.0	300.0	1000
+nscc1741_XM/xumeng/5-KSS/1-KSS-a-1/4-300k	md-amorphous	Sb Se K	112 182 28	322	83173	300.0	300.0	2000
+nscc1741_XM/xumeng/5-KSS/1-KSS-a-1/5-300k	md-amorphous	Sb Se K	112 182 28	322	83173	300.0	300.0	2000
+nscc1741_XM/xumeng/5-KSS/1-KSS-a-1/8-300k	md-amorphous	Sb Se K	112 182 28	322	83173	300.0	300.0	3000
+nscc1741_XM/xumeng/5-KSS/1-KSS-a-1/10-MD-300k	md-amorphous	Sb Se K	112 182 28	322	83173	300.0	300.0	5000
+nscc1741_XM/xumeng/5-KSS/2-KSS-a-2/3-300k	md-amorphous	Sb Se K	112 182 28	322	83173	300.0	300.0	1000
+nscc1741_XM/xumeng/5-KSS/2-KSS-a-2/4-300k	md-amorphous	Sb Se K	112 182 28	322	83173	300.0	300.0	2000
+nscc1741_XM/xumeng/5-KSS/2-KSS-a-2/8-300k	md-amorphous	Sb Se K	112 182 28	322	83173	300.0	300.0	200
+nscc1741_XM/xumeng/5-KSS/crystal/4-MD-300	md-amorphous	Sb Se K	112 182 28	322	83173	300.0	300.0	5000
+nscc1741_XM/xumeng/5-KSS/3-KSS-a-2-2/3-300k	md-amorphous	Sb Se K	112 182 28	322	83173	300.0	300.0	1000
+nscc1741_XM/xumeng/5-KSS/3-KSS-a-2-2/7-300k	md-amorphous	Sb Se K	112 182 28	322	83173	300.0	300.0	5000
+nscc1741_XM/xumeng/10-OTS-pressure/4-0.96/3-MD-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/10-OTS-pressure/5-0.92/3-MD-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/10-OTS-pressure/2-0.98/3-MD-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/10-OTS-pressure/6-0.9/3-MD-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/10-OTS-pressure/8-0.94/MD-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/10-OTS-pressure/0-1.00/1-MD-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/10-OTS-pressure/11-0.935/3-MD-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	1000
+nscc1741_XM/xumeng/10-OTS-pressure/GeTe6/0-1.00/2-MD	md-amorphous	Ge Te	43 257	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/10-OTS-pressure/SnSe/7-MD-300K	md-amorphous	Sn Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/10-OTS-pressure/SiSe/1-300K	md-amorphous	Si Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/6-dos/MD	md-amorphous	Ge Sn Se	120 30 150	300	77519	300.0	300.0	2000
+nscc1741_XM/xumeng/10-OTS-pressure/doped/3-Sn-radom/success/12-MD	md-amorphous	Ge Sn Se	100 50 150	300	77519	300.0	300.0	2000
+nscc1741_XM/xumeng/6-boson/2-GeTe/2-300K	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/6-boson/3-GST/1-amorphous/2-300K	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	500
+nscc1741_XM/xumeng/4-Sb-TeSeS/1-Sb2Te3/1-300K	md-amorphous	Sb Te	120 180	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/4-Sb-TeSeS/1-Sb2Te3/7-MD-4000	md-amorphous	Sb Te	120 180	300	77508	300.0	300.0	4000
+nscc1741_XM/xumeng/4-Sb-TeSeS/2-Sb2Se3/8-300K-MD	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	4000
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/1-3000K	md-amorphous	Sb S	120 180	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/4-MD-2000	md-amorphous	Sb S	120 180	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/7-300K	md-amorphous	Sb S	120 180	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/0-dos/1-300K	md-amorphous	Sb S	120 180	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/4-Sb-TeSeS/3-Sb2S3/10-MD-4000	md-amorphous	Sb S	120 180	300	77508	300.0	300.0	4000
+nscc1741_XM/xumeng/8-GeAsSe/2-dos/1-300k	md-amorphous	Ge As Se	96 72 96	264	68267	300.0	300.0	500
+nscc1741_XM/xumeng/8-GeAsSe/1-dos/1-300k	md-amorphous	Ge As Se	96 72 96	264	68267	300.0	300.0	300
+nscc1741_XM/xumeng/qiyingbing/1-guize/1/2-MD-300k	md-amorphous	Ge Sb Te	32 48 96	176	45651	300.0	300.0	2000
+nscc1741_XM/xumeng/qiyingbing/1-guize/2/2-MD-300k	md-amorphous	Ge Sb Te	38 42 96	176	45651	300.0	300.0	2000
+nscc1741_XM/xumeng/qiyingbing/1-guize/3/2-MD-300k	md-amorphous	Ge Sb Te	39 39 96	174	45137	300.0	300.0	2000
+nscc1741_XM/xumeng/qiyingbing/2-suiji/1/2-MD-300k	md-amorphous	Ge Sb Te	38 38 96	172	44623	300.0	300.0	2000
+nscc1741_XM/xumeng/qiyingbing/2-suiji/2/2-MD-300k	md-amorphous	Ge Sb Te	32 48 96	176	0	300.0	300.0	2000
+nscc1741_XM/xumeng/qiyingbing/2-suiji/4-GST-c160/2-MD-300K	md-amorphous	Ge Sb Te	43 43 108	194	50277	300.0	300.0	2000
+nscc1741_XM/xumeng/qiyingbing/2-suiji/4-GST-c160/test	md-amorphous	Ge Sb Te	43 43 108	194	50277	300.0	300.0	10
+nscc1741_XM/xumeng/qiyingbing/2-suiji/4-GST-c160/test2	md-amorphous	Ge Sb Te	43 43 108	194	50277	300.0	300.0	10
+nscc1741_XM/xumeng/qiyingbing/2-suiji/3-GST-c216/2-MD-300K	md-amorphous	Ge Sb Te	43 43 108	194	50277	300.0	300.0	2000
+nscc1741_XM/xumeng/qiyingbing/2-suiji/3-GST-c216/3-MD-400K	md-amorphous	Ge Sb Te	43 43 108	194	50277	400.0	400.0	2000
+nscc1741_XM/xumeng/GST225/1-300K	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	3000
+nscc1741_XM/xumeng/12-ml-dielectric/16-Cd/3-CdTe-cubic/1-3000K	md-amorphous	Cd Te	100 100	200	51808	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/5-In2Se3-hexagonal/4-3000K	md-amorphous	In Se	80 120	200	51808	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/4-In/6-In2Te3-orthorhombic/a/4-3000K	md-amorphous	In Te	80 120	200	51808	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/4-Tl2Se3-monoclinic/1-3000K	md-amorphous	Tl Se	80 120	200	51808	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/1-Tl2S5-orthorhombic/a/2-3000-300K	md-amorphous	Tl S	57 143	200	51808	300.0	300.0	1000
+nscc1741_XM/xumeng/12-ml-dielectric/5-Tl/3-TlTe-tetragonal/a/1-3000K	md-amorphous	Tl Te	100 100	200	51808	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/6-C/3-CSe2-orthorhombic/1-3000K	md-amorphous	C Se	66 134	200	51808	300.0	300.0	300
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/2-PbSe-cubic/1-3000K	md-amorphous	Pb Se	100 100	200	51808	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/1-PbS-cubic/1-3000K	md-amorphous	Pb S	100 100	200	51808	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/10-Pb/3-PbTe-cubic/1-3000K	md-amorphous	Pb Te	100 100	200	51808	300.0	300.0	300
+nscc1741_XM/xumeng/12-ml-dielectric/17-Hg/47-HgSe-cubic/1-3000K	md-amorphous	Hg Se	100 100	200	51808	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/17-Hg/48-HgTe-cubic/1-3000K	md-amorphous	Hg Te	100 100	200	51808	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/11-P/55-P2Se3/1-3000K	md-amorphous	P Se	80 120	200	51808	300.0	300.0	300
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/22-GST147/1-3000K	md-amorphous	Ge Sb Te	17 66 117	200	51819	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/0-GST/44-GST415/1-3000K	md-amorphous	Ge Sb Te	80 20 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/1-As2S3-triclinic/5-3000K	md-amorphous	As S	80 120	200	51808	300.0	300.0	300
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/1-As2S3-triclinic/boson	md-amorphous	As S	80 120	200	51808	300.0	300.0	2000
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/1-As2S3-triclinic/0-AsS2/1-3000K	md-amorphous	As S	66 132	198	51294	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/2-As2Se3-monoclinic/1-3000K	md-amorphous	As Se	80 120	200	51808	300.0	300.0	100
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/2-As2Se3-monoclinic/z-AsSe2/1-3000K	md-amorphous	As Se	66 132	198	51294	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/3-As2Te3-monoclinic/1-3000K	md-amorphous	As Te	80 120	200	51808	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/12-As/3-As2Te3-monoclinic/z-AsTe2/1-3000K	md-amorphous	As Te	66 132	198	51294	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/3-Sb2Te3-trigonal/1-3000K	md-amorphous	Sb Te	66 132	198	51294	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/13-Sb/2-Sb2Se3-orthorhombic/2-300K	md-amorphous	Sb Se	66 132	198	51294	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/14-Bi/1-Bi2S3-Orthorhombic/1-3000K	md-amorphous	Bi S	66 132	198	51294	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/14-Bi/2-Bi2Se3-Trigonal/4-3000K	md-amorphous	Bi Se	80 120	200	51808	300.0	300.0	300
+nscc1741_XM/xumeng/12-ml-dielectric/7-Si/SiS-orthorhombic-2d/1-3000K	md-amorphous	Si S	100 100	200	51808	300.0	300.0	300
+nscc1741_XM/xumeng/12-ml-dielectric/7-Si/1-SiS2-orthorhombic/a/2-3000-300K	md-amorphous	Si S	66 132	198	51294	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/7-Si/2-SiSe2-orthorhombic/a/2-3000-300K	md-amorphous	Si Se	66 132	198	51294	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/2-SnSe-orthorhombic/1-3000K	md-amorphous	Sn Se	100 100	200	51808	300.0	300.0	1000
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/1-SnS-orthorhombic/1-3000K	md-amorphous	Sn S	150 150	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/4-SnS2-trigonal/a/2-3000-300K	md-amorphous	Sn S	100 200	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/5-Sn2S3-orthorhombic/a/2-3000-300K	md-amorphous	Sn S	120 180	300	77508	300.0	300.0	1000
+nscc1741_XM/xumeng/12-ml-dielectric/9-Sn/6-SnSe2-trigonal/a/2-300K	md-amorphous	Sn Se	100 200	300	77508	300.0	300.0	1000
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/5-Ga2Se3-Monoclinic/4-3000K	md-amorphous	Ga Se	80 120	200	51808	300.0	300.0	300
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/5-Ga2Se3-Monoclinic/GaSe2/1-3000K	md-amorphous	Ga Se	66 132	198	51294	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/3-GaTe-hex_mon/a/2-3000K-300K	md-amorphous	Ga Te	100 100	200	51808	300.0	300.0	300
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/1-GaS-Hexagonal/a/2-3000-300K	md-amorphous	Ga S	99 99	198	51294	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/4-Ga2S3-Monoclinic/1-3000K	md-amorphous	As S	66 132	198	51294	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/3-Ga/4-Ga2S3-Monoclinic/4-3000K	md-amorphous	Ga S	80 120	200	51808	300.0	300.0	300
+nscc1741_XM/xumeng/12-ml-dielectric/1-B/1-BS2/a/2-3000K-300K	md-amorphous	B S	66 132	198	51294	300.0	300.0	300
+nscc1741_XM/xumeng/12-ml-dielectric/1-B/2-BSe2-Monoclinic/1-3000K	md-amorphous	B Se	80 120	200	51808	300.0	300.0	300
+nscc1741_XM/xumeng/12-ml-dielectric/2-Al/1-Al2S3/1-3000K	md-amorphous	Al S	80 120	200	51808	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/2-Al/2-Al2Se3-monoclinic/1-3000K	md-amorphous	Al Se	80 120	200	51808	300.0	300.0	300
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/3-GeTe/2-300K	md-amorphous	Ge Te	100 100	200	51808	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/3-GeTe/5-3000K	md-amorphous	Ge Te	100 100	200	51808	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/8-Ge/--GeTe2/1-3000K	md-amorphous	Ge Te	66 134	200	51808	300.0	300.0	300
+nscc1741_XM/xumeng/12-ml-dielectric/42-AgInTe2/1-3000K	md-amorphous	Ag In Te	50 50 100	200	51819	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/dope/Ge-Sb2Te3/1-Ge	md-amorphous	Sb Ge Te	72 8 120	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/Ge-Sb2Te3/0/1-3000K	md-amorphous	Ge Sb Te	7 59 132	198	51305	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/1-Bi10/1-300K	md-amorphous	Sb Se	66 132	198	51294	300.0	300.0	200
+nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/6-Bi60/1-300K	md-amorphous	Bi Sb Se	32 48 120	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/5-Bi50/1-300K	md-amorphous	Bi Sb Se	20 60 120	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/7-Bi70/1-300K	md-amorphous	Bi Sb Se	44 36 120	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/8-Bi80/1-300K	md-amorphous	Bi Sb Se	56 24 120	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/1-BiSbSe/9-Bi90/1-300K	md-amorphous	Bi Sb Se	68 12 120	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/1-Sb10/1-300K	md-amorphous	Ge Sb Te	90 10 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/2-Sb20/1-300K	md-amorphous	Ge Sb Te	80 20 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/3-Sb30/1-300K	md-amorphous	Ge Sb Te	70 30 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/4-Sb40/1-300K	md-amorphous	Ge Sb Te	60 40 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/5-Sb50/1-300K	md-amorphous	Ge Sb Te	50 50 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/2-Sb-GeTe/6-Sb60/1-300K	md-amorphous	Ge Sb Te	40 60 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/1-As10	md-amorphous	Ge As Se	135 15 150	300	77519	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/2-As20	md-amorphous	Ge As Se	120 30 150	300	77519	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/3-As30	md-amorphous	Ge As Se	105 45 150	300	77519	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/4-As40	md-amorphous	Ge As Se	90 60 150	300	77519	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/5-As50	md-amorphous	Ge As Se	75 75 150	300	77519	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/3-As-GeSe/6-As60	md-amorphous	Ge As Se	60 90 150	300	77519	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/2-Sn20/1-300K	md-amorphous	Ge Sn Te	80 20 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/1-Sn10/1-300K	md-amorphous	Ge Sn Te	90 10 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/3-Sn30/1-300K	md-amorphous	Ge Sn Te	70 30 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/4-Sn40/1-300K	md-amorphous	Ge Sn Te	60 40 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/5-Sn50/1-300K	md-amorphous	Ge Sn Te	50 50 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/6-Sn60/1-300K	md-amorphous	Ge Sn Te	40 60 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/4-SnGeTe/7-Sn70/1-300K	md-amorphous	Ge Sn Te	30 70 100	200	51819	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/5-Ga-GeSe/1-Ga	md-amorphous	Ge Ga Se	135 15 150	300	77519	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/5-Ga-GeSe/2-Ga	md-amorphous	Ge Ga Se	135 15 150	300	77519	300.0	300.0	500
+nscc1741_XM/xumeng/12-ml-dielectric/dope/5-Ga-GeSe/3-Ga	md-amorphous	Ge Ga Se	120 30 150	300	77519	300.0	300.0	500
+nscc1741_XM/xumeng/7-crystallize-Sb/2-SbC/amorphous/5-MD-300k	md-amorphous	Sb C	195 21	216	55920	300.0	300.0	2000
+nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/3-400k	md-amorphous	Sb	216	216	58520	400.0	400.0	10000
+nscc1741_XM/xumeng/7-crystallize-Sb/1-Sb/5-MD-300k	md-amorphous	Sb	216	216	55909	300.0	300.0	2000
+nscc1741_XM/xumeng/7-crystallize-Sb/3-SbSi/amorphous/5-MD-300k	md-amorphous	Sb Si	195 21	216	55920	300.0	300.0	2000
+nscc1741_XM/xumeng/7-crystallize-Sb/4-SbGe/amorphous/5-MD-300k	md-amorphous	Sb Ge	195 21	216	55920	300.0	300.0	2000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-SbSn/amorphous/5-MD-300k	md-amorphous	Sb Sn	195 21	216	55920	300.0	300.0	2000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/1-300k	md-amorphous	Sb	216	216	55909	300.0	300.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/2	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/3	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/4	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/5	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/6	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/7	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/8	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/9	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/10	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/11	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/12	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/13	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/2-400k/14	md-amorphous	Sb	216	216	55909	400.0	400.0	3000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/7-1300k-300k-2w/1	md-amorphous	Sb	216	216	55909	300.0	300.0	5000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/10-seeds	md-amorphous	Sb	216	216	55909	400.0	400.0	5000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k	md-amorphous	Sb	216	216	58520	400.0	400.0	5000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/2	md-amorphous	Sb	216	216	58520	400.0	400.0	5000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/3	md-amorphous	Sb	216	216	58520	400.0	400.0	5000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/4	md-amorphous	Sb	216	216	58520	400.0	400.0	5000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/5	md-amorphous	Sb	216	216	58520	400.0	400.0	5000
+nscc1741_XM/xumeng/7-crystallize-Sb/5-crystal-Sb/11-seeds-400k/6	md-amorphous	Sb	216	216	58520	400.0	400.0	5000
+nscc1741_XM/xumeng/9-CrGeTe/MD	md-amorphous	Cr Ge Te	54 54 162	270	69809	300.0	300.0	2000
+nscc1741_XM/xumeng/soap-MD/2-GeTe/1-300K	md-amorphous	Ge Te	100 100	200	51808	300.0	300.0	10000
+nscc1741_XM/xumeng/soap-MD/1-GeSe/3-MD	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	10000
+nscc1741_XM/xumeng/soap-MD/1-GeSe/2-MD	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	10000
+nscc1741_XM/xumeng/soap-MD/1-GeSe/1/1-MD	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	10000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/1-dos-T/4-MD-300-3000	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/7-dos/1-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/1-GeSe/Tem-dos/15-1000-300k	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/3-OTS/1-GeSe/6-dos/1-1500-300k	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/1-GeSe/6-dos/6-300k	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/1-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/5-rebuild/8-300k	md-amorphous	Ge Se	151 151	302	81665	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/8-chain-fix/1-Ge/5-rebuild/13-300K	md-amorphous	Ge Se	151 151	302	81665	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/1-GeSe/8-dos/7-MD-3000	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/3-OTS/1-GeSe/9-dos/1-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/3-OTS/1-GeSe/10-dos/6-300K	md-amorphous	Ge Se	150 150	300	81127	300.0	300.0	800
+nscc1741_XM/xumeng/3-OTS/1-GeSe/aging/1-MD-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	20000
+nscc1741_XM/xumeng/3-OTS/2-SiTe/3-dos/0-300K	md-amorphous	Si Te	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/2-SiTe/1-dos/4-MD-300-3000	md-amorphous	Si Te	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/3-OTS/2-SiTe/1-dos/7-300k	md-amorphous	Si Te	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/2-SiTe/1-dos/10-300k	md-amorphous	Si Te	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/3-GeS/2-dos/0-300k	md-amorphous	Ge S	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/new/3-300k	md-amorphous	Ge S	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/3-GeS/3-dos/6-dos-m/1-300k	md-amorphous	Ge S	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/3-GeS/5-dos-F/0-300k	md-amorphous	Ge S	150 150	300	77508	300.0	300.0	400
+nscc1741_XM/xumeng/3-OTS/3-GeS/1-dos/0-300k	md-amorphous	Ge S	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/3-OTS/3-GeS/6-dos-T/0-300k	md-amorphous	Ge S	150 150	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/3-OTS/3-GeS/6-dos-T/3-300k	md-amorphous	Ge S	150 150	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/3-OTS/3-GeS/6-dos-T/6-300k	md-amorphous	Ge S	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/3-OTS/3-GeS/8-dos2-GeS/0-300k	md-amorphous	Ge S	150 150	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/3-OTS/9-ZnTe/1-dos/a-300K	md-amorphous	Zn Te	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/14-BTe/1-dos/1-3000k	md-amorphous	B Te	120 180	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/5-GeSeAs25/1-dos/1-300k	md-amorphous	Ge As Se	90 60 150	300	77519	300.0	300.0	600
+nscc1741_XM/xumeng/3-OTS/4-SiSe/6-dos/1-300k	md-amorphous	Si Se	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/4-SiSe/3-dos/1-300K	md-amorphous	Si Se	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/4-SiSe/3-dos/6-300K	md-amorphous	Si Se	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/4-SiSe/3-dos/9-300K	md-amorphous	Si Se	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/7-dos/1-300K	md-amorphous	Si Se	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/4-SiSe/4-dos/11-dos/4-300k	md-amorphous	Si Se	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/4-SiSe/2-dos-f/0-a/1-300K	md-amorphous	Si Se	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/4-SiSe/1-dos/0-a/1-300K	md-amorphous	Si Se	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/4-SiSe/1-dos/6-300K	md-amorphous	Si Se	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/md/1-300K	md-amorphous	Si Se	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/4-SiSe/5-dos-T/13-dos-T/1-300K	md-amorphous	Si Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/3-GeTe/4-MD-300-3000	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/4-SnTe/4-MD-300-3000	md-amorphous	Sn Te	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/8-GeSeTe/0-a	md-amorphous	Ge Se Te	150 39 111	300	77519	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/0-C-Si-Ge-Sn-Te/6-BTe/1-dos/0-a/2-300	md-amorphous	B Te	75 225	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/2-dos/0-a/2-300k	md-amorphous	Ge Se	100 200	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/3-dos/0-a/2-300k	md-amorphous	Ge Se	100 200	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/1-dos/0-a/2-300k	md-amorphous	Ge Se	100 200	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/6-GeSe2/5-dos/1-300k	md-amorphous	Ge Se	100 200	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/7-GeTe6/1-dos/1-300k	md-amorphous	Ge Te	43 257	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/2-dos/3-300k	md-amorphous	Ge As Se	135 30 135	300	77519	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/2-dos/6-300k	md-amorphous	Ge As Se	135 30 135	300	77519	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/2-dos/13-300K	md-amorphous	Ge As Se	135 30 135	300	77519	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/3-dos/0-300k	md-amorphous	Ge As Se	135 30 135	300	77519	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/1-dos/4-MD-300-3000	md-amorphous	Ge As Se	135 30 135	300	77519	300.0	300.0	3000
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/7-GeAsSe/1-dos/a-300K	md-amorphous	Ge As Se	135 30 135	300	77519	300.0	300.0	600
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/6-SiAsTe/a-300k	md-amorphous	Si AS Te	135 30 135	300	77519	300.0	300.0	200
+nscc1741_XM/xumeng/3-OTS/OTS-3-4/6-SiAsTe/4-MD-300-3000	md-amorphous	Si AS Te	135 30 135	300	77519	300.0	300.0	3000
+nscc1741_XM/xumeng/3-OTS/11-AsTe/1-dos/0-300k	md-amorphous	As Te	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/11-AsTe/1-dos/3-300k	md-amorphous	As Te	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/11-AsTe/1-dos/6-300k	md-amorphous	As Te	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/11-AsTe/1-dos/9-300k	md-amorphous	As Te	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/11-AsTe/2-dos/6-300k	md-amorphous	As Te	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/11-AsTe/3-dos/4-300k	md-amorphous	As Te	150 150	300	77508	300.0	300.0	800
+nscc1741_XM/xumeng/3-OTS/12-AlTe/1-dos/0-300k	md-amorphous	Al Te	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/12-AlTe/3-dos/4-300k	md-amorphous	Al Te	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/12-AlTe/design/1-300k	md-amorphous	Al Te	153 151	304	82203	300.0	300.0	800
+nscc1741_XM/xumeng/3-OTS/12-AlTe/0-Al2Te3/1-300k	md-amorphous	Al Te	120 180	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/12-AlTe/0-Al2Te3/4-300k	md-amorphous	Al Te	120 180	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/3-OTS/13-SnSe/7-MD-300K	md-amorphous	Sn Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/3-OTS/15-GaTe/1-dos/1-300k	md-amorphous	Ga Te	120 180	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/15-GaTe/1-dos/4-MD-300K	md-amorphous	Ga Te	120 180	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/1-dos-T/1-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/1-dos-T/4-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/2-dos-T/1-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	800
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/2-dos-T/4-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/3-dos/1-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/4-dos-T/1-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/sl-GeSe/1-dos-0/5-dos-T/1-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/ml-OTS/1-dos/1-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	20000
+nscc1741_XM/xumeng/3-OTS/16-GaSe/1-dos/1-300K	md-amorphous	Ga Se	150 150	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/3-OTS/17-GaS/1-300K	md-amorphous	Ga S	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/18-InSe/1-300K	md-amorphous	In Se	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/3-OTS/19-BiSe/4-300K	md-amorphous	Bi Se	120 180	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/1-PCM/1-Sb/pressure/1-0Gpa	md-amorphous	Sb	300	300	77497	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/1-Sb/pressure/2-2%	md-amorphous	Sb	300	300	77497	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/1-Sb/pressure/3-5%	md-amorphous	Sb	300	300	77497	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/1-Sb/temperature/1-300k	md-amorphous	Sb	300	300	77497	300.0	300.0	50
+nscc1741_XM/xumeng/1-PCM/1-Sb/temperature/2-400k	md-amorphous	Sb	300	300	77497	400.0	400.0	50
+nscc1741_XM/xumeng/1-PCM/1-Sb/vdos/1-vdos-0-5000	md-amorphous	Sb	300	300	77497	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/1-Sb/vdos/2-vdos-5000	md-amorphous	Sb	300	300	77497	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/2-Ge15Sb85/vdos/1-0-3000	md-amorphous	Ge Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/22-300k	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/1-PCM/7-GeSe/temperature/1-300k	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	100
+nscc1741_XM/xumeng/1-PCM/7-GeSe/temperature/2-400k	md-amorphous	Ge Se	150 150	300	77508	400.0	400.0	100
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	10000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf2	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	1000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf-5000	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf-5000/vacf-5000	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf-5000-2	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/vacf-5000-2/vacf-5000	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/1-vdos-0-3000	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/7-GeSe/vdos/2-vdos-0-10000	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	10000
+nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/2-2%	md-amorphous	Si Ge	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/1-0GPa	md-amorphous	Si Ge	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/3-5%	md-amorphous	Si Ge	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/4-10%	md-amorphous	Si Ge	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/0-0GP	md-amorphous	Si Ge	150 150	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/1-PCM/3-SiGe/pressure/NPT-test	md-amorphous	Si Ge	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/3-SiGe/temperature/2-400k	md-amorphous	Si Ge	150 150	300	77508	400.0	400.0	50
+nscc1741_XM/xumeng/1-PCM/3-SiGe/temperature/1-300k	md-amorphous	Si Ge	150 150	300	77508	300.0	300.0	50
+nscc1741_XM/xumeng/1-PCM/5-GeTe/pressure/2-2%	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/pressure/1-0GPa	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/pressure/3-5%	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/temperature/2-400k	md-amorphous	Ge Te	150 150	300	77508	400.0	400.0	100
+nscc1741_XM/xumeng/1-PCM/5-GeTe/temperature/1-300k	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	100
+nscc1741_XM/xumeng/1-PCM/5-GeTe/vdos/1-vacf-1000	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	1000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/vdos/2-vacf-5000	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/vdos/3-vdos-3000-0	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/vdos/4-vdos-0-10000	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	10000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/1-vacf-1000	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	1000
+nscc1741_XM/xumeng/1-PCM/5-GeTe/15-MD-300	md-amorphous	Ge Te	150 150	300	77508	300.0	300.0	1000
+nscc1741_XM/xumeng/1-PCM/4-GST_124/vdos/1-vdos-0-5000	md-amorphous	Ge Sb Te	43 86 172	301	77776	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/4-GST_124/vdos/2-vdos-0-10000	md-amorphous	Ge Sb Te	43 86 172	301	77776	300.0	300.0	10000
+nscc1741_XM/xumeng/1-PCM/4-GST_124/vdos/3-vdos-0-3000-3	md-amorphous	Ge Sb Te	43 86 172	301	77776	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/4-GST_124/vdos/4-vdos-0-10000-4	md-amorphous	Ge Sb Te	43 86 172	301	77776	300.0	300.0	10000
+nscc1741_XM/xumeng/1-PCM/6-Sb2Te3/vdos/1-0-3000	md-amorphous	Sb Te	120 180	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/10-SnTe/temperature/1-300k	md-amorphous	Sn Te	150 150	300	77508	300.0	300.0	50
+nscc1741_XM/xumeng/1-PCM/10-SnTe/temperature/2-400k	md-amorphous	Sn Te	150 150	300	77508	400.0	400.0	50
+nscc1741_XM/xumeng/1-PCM/10-SnTe/vdos/1-0-3000	md-amorphous	Sn Te	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/12-PbSe/vdos/1-vdos-0-5000	md-amorphous	Pb Se	150 150	300	77508	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/13-GeS/vdos/1-0-3000	md-amorphous	Ge S	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/1-2-2000	md-amorphous	Si	300	300	77497	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/2-1-1000	md-amorphous	Si	300	300	77497	300.0	300.0	1000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/3-1-2000	md-amorphous	Si	300	300	77497	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/4-1-3000	md-amorphous	Si	300	300	77497	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/5-2-5000	md-amorphous	Si	300	300	77497	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/6-5-400	md-amorphous	Si	300	300	77497	300.0	300.0	400
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/7-1-5000	md-amorphous	Si	300	300	77497	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/8-10000	md-amorphous	Si	300	300	77497	300.0	300.0	10000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/9-0.5-2000	md-amorphous	Si	300	300	77497	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/10-0.5-4000	md-amorphous	Si	300	300	77497	300.0	300.0	4000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/11-1-1000	md-amorphous	Si	300	300	77497	300.0	300.0	1000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/12-1-2000	md-amorphous	Si	300	300	77497	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/13-1-5000	md-amorphous	Si	300	300	77497	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/14-1-5000-0	md-amorphous	Si	300	300	77497	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/14-Si/vdos/15-1-3000-0	md-amorphous	Si	300	300	77497	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/vdos/1-0-3000	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/vdos/2-1-4000	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	4000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/vdos/3-2-4000	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	4000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/vdos/4-0-6000	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	6000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/pressure/2-2%	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/pressure/1-0GPa	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/pressure/3-5%	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/15-GST-225/pressure/4-10%	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/16-AIST/vdos/1-0-5000	md-amorphous	Ag In Sb Te	12 9 201 78	300	77530	300.0	300.0	5000
+nscc1741_XM/xumeng/1-PCM/21-PbTe/temperature/1-300k	md-amorphous	Pb Te	150 150	300	77508	300.0	300.0	50
+nscc1741_XM/xumeng/1-PCM/21-PbTe/temperature/2-400k	md-amorphous	Pb Te	150 150	300	77508	400.0	400.0	50
+nscc1741_XM/xumeng/1-PCM/21-PbTe/vdos/1-0-3000MD	md-amorphous	Pb Te	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/26-SiTe/vdos/1-0-3000MD	md-amorphous	Si Te	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/26-SiTe/8-300k	md-amorphous	Si Te	150 150	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/1-PCM/31-GaAs/vdos/1-0-3000MD	md-amorphous	Ga As	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/31-GaAs/vdos/2-0-300MD	md-amorphous	Ga As	150 150	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/3-MD-300k	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/4-MD-300k	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/1-20GPa	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	1000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/2-10GPa	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/0-EOS	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	100
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/4-50GPa	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	1000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/3-35GPa	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	1000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/2-20GPa	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/3-35GPa	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/4-50GPa	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/1-10GPa	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/MD/0-0GPa	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/6-25GPa	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	1000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/pressure/5-16GPa	md-amorphous	Sb Se	120 180	300	77508	300.0	300.0	2000
+nscc1741_XM/xumeng/1-PCM/32-Sb2Se3/crystal/2-MD-300k	md-amorphous	Sb Se	16 24	40	10688	300.0	300.0	3000
+nscc1741_XM/xumeng/1-PCM/28-GeTe6/4-300k	md-amorphous	Ge Te	43 257	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/1-PCM/28-GeTe6/6-MD-300k-3000step	md-amorphous	Ge Te	43 257	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/1-PCM/33-ZnTe/3-300k	md-amorphous	Zn Te	150 150	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/1-PCM/33-ZnTe/7-300k	md-amorphous	Zn Te	150 150	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/2-Sb-PCM/1-Sb/2-Sb/2-MD-3000	md-amorphous	Sb	300	300	77497	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/1-Sb/1-Sb/MD	md-amorphous	Sb	300	300	77497	300.0	300.0	5000
+nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/2-SnSb/2-MD-3000K	md-amorphous	Sn Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/3-SnSb/1-SnSb/2-MD-300K	md-amorphous	Sn Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/4-GaSb/2-MD-300K	md-amorphous	Ga Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/2-InSb/2-MD-3000	md-amorphous	In Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/3-InSb/4-MD-300	md-amorphous	In Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/5-InSb/1-InSb/2-MD-300K	md-amorphous	In Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/1-ZnSb/1-300K	md-amorphous	Zn Sb	45 255	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/1-ZnSb/2-MD-300K	md-amorphous	Zn Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/1-ZnSb/6-300K	md-amorphous	Zn Sb	45 255	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/3-ZnSb/1-300K	md-amorphous	Zn Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/3-ZnSb/2-MD-3000	md-amorphous	Zn Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/3-ZnSb/6-300K	md-amorphous	Zn Sb	45 255	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/2-Sb-PCM/6-ZnSb/3-ZnSb/7-300K	md-amorphous	Zn Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/10-AlSb/1-AlSb/1-300K	md-amorphous	Al Sb	45 255	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/2-Sb-PCM/10-AlSb/1-AlSb/2-MD-3000	md-amorphous	Al Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/11-TiSb/1-TiSb/1-300K	md-amorphous	Ti Sb	45 255	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/2-Sb-PCM/11-TiSb/1-TiSb/2-MD-3000	md-amorphous	Ti Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/12-ScSb/1-300K	md-amorphous	Sc Sb	45 255	300	77508	300.0	300.0	300
+nscc1741_XM/xumeng/2-Sb-PCM/12-ScSb/2-MD-3000	md-amorphous	Sc Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/13-YSb/1-300K	md-amorphous	Y Sb	45 255	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/2-Sb-PCM/13-YSb/2-MD-3000	md-amorphous	Y Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/14-ZrSb/1-300K	md-amorphous	Zr Sb	45 255	300	77508	300.0	300.0	200
+nscc1741_XM/xumeng/2-Sb-PCM/14-ZrSb/2-MD-3000	md-amorphous	Zr Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/o/2-GeSb/2-MD-300K	md-amorphous	Ge Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/o/2-GeSb/6-MD-300K	md-amorphous	Ge Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/o/9-SiSb/2-SiSb/2-300K	md-amorphous	Si Sb	45 255	300	77508	300.0	300.0	1000
+nscc1741_XM/xumeng/2-Sb-PCM/o/9-SiSb/1-SiSb/1-300K	md-amorphous	Si Sb	45 255	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/2-Sb-PCM/o/9-SiSb/1-SiSb/2-MD-3000	md-amorphous	Si Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/3-CuSb/1-300K	md-amorphous	Cu Sb	45 255	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/3-CuSb/2-MD-3000	md-amorphous	Cu Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/1-CuSb/1-300K	md-amorphous	Cu Sb	45 255	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/1-CuSb/2-MD-3000	md-amorphous	Cu Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/o/7-CuSb/1-CuSb/6-300K	md-amorphous	Cu Sb	45 255	300	77508	300.0	300.0	100
+nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/2-AgSb/1-300K	md-amorphous	Ag Sb	45 255	300	77508	300.0	300.0	1000
+nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/2-AgSb/2-MD-3000	md-amorphous	Ag Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/1-AgSb/1-300K	md-amorphous	Ag Sb	45 255	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/2-Sb-PCM/o/8-AgSb/1-AgSb/2-MD-3000	md-amorphous	Ag Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/17-CdSb/1-300K	md-amorphous	Cd Sb	45 255	300	77508	300.0	300.0	500
+nscc1741_XM/xumeng/2-Sb-PCM/17-CdSb/2-MD-3000	md-amorphous	Cd Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/17-CdSb/7-300K	md-amorphous	Cd Sb	45 255	300	77508	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/GST225/1-300K	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/GST225/2-300k	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	3000
+nscc1741_XM/xumeng/2-Sb-PCM/GST225/3-300K	md-amorphous	Ge Sb Te	68 68 170	306	79061	300.0	300.0	3000
+nscc1741_XM/xumeng/11-OTS-C_chain/2-model2/1-MD-600K	md-amorphous	Ge Se C	146 150 4	300	77519	300.0	300.0	500
+nscc1741_XM/xumeng/11-OTS-C_chain/Si_chain/1-model1/1-MD-300K	md-amorphous	Ge Se Si	146 150 4	300	77519	300.0	300.0	500
+nscc1741_XM/grc/OTS/GeAsSeSi/youhua	md-amorphous	Ge As Se Si	75 75 75 75	300	77530	300.0	300.0	200
+nscc1741_XM/grc/OTS/GeAsSeSi/300K	md-amorphous	Ge As Se Si	75 75 75 75	300	77530	300.0	300.0	200
+nscc1741_XM/grc/OTS/GeSeTe/0-300K	md-amorphous	Ge Se Te	100 100 100	300	77519	300.0	300.0	200
+nscc1741_XM/grc/OTS/GeSe.5/300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	200
+nscc1741_XM/grc/OTS/GeSe.5/300K-300K	md-amorphous	Ge Se	150 150	300	77508	300.0	300.0	2000
+nscc1741_XM/grc/OTS/GeSeN.4/2000K-2000K	md-amorphous	Ge Se N	100 100 100	300	77519	300.0	300.0	20
+nscc1741_XM/grc/OTS/SiAsTe.1/0-300K.F	md-amorphous	Si As Te	100 100 100	300	77519	300.0	300.0	200
+nscc1741_XM/grc/OTS/SiAsTe.1/300K	md-amorphous	Si As Te	100 100 100	300	77519	300.0	300.0	200
+nscc1741_XM/grc/OTS/GeAsSe.2/300K	md-amorphous	Ge As Se	100 100 100	300	77519	300.0	300.0	200
+nscc1741_XM/grc/OTS/GeAsSe.2/1-300K	md-amorphous	Ge As Se	100 100 100	300	77519	300.0	300.0	2000
+nscc1741_XM/grc/OTS/GeAsTeSi.3/0-300K.F	md-amorphous	Ge As Te Si	75 75 75 75	300	77530	300.0	300.0	200
+nscc1741_XM/grc/OTS/GeAsTeSi.3/300K	md-amorphous	Ge As Te Si	75 75 75 75	300	77530	300.0	300.0	200
+nscc1741_XM/grc/OTS/GeAsTeSi.3/1-0-300K	md-amorphous	Ge As Te Si	75 75 75 75	300	77530	300.0	300.0	200
+nscc1741_XM/grc/OTS/GeSeSi.6/0-300K.F	md-amorphous	Ge Se Si	100 100 100	300	77519	300.0	300.0	200
+nscc1741_XM/grc/OTS/GeSeSi.6/300K	md-amorphous	Ge Se Si	100 100 100	300	77519	300.0	300.0	200
+nscc1741_XM/grc/OTS/4-GATS/0-300K	md-amorphous	Ge As Te Si	30 90 165 15	300	77530	300.0	300.0	100
+nscc1741_XM/grc/OTS/4-GATS/0-300K.1	md-amorphous	Ge As Te Si	30 90 165 15	300	77530	300.0	300.0	100
+nscc1741_XM/grc/OTS/4-GATS/0-300K.2	md-amorphous	Ge As Te Si	30 90 165 15	300	77530	300.0	300.0	100
+nscc1741_XM/grc/OTS/4-GATS/0-300K.3	md-amorphous	Ge As Te Si	30 90 165 15	300	77530	300.0	300.0	200
+nscc1741_XM/grc/OTS/4-GATS/0-300K.4	md-amorphous	Ge As Te Si	30 90 165 15	300	77530	300.0	300.0	100
+nscc1741_XM/grc/OTS/4-GATS/0-300K.5	md-amorphous	Ge As Te Si	30 90 165 15	300	77530	300.0	300.0	200
+nscc1741_XM/grc/OTS/4-GATS/new-300K	md-amorphous	Ge As Te Si	30 90 165 15	300	77530	300.0	300.0	200
+nscc1741_XM/grc/OTS/5-GATSN/0-300K	md-amorphous	Ge As Te Si N	28 86 156 15 15	300	77541	300.0	300.0	100
+nscc1741_XM/grc/OTS/5-GATSN/0-300K.1	md-amorphous	Ge As Te Si N	28 86 156 15 15	300	77541	300.0	300.0	200
+nscc1741_XM/grc/OTS/3-GeAsTeSiN10/0-300K	md-amorphous	Ge As Te Si N	67 67 67 67 32	300	77541	300.0	300.0	200
+nscc1741_XM/grc/OTS/3-GeAsTeSiN10/0-300K.2	md-amorphous	Ge As Te Si N	67 67 67 67 32	300	77541	300.0	300.0	200
+nscc1741_XM/grc/OTS/3-GeAsTeSiN10/0-300K.1	md-amorphous	Ge As Te Si N	67 67 67 67 32	300	77541	300.0	300.0	200
+nscc1741_XM/grc/OTS/2-GeAsTeSiN.F/1-300K.1	md-amorphous	Ge As Te Si N	60 60 60 60 60	300	77541	300.0	300.0	200
+nscc1741_XM/grc/OTS/6-GATS/0-300K.5	md-amorphous	Ge As Te Si	30 90 165 15	300	77530	300.0	300.0	200
+nscc1741_XM/grc/OTS/6-GATS/0-300K	md-amorphous	Ge As Te Si	30 90 144 36	300	77530	300.0	300.0	200
+nscc1741_XM/grc/OTS/6-GATS/0-300K.1	md-amorphous	Ge As Te Si	30 90 144 36	300	77530	300.0	300.0	200
+nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/0-300K	md-amorphous	Ge Ga Sb	45 75 180	300	77519	300.0	300.0	200
+nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/7-300K	md-amorphous	Ge Ga Sb	45 75 180	300	77519	300.0	300.0	2000
+nscc1741_XM/grc/GeGaSb/Ge15Ga25Sb60/MD	md-amorphous	Ge Ga Sb	45 75 180	300	77519	300.0	300.0	1000
+nscc1741_XM/grc/1-OTS/1-GeAsTeSi/4-MD-300K-3000	md-amorphous	Ge As Te Si	75 75 75 75	300	77530	300.0	300.0	3000
+nscc1741_XM/grc/1-OTS/2-GeAsTeSiN/4-MD-300K-3000	md-amorphous	Ge As Te Si N	60 60 60 60 60	300	77541	300.0	300.0	3000
+nscc1741_XM/grc/ZnSb/3-ZSB2/0-300K	md-amorphous	Zn Bi Sb	114 15 171	300	0	300.0	300.0	200
+nscc1741_XM/grc/ZnSb/2-ZSB1/0-300K.1	md-amorphous	Zn Bi Sb	116 10 174	300	77519	300.0	300.0	200
+nscc1741_XM/grc/ZnSb/1-ZSB0/0-300K.1	md-amorphous	Zn Sb	120 180	300	77508	300.0	300.0	200
+nscc1741_XM/grc/ZnSb/1-ZSB0/0-300K.2	md-amorphous	Zn Sb	120 180	300	77508	300.0	300.0	200
+nscc1741_XM/grc/ZnSb/4-ZSB3/0-300K	md-amorphous	Zn Bi Sb	110 25 165	300	0	300.0	300.0	200
+nscc1741_XM/grc/ZnSb/5-ZSB4/0-300K	md-amorphous	Zn Bi Sb	104 40 156	300	0	300.0	300.0	200
+nscc1741_XM/grc/ZnSb/6-ZSB5/0-300K	md-amorphous	Zn Bi Sb	98 55 147	300	0	300.0	300.0	200
+nscc1741_XM/grc/ZnSb/7-ZSB6/0-300K	md-amorphous	Zn Bi Sb	92 70 138	300	0	300.0	300.0	200
+nscc1741_XM/grc/ZnSb/8-ZSO/0-300K	md-amorphous	Zn O Sb	136 28 136	300	77519	300.0	300.0	200
+nscc1741_XM/grc/ZnSb/8-ZSO/0-300K.1	md-amorphous	Zn O Sb	136 28 136	300	77519	300.0	300.0	200
+nscc1741_XM/grc/ZnSb/8-ZSO/0-300K.2	md-amorphous	Zn O Sb	136 28 136	300	77519	300.0	300.0	200
+nscc1741_XM/grc/ZnSb/8-ZSO/0-300K.3	md-amorphous	Zn O Sb	136 28 136	300	77519	300.0	300.0	200
+nscc1741_XM/grc/3-Te-based/2-CTe/2-C35Te65/MD	md-amorphous	C Te	105 195	300	77508	300.0	300.0	1160
+nscc1741_XM/grc/3-Te-based/4-BTe/2-BTe3/MD	md-amorphous	B Te	75 225	300	77508	300.0	300.0	2000
+nscc1741_XM/grc/3-Te-based/3-AlTe/2-Al3Te7/MD	md-amorphous	Al Te	90 210	300	77508	300.0	300.0	2000
+nscc1741_XM/grc/3-Te-based/3-AlTe/3-Al3Te7/3-lsf	md-amorphous	Al Te	90 210	300	77508	300.0	300.0	100
+nscc1741_XM/grc/3-Te-based/9-ZnTe/2-Zn35Te65/MD	md-amorphous	Zn Te	105 195	300	77508	300.0	300.0	2000
+nscc1741_XM/grc/3-Te-based/5-SiTe/1/MD	md-amorphous	Si Te	150 150	300	77508	300.0	300.0	1000
+nscc1741_XM/grc/3-Te-based/12-YTe/MD	md-amorphous	Y Te	30 270	300	77508	300.0	300.0	2000
+nscc1741_XM/grc/3-Te-based/13-TiTe/MD	md-amorphous	Ti Te	30 270	300	77508	300.0	300.0	2000
+nscc1741_XM/grc/3-Te-based/14-ScTe/MD	md-amorphous	Sc Te	30 270	300	77508	300.0	300.0	2000
+nscc1741_XM/grc/3-Te-based/15-ZrTe/MD	md-amorphous	Zr Te	30 270	300	77508	300.0	300.0	2000
+nscc1741_XM/grc/Ga2Te3-Zr/2-10p/MD	md-amorphous	Ga Te Zr	108 162 30	300	77519	300.0	300.0	2000
+nscc1741_XM/grc/Ga2Te3-Zr/1-5p/MD	md-amorphous	Ga Te Zr	114 171 15	300	77519	300.0	300.0	2000

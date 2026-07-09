@@ -60,6 +60,19 @@ git add data/ && git commit -m "add: GeTe model_01"
 ```
 `add_structure.py` 会自动计算化学式/数密度/原子数，追加 metadata 并重建主库。
 
+## Web 主页（GitHub Pages）
+
+`docs/` 是一个纯静态站点（无后端），可用 GitHub Pages 直接托管：概览统计、
+材料体系/原子数/数密度图表、可筛选排序的结构浏览表，明暗主题自适应。
+
+```bash
+python scripts/build_site_data.py     # 由 metadata 生成 docs/data.json
+# 本地预览（必须走 HTTP，不能直接双击打开）
+python -m http.server 8000 --directory docs   # 然后访问 http://localhost:8000
+```
+
+启用 GitHub Pages：仓库 Settings → Pages → Source 选 `main` 分支的 `/docs` 目录。
+
 ## 脚本
 
 | 脚本 | 用途 |
@@ -70,6 +83,7 @@ git add data/ && git commit -m "add: GeTe model_01"
 | `scripts/dedup_models.py` | 智能去重，每独立模型留一代表 |
 | `scripts/build_metadata.py` | ASE 提取，产出 metadata（批量流程） |
 | `scripts/build_asedb.py` | 由 metadata 构建 ASE 主库 |
+| `scripts/build_site_data.py` | 由 metadata 生成前端 docs/data.json |
 | `scripts/add_structure.py` | 贡献助手：新增单个结构 |
 
 ## 数据来源说明（第一批）

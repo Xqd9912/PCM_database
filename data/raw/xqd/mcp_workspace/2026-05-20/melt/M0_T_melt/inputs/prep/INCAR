@@ -1,0 +1,32 @@
+!Stage 1 — ISIF=3 cell relaxation (pristine GST225) before AIMD melt
+   SYSTEM = GST225_prep_relax_M0_T_melt
+
+   ISTART = 0
+   ICHARG = 2
+   ENCUT  = 450
+   PREC   = Accurate
+   LREAL  = Auto
+   ISYM   = 0
+   NCORE  = 16
+
+!Electronic Relaxation
+   NELM   = 200
+   NELMIN = 4
+   EDIFF  = 1E-05
+   ALGO   = Fast
+   AMIN   = 0.01
+
+!Ionic Relaxation (cell + ions + volume)
+   IBRION = 2
+   ISIF   = 3
+   NSW    = 80
+   EDIFFG = -0.02
+   POTIM  = 0.5
+
+!Smearing
+   ISMEAR = 0
+   SIGMA  = 0.05
+
+!Write flags
+   LWAVE  = .FALSE.
+   LCHARG = .FALSE.

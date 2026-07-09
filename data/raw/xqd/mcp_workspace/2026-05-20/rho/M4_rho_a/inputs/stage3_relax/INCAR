@@ -1,0 +1,25 @@
+! M4_rho_a stage3 — ISIF=2 fixed-cell relaxation of quenched amorphous (vasp_std)
+  SYSTEM = M4_rho_a_stage3_relax
+
+  ISTART = 0
+  ICHARG = 2
+  ENCUT  = 400
+  PREC   = Normal
+  EDIFF  = 1.0E-05
+  EDIFFG = -0.02
+  LREAL  = A
+  ALGO   = Fast
+  ISMEAR = 0
+  SIGMA  = 0.05
+  ISIF   = 2
+  IBRION = 2
+  NSW    = 200
+  POTIM  = 0.5
+  ISYM   = 0
+  LWAVE  = .FALSE.
+  LCHARG = .FALSE.
+  LVTOT  = .FALSE.
+  LELF   = .FALSE.
+  NCORE  = 16
+  NELM   = 200
+  NELMIN = 4

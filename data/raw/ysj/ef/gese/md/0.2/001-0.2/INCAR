@@ -1,0 +1,37 @@
+Global Parameters
+ISTART =  1            (Read existing wavefunction, if there)
+ISPIN  =  1            (Non-Spin polarised DFT)
+# ICHARG =  11         (Non-self-consistent: GGA/LDA band structures)
+LREAL  = .FALSE.       (Projection operators: automatic)
+# ENCUT  =  400        (Cut-off energy for plane wave basis set, in eV)
+# PREC   =  Accurate   (Precision level: Normal or Accurate, set Accurate when perform structure lattice relaxation calculation)
+LWAVE  = .TRUE.        (Write WAVECAR or not)
+LCHARG = .TRUE.        (Write CHGCAR or not)
+ADDGRID= .TRUE.        (Increase grid, helps GGA convergence)
+# LVTOT  = .TRUE.      (Write total electrostatic potential into LOCPOT or not)
+# LVHAR  = .TRUE.      (Write ionic + Hartree electrostatic potential into LOCPOT or not)
+# NELECT =             (No. of electrons: charged cells, be careful)
+# LPLANE = .TRUE.      (Real space distribution, supercells)
+# NWRITE = 2           (Medium-level output)
+# KPAR   = 2           (Divides k-grid into separate groups)
+# NGXF    = 300        (FFT grid mesh density for nice charge/potential plots)
+# NGYF    = 300        (FFT grid mesh density for nice charge/potential plots)
+# NGZF    = 300        (FFT grid mesh density for nice charge/potential plots)
+ 
+Electronic Relaxation
+ISMEAR =  0
+SIGMA  =  0.05
+EDIFF  =  1E-08
+ 
+Molecular Dynamics
+IBRION =  0            (Activate MD)
+NSW    =  13055          (Max ionic steps)
+EDIFFG = -1E-02        (Ionic convergence, eV/A)
+POTIM  =  3            (Timestep in fs)
+SMASS  =  0            (MD Algorithm: -3-microcanonical ensemble, 0-canonical ensemble)
+TEBEG  =     300     (Start temperature K)
+TEEND  =     300     (Final temperature K)
+# MDALGO =  1          (Andersen Thermostat)
+# ISYM   =  0          (Switch symmetry off)
+NWRITE =  0            (For long MD-runs use NWRITE=0 or NWRITE=1)
+ 

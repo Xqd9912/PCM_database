@@ -1,0 +1,31 @@
+SYSTEM = WSe2 pristine relax
+
+PREC   = Accurate
+ENCUT  = 520
+EDIFF  = 1E-6
+EDIFFG = -0.01
+NELM   = 120
+ALGO   = Normal
+LASPH  = .TRUE.
+
+ISPIN  = 2
+MAGMOM = 16*0.0 32*0.0
+
+ISYM   = 0
+
+IBRION = 2
+NSW    = 200
+ISIF   = 2
+POTIM  = 0.30
+
+ISMEAR = 0
+SIGMA  = 0.05
+
+LREAL  = Auto
+ADDGRID = .TRUE.
+
+LWAVE  = .TRUE.
+LCHARG = .TRUE.
+
+LDIPOL = .TRUE.
+IDIPOL = 3

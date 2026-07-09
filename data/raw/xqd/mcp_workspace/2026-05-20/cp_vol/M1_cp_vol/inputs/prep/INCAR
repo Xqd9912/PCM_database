@@ -1,0 +1,24 @@
+! M1_cp_vol — Stage 1: ISIF=3 cell+ion relaxation (phonon_dos prep)
+! Source: pcm_dft_recipes.yaml::relax_scf
+
+  SYSTEM  = GST225_N5at_relax
+  ISTART  = 0
+  ICHARG  = 2
+  ENCUT   = 400
+  PREC    = Accurate
+  EDIFF   = 1E-05
+  EDIFFG  = -0.02
+  ALGO    = Fast
+  AMIN    = 0.01
+  ISMEAR  = 0
+  SIGMA   = 0.05
+  ISIF    = 3
+  IBRION  = 2
+  NSW     = 200
+  NELM    = 200
+  NELMIN  = 4
+  ISYM    = 0
+  LREAL   = Auto
+  LWAVE   = .FALSE.
+  LCHARG  = .FALSE.
+  NCORE   = 16

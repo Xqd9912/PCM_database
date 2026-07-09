@@ -1,0 +1,29 @@
+!System Settings  (PREP STAGE: ISIF=3 cell relaxation; precedes AIMD melt)
+   SYSTEM = GST225-N5pct_prep_relax
+
+   ISTART = 0
+   ICHARG = 2
+   LREAL  = Auto
+   ENCUT  = 450             (per pcm_dft_recipes.yaml::relax_scf)
+   PREC   = Accurate
+   NCORE  = 16
+   ISYM   = 0               (mandatory for doped supercell)
+
+!Electronic Relaxation
+   NELM   = 60
+   NELMIN = 4
+   EDIFF  = 1E-06
+   ALGO   = Fast
+   AMIN   = 0.01
+
+!Ionic Relaxation (ISIF=3: shape + ions + volume)
+   IBRION = 2               (CG)
+   ISIF   = 3               (relax cell volume + shape + ions)
+   NSW    = 80
+   EDIFFG = 1E-05
+   ISMEAR = 0
+   SIGMA  = 0.05
+
+!Output
+   LWAVE  = .FALSE.
+   LCHARG = .FALSE.

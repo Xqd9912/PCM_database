@@ -1,0 +1,767 @@
+model_key	rep_path	how	n_merged	formula	species	counts	natoms	tebeg
+hhy/GST	hhy/GST/3-opt	opt-CONTCAR	2	Ge16Sb61Te108	Ge Sb Te	16 61 108	185	
+hhy/GST225	hhy/GST225/3-opt	opt-CONTCAR	2	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+hhy/IGST	hhy/IGST/3-opt	opt-CONTCAR	2	Ge16Sb61Te108In13	Ge Sb Te In	16 61 108 13	198	
+tsq/GeSe_Ag/0	tsq/GeSe_Ag/0/4-opt	opt-CONTCAR	2	Se50Ge50Ag5	Se Ge Ag	50 50 5	105	
+tsq/GeSe_Ag/1	tsq/GeSe_Ag/1/4-opt	opt-CONTCAR	2	Se50Ge50Ag10	Se Ge Ag	50 50 10	110	
+tsq/GeSe_Ag/2	tsq/GeSe_Ag/2/4-opt	opt-CONTCAR	2	Se50Ge50Ag15	Se Ge Ag	50 50 15	115	
+tsq/GeSe_Ag/3	tsq/GeSe_Ag/3/4-opt	opt-CONTCAR	2	Se50Ge50Ag20	Se Ge Ag	50 50 20	120	
+tsq/GeTe/DOS	tsq/GeTe/DOS/1-relax	opt-CONTCAR	1	Ge150Te150	Ge Te	150 150	300	
+tsq/GeTe/remodeling	tsq/GeTe/remodeling	md-first-frame	1	Ge150Te150	Ge Te	150 150	300	300.0
+tsq/sb-te/local_potential/0-sb	tsq/sb-te/local_potential/0-sb	md-first-frame	1	Sb300	Sb	300	300	300.0
+tsq/sb-te/local_potential/1-sb2te	tsq/sb-te/local_potential/1-sb2te	md-first-frame	1	Sb200Te100	Sb Te	200 100	300	300.0
+tsq/sb-te/local_potential/2-sb2te2	tsq/sb-te/local_potential/2-sb2te2	md-first-frame	1	Sb150Te150	Sb Te	150 150	300	300.0
+tsq/sb-te/local_potential/3-sb2te3	tsq/sb-te/local_potential/3-sb2te3	md-first-frame	1	Sb120Te180	Sb Te	120 180	300	300.0
+tsq/sb-te/local_potential/4-te	tsq/sb-te/local_potential/4-te	md-first-frame	1	Te300	Te	300	300	300.0
+tsq/sb-te/local_potential/5-sbte2	tsq/sb-te/local_potential/5-sbte2	md-first-frame	1				None	300.0
+tsq/sb-te/local_potential_1/0-sb	tsq/sb-te/local_potential_1/0-sb	md-first-frame	1	Sb300	Sb	300	300	300.0
+tsq/sb-te/local_potential_1/1-sb2te	tsq/sb-te/local_potential_1/1-sb2te	md-first-frame	1	Sb200Te100	Sb Te	200 100	300	300.0
+tsq/sb-te/local_potential_1/2-sb2te2	tsq/sb-te/local_potential_1/2-sb2te2	md-first-frame	1	Sb150Te150	Sb Te	150 150	300	300.0
+tsq/sb-te/local_potential_1/3-sb2te3	tsq/sb-te/local_potential_1/3-sb2te3	md-first-frame	1	Sb120Te180	Sb Te	120 180	300	300.0
+tsq/sb-te/local_potential_1/4-te	tsq/sb-te/local_potential_1/4-te	md-first-frame	1	Te300	Te	300	300	300.0
+tsq/sb-te/local_potential_2/0_sb	tsq/sb-te/local_potential_2/0_sb	md-first-frame	1	Sb300	Sb	300	300	300.0
+tsq/sb-te/local_potential_2/1_sb2te	tsq/sb-te/local_potential_2/1_sb2te	md-first-frame	1	Sb200Te100	Sb Te	200 100	300	300.0
+tsq/sb-te/local_potential_2/2_sb2te2	tsq/sb-te/local_potential_2/2_sb2te2	md-first-frame	1	Sb150Te150	Sb Te	150 150	300	300.0
+tsq/sb-te/local_potential_2/3_sb2te3	tsq/sb-te/local_potential_2/3_sb2te3	md-first-frame	1	Sb120Te180	Sb Te	120 180	300	300.0
+tsq/sb-te/local_potential_2/4_te	tsq/sb-te/local_potential_2/4_te	md-first-frame	1	Te300	Te	300	300	300.0
+tsq/sb-te/modeling/0-sb	tsq/sb-te/modeling/0-sb/2-opt	opt-CONTCAR	2	Sb300	Sb	300	300	
+tsq/sb-te/modeling/0-sb/3-md/300-1	tsq/sb-te/modeling/0-sb/3-md/300-1	md-first-frame	1	Sb300	Sb	300	300	300.0
+tsq/sb-te/modeling/1-sb2te	tsq/sb-te/modeling/1-sb2te/2-opt	opt-CONTCAR	2	Sb200Te100	Sb Te	200 100	300	
+tsq/sb-te/modeling/1-sb2te/3-md/300K-1	tsq/sb-te/modeling/1-sb2te/3-md/300K-1	md-first-frame	1	Sb200Te100	Sb Te	200 100	300	300.0
+tsq/sb-te/modeling/2-sb2te2	tsq/sb-te/modeling/2-sb2te2/2-opt	opt-CONTCAR	2	Sb150Te150	Sb Te	150 150	300	
+tsq/sb-te/modeling/3-sb2te3	tsq/sb-te/modeling/3-sb2te3/2-opt	opt-CONTCAR	2	Sb120Te180	Sb Te	120 180	300	
+tsq/sb-te/modeling/4-te	tsq/sb-te/modeling/4-te/2-opt	opt-CONTCAR	2	Te300	Te	300	300	
+tsq/sb-te/modeling/5-sbte2	tsq/sb-te/modeling/5-sbte2/2-opt	opt-CONTCAR	2	Sb100Te200	Sb Te	100 200	300	
+wh/InTe/37/1.2local	wh/InTe/37/1.2local/1-10k/2-opt	opt-CONTCAR	5	In90Te210	In Te	90 210	300	
+wh/InTe/37/8-2000K-300K	wh/InTe/37/8-2000K-300K/opt	opt-CONTCAR	1	In90Te210	In Te	90 210	300	
+wh/InTe/37/fig.5.16/1	wh/InTe/37/fig.5.16/1/2-60ps/opt	opt-CONTCAR	3	In90Te210	In Te	90 210	300	
+wh/InTe/37/sl	wh/InTe/37/sl/2-opt	opt-CONTCAR	3	In90Te210	In Te	90 210	300	
+wh/InTeSi	wh/InTeSi/3-opt	opt-CONTCAR	1	Si30In81Te189	Si In Te	30 81 189	300	
+wh/InTeSi/4-local	wh/InTeSi/4-local	md-first-frame	1	Si30In81Te189	Si In Te	30 81 189	300	300
+wyh/13InTeSi	wyh/13InTeSi/3-opt	opt-CONTCAR	2	In78Te183Si39	In Te Si	78 183 39	300	
+wyh/17InTeSi	wyh/17InTeSi/3-opt	opt-CONTCAR	1	In75Te174Si51	In Te Si	75 174 51	300	
+wyh/21InTeSi	wyh/21InTeSi/3-opt	opt-CONTCAR	1	In71Te166Si63	In Te Si	71 166 63	300	
+wyh/InTe15si	wyh/InTe15si/3-opt	opt-CONTCAR	1	In77Te178Si45	In Te Si	77 178 45	300	
+wyh/InTe20si	wyh/InTe20si/3-opt	opt-CONTCAR	1	In72Te168Si60	In Te Si	72 168 60	300	
+wyh/InTe37	wyh/InTe37/3-opt	opt-CONTCAR	1	In90Te210	In Te	90 210	300	
+wyh/aInTeSi	wyh/aInTeSi/3-opt	opt-CONTCAR	1	In78Te183Si39	In Te Si	78 183 39	300	
+wyh/bInTeSi	wyh/bInTeSi/3-opt	opt-CONTCAR	1	In75Te174Si51	In Te Si	75 174 51	300	
+wyh/cInTeSi	wyh/cInTeSi/3-opt	opt-CONTCAR	1	In71Te166Si63	In Te Si	71 166 63	300	
+xqd/0-GST-dataset/pre_screen	xqd/0-GST-dataset/pre_screen	md-first-frame	1				None	300
+xqd/0-GST-dataset/pre_screen/0-GeInSbTe	xqd/0-GST-dataset/pre_screen/0-GeInSbTe/3-MD	md-first-frame	1	In8Ge32Sb32Te80	In Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/1-AgGeSbTe	xqd/0-GST-dataset/pre_screen/1-AgGeSbTe/3-MD	md-first-frame	1	Ag8Ge32Sb32Te80	Ag Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/10-CoGeSbTe	xqd/0-GST-dataset/pre_screen/10-CoGeSbTe/3-MD	md-first-frame	1	Co8Ge32Sb32Te80	Co Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/11-BiGeSbTe	xqd/0-GST-dataset/pre_screen/11-BiGeSbTe/3-MD	md-first-frame	1	Bi8Ge32Sb32Te80	Bi Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/12-GeSbTeZn	xqd/0-GST-dataset/pre_screen/12-GeSbTeZn/3-MD	md-first-frame	1	Zn8Ge32Sb32Te80	Zn Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/13-GeSbTaTe	xqd/0-GST-dataset/pre_screen/13-GeSbTaTe/3-MD	md-first-frame	1	Ta8Ge32Sb32Te80	Ta Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/14-FeGeSbTe	xqd/0-GST-dataset/pre_screen/14-FeGeSbTe/3-MD	md-first-frame	1	Fe8Ge32Sb32Te80	Fe Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/15-GeOSbTe	xqd/0-GST-dataset/pre_screen/15-GeOSbTe/3-MD	md-first-frame	1	O8Ge32Sb32Te80	O Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/16-GeSbScTe	xqd/0-GST-dataset/pre_screen/16-GeSbScTe/3-MD	md-first-frame	1	Sc8Ge32Sb32Te80	Sc Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/17-GeSbTeY	xqd/0-GST-dataset/pre_screen/17-GeSbTeY/3-MD	md-first-frame	1	Y8Ge32Sb32Te80	Y Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/18-BGeSbTe	xqd/0-GST-dataset/pre_screen/18-BGeSbTe/3-MD	md-first-frame	1	B8Ge32Sb32Te80	B Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/19-GeNiSbTe	xqd/0-GST-dataset/pre_screen/19-GeNiSbTe/3-MD	md-first-frame	1	Ni8Ge32Sb32Te80	Ni Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/2-GeRuSbTe	xqd/0-GST-dataset/pre_screen/2-GeRuSbTe/3-MD	md-first-frame	1	Ru8Ge32Sb32Te80	Ru Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/20-GaGeSbTe	xqd/0-GST-dataset/pre_screen/20-GaGeSbTe/3-MD	md-first-frame	1	Ga8Ge32Sb32Te80	Ga Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/21-GeSbTeTi	xqd/0-GST-dataset/pre_screen/21-GeSbTeTi/3-MD	md-first-frame	1	Ti8Ge32Sb32Te80	Ti Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/22-GeSSbTe	xqd/0-GST-dataset/pre_screen/22-GeSSbTe/3-MD	md-first-frame	1	S8Ge32Sb32Te80	S Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/23-GeSbTeZr	xqd/0-GST-dataset/pre_screen/23-GeSbTeZr/3-MD	md-first-frame	1	Zr8Ge32Sb32Te80	Zr Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/24-AlGeSbTe	xqd/0-GST-dataset/pre_screen/24-AlGeSbTe/3-MD	md-first-frame	1	Al8Ge32Sb32Te80	Al Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/25-GeNSbTe	xqd/0-GST-dataset/pre_screen/25-GeNSbTe/3-MD	md-first-frame	1	N8Ge32Sb32Te80	N Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/26-GeSbTcTe	xqd/0-GST-dataset/pre_screen/26-GeSbTcTe/3-MD	md-first-frame	1	Tc8Ge32Sb32Te80	Tc Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/27-GeSbTe	xqd/0-GST-dataset/pre_screen/27-GeSbTe/3-MD	md-first-frame	1	Ge34Sb34Te84	Ge Sb Te	34 34 84	152	300
+xqd/0-GST-dataset/pre_screen/28-GeSbSiTe	xqd/0-GST-dataset/pre_screen/28-GeSbSiTe/3-MD	md-first-frame	1	Si8Ge32Sb32Te80	Si Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/29-GeHfSbTe	xqd/0-GST-dataset/pre_screen/29-GeHfSbTe/3-MD	md-first-frame	1	Hf8Ge32Sb32Te80	Hf Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/3-CGeSbTe	xqd/0-GST-dataset/pre_screen/3-CGeSbTe/3-MD	md-first-frame	1	C8Ge32Sb32Te80	C Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/30-GeRhSbTe	xqd/0-GST-dataset/pre_screen/30-GeRhSbTe/3-MD	md-first-frame	1	Rh8Ge32Sb32Te80	Rh Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/31-GePdSbTe	xqd/0-GST-dataset/pre_screen/31-GePdSbTe/3-MD	md-first-frame	1	Pd8Ge32Sb32Te80	Pd Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/32-GeSbSeTe	xqd/0-GST-dataset/pre_screen/32-GeSbSeTe/3-MD	md-first-frame	1	Se8Ge32Sb32Te80	Se Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/33-AsGeSbTe	xqd/0-GST-dataset/pre_screen/33-AsGeSbTe/3-MD	md-first-frame	1	As8Ge32Sb32Te80	As Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/34-CuGeSbTe	xqd/0-GST-dataset/pre_screen/34-CuGeSbTe/3-MD	md-first-frame	1	Cu8Ge32Sb32Te80	Cu Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/35-GeMnSbTe	xqd/0-GST-dataset/pre_screen/35-GeMnSbTe/3-MD	md-first-frame	1	Mn8Ge32Sb32Te80	Mn Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/36-GeMoSbTe	xqd/0-GST-dataset/pre_screen/36-GeMoSbTe/3-MD	md-first-frame	1	Mo8Ge32Sb32Te80	Mo Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/4-GeSbTeV	xqd/0-GST-dataset/pre_screen/4-GeSbTeV/3-MD	md-first-frame	1	V8Ge32Sb32Te80	V Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/5-CdGeSbTe	xqd/0-GST-dataset/pre_screen/5-CdGeSbTe/3-MD	md-first-frame	1	Cd8Ge32Sb32Te80	Cd Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/6-CrGeSbTe	xqd/0-GST-dataset/pre_screen/6-CrGeSbTe/3-MD	md-first-frame	1	Cr8Ge32Sb32Te80	Cr Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/7-GeSbSnTe	xqd/0-GST-dataset/pre_screen/7-GeSbSnTe/3-MD	md-first-frame	1	Sn8Ge32Sb32Te80	Sn Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/8-GeNbSbTe	xqd/0-GST-dataset/pre_screen/8-GeNbSbTe/3-MD	md-first-frame	1	Nb8Ge32Sb32Te80	Nb Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/pre_screen/9-GePSbTe	xqd/0-GST-dataset/pre_screen/9-GePSbTe/3-MD	md-first-frame	1	P8Ge32Sb32Te80	P Ge Sb Te	8 32 32 80	152	300
+xqd/0-GST-dataset/ref-data/1-Ge15Sb85	xqd/0-GST-dataset/ref-data/1-Ge15Sb85	md-first-frame	1	Ge45Sb255	Ge Sb	45 255	300	300
+xqd/0-GST-dataset/ref-data/2-GST124	xqd/0-GST-dataset/ref-data/2-GST124	md-first-frame	1	Ge43Sb86Te172	Ge Sb Te	43 86 172	301	300
+xqd/0-GST-dataset/ref-data/3-GST147	xqd/0-GST-dataset/ref-data/3-GST147	md-first-frame	1	Ge25Sb100Te175	Ge Sb Te	25 100 175	300	300
+xqd/0-GST-dataset/ref-data/4-GST326	xqd/0-GST-dataset/ref-data/4-GST326	md-first-frame	1	Ge82Sb55Te163	Ge Sb Te	82 55 163	300	300
+xqd/0-GST-dataset/ref-data/5-GST8211	xqd/0-GST-dataset/ref-data/5-GST8211	md-first-frame	1	Ge116Sb29Te155	Ge Sb Te	116 29 155	300	300
+xqd/0-GST-dataset/ref-data/6-AIST	xqd/0-GST-dataset/ref-data/6-AIST	md-first-frame	1	Ag12In9Sb201Te78	Ag In Sb Te	12 9 201 78	300	300
+xqd/0-GST-dataset/ref-data/val/1-028	xqd/0-GST-dataset/ref-data/val/1-028/3-MD	md-first-frame	1	Ge44Sb44Te110	Ge Sb Te	44 44 110	198	300
+xqd/0-GST-dataset/ref-data/val/1-028/4-MD-SMASS0	xqd/0-GST-dataset/ref-data/val/1-028/4-MD-SMASS0	md-first-frame	1	Ge44Sb44Te110	Ge Sb Te	44 44 110	198	300
+xqd/0-GST-dataset/ref-data/val/2-030	xqd/0-GST-dataset/ref-data/val/2-030/3-MD	md-first-frame	1	Ge44Sb44Te110	Ge Sb Te	44 44 110	198	300
+xqd/0-GST-dataset/ref-data/val/3-032	xqd/0-GST-dataset/ref-data/val/3-032/3-MD	md-first-frame	1	Ge44Sb44Te110	Ge Sb Te	44 44 110	198	300
+xqd/0-GST-dataset/ref-data/val/4-034	xqd/0-GST-dataset/ref-data/val/4-034/3-MD	md-first-frame	1	Ge44Sb44Te110	Ge Sb Te	44 44 110	198	300
+xqd/1-C-Sb2Te3/0-Sb2Te3	xqd/1-C-Sb2Te3/0-Sb2Te3/3-opt	opt-CONTCAR	1	Sb144Te216	Sb Te	144 216	360	
+xqd/1-C-Sb2Te3/10%	xqd/1-C-Sb2Te3/10%/3-opt	opt-CONTCAR	2	Sb130Te194C36	Sb Te C	130 194 36	360	
+xqd/1-C-Sb2Te3/15%	xqd/1-C-Sb2Te3/15%/3-opt	opt-CONTCAR	2	Sb123Te183C54	Sb Te C	123 183 54	360	
+xqd/1-C-Sb2Te3/5%	xqd/1-C-Sb2Te3/5%/3-opt	opt-CONTCAR	2	Sb137Te205C18	Sb Te C	137 205 18	360	
+xqd/11-GeSe/MLP-stru	xqd/11-GeSe/MLP-stru	md-first-frame	1	Ge64Se64	Ge Se	64 64	128	300
+xqd/12-aging-process/1-GST/27	xqd/12-aging-process/1-GST/27/3-opt	opt-CONTCAR	1	Ge48Sb48Te120	Ge Sb Te	48 48 120	216	
+xqd/12-aging-process/1-GST/28	xqd/12-aging-process/1-GST/28/3-opt	opt-CONTCAR	1	Ge48Sb48Te120	Ge Sb Te	48 48 120	216	
+xqd/12-aging-process/1-GST/29	xqd/12-aging-process/1-GST/29/3-opt	opt-CONTCAR	1	Ge48Sb48Te120	Ge Sb Te	48 48 120	216	
+xqd/12-aging-process/2-GeTe/30	xqd/12-aging-process/2-GeTe/30/3-opt	opt-CONTCAR	1	Ge100Te100	Ge Te	100 100	200	
+xqd/12-aging-process/2-GeTe/31	xqd/12-aging-process/2-GeTe/31/3-opt	opt-CONTCAR	1	Ge100Te100	Ge Te	100 100	200	
+xqd/12-aging-process/2-GeTe/32	xqd/12-aging-process/2-GeTe/32/3-opt	opt-CONTCAR	1	Ge100Te100	Ge Te	100 100	200	
+xqd/12-aging-process/2-GeTe/33	xqd/12-aging-process/2-GeTe/33/3-opt	opt-CONTCAR	1	Ge100Te100	Ge Te	100 100	200	
+xqd/12-aging-process/2-GeTe/33/5-long-MD	xqd/12-aging-process/2-GeTe/33/5-long-MD	md-first-frame	1	Ge100Te100	Ge Te	100 100	200	350
+xqd/12-aging-process/2-GeTe/34	xqd/12-aging-process/2-GeTe/34/3-opt	opt-CONTCAR	1	Ge100Te100	Ge Te	100 100	200	
+xqd/12-aging-process/3-Sb2Te3/24	xqd/12-aging-process/3-Sb2Te3/24/3-opt	opt-CONTCAR	1	Sb80Te120	Sb Te	80 120	200	
+xqd/12-aging-process/3-Sb2Te3/25	xqd/12-aging-process/3-Sb2Te3/25/3-opt	opt-CONTCAR	1	Sb80Te120	Sb Te	80 120	200	
+xqd/12-aging-process/3-Sb2Te3/25/5-long-MD	xqd/12-aging-process/3-Sb2Te3/25/5-long-MD	md-first-frame	1	Sb80Te120	Sb Te	80 120	200	350
+xqd/12-aging-process/3-Sb2Te3/26	xqd/12-aging-process/3-Sb2Te3/26/3-opt	opt-CONTCAR	1	Sb80Te120	Sb Te	80 120	200	
+xqd/12-aging-process/cry/1-GeTe	xqd/12-aging-process/cry/1-GeTe/1-opt	opt-CONTCAR	1	Ge32Te32	Ge Te	32 32	64	
+xqd/12-aging-process/cry/2-GST/2_2_2/1	xqd/12-aging-process/cry/2-GST/2_2_2/1/1-opt	opt-CONTCAR	2	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/12-aging-process/cry/2-GST/2_2_2/2	xqd/12-aging-process/cry/2-GST/2_2_2/2/2-opt2	opt-CONTCAR	2	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/12-aging-process/cry/2-GST/2_2_2/3	xqd/12-aging-process/cry/2-GST/2_2_2/3/1-opt	opt-CONTCAR	2	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/12-aging-process/cry/2-GST/2_2_2/4	xqd/12-aging-process/cry/2-GST/2_2_2/4/2-opt2	opt-CONTCAR	2	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/12-aging-process/cry/2-GST/2_2_2/5	xqd/12-aging-process/cry/2-GST/2_2_2/5/2-opt2	opt-CONTCAR	2	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/12-aging-process/cry/2-GST/3_3_3/1	xqd/12-aging-process/cry/2-GST/3_3_3/1/1-opt	opt-CONTCAR	2	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/12-aging-process/cry/2-GST/3_3_3/2	xqd/12-aging-process/cry/2-GST/3_3_3/2/1-opt	opt-CONTCAR	2	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/12-aging-process/cry/2-GST/3_3_3/3	xqd/12-aging-process/cry/2-GST/3_3_3/3/1-opt	opt-CONTCAR	2	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/12-aging-process/cry/2-GST/3_3_3/4	xqd/12-aging-process/cry/2-GST/3_3_3/4/1-opt	opt-CONTCAR	2	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/12-aging-process/cry/2-GST/3_3_3/5	xqd/12-aging-process/cry/2-GST/3_3_3/5/1-opt	opt-CONTCAR	2	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/12-aging-process/cry/3-ST/2_2_2/1	xqd/12-aging-process/cry/3-ST/2_2_2/1/1-opt	opt-CONTCAR	2	Sb21Te32	Sb Te	21 32	53	
+xqd/12-aging-process/cry/3-ST/2_2_2/2	xqd/12-aging-process/cry/3-ST/2_2_2/2/1-opt	opt-CONTCAR	2	Sb21Te32	Sb Te	21 32	53	
+xqd/12-aging-process/cry/3-ST/2_2_2/3	xqd/12-aging-process/cry/3-ST/2_2_2/3/1-opt	opt-CONTCAR	2	Sb21Te32	Sb Te	21 32	53	
+xqd/12-aging-process/cry/3-ST/2_2_2/4	xqd/12-aging-process/cry/3-ST/2_2_2/4/1-opt	opt-CONTCAR	2	Sb21Te32	Sb Te	21 32	53	
+xqd/12-aging-process/cry/3-ST/2_2_2/5	xqd/12-aging-process/cry/3-ST/2_2_2/5/1-opt	opt-CONTCAR	2	Sb21Te32	Sb Te	21 32	53	
+xqd/12-aging-process/cry/3-ST/3_3_3/1	xqd/12-aging-process/cry/3-ST/3_3_3/1/1-opt	opt-CONTCAR	2	Sb72Te108	Sb Te	72 108	180	
+xqd/12-aging-process/cry/3-ST/3_3_3/2	xqd/12-aging-process/cry/3-ST/3_3_3/2/2-opt2	opt-CONTCAR	2	Sb72Te108	Sb Te	72 108	180	
+xqd/12-aging-process/cry/3-ST/3_3_3/3	xqd/12-aging-process/cry/3-ST/3_3_3/3/2-opt2	opt-CONTCAR	2	Sb72Te108	Sb Te	72 108	180	
+xqd/12-aging-process/cry/3-ST/3_3_3/4	xqd/12-aging-process/cry/3-ST/3_3_3/4/1-opt	opt-CONTCAR	2	Sb72Te108	Sb Te	72 108	180	
+xqd/12-aging-process/cry/3-ST/3_3_3/5	xqd/12-aging-process/cry/3-ST/3_3_3/5/1-opt	opt-CONTCAR	2	Sb72Te108	Sb Te	72 108	180	
+xqd/2-Sb/01-64atom_amor	xqd/2-Sb/01-64atom_amor/6-opt	opt-CONTCAR	8	Sb64	Sb	64	64	
+xqd/2-Sb/02-125atom_amor	xqd/2-Sb/02-125atom_amor/5-opt	opt-CONTCAR	3	Sb125	Sb	125	125	
+xqd/2-Sb/03-216atom_amor	xqd/2-Sb/03-216atom_amor/5-opt	opt-CONTCAR	3	Sb216	Sb	216	216	
+xqd/2-Sb/1-amor	xqd/2-Sb/1-amor	md-first-frame	1	Sb300	Sb	300	300	400
+xqd/2-Sb/1-amor/31-amor-450K	xqd/2-Sb/1-amor/31-amor-450K	md-first-frame	1	Sb300	Sb	300	300	450
+xqd/2-Sb/1-amor/32-amor-450K	xqd/2-Sb/1-amor/32-amor-450K	md-first-frame	1	Sb300	Sb	300	300	450
+xqd/2-Sb/2-amor	xqd/2-Sb/2-amor	md-first-frame	1	Sb300	Sb	300	300	400
+xqd/2-Sb/2-amor/41-amor-450K	xqd/2-Sb/2-amor/41-amor-450K	md-first-frame	1	Sb300	Sb	300	300	450
+xqd/2-Sb/2-amor/42-amor-450K	xqd/2-Sb/2-amor/42-amor-450K	md-first-frame	1	Sb300	Sb	300	300	450
+xqd/2-Sb/3-perturb/1	xqd/2-Sb/3-perturb/1	md-first-frame	1	Sb300	Sb	300	300	450
+xqd/2-Sb/3-perturb/2	xqd/2-Sb/3-perturb/2	md-first-frame	1	Sb300	Sb	300	300	450
+xqd/2-Sb/3-perturb/3	xqd/2-Sb/3-perturb/3	md-first-frame	1	Sb300	Sb	300	300	450
+xqd/2-Sb/3-perturb/4	xqd/2-Sb/3-perturb/4	md-first-frame	1	Sb300	Sb	300	300	450
+xqd/2-Sb/3-perturb/5	xqd/2-Sb/3-perturb/5	md-first-frame	1	Sb300	Sb	300	300	450
+xqd/2-Sb/4-temp	xqd/2-Sb/4-temp/1-450K	md-first-frame	1	Sb300	Sb	300	300	450.0
+xqd/2-Sb/cubic	xqd/2-Sb/cubic/2-400K	md-first-frame	3	Sb64	Sb	64	64	400
+xqd/2-Sb/trigonal	xqd/2-Sb/trigonal/1-450K	md-first-frame	3	Sb108	Sb	108	108	450
+xqd/5-GSS/70	xqd/5-GSS/70/opt	opt-CONTCAR	1	Ge150Te45Se105	Ge Te Se	150 45 105	300	
+xqd/7-Tr/1-AIST	xqd/7-Tr/1-AIST	md-first-frame	1	Ag12In9Sb201Te78	Ag In Sb Te	12 9 201 78	300	300
+xqd/7-Tr/2-GeSe2/0-model-10K	xqd/7-Tr/2-GeSe2/0-model-10K/300K	md-first-frame	1	Ge100Se200	Ge Se	100 200	300	300
+xqd/7-Tr/2-GeSe2/2-BLYP/194atoms	xqd/7-Tr/2-GeSe2/2-BLYP/194atoms/3-opt	opt-CONTCAR	2	Ge64Se130	Ge Se	64 130	194	
+xqd/7-Tr/3-SbS	xqd/7-Tr/3-SbS	md-first-frame	1	Sb120S180	Sb S	120 180	300	300
+xqd/7-Tr/4-GST225/1-64atom/1-model	xqd/7-Tr/4-GST225/1-64atom/1-model/equb/4-opt	opt-CONTCAR	8	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/7-Tr/4-GST225/1-64atom/2-model	xqd/7-Tr/4-GST225/1-64atom/2-model/22-300K-4kstep/opt	opt-CONTCAR	4	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/7-Tr/4-GST225/1-64atom/3-model	xqd/7-Tr/4-GST225/1-64atom/3-model/22-300K-4kstep/opt	opt-CONTCAR	3	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/7-Tr/4-GST225/2-216atom/1-model	xqd/7-Tr/4-GST225/2-216atom/1-model/23-300K-6kstep/opt	opt-CONTCAR	6	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/7-Tr/4-GST225/2-216atom/2-model	xqd/7-Tr/4-GST225/2-216atom/2-model/21-300K-2kstep/opt	opt-CONTCAR	2	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/7-Tr/4-GST225/2-216atom/3-model	xqd/7-Tr/4-GST225/2-216atom/3-model/21-300K-2kstep/opt	opt-CONTCAR	2	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/7-Tr/4-GST225/3-function/1-64atoms	xqd/7-Tr/4-GST225/3-function/1-64atoms/5-BLYP/3-opt	opt-CONTCAR	6	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/7-Tr/4-GST225/3-function/1-64atoms/1-HSE06/4-MD/2	xqd/7-Tr/4-GST225/3-function/1-64atoms/1-HSE06/4-MD/2	md-first-frame	1	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	300
+xqd/7-Tr/4-GST225/3-function/1-64atoms/1-HSE06/4-MD/3	xqd/7-Tr/4-GST225/3-function/1-64atoms/1-HSE06/4-MD/3	md-first-frame	1	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	300
+xqd/7-Tr/4-GST225/4-opt-hybrid/1-64atoms	xqd/7-Tr/4-GST225/4-opt-hybrid/1-64atoms/2-opt-HSE03	opt-CONTCAR	11	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/7-Tr/4-GST225/4-opt-hybrid/1-64atoms/1-opt-HSE06/1-scale	xqd/7-Tr/4-GST225/4-opt-hybrid/1-64atoms/1-opt-HSE06/1-scale	opt-CONTCAR	1	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/7-Tr/4-GST225/4-opt-hybrid/1-64atoms/2-opt-HSE03/1-scale	xqd/7-Tr/4-GST225/4-opt-hybrid/1-64atoms/2-opt-HSE03/1-scale	opt-CONTCAR	1	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/7-Tr/4-GST225/4-opt-hybrid/1-64atoms/3-opt-PBE0/1-scale	xqd/7-Tr/4-GST225/4-opt-hybrid/1-64atoms/3-opt-PBE0/1-scale	opt-CONTCAR	1	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/7-Tr/4-GST225/4-opt-hybrid/1-64atoms/4-B3LYP/1-scale	xqd/7-Tr/4-GST225/4-opt-hybrid/1-64atoms/4-B3LYP/1-scale	opt-CONTCAR	1	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/7-Tr/4-GST225/4-opt-hybrid/2-125atoms	xqd/7-Tr/4-GST225/4-opt-hybrid/2-125atoms/1-HSE06	opt-CONTCAR	5	Ge28Sb28Te69	Ge Sb Te	28 28 69	125	
+xqd/8-Sb-X/0-Sb/2-bond	xqd/8-Sb-X/0-Sb/2-bond/1-opt	opt-CONTCAR	1	Sb2	Sb	2	2	
+xqd/8-Sb-X/1-Al/4-bond	xqd/8-Sb-X/1-Al/4-bond/1-opt	opt-CONTCAR	1	Al1Sb1	Al Sb	1 1	2	
+xqd/8-Sb-X/10-Zr	xqd/8-Sb-X/10-Zr/0-opt	opt-CONTCAR	1	Zr45Sb255	Zr Sb	45 255	300	
+xqd/8-Sb-X/10-Zr/5-bond	xqd/8-Sb-X/10-Zr/5-bond/1-opt	opt-CONTCAR	1	Zr1Sb1	Zr Sb	1 1	2	
+xqd/8-Sb-X/11-Sb2Te3-Y	xqd/8-Sb-X/11-Sb2Te3-Y/3-opt	opt-CONTCAR	2	Sb108Te162Y30	Sb Te Y	108 162 30	300	
+xqd/8-Sb-X/2-Zn/4-bond	xqd/8-Sb-X/2-Zn/4-bond/1-opt	opt-CONTCAR	1	Zn1Sb1	Zn Sb	1 1	2	
+xqd/8-Sb-X/3-Ga/3-bond	xqd/8-Sb-X/3-Ga/3-bond/1-opt	opt-CONTCAR	1	Ga1Sb1	Ga Sb	1 1	2	
+xqd/8-Sb-X/4-Cd/3-bond	xqd/8-Sb-X/4-Cd/3-bond/1-opt	opt-CONTCAR	1	Cd1Sb1	Cd Sb	1 1	2	
+xqd/8-Sb-X/5-In/3-bond	xqd/8-Sb-X/5-In/3-bond/1-opt	opt-CONTCAR	1	In1Sb1	In Sb	1 1	2	
+xqd/8-Sb-X/6-Sn/3-bond	xqd/8-Sb-X/6-Sn/3-bond/1-opt	opt-CONTCAR	1	Sn1Sb1	Sn Sb	1 1	2	
+xqd/8-Sb-X/7-Sc/3-bond	xqd/8-Sb-X/7-Sc/3-bond/1-opt	opt-CONTCAR	1	Sc1Sb1	Sc Sb	1 1	2	
+xqd/8-Sb-X/8-Ti/3-bond	xqd/8-Sb-X/8-Ti/3-bond/1-opt	opt-CONTCAR	1	Ti1Sb1	Ti Sb	1 1	2	
+xqd/8-Sb-X/9-Y	xqd/8-Sb-X/9-Y/0-opt	opt-CONTCAR	1	Y45Sb255	Y Sb	45 255	300	
+xqd/8-Sb-X/9-Y/5-bond	xqd/8-Sb-X/9-Y/5-bond/1-opt	opt-CONTCAR	1	Y1Sb1	Y Sb	1 1	2	
+xqd/9-HfO/1-222/1-2+	xqd/9-HfO/1-222/1-2+/0-relax-pbe	opt-CONTCAR	3	Hf32O63	Hf O	32 63	95	
+xqd/9-HfO/1-222/2-1+	xqd/9-HfO/1-222/2-1+/2-opt3-lda	opt-CONTCAR	2	Hf32O63	Hf O	32 63	95	
+xqd/9-HfO/1-222/2-1+/3-opt3-spin	xqd/9-HfO/1-222/2-1+/3-opt3-spin	opt-CONTCAR	1	Hf32O63	Hf O	32 63	95	
+xqd/9-HfO/1-222/3-0	xqd/9-HfO/1-222/3-0/1-opt3-pbe	opt-CONTCAR	2	Hf32O63	Hf O	32 63	95	
+xqd/9-HfO/1-222/4-1-	xqd/9-HfO/1-222/4-1-/1-opt3-pbe/opt-lda	opt-CONTCAR	2	Hf32O63	Hf O	32 63	95	
+xqd/9-HfO/1-222/5-2-	xqd/9-HfO/1-222/5-2-/2-opt3-lda	opt-CONTCAR	2	Hf32O63	Hf O	32 63	95	
+xqd/GST147	xqd/GST147	md-first-frame	1	C17Ge17Sb66Te116	C Ge Sb Te	17 17 66 116	216	300
+xqd/GST467/0-467	xqd/GST467/0-467/2-300K/opt	opt-CONTCAR	4	Ge72Sb108Te126	Ge Sb Te	72 108 126	306	
+xqd/GST467/1-225	xqd/GST467/1-225/21-300K/opt	opt-CONTCAR	4	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	
+xqd/NN-val/MD-NN-stru/amorphous	xqd/NN-val/MD-NN-stru/amorphous	md-first-frame	2	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300
+xqd/NN-val/dynamic/DFT	xqd/NN-val/dynamic/DFT	md-first-frame	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300
+xqd/NN-val/dynamic/NN	xqd/NN-val/dynamic/NN	md-first-frame	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300
+xqd/NN-val/rebuild_from_init	xqd/NN-val/rebuild_from_init/3-relax	md-first-frame	2	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	300
+xqd/mcp_workspace/1-demo/inputs	xqd/mcp_workspace/1-demo/inputs/prep	opt-CONTCAR	2	Ge43Sb43Te108N10	Ge Sb Te N	43 43 108 10	204	
+xqd/mcp_workspace/2026-05-20/M0_cp_vol/inputs	xqd/mcp_workspace/2026-05-20/M0_cp_vol/inputs/prep	opt-CONTCAR	1	Ge13Sb13Te32	Ge Sb Te	13 13 32	58	
+xqd/mcp_workspace/2026-05-20/M1_cp_vol/inputs	xqd/mcp_workspace/2026-05-20/M1_cp_vol/inputs/prep	opt-CONTCAR	1	Ge13Sb13Te32N3	Ge Sb Te N	13 13 32 3	61	
+xqd/mcp_workspace/2026-05-20/M4_cp_vol/inputs	xqd/mcp_workspace/2026-05-20/M4_cp_vol/inputs/prep	opt-CONTCAR	1	Ge19Sb13Te32	Ge Sb Te	19 13 32	64	
+xqd/mcp_workspace/2026-05-20/cp_vol/M0_cp_vol/inputs	xqd/mcp_workspace/2026-05-20/cp_vol/M0_cp_vol/inputs/prep	opt-CONTCAR	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/mcp_workspace/2026-05-20/cp_vol/M1_cp_vol/inputs	xqd/mcp_workspace/2026-05-20/cp_vol/M1_cp_vol/inputs/prep	opt-CONTCAR	1	Ge43Sb43Te108N10	Ge Sb Te N	43 43 108 10	204	
+xqd/mcp_workspace/2026-05-20/cp_vol/M4_cp_vol/inputs	xqd/mcp_workspace/2026-05-20/cp_vol/M4_cp_vol/inputs/prep	opt-CONTCAR	1	Ge57Sb43Te108	Ge Sb Te	57 43 108	208	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M0/inputs_hse06/seed_1	xqd/mcp_workspace/2026-05-20/hse_rho_c/M0/inputs_hse06/seed_1/prep	opt-CONTCAR	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M0/inputs_hse06/seed_2	xqd/mcp_workspace/2026-05-20/hse_rho_c/M0/inputs_hse06/seed_2/prep	opt-CONTCAR	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M0/inputs_hse06/seed_3	xqd/mcp_workspace/2026-05-20/hse_rho_c/M0/inputs_hse06/seed_3/prep	opt-CONTCAR	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M0/inputs_hse06/seed_4	xqd/mcp_workspace/2026-05-20/hse_rho_c/M0/inputs_hse06/seed_4/prep	opt-CONTCAR	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M0/inputs_hse06/seed_5	xqd/mcp_workspace/2026-05-20/hse_rho_c/M0/inputs_hse06/seed_5/prep	opt-CONTCAR	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M1/inputs_hse06/seed_1	xqd/mcp_workspace/2026-05-20/hse_rho_c/M1/inputs_hse06/seed_1/prep	opt-CONTCAR	1	Ge43Sb43Te108N10	Ge Sb Te N	43 43 108 10	204	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M1/inputs_hse06/seed_2	xqd/mcp_workspace/2026-05-20/hse_rho_c/M1/inputs_hse06/seed_2/prep	opt-CONTCAR	1	Ge43Sb43Te108N10	Ge Sb Te N	43 43 108 10	204	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M1/inputs_hse06/seed_3	xqd/mcp_workspace/2026-05-20/hse_rho_c/M1/inputs_hse06/seed_3/prep	opt-CONTCAR	1	Ge43Sb43Te108N10	Ge Sb Te N	43 43 108 10	204	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M1/inputs_hse06/seed_4	xqd/mcp_workspace/2026-05-20/hse_rho_c/M1/inputs_hse06/seed_4/prep	opt-CONTCAR	1	Ge43Sb43Te108N10	Ge Sb Te N	43 43 108 10	204	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M1/inputs_hse06/seed_5	xqd/mcp_workspace/2026-05-20/hse_rho_c/M1/inputs_hse06/seed_5/prep	opt-CONTCAR	1	Ge43Sb43Te108N10	Ge Sb Te N	43 43 108 10	204	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M4/inputs_hse06/seed_1	xqd/mcp_workspace/2026-05-20/hse_rho_c/M4/inputs_hse06/seed_1/prep	opt-CONTCAR	1	Ge57Sb43Te108	Ge Sb Te	57 43 108	208	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M4/inputs_hse06/seed_2	xqd/mcp_workspace/2026-05-20/hse_rho_c/M4/inputs_hse06/seed_2/prep	opt-CONTCAR	1	Ge57Sb43Te108	Ge Sb Te	57 43 108	208	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M4/inputs_hse06/seed_3	xqd/mcp_workspace/2026-05-20/hse_rho_c/M4/inputs_hse06/seed_3/prep	opt-CONTCAR	1	Ge57Sb43Te108	Ge Sb Te	57 43 108	208	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M4/inputs_hse06/seed_4	xqd/mcp_workspace/2026-05-20/hse_rho_c/M4/inputs_hse06/seed_4/prep	opt-CONTCAR	1	Ge57Sb43Te108	Ge Sb Te	57 43 108	208	
+xqd/mcp_workspace/2026-05-20/hse_rho_c/M4/inputs_hse06/seed_5	xqd/mcp_workspace/2026-05-20/hse_rho_c/M4/inputs_hse06/seed_5/prep	opt-CONTCAR	1	Ge57Sb43Te108	Ge Sb Te	57 43 108	208	
+xqd/mcp_workspace/2026-05-20/melt/M0_T_melt/inputs	xqd/mcp_workspace/2026-05-20/melt/M0_T_melt/inputs/prep	opt-CONTCAR	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/mcp_workspace/2026-05-20/rho/M0_rho_a/inputs/stage3_relax	xqd/mcp_workspace/2026-05-20/rho/M0_rho_a/inputs/stage3_relax	opt-CONTCAR	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	
+xqd/mcp_workspace/2026-05-20/rho/M0_rho_a/inputs/stage4_nvt_300K	xqd/mcp_workspace/2026-05-20/rho/M0_rho_a/inputs/stage4_nvt_300K	md-first-frame	1	Ge43Sb43Te108	Ge Sb Te	43 43 108	194	300
+xqd/mcp_workspace/2026-05-20/rho/M1_rho_a/inputs/stage3_relax	xqd/mcp_workspace/2026-05-20/rho/M1_rho_a/inputs/stage3_relax	opt-CONTCAR	1	Ge43Sb43Te108N10	Ge Sb Te N	43 43 108 10	204	
+xqd/mcp_workspace/2026-05-20/rho/M1_rho_a/inputs/stage4_nvt_300K	xqd/mcp_workspace/2026-05-20/rho/M1_rho_a/inputs/stage4_nvt_300K	md-first-frame	1	Ge43Sb43Te108N10	Ge Sb Te N	43 43 108 10	204	300
+xqd/mcp_workspace/2026-05-20/rho/M1_rho_c/inputs	xqd/mcp_workspace/2026-05-20/rho/M1_rho_c/inputs/prep	opt-CONTCAR	1	Ge43Sb43Te108N10	Ge Sb Te N	43 43 108 10	204	
+xqd/mcp_workspace/2026-05-20/rho/M4_rho_a/inputs/stage3_relax	xqd/mcp_workspace/2026-05-20/rho/M4_rho_a/inputs/stage3_relax	opt-CONTCAR	1	Ge65Sb43Te108	Ge Sb Te	65 43 108	216	
+xqd/mcp_workspace/2026-05-20/rho/M4_rho_a/inputs/stage4_nvt_300K	xqd/mcp_workspace/2026-05-20/rho/M4_rho_a/inputs/stage4_nvt_300K	md-first-frame	1	Ge65Sb43Te108	Ge Sb Te	65 43 108	216	300
+xqd/mcp_workspace/2026-05-20/rho/M4_rho_c/inputs	xqd/mcp_workspace/2026-05-20/rho/M4_rho_c/inputs/prep	opt-CONTCAR	1	Ge57Sb43Te108	Ge Sb Te	57 43 108	208	
+ysj/1-GeSe	ysj/1-GeSe/3-opt	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+ysj/1-GeSe/grcmodel	ysj/1-GeSe/grcmodel/3-opt	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/1-GeSe/models/fix-mgs/1	ysj/1-GeSe/models/fix-mgs/1/3-opt	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/1-GeSe/models/fix-mgs/2	ysj/1-GeSe/models/fix-mgs/2/3-opt	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/10-Te	ysj/10-Te/4-md	md-first-frame	1	Te300	Te	300	300	300
+ysj/10-Te/2-quench	ysj/10-Te/2-quench/4-4000frames/3-opt	opt-CONTCAR	10	Te300	Te	300	300	
+ysj/10-Te/3-quench	ysj/10-Te/3-quench/1-725frames/3-opt	opt-CONTCAR	10	Te300	Te	300	300	
+ysj/11-GSTcheck/1-1610	ysj/11-GSTcheck/1-1610/4-md	md-first-frame	1	Ge17Sb102Te170	Ge Sb Te	17 102 170	289	300
+ysj/11-GSTcheck/1-1610/2-quench	ysj/11-GSTcheck/1-1610/2-quench/2-2000frames/3-opt	opt-CONTCAR	6	Ge17Sb102Te170	Ge Sb Te	17 102 170	289	
+ysj/11-GSTcheck/2-147	ysj/11-GSTcheck/2-147/4-md	md-first-frame	1	Ge25Sb100Te175	Ge Sb Te	25 100 175	300	300
+ysj/11-GSTcheck/2-147/2-quench	ysj/11-GSTcheck/2-147/2-quench/1-1000frames/3-opt	opt-CONTCAR	6	Ge25Sb100Te175	Ge Sb Te	25 100 175	300	
+ysj/11-GSTcheck/3-124	ysj/11-GSTcheck/3-124/4-md	md-first-frame	1	Ge43Sb86Te172	Ge Sb Te	43 86 172	301	300
+ysj/11-GSTcheck/3-124/2-quench	ysj/11-GSTcheck/3-124/2-quench/1-1000frames/3-opt	opt-CONTCAR	6	Ge43Sb86Te172	Ge Sb Te	43 86 172	301	
+ysj/11-GSTcheck/4-225	ysj/11-GSTcheck/4-225/4-md	md-first-frame	1	Ge66Sb66Te165	Ge Sb Te	66 66 165	297	300
+ysj/11-GSTcheck/4-225/2-quench	ysj/11-GSTcheck/4-225/2-quench/2-2000frames/3-opt	opt-CONTCAR	6	Ge66Sb66Te165	Ge Sb Te	66 66 165	297	
+ysj/11-GSTcheck/5-326	ysj/11-GSTcheck/5-326/4-md	md-first-frame	1	Ge66Sb66Te165	Ge Sb Te	66 66 165	297	300
+ysj/11-GSTcheck/5-326/2-quench	ysj/11-GSTcheck/5-326/2-quench/5-5000frames/3-opt	opt-CONTCAR	6	Ge81Sb54Te162	Ge Sb Te	81 54 162	297	
+ysj/11-GSTcheck/6-GeTe	ysj/11-GSTcheck/6-GeTe/4-md	md-first-frame	1				None	300
+ysj/11-GSTcheck/6-GeTe/2-quench	ysj/11-GSTcheck/6-GeTe/2-quench/1-1000frames/3-opt	opt-CONTCAR	6	Ge150Te150	Ge Te	150 150	300	
+ysj/11-GSTcheck/7-Sb2Te3	ysj/11-GSTcheck/7-Sb2Te3/4-md	md-first-frame	1				None	300
+ysj/11-GSTcheck/7-Sb2Te3/2-quench	ysj/11-GSTcheck/7-Sb2Te3/2-quench/3-3000frames/3-opt	opt-CONTCAR	6	Sb120Te180	Sb Te	120 180	300	
+ysj/11-GSTcheck/8-GeSb	ysj/11-GSTcheck/8-GeSb/4-md	md-first-frame	1				None	300
+ysj/11-GSTcheck/8-GeSb/2-quench	ysj/11-GSTcheck/8-GeSb/2-quench/5-5000frames/3-opt	opt-CONTCAR	6	Ge45Sb255	Ge Sb	45 255	300	
+ysj/12-GeSe_check/0-dos_check/0.0	ysj/12-GeSe_check/0-dos_check/0.0/opt	opt-CONTCAR	2	Se300	Se	300	300	
+ysj/12-GeSe_check/0-dos_check/0.3	ysj/12-GeSe_check/0-dos_check/0.3/opt	opt-CONTCAR	2	Ge90Se210	Ge Se	90 210	300	
+ysj/12-GeSe_check/0-dos_check/0.5	ysj/12-GeSe_check/0-dos_check/0.5/opt	opt-CONTCAR	5	Ge150Se150	Ge Se	150 150	300	
+ysj/12-GeSe_check/0-dos_check/0.7	ysj/12-GeSe_check/0-dos_check/0.7/opt	opt-CONTCAR	2	Ge210Se90	Ge Se	210 90	300	
+ysj/12-GeSe_check/0-dos_check/1.0	ysj/12-GeSe_check/0-dos_check/1.0/opt	opt-CONTCAR	2	Ge300	Ge	300	300	
+ysj/12-GeSe_check/0-dos_check/candidate/aligned	ysj/12-GeSe_check/0-dos_check/candidate/aligned/2-median	opt-CONTCAR	3	Ge149Se151	Ge Se	149 151	300	
+ysj/12-GeSe_check/0-dos_check/candidate/overcoord	ysj/12-GeSe_check/0-dos_check/candidate/overcoord/1-top	opt-CONTCAR	3	Ge151Se149	Ge Se	151 149	300	
+ysj/12-GeSe_check/0-dos_check/candidate/pld_rich	ysj/12-GeSe_check/0-dos_check/candidate/pld_rich/1-top	opt-CONTCAR	3	Ge152Se148	Ge Se	152 148	300	
+ysj/12-GeSe_check/0-dos_check/candidate_2/1-ge_chains_proxy	ysj/12-GeSe_check/0-dos_check/candidate_2/1-ge_chains_proxy/2-median	opt-CONTCAR	3	Ge146Se154	Ge Se	146 154	300	
+ysj/12-GeSe_check/0-dos_check/candidate_2/2-homopolar_bond	ysj/12-GeSe_check/0-dos_check/candidate_2/2-homopolar_bond/1-top	opt-CONTCAR	3	Ge155Se145	Ge Se	155 145	300	
+ysj/12-GeSe_check/0-dos_check/candidate_2/3-ideal_coord_number	ysj/12-GeSe_check/0-dos_check/candidate_2/3-ideal_coord_number/2-median	opt-CONTCAR	3	Ge150Se150	Ge Se	150 150	300	
+ysj/12-GeSe_check/0-dos_check/candidate_nGe/1-ge_chains_proxy	ysj/12-GeSe_check/0-dos_check/candidate_nGe/1-ge_chains_proxy/1-top	opt-CONTCAR	3	Ge149Se151	Ge Se	149 151	300	
+ysj/12-GeSe_check/0-dos_check/candidate_nGe/2-homopolar	ysj/12-GeSe_check/0-dos_check/candidate_nGe/2-homopolar/3-bottom	opt-CONTCAR	3	Ge149Se151	Ge Se	149 151	300	
+ysj/12-GeSe_check/0-dos_check/candidate_nGe/3-ideal_coord_num	ysj/12-GeSe_check/0-dos_check/candidate_nGe/3-ideal_coord_num/3-bottom	opt-CONTCAR	3	Ge149Se151	Ge Se	149 151	300	
+ysj/12-GeSe_check/0-dos_check/candidate_nGe/4-pld	ysj/12-GeSe_check/0-dos_check/candidate_nGe/4-pld/1-top	opt-CONTCAR	3	Ge149Se151	Ge Se	149 151	300	
+ysj/12-GeSe_check/0-dos_check/dense/0.40	ysj/12-GeSe_check/0-dos_check/dense/0.40/opt	opt-CONTCAR	1	Ge121Se179	Ge Se	121 179	300	
+ysj/12-GeSe_check/0-dos_check/dense/0.45	ysj/12-GeSe_check/0-dos_check/dense/0.45/opt	opt-CONTCAR	1	Ge136Se164	Ge Se	136 164	300	
+ysj/12-GeSe_check/0-dos_check/dense/0.50	ysj/12-GeSe_check/0-dos_check/dense/0.50/opt	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/12-GeSe_check/0-dos_check/dense/0.55	ysj/12-GeSe_check/0-dos_check/dense/0.55/opt	opt-CONTCAR	1	Ge165Se135	Ge Se	165 135	300	
+ysj/12-GeSe_check/0-dos_check/dense/0.60	ysj/12-GeSe_check/0-dos_check/dense/0.60/opt	opt-CONTCAR	1	Ge182Se118	Ge Se	182 118	300	
+ysj/12-GeSe_check/1-Ge2Se	ysj/12-GeSe_check/1-Ge2Se/3-opt	opt-CONTCAR	2	Ge200Se100	Ge Se	200 100	300	
+ysj/12-GeSe_check/2-Ge3Se	ysj/12-GeSe_check/2-Ge3Se/3-opt	opt-CONTCAR	2	Ge225Se75	Ge Se	225 75	300	
+ysj/12-GeSe_check/2-Ge3Se/5-dataset/1-1200	ysj/12-GeSe_check/2-Ge3Se/5-dataset/1-1200/2-opt	opt-CONTCAR	1	Ge225Se75	Ge Se	225 75	300	
+ysj/12-GeSe_check/2-Ge3Se/5-dataset/2-1400	ysj/12-GeSe_check/2-Ge3Se/5-dataset/2-1400/2-opt	opt-CONTCAR	1	Ge225Se75	Ge Se	225 75	300	
+ysj/12-GeSe_check/2-Ge3Se/5-dataset/3-1600	ysj/12-GeSe_check/2-Ge3Se/5-dataset/3-1600/2-opt	opt-CONTCAR	1	Ge225Se75	Ge Se	225 75	300	
+ysj/12-GeSe_check/2-Ge3Se/5-dataset/4-1800	ysj/12-GeSe_check/2-Ge3Se/5-dataset/4-1800/2-opt	opt-CONTCAR	1	Ge225Se75	Ge Se	225 75	300	
+ysj/12-GeSe_check/2-Ge3Se/5-dataset/5-2000	ysj/12-GeSe_check/2-Ge3Se/5-dataset/5-2000/2-opt	opt-CONTCAR	1	Ge225Se75	Ge Se	225 75	300	
+ysj/12-GeSe_check/3-GeSe2	ysj/12-GeSe_check/3-GeSe2/3-opt	opt-CONTCAR	2	Ge100Se200	Ge Se	100 200	300	
+ysj/12-GeSe_check/4-GeSe3	ysj/12-GeSe_check/4-GeSe3/3-opt	opt-CONTCAR	2	Ge75Se225	Ge Se	75 225	300	
+ysj/12-GeSe_check/4-GeSe3/5-dataset/1-1200	ysj/12-GeSe_check/4-GeSe3/5-dataset/1-1200/2-opt	opt-CONTCAR	1	Ge75Se225	Ge Se	75 225	300	
+ysj/12-GeSe_check/4-GeSe3/5-dataset/2-1400	ysj/12-GeSe_check/4-GeSe3/5-dataset/2-1400/2-opt	opt-CONTCAR	1	Ge75Se225	Ge Se	75 225	300	
+ysj/12-GeSe_check/4-GeSe3/5-dataset/3-1600	ysj/12-GeSe_check/4-GeSe3/5-dataset/3-1600/2-opt	opt-CONTCAR	1	Ge75Se225	Ge Se	75 225	300	
+ysj/12-GeSe_check/4-GeSe3/5-dataset/4-1800	ysj/12-GeSe_check/4-GeSe3/5-dataset/4-1800/2-opt	opt-CONTCAR	1	Ge75Se225	Ge Se	75 225	300	
+ysj/12-GeSe_check/4-GeSe3/5-dataset/5-2000	ysj/12-GeSe_check/4-GeSe3/5-dataset/5-2000/2-opt	opt-CONTCAR	1	Ge75Se225	Ge Se	75 225	300	
+ysj/12-GeSe_check/5-GeSe	ysj/12-GeSe_check/5-GeSe/3-opt	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+ysj/12-GeSe_check/6-Ge3Se7/dft	ysj/12-GeSe_check/6-Ge3Se7/dft/3-opt	opt-CONTCAR	1	Ge90Se210	Ge Se	90 210	300	
+ysj/12-GeSe_check/6-Ge3Se7/diff	ysj/12-GeSe_check/6-Ge3Se7/diff/3-opt	opt-CONTCAR	2	Ge90Se210	Ge Se	90 210	300	
+ysj/12-GeSe_check/7-Ge7Se3/diff	ysj/12-GeSe_check/7-Ge7Se3/diff/3-opt	opt-CONTCAR	2	Ge210Se90	Ge Se	210 90	300	
+ysj/12-GeSe_check/aug_data/12/1	ysj/12-GeSe_check/aug_data/12/1	opt-CONTCAR	1	Ge100Se200	Ge Se	100 200	300	
+ysj/12-GeSe_check/aug_data/12/2	ysj/12-GeSe_check/aug_data/12/2	opt-CONTCAR	1	Ge100Se200	Ge Se	100 200	300	
+ysj/12-GeSe_check/aug_data/12/3	ysj/12-GeSe_check/aug_data/12/3	opt-CONTCAR	1	Ge100Se200	Ge Se	100 200	300	
+ysj/12-GeSe_check/aug_data/12/4	ysj/12-GeSe_check/aug_data/12/4	opt-CONTCAR	1	Ge100Se200	Ge Se	100 200	300	
+ysj/12-GeSe_check/aug_data/12/5	ysj/12-GeSe_check/aug_data/12/5	opt-CONTCAR	1	Ge100Se200	Ge Se	100 200	300	
+ysj/12-GeSe_check/aug_data/19/1	ysj/12-GeSe_check/aug_data/19/1	opt-CONTCAR	1	Ge30Se270	Ge Se	30 270	300	
+ysj/12-GeSe_check/aug_data/19/2	ysj/12-GeSe_check/aug_data/19/2	opt-CONTCAR	1	Ge30Se270	Ge Se	30 270	300	
+ysj/12-GeSe_check/aug_data/19/3	ysj/12-GeSe_check/aug_data/19/3	opt-CONTCAR	1	Ge30Se270	Ge Se	30 270	300	
+ysj/12-GeSe_check/aug_data/19/4	ysj/12-GeSe_check/aug_data/19/4	opt-CONTCAR	1	Ge30Se270	Ge Se	30 270	300	
+ysj/12-GeSe_check/aug_data/19/5	ysj/12-GeSe_check/aug_data/19/5	opt-CONTCAR	1	Ge30Se270	Ge Se	30 270	300	
+ysj/12-GeSe_check/aug_data/21/1	ysj/12-GeSe_check/aug_data/21/1	opt-CONTCAR	1	Ge200Se100	Ge Se	200 100	300	
+ysj/12-GeSe_check/aug_data/21/2	ysj/12-GeSe_check/aug_data/21/2	opt-CONTCAR	1	Ge200Se100	Ge Se	200 100	300	
+ysj/12-GeSe_check/aug_data/21/3	ysj/12-GeSe_check/aug_data/21/3	opt-CONTCAR	1	Ge200Se100	Ge Se	200 100	300	
+ysj/12-GeSe_check/aug_data/21/4	ysj/12-GeSe_check/aug_data/21/4	opt-CONTCAR	1	Ge200Se100	Ge Se	200 100	300	
+ysj/12-GeSe_check/aug_data/21/5	ysj/12-GeSe_check/aug_data/21/5	opt-CONTCAR	1	Ge200Se100	Ge Se	200 100	300	
+ysj/12-GeSe_check/aug_data/23/1	ysj/12-GeSe_check/aug_data/23/1	opt-CONTCAR	1	Ge120Se180	Ge Se	120 180	300	
+ysj/12-GeSe_check/aug_data/23/2	ysj/12-GeSe_check/aug_data/23/2	opt-CONTCAR	1	Ge120Se180	Ge Se	120 180	300	
+ysj/12-GeSe_check/aug_data/23/3	ysj/12-GeSe_check/aug_data/23/3	opt-CONTCAR	1	Ge120Se180	Ge Se	120 180	300	
+ysj/12-GeSe_check/aug_data/23/4	ysj/12-GeSe_check/aug_data/23/4	opt-CONTCAR	1	Ge120Se180	Ge Se	120 180	300	
+ysj/12-GeSe_check/aug_data/23/5	ysj/12-GeSe_check/aug_data/23/5	opt-CONTCAR	1	Ge120Se180	Ge Se	120 180	300	
+ysj/12-GeSe_check/aug_data/32/1	ysj/12-GeSe_check/aug_data/32/1	opt-CONTCAR	1	Ge180Se120	Ge Se	180 120	300	
+ysj/12-GeSe_check/aug_data/32/2	ysj/12-GeSe_check/aug_data/32/2	opt-CONTCAR	1	Ge180Se120	Ge Se	180 120	300	
+ysj/12-GeSe_check/aug_data/32/3	ysj/12-GeSe_check/aug_data/32/3	opt-CONTCAR	1	Ge180Se120	Ge Se	180 120	300	
+ysj/12-GeSe_check/aug_data/32/4	ysj/12-GeSe_check/aug_data/32/4	opt-CONTCAR	1	Ge180Se120	Ge Se	180 120	300	
+ysj/12-GeSe_check/aug_data/32/5	ysj/12-GeSe_check/aug_data/32/5	opt-CONTCAR	1	Ge180Se120	Ge Se	180 120	300	
+ysj/12-GeSe_check/aug_data/91/1	ysj/12-GeSe_check/aug_data/91/1	opt-CONTCAR	1	Ge270Se30	Ge Se	270 30	300	
+ysj/12-GeSe_check/aug_data/91/2	ysj/12-GeSe_check/aug_data/91/2	opt-CONTCAR	1	Ge270Se30	Ge Se	270 30	300	
+ysj/12-GeSe_check/aug_data/91/3	ysj/12-GeSe_check/aug_data/91/3	opt-CONTCAR	1	Ge270Se30	Ge Se	270 30	300	
+ysj/12-GeSe_check/aug_data/91/4	ysj/12-GeSe_check/aug_data/91/4	opt-CONTCAR	1	Ge270Se30	Ge Se	270 30	300	
+ysj/12-GeSe_check/aug_data/91/5	ysj/12-GeSe_check/aug_data/91/5	opt-CONTCAR	1	Ge270Se30	Ge Se	270 30	300	
+ysj/12-GeSe_check/aug_data/inputs	ysj/12-GeSe_check/aug_data/inputs	md-first-frame	1				None	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge150Se150-30_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge150Se150-30_run	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge150Se150-51_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge150Se150-51_run	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge150Se150-56_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge150Se150-56_run	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge150Se150-68_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge150Se150-68_run	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge150Se150-71_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge150Se150-71_run	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge225Se75-01_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge225Se75-01_run	md-first-frame	1	Ge225Se75	Ge Se	225 75	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge225Se75-02_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge225Se75-02_run	md-first-frame	1	Ge225Se75	Ge Se	225 75	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge225Se75-03_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge225Se75-03_run	md-first-frame	1	Ge225Se75	Ge Se	225 75	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge225Se75-04_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge225Se75-04_run	md-first-frame	1	Ge225Se75	Ge Se	225 75	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge225Se75-05_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge225Se75-05_run	md-first-frame	1	Ge225Se75	Ge Se	225 75	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge300-09_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge300-09_run	md-first-frame	1	Ge300	Ge	300	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge300-11_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge300-11_run	md-first-frame	1	Ge300	Ge	300	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge300-14_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge300-14_run	md-first-frame	1	Ge300	Ge	300	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge300-17_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge300-17_run	md-first-frame	1	Ge300	Ge	300	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge300-18_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge300-18_run	md-first-frame	1	Ge300	Ge	300	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge75Se225-01_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge75Se225-01_run	md-first-frame	1	Ge75Se225	Ge Se	75 225	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge75Se225-02_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge75Se225-02_run	md-first-frame	1	Ge75Se225	Ge Se	75 225	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge75Se225-03_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge75Se225-03_run	md-first-frame	1	Ge75Se225	Ge Se	75 225	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge75Se225-04_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge75Se225-04_run	md-first-frame	1	Ge75Se225	Ge Se	75 225	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Ge75Se225-05_run	ysj/12-GeSe_check/gese_mini/POSCAR-Ge75Se225-05_run	md-first-frame	1	Ge75Se225	Ge Se	75 225	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Se300-74_run	ysj/12-GeSe_check/gese_mini/POSCAR-Se300-74_run	md-first-frame	1	Se300	Se	300	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Se300-77_run	ysj/12-GeSe_check/gese_mini/POSCAR-Se300-77_run	md-first-frame	1	Se300	Se	300	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Se300-78_run	ysj/12-GeSe_check/gese_mini/POSCAR-Se300-78_run	md-first-frame	1	Se300	Se	300	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Se300-80_run	ysj/12-GeSe_check/gese_mini/POSCAR-Se300-80_run	md-first-frame	1	Se300	Se	300	300	300
+ysj/12-GeSe_check/gese_mini/POSCAR-Se300-85_run	ysj/12-GeSe_check/gese_mini/POSCAR-Se300-85_run	md-first-frame	1	Se300	Se	300	300	300
+ysj/12-GeSe_check/inputs	ysj/12-GeSe_check/inputs	md-first-frame	1				None	300
+ysj/12-GeSe_check/temp_check/100/1000	ysj/12-GeSe_check/temp_check/100/1000	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/12-GeSe_check/temp_check/100/2000	ysj/12-GeSe_check/temp_check/100/2000	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/12-GeSe_check/temp_check/100/3000	ysj/12-GeSe_check/temp_check/100/3000	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/12-GeSe_check/temp_check/300	ysj/12-GeSe_check/temp_check/300	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300
+ysj/12-GeSe_check/temp_check/300/1000	ysj/12-GeSe_check/temp_check/300/1000	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/12-GeSe_check/temp_check/300/2000	ysj/12-GeSe_check/temp_check/300/2000	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/12-GeSe_check/temp_check/300/3000	ysj/12-GeSe_check/temp_check/300/3000	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/12-GeSe_check/temp_check/600/1000	ysj/12-GeSe_check/temp_check/600/1000	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/12-GeSe_check/temp_check/600/2000	ysj/12-GeSe_check/temp_check/600/2000	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/12-GeSe_check/temp_check/600/3000	ysj/12-GeSe_check/temp_check/600/3000	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/13-WSe2+MoS2/WSe2	ysj/13-WSe2+MoS2/WSe2/1-opt	opt-CONTCAR	1	W16Se32	W Se	16 32	48	
+ysj/13-WSe2+MoS2/WSe2/3-W-vac	ysj/13-WSe2+MoS2/WSe2/3-W-vac/opt	opt-CONTCAR	1	W15Se32	W Se	15 32	47	
+ysj/2-GeAsSe	ysj/2-GeAsSe/3-opt	opt-CONTCAR	1	Ge120As60Se120	Ge As Se	120 60 120	300	
+ysj/3-GeSe-Te-Si	ysj/3-GeSe-Te-Si/3-opt	opt-CONTCAR	2	Ge105Se105Te45Si45	Ge Se Te Si	105 105 45 45	300	
+ysj/4-GeSe-Te-Si-As	ysj/4-GeSe-Te-Si-As/3-opt	opt-CONTCAR	2	Ge105Se105Te30Si30As30	Ge Se Te Si As	105 105 30 30 30	300	
+ysj/5-Se	ysj/5-Se/4-md	md-first-frame	1	Se300	Se	300	300	300
+ysj/5-Se/2-quench	ysj/5-Se/2-quench/1-1frames/3-opt	opt-CONTCAR	20	Se300	Se	300	300	
+ysj/5-Se/model1	ysj/5-Se/model1/3-opt	opt-CONTCAR	1	Se300	Se	300	300	
+ysj/6-Cu-GeSe-Cu/1-160Cu	ysj/6-Cu-GeSe-Cu/1-160Cu/3-opt	opt-CONTCAR	1	Cu160Ge320Se320	Cu Ge Se	160 320 320	800	
+ysj/6-Cu-GeSe-Cu/2-320Cu	ysj/6-Cu-GeSe-Cu/2-320Cu/3-opt	opt-CONTCAR	2	Cu320Ge250Se250	Cu Ge Se	320 250 250	820	
+ysj/8-Ge	ysj/8-Ge/4-md	md-first-frame	1	Ge300	Ge	300	300	300
+ysj/8-Ge/2-quench	ysj/8-Ge/2-quench/3-2001frames/3-opt	opt-CONTCAR	20	Ge300	Ge	300	300	
+ysj/9-Sb	ysj/9-Sb/4-md	md-first-frame	1	Sb300	Sb	300	300	300
+ysj/9-Sb/2-quench	ysj/9-Sb/2-quench/1-1000frames/3-opt	opt-CONTCAR	20	Sb300	Sb	300	300	
+ysj/Ti	ysj/Ti	opt-CONTCAR	1	Ti256	Ti	256	256	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-1	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-1	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-10	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-10	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-11	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-11	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-12	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-12	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-13	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-13	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-14	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-14	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-15	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-15	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-16	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-16	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-17	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-17	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-18	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-18	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-19	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-19	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-2	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-20	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-20	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-22	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-22	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-23	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-23	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-24	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-24	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-25	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-25	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-26	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-26	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-27	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-27	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-28	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-28	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-29	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-29	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-3	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-3	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-30	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-30	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-31	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-31	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-32	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-32	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-33	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-33	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-34	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-34	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-35	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-35	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-36	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-36	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-37	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-37	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-38	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-38	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-39	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-39	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-4	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-4	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-40	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-40	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-41	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-41	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-5	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-5	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-6	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-6	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-7	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-7	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-8	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-8	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-9	ysj/condi-diff/density_gen/high_dens/POSCAR-4.91-9	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-1	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-1	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-10	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-10	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-11	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-11	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-12	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-12	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-13	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-13	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-14	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-14	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-15	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-15	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-16	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-16	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-17	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-17	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-18	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-18	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-19	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-19	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-2	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-20	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-20	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-21	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-21	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-22	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-22	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-23	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-23	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-24	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-24	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-25	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-25	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-26	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-26	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-27	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-27	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-28	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-28	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-29	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-29	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-3	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-3	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-30	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-30	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-31	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-31	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-32	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-32	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-33	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-33	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-34	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-34	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-35	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-35	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-36	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-36	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-37	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-37	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-38	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-38	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-39	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-39	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-4	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-4	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-40	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-40	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-5	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-5	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-6	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-6	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-7	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-7	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-8	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-8	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-9	ysj/condi-diff/density_gen/low_dens/POSCAR-4.15-9	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-1	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-1	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-10	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-10	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-11	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-11	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-12	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-12	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-13	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-13	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-14	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-14	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-15	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-15	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-16	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-16	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-17	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-17	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-18	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-18	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-19	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-19	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-2	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-2	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-20	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-20	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-21	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-21	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-22	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-22	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-23	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-23	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-24	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-24	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-25	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-25	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-26	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-26	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-27	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-27	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-28	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-28	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-29	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-29	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-3	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-3	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-30	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-30	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-31	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-31	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-32	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-32	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-33	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-33	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-34	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-34	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-35	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-35	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-36	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-36	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-37	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-37	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-38	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-38	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-39	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-39	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-4	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-4	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-40	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-40	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-5	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-5	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-6	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-6	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-7	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-7	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-8	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-8	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-9	ysj/condi-diff/density_gen/mid-dens/POSCAR-4.53-9	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/energy-gen/1	ysj/condi-diff/energy-gen/1	opt-CONTCAR	1	Ge148Se144	Ge Se	148 144	292	
+ysj/condi-diff/energy-gen/2	ysj/condi-diff/energy-gen/2	opt-CONTCAR	1	Ge149Se143	Ge Se	149 143	292	
+ysj/condi-diff/energy-gen/3-MACE-GUIDE	ysj/condi-diff/energy-gen/3-MACE-GUIDE	opt-CONTCAR	1	Ge151Se149	Ge Se	151 149	300	
+ysj/condi-diff/energy-gen/4-mace-guide-lbfgs	ysj/condi-diff/energy-gen/4-mace-guide-lbfgs	opt-CONTCAR	1	Ge145Se155	Ge Se	145 155	300	
+ysj/condi-diff/energy-gen/5-bfgs	ysj/condi-diff/energy-gen/5-bfgs	opt-CONTCAR	1	Ge147Se153	Ge Se	147 153	300	
+ysj/condi-diff/energy-gen/6-LBFGSLINESERACH	ysj/condi-diff/energy-gen/6-LBFGSLINESERACH	opt-CONTCAR	1	Ge150Se150	Ge Se	150 150	300	
+ysj/condi-diff/gen-1	ysj/condi-diff/gen-1/relax	opt-CONTCAR	1	Ge155Se155	Ge Se	155 155	310	
+ysj/condi-diff/gen-2	ysj/condi-diff/gen-2/relax	opt-CONTCAR	1	Ge153Se153	Ge Se	153 153	306	
+ysj/condi-diff/z-gen-1	ysj/condi-diff/z-gen-1/relax	opt-CONTCAR	1	Ge106Se106	Ge Se	106 106	212	
+ysj/condi-diff/z-gen-2	ysj/condi-diff/z-gen-2/md	md-first-frame	1	Ge146Se146	Ge Se	146 146	292	300
+ysj/ef/gese/001/0.0008	ysj/ef/gese/001/0.0008/relax	md-first-frame	1	Ge150Se150	Ge Se	150 150	300	300
+ysj/ef/gese/md/0.1	ysj/ef/gese/md/0.1/100-0.1	md-first-frame	3	Ge150Se150	Ge Se 	150 150	300	300
+ysj/ef/gese/md/0.1/001+0.1	ysj/ef/gese/md/0.1/001+0.1	md-first-frame	1	Ge150Se150	Ge Se 	150 150	300	300
+ysj/ef/gese/md/0.1/010+0.1	ysj/ef/gese/md/0.1/010+0.1	md-first-frame	1	Ge150Se150	Ge Se 	150 150	300	300
+ysj/ef/gese/md/0.1/100+0.1	ysj/ef/gese/md/0.1/100+0.1	md-first-frame	1	Ge150Se150	Ge Se 	150 150	300	300
+ysj/ef/gese/md/0.2	ysj/ef/gese/md/0.2/001-0.2	md-first-frame	3	Ge150Se150	Ge Se 	150 150	300	300
+ysj/ef/gese/md/0.2/001+0.2	ysj/ef/gese/md/0.2/001+0.2	md-first-frame	1	Ge150Se150	Ge Se 	150 150	300	300
+ysj/ef/gese/md/0.2/010+0.2	ysj/ef/gese/md/0.2/010+0.2	md-first-frame	1	Ge150Se150	Ge Se 	150 150	300	300
+ysj/ef/gese/md/0.2/100+0.2	ysj/ef/gese/md/0.2/100+0.2	md-first-frame	1	Ge150Se150	Ge Se 	150 150	300	300
+ysj/ef/gese/md/0.2/ground	ysj/ef/gese/md/0.2/ground	md-first-frame	1	Ge150Se150	Ge Se 	150 150	300	300
+ysj/ef/gese/md/ground	ysj/ef/gese/md/ground	md-first-frame	1	Ge150Se150	Ge Se 	150 150	300	300
+ysj/ef/gese/reply/VASPR2-1/rate_100Kps	ysj/ef/gese/reply/VASPR2-1/rate_100Kps/3-opt	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+ysj/ef/gese/reply/VASPR2-1/rate_10Kps	ysj/ef/gese/reply/VASPR2-1/rate_10Kps/3-opt	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+ysj/ef/gese/reply/VASPR2-1/rate_200Kps	ysj/ef/gese/reply/VASPR2-1/rate_200Kps/3-opt	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+ysj/ef/gese/reply/VASPR2-1/rate_20Kps	ysj/ef/gese/reply/VASPR2-1/rate_20Kps/3-opt	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+ysj/ef/gese/reply/VASPR2-1/rate_300Kps	ysj/ef/gese/reply/VASPR2-1/rate_300Kps/3-opt	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+ysj/ef/gese/reply/VASPR2-1/rate_30Kps	ysj/ef/gese/reply/VASPR2-1/rate_30Kps/3-opt	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+ysj/ef/gese/reply/VASPR2-1/rate_500Kps	ysj/ef/gese/reply/VASPR2-1/rate_500Kps/3-opt	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+ysj/ef/gese/reply/VASPR2-1/rate_50Kps	ysj/ef/gese/reply/VASPR2-1/rate_50Kps/3-opt	opt-CONTCAR	2	Ge150Se150	Ge Se	150 150	300	
+ysj/ef/gese/reply/vasp_chain_jobs/rate_30Kps/steps	ysj/ef/gese/reply/vasp_chain_jobs/rate_30Kps/steps/step026_300K_FINAL_NVT_12ps	md-first-frame	1				None	300
+ysj/ef/gese/reply/vasp_chain_jobs/rate_30Kps/steps/step023_400K_DENS_NPT_6ps	ysj/ef/gese/reply/vasp_chain_jobs/rate_30Kps/steps/step023_400K_DENS_NPT_6ps	md-first-frame	1				None	400
+ysj/ef/gese/reply/vasp_chain_jobs/rate_30Kps/steps/step025_300K_DENS_NPT_6ps	ysj/ef/gese/reply/vasp_chain_jobs/rate_30Kps/steps/step025_300K_DENS_NPT_6ps	md-first-frame	1				None	300
+ysj/gete-test/1	ysj/gete-test/1/relax	opt-CONTCAR	1	Ge150Te150	Ge Te	150 150	300	
+ysj/gete-test/2	ysj/gete-test/2/relax	opt-CONTCAR	1	Ge150Te150	Ge Te	150 150	300	
+ysj/gete-test/3	ysj/gete-test/3/relax	opt-CONTCAR	1	Ge150Te150	Ge Te	150 150	300	
+ysj/gete-test/4	ysj/gete-test/4/relax	opt-CONTCAR	1	Ge150Te150	Ge Te	150 150	300	
+ysj/gst147-cryss/GST147-cubic	ysj/gst147-cryss/GST147-cubic/3-opt	opt-CONTCAR	1	Ge27Sb108Te189	Ge Sb Te	27 108 189	324	
+ysj/gst147-cryss/GST147-cubic/3-opt/sturcture2	ysj/gst147-cryss/GST147-cubic/3-opt/sturcture2	opt-CONTCAR	1	Ge27Sb108Te189	Ge Sb Te	27 108 189	324	
+ysj/gst147-cryss/GST147-cubic/FIX	ysj/gst147-cryss/GST147-cubic/FIX/3-opt	opt-CONTCAR	1	Ge27Sb108Te189	Ge Sb Te	27 108 189	324	
+ysj/gst147-cryss/gst147-c/FIX	ysj/gst147-cryss/gst147-c/FIX/3-opt	opt-CONTCAR	1	Ge25Sb100Te175C24	Ge Sb Te C	25 100 175 24	324	
+ysj/optical/a/AIST	ysj/optical/a/AIST/3-opt	opt-CONTCAR	2	Ag15In15Sb180Te90	Ag In Sb Te	15 15 180 90	300	
+ysj/optical/a/AIST/3-opt/neg	ysj/optical/a/AIST/3-opt/neg/1-0.13	opt-CONTCAR	1	Ag15In15Sb180Te90	Ag In Sb Te	15 15 180 90	300	
+ysj/optical/a/AIST/3-opt/neg/2--5.59	ysj/optical/a/AIST/3-opt/neg/2--5.59	opt-CONTCAR	1	Ag15In15Sb180Te90	Ag In Sb Te	15 15 180 90	300	
+ysj/optical/a/AIST/3-opt/pos/1-7.06	ysj/optical/a/AIST/3-opt/pos/1-7.06	opt-CONTCAR	1	Ag15In15Sb180Te90	Ag In Sb Te	15 15 180 90	300	
+ysj/optical/a/GSST2241	ysj/optical/a/GSST2241/3-opt	opt-CONTCAR	2	Ge68Sb68Se136Te34	Ge Sb Se Te	68 68 136 34	306	
+ysj/optical/a/GST225	ysj/optical/a/GST225/3-opt	opt-CONTCAR	1	Ge68Sb68Te170	Ge Sb Te	68 68 170	306	
+ysj/optical/a/GeSeTe	ysj/optical/a/GeSeTe/3-opt	opt-CONTCAR	1	Ge75Se21Te204	Ge Se Te	75 21 204	300	
+ysj/optical/a/Sb2Se3	ysj/optical/a/Sb2Se3/2-opt	opt-CONTCAR	2	Sb120Se180	Sb Se	120 180	300	
+ysj/optical/a/Sb2Se3/1-optical/6/neg	ysj/optical/a/Sb2Se3/1-optical/6/neg	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+ysj/optical/a/Sb2Se3/1-optical/6/pos	ysj/optical/a/Sb2Se3/1-optical/6/pos	opt-CONTCAR	1	Sb120Se180	Sb Se	120 180	300	
+ysj/optical/a/crte3	ysj/optical/a/crte3/opt	opt-CONTCAR	1	Cr50Te150	Cr Te	50 150	200	
+ysj/optical/a/crtese	ysj/optical/a/crtese/3-opt	opt-CONTCAR	1	Cr50Te140Se10	Cr Te Se	50 140 10	200	
+ysj/optical/c/AIST	ysj/optical/c/AIST/opt	opt-CONTCAR	1	Sb49Te24Ag4In4	Sb Te Ag In	49 24 4 4	81	
+ysj/optical/c/AIST/optical-pri/isif3	ysj/optical/c/AIST/optical-pri/isif3	opt-CONTCAR	1	Sb49Te24Ag4In4	Sb Te Ag In	49 24 4 4	81	
+ysj/optical/c/GSS225	ysj/optical/c/GSS225/opt	opt-CONTCAR	1	Sb16Se40Ge16	Sb Se Ge	16 40 16	72	
+ysj/optical/c/GSST2241	ysj/optical/c/GSST2241/opt	opt-CONTCAR	1	Ge16Sb16Se32Te8	Ge Sb Se Te	16 16 32 8	72	
+ysj/optical/c/GST225	ysj/optical/c/GST225/OPT	opt-CONTCAR	1	Ge8Sb8Te20	Ge Sb Te	8 8 20	36	
+ysj/optical/c/GeSeTe	ysj/optical/c/GeSeTe/3-opt	opt-CONTCAR	1	Ge50Se14Te136	Ge Se Te	50 14 136	200	
+ysj/optical/c/Sb2Se3/1-POSCAR1	ysj/optical/c/Sb2Se3/1-POSCAR1/2-opt	opt-CONTCAR	2	Sb8Se12	Sb Se	8 12	20	
+ysj/optical/c/crte3	ysj/optical/c/crte3/opt	opt-CONTCAR	1	Cr8Te24	Cr Te	8 24	32	
+ysj/optical/c/crtese/3-opt/x	ysj/optical/c/crtese/3-opt/x	opt-CONTCAR	1	Cr40Te112Se8	Cr Te Se	40 112 8	160	
+ysj/optical/c/crtese/3-opt/y	ysj/optical/c/crtese/3-opt/y	opt-CONTCAR	1	Cr40Te112Se8	Cr Te Se	40 112 8	160	
+ysj/optical/c/crtese/3-opt/z	ysj/optical/c/crtese/3-opt/z	opt-CONTCAR	1	Cr40Te112Se8	Cr Te Se	40 112 8	160	
+ysj/patent/2/N-15%	ysj/patent/2/N-15%/4-md	md-first-frame	2	Ga128S127N45	Ga S N	128 127 45	300	300
+ysj/patent/2/N-15%/model	ysj/patent/2/N-15%/model	opt-CONTCAR	1	Ga128S127N45	Ga S N	128 127 45	300	
+ysj/patent/2/Si-30%	ysj/patent/2/Si-30%/4-md	md-first-frame	1	Ga105S105Si90	Ga S Si	105 105 90	300	300
+ysj/patent/2/Si-30%/model	ysj/patent/2/Si-30%/model	opt-CONTCAR	1	Ga105S105Si90	Ga S Si	105 105 90	300	
+ysj/patent/3/1-GeSe-PSb/30%	ysj/patent/3/1-GeSe-PSb/30%/4-md	md-first-frame	1	Ge84P36Sb36Se84	Ge P Sb Se	84 36 36 84	240	300
+ysj/patent/3/1-GeSe-PSb/30%/model	ysj/patent/3/1-GeSe-PSb/30%/model	opt-CONTCAR	1	Ge84P36Sb36Se84	Ge P Sb Se	84 36 36 84	240	
+ysj/patent/3/2-GeS-SiN	ysj/patent/3/2-GeS-SiN/4-md	md-first-frame	1	Ge108Si12N12S108	Ge Si N S	108 12 12 108	240	300
+ysj/patent/3/2-GeS-SiN/model	ysj/patent/3/2-GeS-SiN/model	opt-CONTCAR	1	Ge108Si12N12S108	Ge Si N S	108 12 12 108	240	
+ysj/patent/3/3-GeTe9-InSe	ysj/patent/3/3-GeTe9-InSe/3-opt	opt-CONTCAR	2	Ge22In12Se12Te194	Ge In Se Te	22 12 12 194	240	
+ysj/structure-optimization	ysj/structure-optimization	opt-CONTCAR	1	Ge27Sb108Te189	Ge Sb Te	27 108 189	324	
+yyf/1-Te/1-in3Te7	yyf/1-Te/1-in3Te7/4-md	md-first-frame	1	In90Te210	In Te	90 210	300	300
+yyf/1-Te/2-inte3/1model	yyf/1-Te/2-inte3/1model/3-opt	opt-CONTCAR	3	In75Te225	In Te	75 225	300	
+yyf/1-Te/2-inte3/2model	yyf/1-Te/2-inte3/2model/4-opt	opt-CONTCAR	2	In70Te210	In Te	70 210	280	
+yyf/1-Te/2-inte3/3model	yyf/1-Te/2-inte3/3model/3-opt	opt-CONTCAR	2	In70Te210	In Te	70 210	280	
+yyf/1-Te/2-inte3/7-exc/1-model/1-move2e	yyf/1-Te/2-inte3/7-exc/1-model/1-move2e/1-opt	opt-CONTCAR	1	In70Te210	In Te	70 210	280	
+yyf/1-Te/2-inte3/8-6Si	yyf/1-Te/2-inte3/8-6Si/5-opt	opt-CONTCAR	4	In70Te210Si20	In Te Si	70 210 20	300	
+yyf/1-Te/3-in2te8/1-models	yyf/1-Te/3-in2te8/1-models/4-opt	opt-CONTCAR	8	In60Te240	In Te	60 240	300	
+yyf/1-Te/3-in2te8/3-5Ga	yyf/1-Te/3-in2te8/3-5Ga/3-opt	opt-CONTCAR	3	In56Te224Ga20	In Te Ga	56 224 20	300	
+yyf/1-Te/3-in2te8/4-excit/1-add2e	yyf/1-Te/3-in2te8/4-excit/1-add2e/1-opt	opt-CONTCAR	3	In60Te240	In Te	60 240	300	
+yyf/1-Te/3-in2te8/4-excit/2-move2e	yyf/1-Te/3-in2te8/4-excit/2-move2e/1-opt	opt-CONTCAR	3	In60Te240	In Te	60 240	300	
+yyf/1-Te/3-in2te8/4-excit/3-add4e	yyf/1-Te/3-in2te8/4-excit/3-add4e/1-opt	opt-CONTCAR	3	In60Te240	In Te	60 240	300	
+yyf/1-Te/3-in2te8/4-excit/4-add6e	yyf/1-Te/3-in2te8/4-excit/4-add6e/1-opt	opt-CONTCAR	2	In60Te240	In Te	60 240	300	
+yyf/1-Te/4-GST225	yyf/1-Te/4-GST225/1-opt	opt-CONTCAR	1	Ge2Sb2Te5	Ge Sb Te	2 2 5	9	
+yyf/1-Te/5-IST312/1-h-ist	yyf/1-Te/5-IST312/1-h-ist/1-opt	opt-CONTCAR	1	In6Sb2Te4	In Sb Te	6 2 4	12	
+yyf/2-Se/1-GeCuSe/2-2/1model	yyf/2-Se/1-GeCuSe/2-2/1model/2-opt	opt-CONTCAR	1	Ge140Se140Cu20	Ge Se Cu	140 140 20	300	
+yyf/2-Se/1-GeCuSe/2-2/2model	yyf/2-Se/1-GeCuSe/2-2/2model/2-opt	opt-CONTCAR	1	Ge140Se140Cu20	Ge Se Cu	140 140 20	300	
+yyf/2-Se/1-GeCuSe/2-2/3model	yyf/2-Se/1-GeCuSe/2-2/3model/2-opt	opt-CONTCAR	1	Ge140Se140Cu20	Ge Se Cu	140 140 20	300	
+yyf/2-Se/1-GeCuSe/3-Cu/1-5%	yyf/2-Se/1-GeCuSe/3-Cu/1-5%/5-opt	opt-CONTCAR	9	Ge146Se146Cu8	Ge Se Cu	146 146 8	300	
+yyf/2-Se/1-GeCuSe/3-Cu/2-10	yyf/2-Se/1-GeCuSe/3-Cu/2-10/3-opt	opt-CONTCAR	2	Ge143Se143Cu14	Ge Se Cu	143 143 14	300	
+yyf/2-Se/1-GeCuSe/3-Cu/3-15	yyf/2-Se/1-GeCuSe/3-Cu/3-15/5-opt	opt-CONTCAR	3	Ge140Se140Cu20	Ge Se Cu	140 140 20	300	
+yyf/2-Se/1-GeCuSe/3-Cu/4-20	yyf/2-Se/1-GeCuSe/3-Cu/4-20/12-opt1	opt-CONTCAR	12	Ge136Se136Cu28	Ge Se Cu	136 136 28	300	
+yyf/3-S/1-GeSiS/1-3%	yyf/3-S/1-GeSiS/1-3%/5-opt	opt-CONTCAR	4	Ge150S150Si9	Ge S Si	150 150 9	309	
+yyf/3-S/1-GeSiS/2-6%	yyf/3-S/1-GeSiS/2-6%/1111-opt	opt-CONTCAR	4	Ge150S150Si18	Ge S Si	150 150 18	318	
+yyf/3-S/1-GeSiS/3-13%	yyf/3-S/1-GeSiS/3-13%/11111-opt	opt-CONTCAR	3	Ge150S150Si39	Ge S Si	150 150 39	339	
+yyf/4-crystal/1-ZnSb	yyf/4-crystal/1-ZnSb/1-opt	opt-CONTCAR	1	Zn64Sb64	Zn Sb	64 64	128	
+yyf/4-crystal/2-PbTe	yyf/4-crystal/2-PbTe/1-opt	opt-CONTCAR	1	Te108Pb108	Te Pb	108 108	216	
+yyf/4-crystal/3-GaAs	yyf/4-crystal/3-GaAs/1-opt	opt-CONTCAR	1	Ga108As108	Ga As	108 108	216	
+yyf/4-crystal/4-SnTe	yyf/4-crystal/4-SnTe/1-opt	opt-CONTCAR	1	Sn108Te108	Sn Te	108 108	216	
+yyf/4-crystal/5-cubicSb	yyf/4-crystal/5-cubicSb/1-opt	opt-CONTCAR	1	Sb216	Sb	216	216	
+yyf/4-crystal/6-MgS	yyf/4-crystal/6-MgS/1-opt	opt-CONTCAR	1	Mg108S108	Mg S	108 108	216	
+yyf/5-O/1-In2O3	yyf/5-O/1-In2O3/3-opt	opt-CONTCAR	3	In80O120	In O	80 120	200	
+yyf/5-O/1-In2O3/8-300atom/1-model	yyf/5-O/1-In2O3/8-300atom/1-model/3-opt	opt-CONTCAR	1	In120O179	In O	120 179	299	
+yyf/5-O/1-In2O3/8-300atom/2-model	yyf/5-O/1-In2O3/8-300atom/2-model/3-opt	opt-CONTCAR	2	In120O180	In O	120 180	300	
+yyf/5-O/1-In2O3/8-300atom/3-model	yyf/5-O/1-In2O3/8-300atom/3-model/3-opt	opt-CONTCAR	2	In120O180	In O	120 180	300	
+yyf/5-O/1-In2O3/8-300atom/3-model/8-remove1O	yyf/5-O/1-In2O3/8-300atom/3-model/8-remove1O/1-OPT	opt-CONTCAR	2	In120O179	In O	120 179	299	
+yyf/5-O/2-InOGW	yyf/5-O/2-InOGW/1-opt	opt-CONTCAR	2	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_1	yyf/5-O/4-models/STRUCTURE_1/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_101	yyf/5-O/4-models/STRUCTURE_101/3-opt	opt-CONTCAR	2	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_102	yyf/5-O/4-models/STRUCTURE_102/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_103	yyf/5-O/4-models/STRUCTURE_103/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_104	yyf/5-O/4-models/STRUCTURE_104/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_105	yyf/5-O/4-models/STRUCTURE_105/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_106	yyf/5-O/4-models/STRUCTURE_106/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_107	yyf/5-O/4-models/STRUCTURE_107/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_108	yyf/5-O/4-models/STRUCTURE_108/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_109	yyf/5-O/4-models/STRUCTURE_109/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_110	yyf/5-O/4-models/STRUCTURE_110/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_111	yyf/5-O/4-models/STRUCTURE_111/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_112	yyf/5-O/4-models/STRUCTURE_112/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_113	yyf/5-O/4-models/STRUCTURE_113/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_114	yyf/5-O/4-models/STRUCTURE_114/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_115	yyf/5-O/4-models/STRUCTURE_115/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_116	yyf/5-O/4-models/STRUCTURE_116/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_117	yyf/5-O/4-models/STRUCTURE_117/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_118	yyf/5-O/4-models/STRUCTURE_118/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_119	yyf/5-O/4-models/STRUCTURE_119/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_120	yyf/5-O/4-models/STRUCTURE_120/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_2	yyf/5-O/4-models/STRUCTURE_2/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_201	yyf/5-O/4-models/STRUCTURE_201/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_202	yyf/5-O/4-models/STRUCTURE_202/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_203	yyf/5-O/4-models/STRUCTURE_203/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_204	yyf/5-O/4-models/STRUCTURE_204/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_3	yyf/5-O/4-models/STRUCTURE_3/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_4	yyf/5-O/4-models/STRUCTURE_4/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/4-models/STRUCTURE_5	yyf/5-O/4-models/STRUCTURE_5/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/5-crystal/11-80atom	yyf/5-O/5-crystal/11-80atom/13-opt/1-opt	opt-CONTCAR	2	In32O48	In O	32 48	80	
+yyf/5-O/5-crystal/11-80atom/11-1Ga	yyf/5-O/5-crystal/11-80atom/11-1Ga/1-opt	opt-CONTCAR	1	In31Ga1O48	In Ga O	31 1 48	80	
+yyf/5-O/5-crystal/11-80atom/12-Garemove1O	yyf/5-O/5-crystal/11-80atom/12-Garemove1O/1-opt	opt-CONTCAR	2	In31Ga1O47	In Ga O	31 1 47	79	
+yyf/5-O/5-crystal/11-80atom/13-opt/3-1Oopt	yyf/5-O/5-crystal/11-80atom/13-opt/3-1Oopt	opt-CONTCAR	1	In32O47	In O	32 47	79	
+yyf/5-O/5-crystal/11-80atom/2-remove1O	yyf/5-O/5-crystal/11-80atom/2-remove1O	opt-CONTCAR	1	In16O23	In O	16 23	39	
+yyf/5-O/5-crystal/11-80atom/6-remove1O2+	yyf/5-O/5-crystal/11-80atom/6-remove1O2+	opt-CONTCAR	1	In16O23	In O	16 23	39	
+yyf/5-O/5-crystal/11-80atom/9-1Ga	yyf/5-O/5-crystal/11-80atom/9-1Ga/1-opt	opt-CONTCAR	3	In15Ga1O24	In Ga O	15 1 24	40	
+yyf/5-O/5-crystal/5-nGa	yyf/5-O/5-crystal/5-nGa/1-opt	opt-CONTCAR	1	Ga8O12	Ga O	8 12	20	
+yyf/5-O/5-crystal/6-444cry	yyf/5-O/5-crystal/6-444cry/1-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_1	yyf/5-O/6-models/STRUCTURE_1/3-opt	opt-CONTCAR	2	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_10	yyf/5-O/6-models/STRUCTURE_10/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_11	yyf/5-O/6-models/STRUCTURE_11/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_12	yyf/5-O/6-models/STRUCTURE_12/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_13	yyf/5-O/6-models/STRUCTURE_13/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_14	yyf/5-O/6-models/STRUCTURE_14/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_15	yyf/5-O/6-models/STRUCTURE_15/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_16	yyf/5-O/6-models/STRUCTURE_16/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_17	yyf/5-O/6-models/STRUCTURE_17/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_18	yyf/5-O/6-models/STRUCTURE_18/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_19	yyf/5-O/6-models/STRUCTURE_19/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_2	yyf/5-O/6-models/STRUCTURE_2/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_20	yyf/5-O/6-models/STRUCTURE_20/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_21	yyf/5-O/6-models/STRUCTURE_21/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_22	yyf/5-O/6-models/STRUCTURE_22/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_23	yyf/5-O/6-models/STRUCTURE_23/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_24	yyf/5-O/6-models/STRUCTURE_24/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_25	yyf/5-O/6-models/STRUCTURE_25/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_26	yyf/5-O/6-models/STRUCTURE_26/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_27	yyf/5-O/6-models/STRUCTURE_27/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_28	yyf/5-O/6-models/STRUCTURE_28/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_29	yyf/5-O/6-models/STRUCTURE_29/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_3	yyf/5-O/6-models/STRUCTURE_3/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_30	yyf/5-O/6-models/STRUCTURE_30/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_31	yyf/5-O/6-models/STRUCTURE_31/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_32	yyf/5-O/6-models/STRUCTURE_32/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_33	yyf/5-O/6-models/STRUCTURE_33/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_34	yyf/5-O/6-models/STRUCTURE_34/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_35	yyf/5-O/6-models/STRUCTURE_35/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_36	yyf/5-O/6-models/STRUCTURE_36/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_37	yyf/5-O/6-models/STRUCTURE_37/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_38	yyf/5-O/6-models/STRUCTURE_38/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_39	yyf/5-O/6-models/STRUCTURE_39/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_4	yyf/5-O/6-models/STRUCTURE_4/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_40	yyf/5-O/6-models/STRUCTURE_40/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_41	yyf/5-O/6-models/STRUCTURE_41/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_42	yyf/5-O/6-models/STRUCTURE_42/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_43	yyf/5-O/6-models/STRUCTURE_43/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_44	yyf/5-O/6-models/STRUCTURE_44/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_45	yyf/5-O/6-models/STRUCTURE_45/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_46	yyf/5-O/6-models/STRUCTURE_46/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_47	yyf/5-O/6-models/STRUCTURE_47/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_48	yyf/5-O/6-models/STRUCTURE_48/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_49	yyf/5-O/6-models/STRUCTURE_49/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_5	yyf/5-O/6-models/STRUCTURE_5/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_50	yyf/5-O/6-models/STRUCTURE_50/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_6	yyf/5-O/6-models/STRUCTURE_6/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_7	yyf/5-O/6-models/STRUCTURE_7/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_8	yyf/5-O/6-models/STRUCTURE_8/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/6-models/STRUCTURE_9	yyf/5-O/6-models/STRUCTURE_9/3-opt	opt-CONTCAR	1	In16O24	In O	16 24	40	
+yyf/5-O/7-INGAO/1-1	yyf/5-O/7-INGAO/1-1/3-opt	opt-CONTCAR	1	In15Ga1O24	In Ga O	15 1 24	40	
+yyf/5-O/7-INGAO/2-1Ga/STRUCTURE_1	yyf/5-O/7-INGAO/2-1Ga/STRUCTURE_1/3-opt	opt-CONTCAR	1	In15Ga1O24	In Ga O	15 1 24	40	
+yyf/5-O/7-INGAO/2-1Ga/STRUCTURE_2	yyf/5-O/7-INGAO/2-1Ga/STRUCTURE_2/3-opt	opt-CONTCAR	1	In15Ga1O24	In Ga O	15 1 24	40	
+yyf/5-O/7-INGAO/2-1Ga/STRUCTURE_3	yyf/5-O/7-INGAO/2-1Ga/STRUCTURE_3/3-opt	opt-CONTCAR	1	In15Ga1O24	In Ga O	15 1 24	40	
+yyf/5-O/7-INGAO/2-1Ga/STRUCTURE_4	yyf/5-O/7-INGAO/2-1Ga/STRUCTURE_4/3-opt	opt-CONTCAR	1	In15Ga1O24	In Ga O	15 1 24	40	
+yyf/5-O/7-INGAO/2-1Ga/STRUCTURE_5	yyf/5-O/7-INGAO/2-1Ga/STRUCTURE_5/3-opt	opt-CONTCAR	1	In15Ga1O24	In Ga O	15 1 24	40	
+yyf/5-O/7-INGAO/3-2Ga/STRUCTURE_51	yyf/5-O/7-INGAO/3-2Ga/STRUCTURE_51/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/3-2Ga/STRUCTURE_52	yyf/5-O/7-INGAO/3-2Ga/STRUCTURE_52/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/3-2Ga/STRUCTURE_53	yyf/5-O/7-INGAO/3-2Ga/STRUCTURE_53/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/3-2Ga/STRUCTURE_54	yyf/5-O/7-INGAO/3-2Ga/STRUCTURE_54/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/3-2Ga/STRUCTURE_55	yyf/5-O/7-INGAO/3-2Ga/STRUCTURE_55/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_1	yyf/5-O/7-INGAO/4-models/STRUCTURE_1/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_10	yyf/5-O/7-INGAO/4-models/STRUCTURE_10/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_11	yyf/5-O/7-INGAO/4-models/STRUCTURE_11/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_12	yyf/5-O/7-INGAO/4-models/STRUCTURE_12/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_13	yyf/5-O/7-INGAO/4-models/STRUCTURE_13/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_14	yyf/5-O/7-INGAO/4-models/STRUCTURE_14/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_15	yyf/5-O/7-INGAO/4-models/STRUCTURE_15/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_16	yyf/5-O/7-INGAO/4-models/STRUCTURE_16/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_17	yyf/5-O/7-INGAO/4-models/STRUCTURE_17/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_18x	yyf/5-O/7-INGAO/4-models/STRUCTURE_18x/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_19	yyf/5-O/7-INGAO/4-models/STRUCTURE_19/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_2	yyf/5-O/7-INGAO/4-models/STRUCTURE_2/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_20	yyf/5-O/7-INGAO/4-models/STRUCTURE_20/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_21	yyf/5-O/7-INGAO/4-models/STRUCTURE_21/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_22	yyf/5-O/7-INGAO/4-models/STRUCTURE_22/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_23	yyf/5-O/7-INGAO/4-models/STRUCTURE_23/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_24	yyf/5-O/7-INGAO/4-models/STRUCTURE_24/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_25	yyf/5-O/7-INGAO/4-models/STRUCTURE_25/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_26	yyf/5-O/7-INGAO/4-models/STRUCTURE_26/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_27	yyf/5-O/7-INGAO/4-models/STRUCTURE_27/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_28	yyf/5-O/7-INGAO/4-models/STRUCTURE_28/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_29	yyf/5-O/7-INGAO/4-models/STRUCTURE_29/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_3	yyf/5-O/7-INGAO/4-models/STRUCTURE_3/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_30	yyf/5-O/7-INGAO/4-models/STRUCTURE_30/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_31	yyf/5-O/7-INGAO/4-models/STRUCTURE_31/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_32	yyf/5-O/7-INGAO/4-models/STRUCTURE_32/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_33	yyf/5-O/7-INGAO/4-models/STRUCTURE_33/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_34	yyf/5-O/7-INGAO/4-models/STRUCTURE_34/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_35	yyf/5-O/7-INGAO/4-models/STRUCTURE_35/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_36	yyf/5-O/7-INGAO/4-models/STRUCTURE_36/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_37	yyf/5-O/7-INGAO/4-models/STRUCTURE_37/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_38	yyf/5-O/7-INGAO/4-models/STRUCTURE_38/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_39	yyf/5-O/7-INGAO/4-models/STRUCTURE_39/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_4	yyf/5-O/7-INGAO/4-models/STRUCTURE_4/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_40	yyf/5-O/7-INGAO/4-models/STRUCTURE_40/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_41	yyf/5-O/7-INGAO/4-models/STRUCTURE_41/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_42	yyf/5-O/7-INGAO/4-models/STRUCTURE_42/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_43	yyf/5-O/7-INGAO/4-models/STRUCTURE_43/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_44	yyf/5-O/7-INGAO/4-models/STRUCTURE_44/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_45	yyf/5-O/7-INGAO/4-models/STRUCTURE_45/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_46	yyf/5-O/7-INGAO/4-models/STRUCTURE_46/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_47	yyf/5-O/7-INGAO/4-models/STRUCTURE_47/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_48	yyf/5-O/7-INGAO/4-models/STRUCTURE_48/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_49	yyf/5-O/7-INGAO/4-models/STRUCTURE_49/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_5	yyf/5-O/7-INGAO/4-models/STRUCTURE_5/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_50	yyf/5-O/7-INGAO/4-models/STRUCTURE_50/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_6	yyf/5-O/7-INGAO/4-models/STRUCTURE_6/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_7	yyf/5-O/7-INGAO/4-models/STRUCTURE_7/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_8	yyf/5-O/7-INGAO/4-models/STRUCTURE_8/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/4-models/STRUCTURE_9	yyf/5-O/7-INGAO/4-models/STRUCTURE_9/3-opt	opt-CONTCAR	1	In14Ga2O24	In Ga O	14 2 24	40	
+yyf/5-O/7-INGAO/5-8Ga	yyf/5-O/7-INGAO/5-8Ga/3-opt	opt-CONTCAR	1	In8Ga8O24	In Ga O	8 8 24	40	
+yyf/5-O/7-INGAO/6-1H	yyf/5-O/7-INGAO/6-1H/3-opt	opt-CONTCAR	1	In16O24H1	In O H	16 24 1	41	
+yyf/5-O/7-INGAO/7-300atom/1-20Ga/1-model	yyf/5-O/7-INGAO/7-300atom/1-20Ga/1-model/3-opt	opt-CONTCAR	2	In96Ga24O180	In Ga O	96 24 180	300	
+yyf/5-O/7-INGAO/7-300atom/1-20Ga/1-model/8-remove1O	yyf/5-O/7-INGAO/7-300atom/1-20Ga/1-model/8-remove1O	opt-CONTCAR	1	In96Ga24O179	In Ga O	96 24 179	299	
+yyf/5-O/7-INGAO/7-300atom/1-20Ga/1-model/9-move1O	yyf/5-O/7-INGAO/7-300atom/1-20Ga/1-model/9-move1O	opt-CONTCAR	1	In96Ga24O179	In Ga O	96 24 179	299	
+yyf/5-O/8-ITO/1-1	yyf/5-O/8-ITO/1-1/6-opt	opt-CONTCAR	2	In31Sn1O48	In Sn O	31 1 48	80	
+yyf/5-O/8-ITO/2-models/STRUCTURE_1	yyf/5-O/8-ITO/2-models/STRUCTURE_1/3-opt	opt-CONTCAR	1	In15Sn1O24	In Sn O	15 1 24	40	
+yyf/5-O/8-ITO/3-300atom/1-10Sn	yyf/5-O/8-ITO/3-300atom/1-10Sn/3-opt	opt-CONTCAR	2	In108Sn12O180	In Sn O	108 12 180	300	
+yyf/5-O/9-IGZO/1-111	yyf/5-O/9-IGZO/1-111/3-opt	opt-CONTCAR	2	In40Ga40Zn40O160	In Ga Zn O	40 40 40 160	280	
+yyf/5-O/9-IGZO/2-101	yyf/5-O/9-IGZO/2-101/3-opt	opt-CONTCAR	2	In60Zn60O150	In Zn O	60 60 150	270	
+yyf/5-O/9-IGZO/3-110	yyf/5-O/9-IGZO/3-110/3-opt	opt-CONTCAR	2	In60Ga60O180	In Ga O	60 60 180	300	
+yyf/5-O/9-IGZO/4-40atom	yyf/5-O/9-IGZO/4-40atom/3-opt	opt-CONTCAR	1	In6Ga6Zn6O24	In Ga Zn O	6 6 6 24	42	
+yyf/5-O/9-IGZO/5-011	yyf/5-O/9-IGZO/5-011/3-opt	opt-CONTCAR	1	Ga60Zn60O150	Ga Zn O	60 60 150	270	
+yyf/5-O/9-IGZO/6-010	yyf/5-O/9-IGZO/6-010/3-opt	opt-CONTCAR	1	Ga120O180	Ga O	120 180	300	

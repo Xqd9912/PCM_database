@@ -1,0 +1,34 @@
+# Parallel options added by the System #
+  !LSCALAPACK = .FALSE.
+  !LPLANE = .TRUE.
+  !NPAR = 6
+  !KPAR = 1
+  !NSIM = 12
+  NCORE = 16
+########################################
+
+
+Special task: Structural relaxation
+    NELM         = 999
+    IBRION       = 2
+    ISIF         = 3
+    NSW          = 999
+    EDIFFG       = 1E-4
+    LREAL = A
+General:
+    SYSTEM       = HfO2 
+    GGA          = PE  
+    ENCUT        = 500
+    ISMEAR       = 0 
+    SIGMA        = 0.02 
+    NELECT       = 699
+
+Precision and convergence:
+    EDIFF        = 1E-5
+    PREC         = Normal
+    ALGO         = FAST
+
+Output options:
+    NWRITE       = 2
+    LWAVE        = .F.
+    LCHARG       = .F.

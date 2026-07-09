@@ -1,0 +1,17 @@
+# 可由 metadata + data/raw 重建的产物
+data/pcm.db
+
+# 敏感/本地：HPC 连接配置（含用户名）与 control socket
+.ssh/
+
+# Python
+__pycache__/
+*.pyc
+
+# 临时/中间产物
+*.err
+*.raw
+cand_b64.txt
+
+# 系统
+.DS_Store

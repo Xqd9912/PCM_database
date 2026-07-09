@@ -1,0 +1,26 @@
+SYSTEM = M4_rho_c prep ISIF=3 relax (Ge-rich GST Ge65Sb43Te108, 3x3x3 fcc-NaCl, 216 atoms)
+# Stage 1: ISIF=3 cell+ion relax of the Ge-enriched fcc matrix. Output CONTCAR
+# carries the relaxed cell to stage 2 (scf), which re-converges the charge on
+# the relaxed FFT grid. Same recipe as M0/M1_rho_c (boltzmann_transport) to keep
+# baseline-vs-candidate methodology aligned.
+# Recipe: configs/pcm_dft_recipes.yaml::recipes.boltzmann_transport.stage_sequence[0]
+ISTART = 0
+ICHARG = 2
+ENCUT  = 450
+PREC   = Accurate
+EDIFF  = 1.0e-6
+EDIFFG = -0.02
+ALGO   = Fast
+AMIN   = 0.01
+ISMEAR = 0
+SIGMA  = 0.05
+ISIF   = 3
+IBRION = 2
+NSW    = 80
+NELM   = 200
+NELMIN = 4
+ISYM   = 0
+LREAL  = Auto
+LWAVE  = .FALSE.
+LCHARG = .FALSE.
+NCORE  = 16

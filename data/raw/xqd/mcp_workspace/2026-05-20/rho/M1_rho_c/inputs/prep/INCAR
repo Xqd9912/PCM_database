@@ -1,0 +1,40 @@
+! Stage 1: ISIF=3 cell+ion relax  (M1_rho_c boltzmann_transport prep)
+   SYSTEM  = M1_rho_c_prep_relax
+
+! Startup
+   ISTART  =  0
+   ICHARG  =  2
+
+! Basis / precision
+   ENCUT   =  450
+   PREC    =  Accurate
+
+! Electronic convergence
+   EDIFF   =  1.0E-6
+   ALGO    =  Fast
+   AMIN    =  0.01
+   NELM    =  200
+   NELMIN  =  4
+
+! Smearing (semiconductor)
+   ISMEAR  =  0
+   SIGMA   =  0.05
+
+! Ionic: full cell+shape+volume relaxation
+   ISIF    =  3
+   IBRION  =  2
+   NSW     =  80
+   EDIFFG  = -0.02
+
+! Symmetry: off — doped supercell breaks symmetry
+   ISYM    =  0
+
+! Projection
+   LREAL   =  Auto
+
+! Output — discard prep/ CHGCAR (grid frozen to initial cell; see recipe note)
+   LWAVE   = .FALSE.
+   LCHARG  = .FALSE.
+
+! Parallelization
+   NCORE   =  16

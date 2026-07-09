@@ -1,31 +1,46 @@
 #!/usr/bin/env python3
-"""由 pcm_metadata.json 生成前端站点数据 docs/data.json（GitHub Pages 用）。
+"""由 pcm_metadata.json 生成前端站点数据（GitHub Pages 用）。
 
-追加 system 字段（去掉数字的成分体系，如 GeSbTe），供前端分组统计。
+产出：
+  docs/data.json          —— 记录数组（含 system/elements/sid）
+  docs/structures/<sid>.poscar —— 每条记录的代表结构文件副本（供 3D 预览/下载）
 """
 import json
 import re
+import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 META = ROOT / "data" / "metadata" / "pcm_metadata.json"
-OUT = ROOT / "docs" / "data.json"
+DOCS = ROOT / "docs"
+OUT = DOCS / "data.json"
+STRUCT_DIR = DOCS / "structures"
+RAW = ROOT / "data" / "raw"
 
 
-def system(formula: str) -> str:
-    # 元素符号按字母序拼接，作为成分体系标识
-    els = sorted(set(re.findall(r"[A-Z][a-z]?", formula)))
-    return "".join(els)
+def elements(formula: str):
+    return sorted(set(re.findall(r"[A-Z][a-z]?", formula)))
 
 
 def main():
     recs = json.loads(META.read_text(encoding="utf-8"))
+    if STRUCT_DIR.exists():
+        shutil.rmtree(STRUCT_DIR)
+    STRUCT_DIR.mkdir(parents=True, exist_ok=True)
+
     out = []
-    for r in recs:
+    for i, r in enumerate(recs):
+        sid = f"s{i:04d}"
+        src = RAW / r["结构文件"]
+        if src.is_file():
+            shutil.copy2(src, STRUCT_DIR / f"{sid}.poscar")
+        els = elements(r["化学式"])
         out.append(
             {
+                "sid": sid,
                 "formula": r["化学式"],
-                "system": system(r["化学式"]),
+                "system": "".join(els),
+                "elements": els,
                 "phase": r["相"],
                 "temperature": r["温度"],
                 "natoms": r["体系原子数"],
@@ -36,9 +51,10 @@ def main():
                 "source_frame": r.get("代表帧来源", ""),
             }
         )
-    OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    print(f"写入 {len(out)} 条 -> {OUT}  ({OUT.stat().st_size//1024} KB)")
+    n_struct = len(list(STRUCT_DIR.glob("*.poscar")))
+    print(f"data.json: {len(out)} 条 ({OUT.stat().st_size//1024} KB)")
+    print(f"structures/: {n_struct} 个结构文件")
 
 
 if __name__ == "__main__":

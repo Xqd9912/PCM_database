@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PCM Database</title>
-<script src="vendor/3Dmol-min.js"></script>
+<script src="vendor/three.min.js"></script>
+<script src="vendor/OrbitControls.js"></script>
 <style>
 :root{
   --plane:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
@@ -342,8 +343,9 @@ function initFilters(){
   document.querySelectorAll('th[data-k]').forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortDir=(sortK===k)?-sortDir:1;sortK=k;renderTable();});
 }
 
-/* ---------- 3D viewer ---------- */
-let viewer=null,curStyle='bs';
+/* ---------- 3D viewer (Three.js, pretty-lattice aesthetic) ---------- */
+let VIZ=null;                         // {colors, radii, material, lighting}
+let three=null,curStyle='bs',curStruct=null;
 function parsePoscar(txt){
   const L=txt.split(/\r?\n/);const s=parseFloat(L[1])||1;
   const v=i=>L[i].trim().split(/\s+/).map(Number);
@@ -362,39 +364,110 @@ function parsePoscar(txt){
     at.push({e:per[i],x,y,z});}
   return {a,b,c,at};
 }
-function drawCell(a,b,c){
-  const O=[0,0,0];const add=(u,w)=>[u[0]+w[0],u[1]+w[1],u[2]+w[2]];
-  const P={o:O,a,b,c,ab:add(a,b),ac:add(a,c),bc:add(b,c),abc:add(add(a,b),c)};
-  const col={color:'#888',radius:0.04};
-  const seg=(p,q)=>viewer.addCylinder({start:{x:p[0],y:p[1],z:p[2]},end:{x:q[0],y:q[1],z:q[2]},...col});
-  seg(P.o,P.a);seg(P.o,P.b);seg(P.o,P.c);seg(P.a,P.ab);seg(P.a,P.ac);seg(P.b,P.ab);
-  seg(P.b,P.bc);seg(P.c,P.ac);seg(P.c,P.bc);seg(P.ab,P.abc);seg(P.ac,P.abc);seg(P.bc,P.abc);
+function elColor(el){return (VIZ&&VIZ.colors[el])||'#c8a2c8';}
+function elRad(el,model){const r=VIZ&&VIZ.radii[el];return r?(r[model]||1):(model==='vdw'?1.8:1.2);}
+
+function disposeThree(){
+  if(!three)return;
+  cancelAnimationFrame(three.raf);
+  three.renderer.dispose();
+  three.host.innerHTML='';
+  three=null;
 }
-function applyStyle(){
-  if(!viewer)return;
-  if(curStyle==='bs')viewer.setStyle({},{sphere:{scale:0.30},stick:{radius:0.14}});
-  else viewer.setStyle({},{sphere:{scale:0.62}});
-  viewer.render();
+function buildStructure(){
+  // 清掉旧的原子/键/盒子组，保留灯光/相机
+  if(three.group){three.scene.remove(three.group);}
+  const g=new THREE.Group();three.group=g;three.scene.add(g);
+  const st=curStruct;
+  const mat=new THREE.MeshStandardMaterial({metalness:VIZ.material.metalness,roughness:VIZ.material.roughness});
+  // 原子（InstancedMesh，逐实例颜色+半径）
+  const sph=new THREE.SphereGeometry(1,24,18);
+  const im=new THREE.InstancedMesh(sph,mat,st.at.length);
+  const dummy=new THREE.Object3D();const col=new THREE.Color();
+  const model=curStyle==='sf'?'vdw':'atomic';
+  const scale=curStyle==='sf'?1.0:0.42;
+  st.at.forEach((p,i)=>{
+    const rad=elRad(p.e,model)*scale;
+    dummy.position.set(p.x,p.y,p.z);dummy.scale.setScalar(rad);dummy.updateMatrix();
+    im.setMatrixAt(i,dummy.matrix);
+    im.setColorAt(i,col.set(elColor(p.e)));
+  });
+  im.instanceMatrix.needsUpdate=true;if(im.instanceColor)im.instanceColor.needsUpdate=true;
+  g.add(im);
+  // 键（球棍模式，按半径和判定，直接距离）
+  if(curStyle==='bs'){
+    const bonds=[];const N=st.at.length;const BF=1.15;
+    for(let i=0;i<N;i++)for(let j=i+1;j<N;j++){
+      const A=st.at[i],B=st.at[j];
+      const dx=A.x-B.x,dy=A.y-B.y,dz=A.z-B.z;const d2=dx*dx+dy*dy+dz*dz;
+      const cut=(elRad(A.e,'atomic')+elRad(B.e,'atomic'))*BF;
+      if(d2<cut*cut&&d2>0.64)bonds.push([i,j]);
+    }
+    if(bonds.length){
+      const cyl=new THREE.CylinderGeometry(0.13,0.13,1,10,1,true);
+      const bmat=new THREE.MeshStandardMaterial({color:0x9a9a9a,metalness:0.1,roughness:0.7});
+      const bm=new THREE.InstancedMesh(cyl,bmat,bonds.length);
+      const up=new THREE.Vector3(0,1,0);const q=new THREE.Quaternion();
+      const va=new THREE.Vector3(),vb=new THREE.Vector3(),dir=new THREE.Vector3();
+      bonds.forEach(([i,j],k)=>{
+        const A=st.at[i],B=st.at[j];va.set(A.x,A.y,A.z);vb.set(B.x,B.y,B.z);
+        dir.subVectors(vb,va);const len=dir.length();
+        dummy.position.copy(va).addScaledVector(dir,0.5);
+        q.setFromUnitVectors(up,dir.clone().normalize());dummy.quaternion.copy(q);
+        dummy.scale.set(1,len,1);dummy.updateMatrix();bm.setMatrixAt(k,dummy.matrix);
+      });
+      bm.instanceMatrix.needsUpdate=true;g.add(bm);
+    }
+  }
+  // 晶胞盒子
+  const {a,b,c}=st;const O=[0,0,0];const ad=(u,w)=>[u[0]+w[0],u[1]+w[1],u[2]+w[2]];
+  const P=[O,a,b,c,ad(a,b),ad(a,c),ad(b,c),ad(ad(a,b),c)];
+  const E=[[0,1],[0,2],[0,3],[1,4],[1,5],[2,4],[2,6],[3,5],[3,6],[4,7],[5,7],[6,7]];
+  const pts=[];E.forEach(([p,q])=>{pts.push(...P[p],...P[q]);});
+  const lg=new THREE.BufferGeometry();lg.setAttribute('position',new THREE.Float32BufferAttribute(pts,3));
+  g.add(new THREE.LineSegments(lg,new THREE.LineBasicMaterial({color:0x9a9a9a,transparent:true,opacity:0.5})));
+  // 居中：晶胞几何中心
+  const ctr=new THREE.Vector3((a[0]+b[0]+c[0])/2,(a[1]+b[1]+c[1])/2,(a[2]+b[2]+c[2])/2);
+  g.position.set(-ctr.x,-ctr.y,-ctr.z);
+  return Math.max(...[a,b,c].map(v=>Math.hypot(v[0],v[1],v[2])));
 }
 function openViewer(r){
+  curStruct=null;curStyle='bs';
   document.getElementById('mTitle').textContent=`${r.formula}  ·  ${r.phase} ${r.temperature}`;
   const M=[['m_natoms',r.natoms],['m_dens',r.density.toFixed(4)],['m_temp',r.temperature],
     ['m_phase',r.phase],['m_contrib',r.contributor],['m_src',r.hpc_source]];
   document.getElementById('mMeta').innerHTML=M.map(([k,v])=>`<div><span>${t(k)}</span>${v}</div>`).join('');
   const dl=document.getElementById('mDownload');dl.href=`structures/${r.sid}.poscar`;dl.download=`${r.formula}_${r.sid}_POSCAR.vasp`;
   document.getElementById('modal').classList.add('open');
-  const host=document.getElementById('viewer3d');host.innerHTML='';
-  fetch(`structures/${r.sid}.poscar`).then(x=>x.text()).then(txt=>{
-    const st=parsePoscar(txt);
-    viewer=$3Dmol.createViewer(host,{backgroundColor:getComputedStyle(document.body).getPropertyValue('--viewer-bg').trim()||'#fff'});
-    const xyz=`${st.at.length}\n\n`+st.at.map(p=>`${p.e} ${p.x} ${p.y} ${p.z}`).join('\n');
-    viewer.addModel(xyz,'xyz');curStyle='bs';applyStyle();drawCell(st.a,st.b,st.c);
-    viewer.zoomTo();viewer.render();viewer.zoom(1.15);
-  }).catch(()=>{host.innerHTML='<div class="load">3D load failed</div>';});
+  const host=document.getElementById('viewer3d');host.innerHTML='<div class="load">…</div>';
+  Promise.all([
+    fetch(`structures/${r.sid}.poscar`).then(x=>x.text()),
+    VIZ?Promise.resolve(VIZ):fetch('viz_assets.json').then(x=>x.json()).then(j=>VIZ=j),
+  ]).then(([txt])=>{
+    curStruct=parsePoscar(txt);
+    host.innerHTML='';
+    const w=host.clientWidth||680,h=host.clientHeight||400;
+    const renderer=new THREE.WebGLRenderer({antialias:true});
+    renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(w,h);
+    host.appendChild(renderer.domElement);
+    const scene=new THREE.Scene();
+    scene.background=new THREE.Color(getComputedStyle(document.body).getPropertyValue('--viewer-bg').trim()||'#fff');
+    const camera=new THREE.PerspectiveCamera(45,w/h,0.1,8000);
+    const controls=new THREE.OrbitControls(camera,renderer.domElement);
+    controls.enableDamping=true;controls.dampingFactor=0.12;
+    scene.add(new THREE.AmbientLight(0xffffff,VIZ.lighting.ambient));
+    const dir=new THREE.DirectionalLight(0xffffff,VIZ.lighting.directional);
+    dir.position.set(0.3,0.2,1);camera.add(dir);scene.add(camera);
+    three={renderer,scene,camera,controls,host,group:null,raf:0};
+    const R=buildStructure();
+    const dist=R/Math.tan(Math.PI/8)*0.95;camera.position.set(dist*0.6,dist*0.45,dist);
+    controls.update();
+    (function loop(){three.raf=requestAnimationFrame(loop);controls.update();renderer.render(scene,camera);})();
+  }).catch(e=>{host.innerHTML='<div class="load">3D 加载失败 / load failed</div>';});
 }
-document.getElementById('mClose').onclick=()=>{document.getElementById('modal').classList.remove('open');if(viewer){viewer.clear();viewer=null;}};
+document.getElementById('mClose').onclick=()=>{document.getElementById('modal').classList.remove('open');disposeThree();};
 document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==='modal')document.getElementById('mClose').click();});
-document.getElementById('mStyle').onclick=()=>{curStyle=curStyle==='bs'?'sf':'bs';applyStyle();};
+document.getElementById('mStyle').onclick=()=>{if(!three||!curStruct)return;curStyle=curStyle==='bs'?'sf':'bs';buildStructure();};
 
 window.addEventListener('resize',()=>{if(DATA)renderCharts();});
 fetch('data.json').then(r=>r.json()).then(d=>{

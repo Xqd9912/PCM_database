@@ -4,127 +4,337 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PCM Database</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="vendor/three.min.js"></script>
 <script src="vendor/OrbitControls.js"></script>
 <style>
 :root{
-  --plane:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
-  --grid:#e1e0d9; --axis:#c3c2b7; --series:#2a78d6; --series-soft:#cde2fb;
-  --accent2:#1baf7a; --border:rgba(11,11,11,0.10); --shadow:rgba(11,11,11,0.06);
-  --viewer-bg:#ffffff;
+  --plane:#f7f8fa; --surface:#ffffff; --soft:#f6f6f7; --ink:#1b1b1f; --ink2:#4b4b52; --muted:#8a8a91;
+  --grid:#ececee; --axis:#c2c2c4; --series:#2f74dd; --series-soft:#e6effc;
+  --accent2:#6366f1; --brand-3:#1e5bb8; --border:#e6e6e8;
+  --grad:linear-gradient(120deg,#2f74dd 15%,#6366f1);
+  --sh1:0 1px 2px rgba(0,0,0,.04),0 1px 2px rgba(0,0,0,.06);
+  --sh2:0 3px 12px rgba(0,0,0,.06),0 1px 4px rgba(0,0,0,.05);
+  --sh3:0 12px 32px rgba(0,0,0,.10),0 2px 6px rgba(0,0,0,.08);
+  --sh5:0 18px 56px rgba(0,0,0,.16),0 4px 12px rgba(0,0,0,.16);
+  --glow:rgba(47,116,221,.11); --viewer-bg:#ffffff;
+  --art-bond:#b4bccb; --art-stroke:rgba(20,30,50,.12); --art-curve:#8b93a4; --art-accent:var(--series);
+  --fn-pcm:#1e5bb8; --fn-ots:#1f8f5f; --fn-som:#7a3fc0; --fn-cand:#b3701a; --fn-other:#6b7280;
 }
 @media (prefers-color-scheme:dark){:root{
-  --plane:#0d0d0d; --surface:#1a1a19; --ink:#fff; --ink2:#c3c2b7; --muted:#898781;
-  --grid:#2c2c2a; --axis:#383835; --series:#3987e5; --series-soft:#184f95;
-  --accent2:#199e70; --border:rgba(255,255,255,0.10); --shadow:rgba(0,0,0,0.4);
-  --viewer-bg:#111110;
+  --plane:#161618; --surface:#202127; --soft:#1b1b1f; --ink:#f5f5f7; --ink2:#c9c9cf; --muted:#8a8a91;
+  --grid:#2c2c30; --axis:#3a3a3e; --series:#4a9eff; --series-soft:#16324f;
+  --accent2:#8b9bff; --brand-3:#8cc2ff; --border:rgba(255,255,255,0.10);
+  --grad:linear-gradient(120deg,#4a9eff 15%,#8b9bff);
+  --sh1:0 1px 2px rgba(0,0,0,.2),0 1px 2px rgba(0,0,0,.3);
+  --sh2:0 3px 12px rgba(0,0,0,.3),0 1px 4px rgba(0,0,0,.3);
+  --sh3:0 12px 32px rgba(0,0,0,.4),0 2px 6px rgba(0,0,0,.4);
+  --sh5:0 18px 56px rgba(0,0,0,.5),0 4px 12px rgba(0,0,0,.5);
+  --glow:rgba(74,158,255,.13); --viewer-bg:#1b1b1f;
+  --art-bond:#586274; --art-stroke:rgba(255,255,255,.14); --art-curve:#8791a3; --art-accent:var(--series);
+  --fn-pcm:#8cc2ff; --fn-ots:#5fd39a; --fn-som:#c4a3f0; --fn-cand:#f0b566; --fn-other:#9aa0aa;
 }}
 :root[data-theme=dark]{
-  --plane:#0d0d0d; --surface:#1a1a19; --ink:#fff; --ink2:#c3c2b7; --muted:#898781;
-  --grid:#2c2c2a; --axis:#383835; --series:#3987e5; --series-soft:#184f95;
-  --accent2:#199e70; --border:rgba(255,255,255,0.10); --shadow:rgba(0,0,0,0.4); --viewer-bg:#111110;
+  --plane:#161618; --surface:#202127; --soft:#1b1b1f; --ink:#f5f5f7; --ink2:#c9c9cf; --muted:#8a8a91;
+  --grid:#2c2c30; --axis:#3a3a3e; --series:#4a9eff; --series-soft:#16324f;
+  --accent2:#8b9bff; --brand-3:#8cc2ff; --border:rgba(255,255,255,0.10);
+  --grad:linear-gradient(120deg,#4a9eff 15%,#8b9bff);
+  --sh1:0 1px 2px rgba(0,0,0,.2),0 1px 2px rgba(0,0,0,.3);
+  --sh2:0 3px 12px rgba(0,0,0,.3),0 1px 4px rgba(0,0,0,.3);
+  --sh3:0 12px 32px rgba(0,0,0,.4),0 2px 6px rgba(0,0,0,.4);
+  --sh5:0 18px 56px rgba(0,0,0,.5),0 4px 12px rgba(0,0,0,.5);
+  --glow:rgba(74,158,255,.13); --viewer-bg:#1b1b1f;
+  --art-bond:#586274; --art-stroke:rgba(255,255,255,.14); --art-curve:#8791a3; --art-accent:var(--series);
+  --fn-pcm:#8cc2ff; --fn-ots:#5fd39a; --fn-som:#c4a3f0; --fn-cand:#f0b566; --fn-other:#9aa0aa;
 }
 :root[data-theme=light]{
-  --plane:#f9f9f7; --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
-  --grid:#e1e0d9; --axis:#c3c2b7; --series:#2a78d6; --series-soft:#cde2fb;
-  --accent2:#1baf7a; --border:rgba(11,11,11,0.10); --shadow:rgba(11,11,11,0.06); --viewer-bg:#ffffff;
+  --plane:#f7f8fa; --surface:#ffffff; --soft:#f6f6f7; --ink:#1b1b1f; --ink2:#4b4b52; --muted:#8a8a91;
+  --grid:#ececee; --axis:#c2c2c4; --series:#2f74dd; --series-soft:#e6effc;
+  --accent2:#6366f1; --brand-3:#1e5bb8; --border:#e6e6e8;
+  --grad:linear-gradient(120deg,#2f74dd 15%,#6366f1);
+  --sh1:0 1px 2px rgba(0,0,0,.04),0 1px 2px rgba(0,0,0,.06);
+  --sh2:0 3px 12px rgba(0,0,0,.06),0 1px 4px rgba(0,0,0,.05);
+  --sh3:0 12px 32px rgba(0,0,0,.10),0 2px 6px rgba(0,0,0,.08);
+  --sh5:0 18px 56px rgba(0,0,0,.16),0 4px 12px rgba(0,0,0,.16);
+  --glow:rgba(47,116,221,.11); --viewer-bg:#ffffff;
+  --art-bond:#b4bccb; --art-stroke:rgba(20,30,50,.12); --art-curve:#8b93a4; --art-accent:var(--series);
+  --fn-pcm:#1e5bb8; --fn-ots:#1f8f5f; --fn-som:#7a3fc0; --fn-cand:#b3701a; --fn-other:#6b7280;
 }
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--plane);color:var(--ink);
-  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.5;-webkit-text-size-adjust:100%}
-a{color:var(--series)}
+  font-family:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;
+  -webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:var(--series);text-decoration:none}a:hover{text-decoration:underline}
 .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
-.topbar{position:absolute;top:16px;right:20px;display:flex;gap:8px}
-.tbtn{background:var(--surface);color:var(--ink2);border:1px solid var(--border);border-radius:8px;
-  padding:6px 12px;cursor:pointer;font-size:13px;font-family:inherit}
-.tbtn:hover{color:var(--ink)}
-header{padding:44px 0 20px;border-bottom:1px solid var(--border)}
-.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
-h1{font-size:32px;margin:.25em 0 .1em;letter-spacing:-.01em}
-.sub{color:var(--ink2);max-width:64ch;font-size:15px}
-.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:24px 0 4px}
-.tile{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px;box-shadow:0 1px 2px var(--shadow)}
-.tile .v{font-size:28px;font-weight:650;letter-spacing:-.02em}
-.tile .l{font-size:12.5px;color:var(--muted);margin-top:2px}
-section{padding:30px 0}
-h2{font-size:15px;letter-spacing:.02em;margin:0 0 2px}
-.hint{color:var(--muted);font-size:12.5px;margin:0 0 16px}
+.topbar{position:absolute;top:18px;right:20px;display:flex;gap:8px;z-index:5}
+.tbtn{background:var(--surface);color:var(--ink2);border:1px solid var(--border);border-radius:9px;
+  padding:7px 13px;cursor:pointer;font-size:13px;font-family:inherit;font-weight:500;
+  box-shadow:var(--sh1);transition:color .15s,border-color .15s,box-shadow .15s,transform .15s}
+.tbtn:hover{color:var(--series);border-color:var(--series);box-shadow:var(--sh2)}
+.tbtn:active{transform:translateY(1px)}
+header{position:relative;padding:60px 0 30px;overflow:hidden}
+header::before{content:"";position:absolute;top:-160px;left:-80px;width:520px;height:360px;
+  background:radial-gradient(closest-side,var(--glow),transparent 70%);pointer-events:none;z-index:0}
+header>*{position:relative;z-index:1}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,44%);gap:10px;align-items:center}
+.hero-text{min-width:0}
+.hero-art{position:relative;min-width:0}
+.hero-art .concept{width:100%;height:auto;display:block;
+  -webkit-mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.35) 16%,#000 40%);
+  mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.35) 16%,#000 40%)}
+.hero-art::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);
+  -webkit-mask-image:linear-gradient(to right,#000 0%,rgba(0,0,0,.5) 9%,transparent 20%);
+  mask-image:linear-gradient(to right,#000 0%,rgba(0,0,0,.5) 9%,transparent 20%)}
+.concept .ct-h{fill:var(--ink2);font-size:16px;font-weight:600;font-family:inherit}
+.concept .ct-a{fill:var(--art-accent);font-size:14px;font-weight:600;font-family:inherit}
+.concept .ct-s{fill:var(--muted);font-size:12.5px;font-weight:500;font-family:inherit}
+@media(max-width:860px){.hero{grid-template-columns:1fr}.hero-art{display:none}}
+.eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--series);font-weight:700}
+h1{font-size:clamp(34px,5.2vw,52px);line-height:1.08;margin:.28em 0 .18em;letter-spacing:-.025em;font-weight:800;
+  background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.sub{color:var(--ink2);max-width:66ch;font-size:16px;line-height:1.65}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:30px 0 6px}
+.tile{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px 20px;
+  box-shadow:var(--sh2);transition:transform .18s,box-shadow .18s}
+.tile:hover{transform:translateY(-3px);box-shadow:var(--sh3)}
+.tile .v{font-size:30px;font-weight:750;letter-spacing:-.03em;font-variant-numeric:tabular-nums;
+  background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.tile .v.tv{font-size:clamp(18px,2.4vw,24px);line-height:1.25}
+.tile .l{font-size:12.5px;color:var(--muted);margin-top:4px;font-weight:500}
+section{padding:34px 0}
+h2{font-size:22px;letter-spacing:-.01em;margin:0 0 4px;font-weight:700}
+.hint{color:var(--muted);font-size:13px;margin:0 0 18px;max-width:78ch}
 .charts{display:grid;grid-template-columns:1fr 1fr;gap:22px}
 @media(max-width:820px){.charts{grid-template-columns:1fr}}
-.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 18px 12px;box-shadow:0 1px 2px var(--shadow)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px 20px 14px;
+  box-shadow:var(--sh2);transition:transform .18s,box-shadow .18s}
+.card:hover{box-shadow:var(--sh3)}
 .card.full{grid-column:1/-1}
-.card h3{font-size:13.5px;margin:0 0 12px;font-weight:600}
+.card h3{font-size:14px;margin:0 0 14px;font-weight:600;color:var(--ink)}
 svg{display:block;width:100%;overflow:visible}
-.bar{fill:var(--series)} .bar:hover{fill:var(--accent2)}
-text{fill:var(--ink2);font-size:11px}
+.bar{fill:var(--series);transition:fill .12s} .bar:hover{fill:var(--accent2)}
+.gbar{transition:opacity .12s} .gbar:hover{opacity:.82}
+text{fill:var(--ink2);font-size:11px;font-family:inherit}
 .axis-line{stroke:var(--axis);stroke-width:1} .grid-line{stroke:var(--grid);stroke-width:1}
-.tt{position:fixed;pointer-events:none;background:var(--ink);color:var(--plane);padding:6px 9px;border-radius:7px;
-  font-size:12px;opacity:0;transition:opacity .1s;z-index:60;white-space:nowrap;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+.tt{position:fixed;pointer-events:none;background:var(--ink);color:var(--surface);padding:7px 10px;border-radius:8px;
+  font-size:12px;opacity:0;transition:opacity .1s;z-index:60;white-space:nowrap;box-shadow:var(--sh3);font-weight:500}
 /* periodic table */
-.ptable{display:grid;grid-template-columns:repeat(18,1fr);gap:3px;max-width:760px;margin:4px 0 6px}
+.ptable{display:grid;grid-template-columns:repeat(18,1fr);gap:3px;max-width:760px;margin:4px auto 6px}
 .pt{aspect-ratio:1;border:1px solid var(--border);border-radius:4px;background:var(--surface);
   display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--muted);user-select:none}
-.pt.on{cursor:pointer;color:var(--ink);font-weight:600}
-.pt.on:hover{border-color:var(--series)}
-.pt.sel{background:var(--series);color:#fff;border-color:var(--series)}
+.pt{transition:transform .1s,box-shadow .1s}
+.pt.on{cursor:pointer;font-weight:600}
+.pt.on:hover{transform:translateY(-2px);box-shadow:var(--sh2);outline:2px solid var(--series);outline-offset:-2px}
+.pt.sel{background:var(--series)!important;color:#fff!important;border-color:var(--series);box-shadow:var(--sh2)}
 .pt.empty{border:none;background:transparent}
 .ptrow{display:flex;gap:10px;align-items:center;margin-bottom:10px;flex-wrap:wrap}
 .controls{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px;align-items:center}
 .controls input,.controls select{background:var(--surface);color:var(--ink);border:1px solid var(--border);
-  border-radius:8px;padding:8px 11px;font-size:13.5px;font-family:inherit}
+  border-radius:9px;padding:9px 12px;font-size:13.5px;font-family:inherit;transition:border-color .15s,box-shadow .15s}
+.controls input:focus,.controls select:focus{outline:none;border-color:var(--series);
+  box-shadow:0 0 0 3px var(--series-soft)}
 .controls input[type=search]{min-width:220px;flex:1}
-.count{color:var(--muted);font-size:12.5px;margin-left:auto}
-.tblwrap{overflow-x:auto;border:1px solid var(--border);border-radius:12px;background:var(--surface)}
+.count{color:var(--muted);font-size:12.5px;margin-left:auto;font-weight:500}
+.tblwrap{overflow-x:auto;border:1px solid var(--border);border-radius:14px;background:var(--surface);box-shadow:var(--sh2)}
 table{border-collapse:collapse;width:100%;font-size:13px}
-th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--border);white-space:nowrap}
-th{position:sticky;top:0;background:var(--surface);cursor:pointer;user-select:none;font-weight:600;color:var(--ink2);z-index:1}
-th:hover{color:var(--ink)}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--border);white-space:nowrap}
+th{position:sticky;top:0;background:var(--soft);cursor:pointer;user-select:none;font-weight:600;color:var(--ink2);z-index:1;
+  font-size:12px;letter-spacing:.02em;text-transform:uppercase}
+th:hover{color:var(--series)}
+th.num .sind{margin-left:6px}
+.sind{display:inline-flex;flex-direction:column;gap:2px;margin-left:6px;vertical-align:middle;position:relative;top:-1px}
+.sind i{width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent}
+.sind i.up{border-bottom:5px solid var(--axis)}
+.sind i.dn{border-top:5px solid var(--axis)}
+th.active.asc .sind i.up{border-bottom-color:var(--series)}
+th.active.desc .sind i.dn{border-top-color:var(--series)}
+th.active .sind i.up,th.active .sind i.dn{opacity:.35}
+th.active.asc .sind i.up,th.active.desc .sind i.dn{opacity:1}
+tbody tr:last-child td{border-bottom:none}
 td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 td.path{max-width:300px;overflow:hidden;text-overflow:ellipsis;color:var(--muted);font-size:12px}
-tbody tr{cursor:pointer} tbody tr:hover{background:color-mix(in srgb,var(--series) 8%,transparent)}
-.pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:11.5px;background:var(--series-soft);color:var(--series);font-weight:600}
+tbody tr{cursor:pointer;transition:background .12s} tbody tr:hover{background:var(--series-soft)}
+.pill{display:inline-block;padding:2px 10px;border-radius:999px;font-size:11.5px;background:var(--series-soft);color:var(--brand-3);font-weight:600}
+.pill.fn-pcm{color:var(--fn-pcm)} .pill.fn-ots{color:var(--fn-ots)} .pill.fn-som{color:var(--fn-som)}
+.pill.fn-cand{color:var(--fn-cand)} .pill.fn-other{color:var(--fn-other)}
+.pill.fn-pcm,.pill.fn-ots,.pill.fn-som,.pill.fn-cand,.pill.fn-other{background:color-mix(in srgb,currentColor 15%,transparent)}
+.pager{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:16px}
+.pager #pageInfo{font-size:13px;color:var(--ink2);min-width:120px;text-align:center;font-variant-numeric:tabular-nums}
+.pager .tbtn{padding:5px 12px}
+.pager .tbtn:disabled{opacity:.4;cursor:default}
 .act{color:var(--series);font-weight:600}
-footer{padding:30px 0 60px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--border)}
-code{background:var(--surface);border:1px solid var(--border);border-radius:5px;padding:1px 5px;font-size:12px}
+footer{padding:34px 0 70px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--border);margin-top:20px}
+code{background:var(--soft);border:1px solid var(--border);border-radius:6px;padding:1px 6px;font-size:12px;
+  font-family:ui-monospace,Menlo,Consolas,monospace}
 .load{padding:40px;text-align:center;color:var(--muted)}
 /* modal */
-.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;z-index:50;padding:20px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.5);backdrop-filter:blur(3px);display:none;align-items:center;justify-content:center;z-index:50;padding:20px}
 .modal.open{display:flex}
-.mbox{background:var(--surface);border:1px solid var(--border);border-radius:14px;width:min(720px,100%);max-height:92vh;
-  overflow:auto;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.mbox{background:var(--surface);border:1px solid var(--border);border-radius:16px;width:min(720px,100%);max-height:92vh;
+  overflow:auto;box-shadow:var(--sh5)}
 .mhead{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid var(--border)}
 .mhead h3{margin:0;font-size:17px}
 .mclose{background:none;border:none;color:var(--ink2);font-size:20px;cursor:pointer;line-height:1}
 #viewer3d{width:100%;height:400px;position:relative;background:var(--viewer-bg)}
+#viewer3d canvas,#upViewer canvas{border-radius:0}
 .mmeta{padding:14px 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px 18px;font-size:13px}
 .mmeta div span{color:var(--muted);display:block;font-size:11.5px}
+.mcolors{padding:2px 20px 12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.mcolors .mclabel{font-size:12px;color:var(--muted)}
+.mcchip{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;color:var(--ink2);
+  border:1px solid var(--border);border-radius:999px;padding:2px 4px 2px 9px}
+.mcchip input[type=color]{width:22px;height:22px;border:none;background:none;padding:0;cursor:pointer;border-radius:50%}
+.mcreset{font-size:12px;color:var(--series);cursor:pointer;background:none;border:none;font-family:inherit}
 .mfoot{padding:0 20px 18px;display:flex;gap:10px;flex-wrap:wrap}
-.btn{display:inline-block;background:var(--series);color:#fff;border:none;border-radius:8px;padding:9px 15px;
-  font-size:13.5px;font-family:inherit;cursor:pointer;text-decoration:none}
-.btn.ghost{background:var(--surface);color:var(--ink2);border:1px solid var(--border)}
+.btn{display:inline-block;background:var(--series);color:#fff;border:none;border-radius:9px;padding:10px 17px;
+  font-size:13.5px;font-weight:600;font-family:inherit;cursor:pointer;text-decoration:none;
+  box-shadow:var(--sh1);transition:filter .15s,box-shadow .15s,transform .15s}
+.btn:hover{filter:brightness(1.06);box-shadow:var(--sh2);text-decoration:none}
+.btn:active{transform:translateY(1px)}
+.btn.ghost{background:var(--surface);color:var(--ink2);border:1px solid var(--border);box-shadow:none}
+.btn.ghost:hover{color:var(--series);border-color:var(--series)}
+.btn:disabled{opacity:.5;cursor:default}
+.upform{padding:14px 20px 4px}
+.upform>.upfile{display:block;font-size:13px;color:var(--ink2);margin-bottom:10px}
+.upform input[type=file]{display:block;margin-top:6px;font-size:13px}
+.upcalc{background:var(--plane);border:1px solid var(--border);border-radius:8px;padding:10px 12px;
+  font-size:13px;margin-bottom:12px;font-variant-numeric:tabular-nums;color:var(--ink2)}
+.upcalc b{color:var(--ink)}
+.upgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px 16px;margin-bottom:6px}
+.upgrid label{display:flex;flex-direction:column;gap:4px;font-size:12.5px;color:var(--muted)}
+.upgrid .upwide{grid-column:1/-1}
+.upgrid input,.upgrid select{background:var(--surface);color:var(--ink);border:1px solid var(--border);
+  border-radius:7px;padding:7px 10px;font-size:13.5px;font-family:inherit}
 </style>
 </head>
 <body>
 <div class="topbar">
+  <button class="tbtn" id="uploadBtn" style="display:none" data-i18n="upload"></button>
   <button class="tbtn" id="langBtn">EN</button>
   <button class="tbtn" id="themeBtn">◐</button>
 </div>
 <div class="wrap">
   <header>
-    <div class="eyebrow">Phase-Change Materials · OTS · SOM</div>
-    <h1 data-i18n="title_h">PCM 结构数据库</h1>
-    <p class="sub" data-i18n="subtitle"></p>
+    <div class="hero">
+      <div class="hero-text">
+        <div class="eyebrow">PCM · OTS · SOM</div>
+        <h1 data-i18n="title_h">硫系存储材料数据库</h1>
+        <p class="sub" data-i18n="subtitle"></p>
+      </div>
+      <div class="hero-art" aria-hidden="false">
+<svg viewBox="0 0 600 400" class="concept" role="img" aria-label="Phase-change concept: crystalline melts to liquid and quenches to amorphous">
+<defs>
+  <radialGradient id="gTe" cx="35%" cy="30%" r="75%">
+    <stop offset="0%" stop-color="#c3ccdd"/><stop offset="55%" stop-color="#94a1bb"/><stop offset="100%" stop-color="#6f7d9a"/>
+  </radialGradient>
+  <radialGradient id="gAu" cx="35%" cy="30%" r="75%">
+    <stop offset="0%" stop-color="#f6e4a3"/><stop offset="55%" stop-color="#e6c25c"/><stop offset="100%" stop-color="#cba63f"/>
+  </radialGradient>
+  <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="var(--art-accent)"/>
+  </marker>
+</defs>
+<path d="M34,308 C120,308 128,140 300,128 C472,140 480,308 566,308" fill="none" stroke="var(--art-curve)" stroke-width="2.4" stroke-dasharray="2 7" stroke-linecap="round" opacity="0.85"/>
+<g stroke="var(--art-bond)" stroke-width="3.2" stroke-linecap="round">
+<line x1="60.0" y1="258.0" x2="86.0" y2="258.0"/>
+<line x1="60.0" y1="258.0" x2="60.0" y2="284.0"/>
+<line x1="86.0" y1="258.0" x2="112.0" y2="258.0"/>
+<line x1="86.0" y1="258.0" x2="86.0" y2="284.0"/>
+<line x1="112.0" y1="258.0" x2="138.0" y2="258.0"/>
+<line x1="112.0" y1="258.0" x2="112.0" y2="284.0"/>
+<line x1="138.0" y1="258.0" x2="138.0" y2="284.0"/>
+<line x1="60.0" y1="284.0" x2="86.0" y2="284.0"/>
+<line x1="60.0" y1="284.0" x2="60.0" y2="310.0"/>
+<line x1="86.0" y1="284.0" x2="112.0" y2="284.0"/>
+<line x1="86.0" y1="284.0" x2="86.0" y2="310.0"/>
+<line x1="112.0" y1="284.0" x2="138.0" y2="284.0"/>
+<line x1="112.0" y1="284.0" x2="112.0" y2="310.0"/>
+<line x1="138.0" y1="284.0" x2="138.0" y2="310.0"/>
+<line x1="60.0" y1="310.0" x2="86.0" y2="310.0"/>
+<line x1="86.0" y1="310.0" x2="112.0" y2="310.0"/>
+<line x1="112.0" y1="310.0" x2="138.0" y2="310.0"/>
+<line x1="470.0" y1="268.0" x2="505.0" y2="258.0"/>
+<line x1="505.0" y1="258.0" x2="548.0" y2="272.0"/>
+<line x1="470.0" y1="268.0" x2="462.0" y2="300.0"/>
+<line x1="505.0" y1="258.0" x2="498.0" y2="296.0"/>
+<line x1="548.0" y1="272.0" x2="536.0" y2="302.0"/>
+<line x1="462.0" y1="300.0" x2="498.0" y2="296.0"/>
+<line x1="498.0" y1="296.0" x2="536.0" y2="302.0"/>
+<line x1="462.0" y1="300.0" x2="478.0" y2="332.0"/>
+<line x1="498.0" y1="296.0" x2="514.0" y2="330.0"/>
+<line x1="536.0" y1="302.0" x2="548.0" y2="332.0"/>
+<line x1="478.0" y1="332.0" x2="514.0" y2="330.0"/>
+<line x1="514.0" y1="330.0" x2="548.0" y2="332.0"/>
+<line x1="498.0" y1="296.0" x2="524.0" y2="288.0"/>
+<line x1="524.0" y1="288.0" x2="536.0" y2="302.0"/>
+<line x1="524.0" y1="288.0" x2="548.0" y2="272.0"/>
+<line x1="292.0" y1="112.0" x2="306.0" y2="106.0"/>
+<line x1="292.0" y1="112.0" x2="300.0" y2="122.0"/>
+<line x1="306.0" y1="106.0" x2="314.0" y2="118.0"/>
+<line x1="300.0" y1="122.0" x2="314.0" y2="118.0"/>
+<line x1="300.0" y1="122.0" x2="288.0" y2="124.0"/>
+<line x1="292.0" y1="112.0" x2="288.0" y2="124.0"/>
+</g>
+<circle cx="60.0" cy="258.0" r="9" fill="url(#gTe)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="86.0" cy="258.0" r="9" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="112.0" cy="258.0" r="9" fill="url(#gTe)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="138.0" cy="258.0" r="9" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="60.0" cy="284.0" r="9" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="86.0" cy="284.0" r="9" fill="url(#gTe)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="112.0" cy="284.0" r="9" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="138.0" cy="284.0" r="9" fill="url(#gTe)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="60.0" cy="310.0" r="9" fill="url(#gTe)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="86.0" cy="310.0" r="9" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="112.0" cy="310.0" r="9" fill="url(#gTe)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="138.0" cy="310.0" r="9" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="470.0" cy="268.0" r="9" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="505.0" cy="258.0" r="9" fill="url(#gTe)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="548.0" cy="272.0" r="9" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="462.0" cy="300.0" r="9" fill="url(#gTe)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="498.0" cy="296.0" r="9" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="536.0" cy="302.0" r="9" fill="url(#gTe)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="478.0" cy="332.0" r="9" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="514.0" cy="330.0" r="9" fill="url(#gTe)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="548.0" cy="332.0" r="9" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="524.0" cy="288.0" r="9" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="292.0" cy="112.0" r="7.5" fill="url(#gTe)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="306.0" cy="106.0" r="7.5" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="300.0" cy="122.0" r="7.5" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="314.0" cy="118.0" r="7.5" fill="url(#gTe)" stroke="var(--art-stroke)" stroke-width="1"/>
+<circle cx="288.0" cy="124.0" r="7.5" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+<!-- Melt / Quench arrows along the barrier -->
+<path d="M150,300 C150,215 200,168 268,140" fill="none" stroke="var(--art-accent)" stroke-width="2.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M332,140 C400,168 450,215 450,300" fill="none" stroke="var(--art-accent)" stroke-width="2.6" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="150" y="205" text-anchor="middle" class="ct-a">Melt</text>
+<text x="452" y="205" text-anchor="middle" class="ct-a">Quench</text>
+<!-- state labels -->
+<text x="300" y="80" text-anchor="middle" class="ct-h">Liquid</text>
+<text x="99" y="352" text-anchor="middle" class="ct-h">Crystalline</text>
+<text x="99" y="372" text-anchor="middle" class="ct-s">&#8216;1&#8217; bit</text>
+<text x="509" y="374" text-anchor="middle" class="ct-h">Amorphous</text>
+<text x="509" y="394" text-anchor="middle" class="ct-s">&#8216;0&#8217; bit</text>
+<!-- legend -->
+<g class="lg">
+  <circle cx="382" cy="44" r="7" fill="url(#gTe)" stroke="var(--art-stroke)" stroke-width="1"/>
+  <text x="394" y="48" class="ct-s">Te</text>
+  <circle cx="452" cy="44" r="7" fill="url(#gAu)" stroke="var(--art-stroke)" stroke-width="1"/>
+  <text x="464" y="48" class="ct-s">Ge / Sb</text>
+</g>
+</svg>
+      </div>
+    </div>
+    <div class="tiles" id="tiles"></div>
   </header>
-
-  <div class="tiles" id="tiles"></div>
 
   <section>
     <h2 data-i18n="overview"></h2>
     <p class="hint" data-i18n="overview_hint"></p>
     <div class="charts">
       <div class="card"><h3 data-i18n="chart_sys"></h3><svg id="sysChart"></svg></div>
-      <div class="card"><h3 data-i18n="chart_natom"></h3><svg id="natomChart"></svg></div>
-      <div class="card full"><h3 data-i18n="chart_dens"></h3><svg id="densChart"></svg></div>
+      <div class="card"><h3 data-i18n="chart_elem"></h3><svg id="elemChart"></svg></div>
     </div>
   </section>
 
@@ -140,21 +350,30 @@ code{background:var(--surface);border:1px solid var(--border);border-radius:5px;
       <input type="search" id="q" data-i18n-ph="search_ph">
       <select id="sysF"></select>
       <select id="tempF"></select>
+      <select id="funcF"></select>
       <span class="count" id="shown"></span>
     </div>
     <div class="tblwrap"><table id="tbl">
       <thead><tr>
-        <th data-k="formula" data-i18n="c_formula"></th>
-        <th data-k="system" data-i18n="c_system"></th>
-        <th data-k="phase" data-i18n="c_phase"></th>
-        <th data-k="temperature" data-i18n="c_temp"></th>
-        <th class="num" data-k="natoms" data-i18n="c_natoms"></th>
-        <th class="num" data-k="density" data-i18n="c_density"></th>
-        <th data-k="source_frame" data-i18n="c_frame"></th>
+        <th data-k="system"><span data-i18n="c_system"></span></th>
+        <th data-k="formula"><span data-i18n="c_formula"></span></th>
+        <th data-k="phase"><span data-i18n="c_phase"></span></th>
+        <th data-k="functionality"><span data-i18n="c_func"></span></th>
+        <th data-k="temperature"><span data-i18n="c_temp"></span></th>
+        <th class="num" data-k="natoms"><span data-i18n="c_natoms"></span></th>
+        <th class="num" data-k="density"><span data-i18n="c_density"></span></th>
+        <th data-k="contributor"><span data-i18n="c_contributor"></span></th>
         <th data-i18n="c_view"></th>
       </tr></thead>
-      <tbody id="tbody"><tr><td colspan="8" class="load">…</td></tr></tbody>
+      <tbody id="tbody"><tr><td colspan="9" class="load">…</td></tr></tbody>
     </table></div>
+    <div class="pager" id="pager">
+      <button class="tbtn" id="firstPage">«</button>
+      <button class="tbtn" id="prevPage">‹</button>
+      <span id="pageInfo"></span>
+      <button class="tbtn" id="nextPage">›</button>
+      <button class="tbtn" id="lastPage">»</button>
+    </div>
   </section>
 
   <footer><span data-i18n="footer"></span></footer>
@@ -162,11 +381,37 @@ code{background:var(--surface);border:1px solid var(--border);border-radius:5px;
 
 <div class="tt" id="tt"></div>
 
+<div class="modal" id="upModal">
+  <div class="mbox">
+    <div class="mhead"><h3 data-i18n="up_title"></h3><button class="mclose" id="upClose">✕</button></div>
+    <div id="upViewer" style="width:100%;height:280px;background:var(--viewer-bg)"></div>
+    <div class="upform">
+      <label class="upfile"><span data-i18n="up_file"></span>
+        <input type="file" id="upFile"></label>
+      <div class="upcalc" id="upCalc"><span data-i18n="up_pick"></span></div>
+      <div class="upgrid">
+        <label><span data-i18n="c_phase"></span>
+          <select id="upPhase"><option value="amorphous">amorphous</option><option value="liquid">liquid</option><option value="crystalline">crystalline</option></select></label>
+        <label><span data-i18n="up_func"></span>
+          <select id="upFunc"><option value="auto" data-i18n="up_func_auto"></option><option value="PCM">PCM</option><option value="OTS">OTS</option><option value="SOM">SOM</option><option value="PCM candidates">PCM candidates</option><option value="Others">Others</option></select></label>
+        <label><span data-i18n="up_temp"></span><input id="upTemp" type="number" value="300"></label>
+        <label><span data-i18n="c_contributor"></span><input id="upContrib" placeholder="Name"></label>
+        <label><span data-i18n="up_dest"></span><input id="upDest" placeholder="GeTe/model_01"></label>
+        <label class="upwide"><span data-i18n="up_src"></span><input id="upSrc" placeholder="(optional)"></label>
+      </div>
+      <div class="mfoot"><button class="btn" id="upSubmit" data-i18n="up_submit"></button>
+        <button class="btn ghost" id="upCancel" data-i18n="up_cancel"></button>
+        <span id="upStatus" style="font-size:13px;align-self:center"></span></div>
+    </div>
+  </div>
+</div>
+
 <div class="modal" id="modal">
   <div class="mbox">
     <div class="mhead"><h3 id="mTitle"></h3><button class="mclose" id="mClose">✕</button></div>
     <div id="viewer3d"></div>
     <div class="mmeta" id="mMeta"></div>
+    <div class="mcolors" id="mColors"></div>
     <div class="mfoot">
       <a class="btn" id="mDownload" download><span data-i18n="dl_poscar"></span></a>
       <button class="btn ghost" id="mStyle" data-i18n="toggle_style"></button>
@@ -177,29 +422,41 @@ code{background:var(--surface);border:1px solid var(--border);border-radius:5px;
 <script>
 /* ---------- i18n ---------- */
 const I18N={
- zh:{title:'PCM 结构数据库',title_h:'PCM 结构数据库',
-   subtitle:'相变材料/OTS/SOM 的第一性原理非晶结构库。每条记录为一个代表性非晶模型，来自课题组 HPC 熔淬-优化流程，可按成分、元素、原子数、密度检索，支持 3D 预览与下载。',
-   overview:'数据概览',overview_hint:'悬停查看数值。当前库内相态均为非晶（amorphous）。',
-   chart_sys:'材料体系 Top 15（按结构数）',chart_natom:'体系原子数分布',chart_dens:'数密度分布 (Atom/Å³)',
-   explore:'结构浏览',pt_hint:'点击元素周期表筛选（含全部所选元素的结构）；再点搜索/下拉细化；点表格行可 3D 预览。',
+ zh:{title:'硫系存储材料数据库',title_h:'硫系存储材料数据库',
+   subtitle:'面向硫系存储材料——相变存储器（phase-change memory, PCM）、奥弗辛阈值开关（ovonic threshold switching, OTS）与选通器存储器（selector-only memory, SOM）——的第一性原理结构数据库，涵盖非晶与晶态模型：非晶来自课题组 HPC 熔淬-优化流程，晶态来自 Materials Project。可按成分、元素、原子数、密度检索，支持 3D 预览与下载。',
+   overview:'数据概览',overview_hint:'悬停查看数值。库内含非晶与晶态结构。',
+   chart_sys:'材料体系 Top 15（按结构数）',chart_elem:'元素 Top 15（含该元素的结构数）',
+   explore:'结构浏览',pt_hint:'点击元素周期表筛选（含全部所选元素的结构）；元素底色越深=含该元素的结构越多；点表格行可 3D 预览。',
    clear:'清除元素',search_ph:'搜索化学式 / 体系 / 来源路径…',
-   c_formula:'化学式',c_system:'体系',c_phase:'相',c_temp:'温度',c_natoms:'原子数',c_density:'数密度',c_frame:'代表帧',c_view:'预览',
-   view:'▶ 3D',t_total:'结构总数',t_sys:'材料体系',t_natoms:'原子数范围',t_dens:'数密度中位',t_phase:'相态',phase_amor:'非晶',
-   shown:(a,b)=>`显示 ${a} / ${b}`,sel_none:'未选元素',sel_pre:'已选：',
-   dl_poscar:'⬇ 下载 POSCAR',toggle_style:'切换显示（球棍/填充）',
+   c_formula:'化学式',c_system:'体系',c_phase:'相',c_func:'功能性',c_temp:'温度',c_natoms:'原子数',c_density:'数密度',c_contributor:'贡献者',c_view:'预览',
+   view:'▶ 3D',t_total:'结构总数',t_sys:'材料体系',t_natoms:'原子数范围',t_dens:'数密度中位',t_phase:'相态',phase_amor:'非晶',phase_cryst:'晶态',phase_liq:'液态',
+   shown:(a,b)=>`显示 ${a} / ${b}`,page:(a,b)=>`第 ${a} / ${b} 页`,sel_none:'未选元素',sel_pre:'已选：',
+   dl_poscar:'⬇ 下载 POSCAR',toggle_style:'切换显示（球棍/填充）',elem_colors:'元素颜色',reset:'↺ 重置',
+   upload:'⬆ 上传数据',up_title:'上传结构入库',up_file:'结构文件 (POSCAR/CONTCAR)',
+   up_pick:'选择文件后自动计算化学式 / 原子数 / 密度',up_temp:'温度 (K)',up_dest:'存放路径',
+   up_func:'功能性',up_func_auto:'自动识别',
+   up_src:'HPC 来源 (可选)',up_submit:'提交入库',up_cancel:'关闭',
+   up_ok:'✓ 已入库',up_fail:'✗ 失败: ',up_calc:(f,n,d)=>`化学式 <b>${f}</b> · 原子数 <b>${n}</b> · 数密度 <b>${d}</b> Atom/Å³`,
+   up_needfields:'请填写贡献者与存放路径',up_parsefail:'结构文件解析失败',
    m_natoms:'原子数',m_dens:'数密度',m_temp:'温度',m_phase:'相',m_contrib:'贡献者',m_src:'HPC 来源',
    footer:'数据与代码托管于本仓库。构建主库 python scripts/build_asedb.py；查询 ase db data/pcm.db；贡献 python scripts/add_structure.py（详见 README）。',
    noload:'无法加载 data.json —— 请通过 HTTP 或 GitHub Pages 访问，而非直接双击打开。'},
- en:{title:'PCM Structure Database',title_h:'PCM Structure Database',
-   subtitle:'A first-principles amorphous structure database for phase-change / OTS / SOM materials. Each record is a representative amorphous model from the group’s HPC melt-quench workflow. Search by composition, element, atom count and density; preview in 3D and download.',
-   overview:'Overview',overview_hint:'Hover for values. All structures are currently amorphous.',
-   chart_sys:'Top 15 material systems (by count)',chart_natom:'Atom-count distribution',chart_dens:'Number-density distribution (Atom/Å³)',
-   explore:'Explore structures',pt_hint:'Click the periodic table to filter (structures containing ALL selected elements); refine with search/dropdowns; click a row for 3D preview.',
+ en:{title:'Chalcogenide Memory Materials Database',title_h:'Chalcogenide Memory Materials Database',
+   subtitle:'A first-principles structure database of chalcogenide memory materials — phase-change memory (PCM), ovonic threshold switching (OTS), and selector-only memory (SOM) — spanning amorphous and crystalline models: amorphous from the group’s HPC melt-quench workflow, crystalline from the Materials Project. Search by composition, element, atom count and density; preview in 3D and download.',
+   overview:'Overview',overview_hint:'Hover for values. The library contains amorphous and crystalline structures.',
+   chart_sys:'Top 15 material systems (by count)',chart_elem:'Top 15 elements (structures containing it)',
+   explore:'Explore structures',pt_hint:'Click the periodic table to filter (structures containing ALL selected elements); darker cell = more structures with that element; click a row for 3D preview.',
    clear:'Clear elements',search_ph:'Search formula / system / source path…',
-   c_formula:'Formula',c_system:'System',c_phase:'Phase',c_temp:'Temp',c_natoms:'Atoms',c_density:'Density',c_frame:'Frame',c_view:'View',
-   view:'▶ 3D',t_total:'Structures',t_sys:'Material systems',t_natoms:'Atom-count range',t_dens:'Median density',t_phase:'Phase',phase_amor:'amorphous',
-   shown:(a,b)=>`Showing ${a} / ${b}`,sel_none:'No elements selected',sel_pre:'Selected: ',
-   dl_poscar:'⬇ Download POSCAR',toggle_style:'Toggle style (ball-stick/space-fill)',
+   c_formula:'Formula',c_system:'System',c_phase:'Phase',c_func:'Function',c_temp:'Temp',c_natoms:'Atoms',c_density:'Density',c_contributor:'Contributor',c_view:'View',
+   view:'▶ 3D',t_total:'Structures',t_sys:'Material systems',t_natoms:'Atom-count range',t_dens:'Median density',t_phase:'Phase',phase_amor:'amorph.',phase_cryst:'cryst.',phase_liq:'liquid',
+   shown:(a,b)=>`Showing ${a} / ${b}`,page:(a,b)=>`Page ${a} / ${b}`,sel_none:'No elements selected',sel_pre:'Selected: ',
+   dl_poscar:'⬇ Download POSCAR',toggle_style:'Toggle style (ball-stick/space-fill)',elem_colors:'Element colors',reset:'↺ Reset',
+   upload:'⬆ Upload',up_title:'Upload structure',up_file:'Structure file (POSCAR/CONTCAR)',
+   up_pick:'Pick a file — formula / atoms / density auto-computed',up_temp:'Temperature (K)',up_dest:'Store path',
+   up_func:'Function',up_func_auto:'Auto-detect',
+   up_src:'HPC source (optional)',up_submit:'Submit',up_cancel:'Close',
+   up_ok:'✓ Added',up_fail:'✗ Failed: ',up_calc:(f,n,d)=>`Formula <b>${f}</b> · atoms <b>${n}</b> · density <b>${d}</b> Atom/Å³`,
+   up_needfields:'Contributor and store path are required',up_parsefail:'Failed to parse structure',
    m_natoms:'Atoms',m_dens:'Density',m_temp:'Temperature',m_phase:'Phase',m_contrib:'Contributor',m_src:'HPC source',
    footer:'Data and code live in this repository. Build the main DB: python scripts/build_asedb.py; query: ase db data/pcm.db; contribute: python scripts/add_structure.py (see README).',
    noload:'Cannot load data.json — open via HTTP or GitHub Pages, not by double-clicking the file.'}
@@ -212,7 +469,22 @@ function applyI18n(){
   document.querySelectorAll('[data-i18n]').forEach(e=>e.textContent=t(e.dataset.i18n));
   document.querySelectorAll('[data-i18n-ph]').forEach(e=>e.placeholder=t(e.dataset.i18nPh));
   document.getElementById('langBtn').textContent=LANG==='zh'?'EN':'中';
-  if(DATA){buildTiles();renderCharts();renderTable();renderSelEls();}
+  if(DATA){renderTiles();renderCharts();renderTable();renderSelEls();}
+}
+function renderTiles(){
+  const box=document.getElementById('tiles');if(!box||!DATA)return;
+  const na=DATA.map(r=>r.natoms);
+  const PL={amorphous:'phase_amor',crystalline:'phase_cryst',liquid:'phase_liq'};
+  const order=['amorphous','liquid','crystalline'];
+  const phases=[...new Set(DATA.map(r=>r.phase))].sort((a,b)=>order.indexOf(a)-order.indexOf(b));
+  const phaseVal=phases.map(p=>t(PL[p]||'')||p).join(' · ');
+  const items=[
+    [DATA.length,t('t_total'),''],
+    [new Set(DATA.map(r=>r.system)).size,t('t_sys'),''],
+    [`${Math.min(...na)}–${Math.max(...na)}`,t('t_natoms'),''],
+    [phaseVal,t('t_phase'),' tv'],
+  ];
+  box.innerHTML=items.map(([v,l,c])=>`<div class="tile"><div class="v${c}">${v}</div><div class="l">${l}</div></div>`).join('');
 }
 
 /* ---------- tooltip / theme ---------- */
@@ -234,15 +506,22 @@ document.getElementById('langBtn').onclick=()=>{LANG=LANG==='zh'?'en':'zh';local
 /* ---------- svg helpers ---------- */
 const NS='http://www.w3.org/2000/svg';
 function el(n,a){const x=document.createElementNS(NS,n);for(const k in a)x.setAttribute(k,a[k]);return x;}
+function debounce(fn,ms){let h;return(...a)=>{clearTimeout(h);h=setTimeout(()=>fn(...a),ms);};}
 let DATA=null;
 
 function barChart(svg,rows,label,value){
   svg.innerHTML='';const W=svg.clientWidth||520,rh=26,padL=120,padR=48,padT=6;
   const H=rows.length*rh+padT+8;svg.setAttribute('viewBox',`0 0 ${W} ${H}`);svg.style.height=H+'px';
   const max=Math.max(...rows.map(value))||1,sc=(W-padL-padR)/max;
+  const gid=(svg.id||'bc')+'-grad';                 // 玫瑰红→蓝 横向渐变（跨绘图区，条越长越偏蓝）
+  const defs=el('defs',{}),lg=el('linearGradient',{id:gid,gradientUnits:'userSpaceOnUse',x1:padL,y1:0,x2:W-padR,y2:0});
+  lg.appendChild(el('stop',{offset:'0%','stop-color':'#d6336c'}));
+  lg.appendChild(el('stop',{offset:'55%','stop-color':'#8f4fd0'}));
+  lg.appendChild(el('stop',{offset:'100%','stop-color':'#2f74dd'}));
+  defs.appendChild(lg);svg.appendChild(defs);
   rows.forEach((r,i)=>{const y=padT+i*rh,bw=Math.max(2,value(r)*sc);
     svg.appendChild(el('text',{x:padL-8,y:y+rh/2+3,'text-anchor':'end'})).textContent=label(r);
-    const b=el('rect',{x:padL,y:y+4,width:bw,height:rh-11,rx:4,class:'bar'});
+    const b=el('rect',{x:padL,y:y+4,width:bw,height:rh-11,rx:4,class:'gbar',fill:`url(#${gid})`});
     b.addEventListener('mousemove',e=>showTip(e,`<b>${label(r)}</b><br>${value(r)}`));b.addEventListener('mouseleave',hideTip);
     svg.appendChild(b);svg.appendChild(el('text',{x:padL+bw+6,y:y+rh/2+3})).textContent=value(r);});
 }
@@ -264,12 +543,16 @@ function histogram(svg,vals,fmt,unit){
   svg.appendChild(el('line',{x1:padL,y1:padT+plotH,x2:W-padR,y2:padT+plotH,class:'axis-line'}));
   for(let tck=0;tck<=5;tck++){svg.appendChild(el('text',{x:padL+plotW*tck/5,y:H-padB+18,'text-anchor':'middle'})).textContent=fmt(min+span*tck/5);}
 }
+function elementCounts(){
+  const c={};DATA.forEach(r=>r.elements.forEach(e=>c[e]=(c[e]||0)+1));return c;
+}
 function renderCharts(){
   const bySys={};DATA.forEach(r=>bySys[r.system]=(bySys[r.system]||0)+1);
   const top=Object.entries(bySys).sort((a,b)=>b[1]-a[1]).slice(0,15).map(([k,v])=>({k,v}));
   barChart(document.getElementById('sysChart'),top,r=>r.k,r=>r.v);
-  histogram(document.getElementById('natomChart'),DATA.map(r=>r.natoms),v=>Math.round(v),'atoms');
-  histogram(document.getElementById('densChart'),DATA.map(r=>r.density),v=>v.toFixed(3),'');
+  const ec=elementCounts();
+  const els=Object.entries(ec).sort((a,b)=>b[1]-a[1]).slice(0,15).map(([k,v])=>({k,v}));
+  barChart(document.getElementById('elemChart'),els,r=>r.k,r=>r.v);
 }
 
 /* ---------- periodic table ---------- */
@@ -283,14 +566,27 @@ const PT=[
  ['Fr','Ra','Ac','Rf','Db','Sg','Bh','Hs','Mt','Ds','Rg','Cn','Nh','Fl','Mc','Lv','Ts','Og']
 ];
 let SEL=new Set(), AVAIL=new Set();
+function heatColor(tt){                  // 蓝色顺序色阶 浅→深，映射结构数(对数)
+  const lo=[224,236,252],hi=[30,91,184]; // #e0ecfc → #1e5bb8
+  const c=lo.map((l,i)=>Math.round(l+(hi[i]-l)*tt));
+  return `rgb(${c[0]},${c[1]},${c[2]})`;
+}
 function buildPT(){
   const g=document.getElementById('ptable');g.innerHTML='';
+  const ec=elementCounts();const maxc=Math.max(1,...Object.values(ec));
   PT.forEach(row=>row.forEach(sym=>{
     if(!sym){g.appendChild(Object.assign(document.createElement('div'),{className:'pt empty'}));return;}
     const d=document.createElement('div');d.textContent=sym;
-    if(AVAIL.has(sym)){d.className='pt on';d.onclick=()=>{if(SEL.has(sym))SEL.delete(sym);else SEL.add(sym);
-      d.classList.toggle('sel');renderSelEls();renderTable();};}
-    else d.className='pt';
+    if(AVAIL.has(sym)){
+      const cnt=ec[sym]||0, tv=Math.log(cnt+1)/Math.log(maxc+1);
+      d.className='pt on'+(SEL.has(sym)?' sel':'');
+      d.style.background=heatColor(tv);
+      d.style.color=tv>0.5?'#fff':'#0b0b0b';
+      d.addEventListener('mousemove',e=>showTip(e,`<b>${sym}</b> · ${cnt}`));
+      d.addEventListener('mouseleave',hideTip);
+      d.onclick=()=>{const on=SEL.has(sym);if(on)SEL.delete(sym);else SEL.add(sym);
+        d.classList.toggle('sel');renderSelEls();curPage=1;renderTable();};
+    } else d.className='pt';
     g.appendChild(d);
   }));
 }
@@ -298,16 +594,34 @@ function renderSelEls(){
   const s=document.getElementById('selEls');
   s.textContent=SEL.size?t('sel_pre')+[...SEL].join(' · '):t('sel_none');
 }
-document.getElementById('clearEls').onclick=()=>{SEL.clear();document.querySelectorAll('.pt.sel').forEach(e=>e.classList.remove('sel'));renderSelEls();renderTable();};
+document.getElementById('clearEls').onclick=()=>{SEL.clear();document.querySelectorAll('.pt.sel').forEach(e=>e.classList.remove('sel'));renderSelEls();curPage=1;renderTable();};
 
-/* ---------- table ---------- */
-let sortK='natoms',sortDir=-1;
+/* ---------- table + pagination ---------- */
+let sortK='natoms',sortDir=-1,curPage=1;
+const PAGESIZE=20;
+const FN_ORDER=['PCM','OTS','SOM','PCM candidates','Others'];
+const FN_CLASS={'PCM':'fn-pcm','OTS':'fn-ots','SOM':'fn-som','PCM candidates':'fn-cand','Others':'fn-other'};
+const FN_LABEL={zh:{'PCM candidates':'PCM 候选','Others':'其他'},en:{'PCM candidates':'PCM candidate'}};
+function fnClass(f){return FN_CLASS[f]||'fn-other';}
+function fnLabel(f){return (FN_LABEL[LANG]||{})[f]||f;}
+function normFormula(f){                 // 组分归一化为百分比：元素串(p%:p%:…)，保持元素出现顺序
+  const c={};let n=0;
+  for(const m of String(f).matchAll(/([A-Z][a-z]?)(\d*)/g)){
+    if(!m[1])continue;const k=m[2]?+m[2]:1;c[m[1]]=(c[m[1]]||0)+k;n+=k;
+  }
+  if(!n)return f;
+  const els=Object.keys(c);
+  const sub=els.map(e=>`${e}<sub>${(c[e]/n).toFixed(2)}</sub>`).join('');
+  const pct=els.map(e=>Math.round(c[e]/n*100)+'%').join(':');
+  return `${sub}(${pct})`;
+}
 function filtered(){
   const q=document.getElementById('q').value.toLowerCase().trim();
-  const sf=document.getElementById('sysF').value,tf=document.getElementById('tempF').value;
+  const sf=document.getElementById('sysF').value,tf=document.getElementById('tempF').value,ff=document.getElementById('funcF').value;
   return DATA.filter(r=>{
     if(sf&&r.system!==sf)return false;
     if(tf&&r.temperature!==tf)return false;
+    if(ff&&(r.functionality||'Others')!==ff)return false;
     if(SEL.size&&![...SEL].every(e=>r.elements.includes(e)))return false;
     if(q&&!(r.formula.toLowerCase().includes(q)||r.system.toLowerCase().includes(q)||r.path.toLowerCase().includes(q)))return false;
     return true;
@@ -316,21 +630,32 @@ function filtered(){
 function renderTable(){
   let rows=filtered();
   rows.sort((a,b)=>{let x=a[sortK],y=b[sortK];return typeof x==='string'?sortDir*x.localeCompare(y):sortDir*(x-y);});
+  const total=rows.length, pages=Math.max(1,Math.ceil(total/PAGESIZE));
+  if(curPage>pages)curPage=pages; if(curPage<1)curPage=1;
+  const start=(curPage-1)*PAGESIZE, slice=rows.slice(start,start+PAGESIZE);
   const tb=document.getElementById('tbody');tb.innerHTML='';const fr=document.createDocumentFragment();
-  rows.forEach(r=>{const tr=document.createElement('tr');tr.onclick=()=>openViewer(r);
-    tr.innerHTML=`<td>${r.formula}</td><td>${r.system}</td><td><span class="pill">${r.phase}</span></td>`+
+  slice.forEach(r=>{const tr=document.createElement('tr');tr.onclick=()=>openViewer(r);
+    const fn=r.functionality||'Others';
+    tr.innerHTML=`<td>${r.system}</td><td title="${r.formula}">${normFormula(r.formula)}</td><td><span class="pill">${r.phase}</span></td>`+
+      `<td><span class="pill ${fnClass(fn)}">${fnLabel(fn)}</span></td>`+
       `<td>${r.temperature}</td><td class="num">${r.natoms}</td><td class="num">${r.density.toFixed(4)}</td>`+
-      `<td>${r.source_frame}</td><td class="act">${t('view')}</td>`;fr.appendChild(tr);});
+      `<td>${r.contributor}</td><td class="act">${t('view')}</td>`;fr.appendChild(tr);});
   tb.appendChild(fr);
-  document.getElementById('shown').textContent=t('shown')(rows.length,DATA.length);
+  document.getElementById('shown').textContent=t('shown')(total,DATA.length);
+  document.getElementById('pageInfo').textContent=t('page')(curPage,pages);
+  document.getElementById('firstPage').disabled=document.getElementById('prevPage').disabled=(curPage<=1);
+  document.getElementById('nextPage').disabled=document.getElementById('lastPage').disabled=(curPage>=pages);
+  updateSortIndicators();
 }
-function buildTiles(){
-  const ns=DATA.map(r=>r.natoms),ds=DATA.map(r=>r.density).slice().sort((a,b)=>a-b);
-  const sys=new Set(DATA.map(r=>r.system));
-  const tiles=[[t('t_total'),DATA.length],[t('t_sys'),sys.size],[t('t_natoms'),`${Math.min(...ns)}–${Math.max(...ns)}`],
-    [t('t_dens'),ds[ds.length>>1].toFixed(3)],[t('t_phase'),t('phase_amor')]];
-  document.getElementById('tiles').innerHTML=tiles.map(([l,v])=>`<div class="tile"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+function updateSortIndicators(){
+  document.querySelectorAll('th[data-k]').forEach(th=>{
+    const on=th.dataset.k===sortK;
+    th.classList.toggle('active',on);
+    th.classList.toggle('asc',on&&sortDir===1);
+    th.classList.toggle('desc',on&&sortDir===-1);
+  });
 }
+function gotoPage(p){curPage=p;renderTable();document.querySelector('.tblwrap').scrollIntoView({block:'nearest'});}
 function initFilters(){
   const sc={},temps=new Set();DATA.forEach(r=>{sc[r.system]=(sc[r.system]||0)+1;temps.add(r.temperature);r.elements.forEach(e=>AVAIL.add(e));});
   const sysF=document.getElementById('sysF');sysF.innerHTML='';
@@ -339,8 +664,19 @@ function initFilters(){
   const tempF=document.getElementById('tempF');tempF.innerHTML='';
   tempF.appendChild(Object.assign(document.createElement('option'),{value:'',textContent:LANG==='zh'?'全部温度':'All temps'}));
   [...temps].sort().forEach(x=>tempF.appendChild(Object.assign(document.createElement('option'),{value:x,textContent:x})));
-  ['q','sysF','tempF'].forEach(id=>document.getElementById(id).addEventListener('input',renderTable));
-  document.querySelectorAll('th[data-k]').forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortDir=(sortK===k)?-sortDir:1;sortK=k;renderTable();});
+  const fc={};DATA.forEach(r=>{const f=r.functionality||'Others';fc[f]=(fc[f]||0)+1;});
+  const funcF=document.getElementById('funcF');funcF.innerHTML='';
+  funcF.appendChild(Object.assign(document.createElement('option'),{value:'',textContent:LANG==='zh'?'全部功能性':'All functions'}));
+  FN_ORDER.filter(f=>fc[f]).forEach(f=>funcF.appendChild(Object.assign(document.createElement('option'),{value:f,textContent:`${fnLabel(f)} (${fc[f]})`})));
+  ['q','sysF','tempF','funcF'].forEach(id=>document.getElementById(id).addEventListener('input',()=>{curPage=1;renderTable();}));
+  document.querySelectorAll('th[data-k]').forEach(th=>{
+    if(!th.querySelector('.sind'))th.insertAdjacentHTML('beforeend','<span class="sind"><i class="up"></i><i class="dn"></i></span>');
+    th.onclick=()=>{const k=th.dataset.k;sortDir=(sortK===k)?-sortDir:1;sortK=k;curPage=1;renderTable();};
+  });
+  document.getElementById('firstPage').onclick=()=>gotoPage(1);
+  document.getElementById('prevPage').onclick=()=>gotoPage(curPage-1);
+  document.getElementById('nextPage').onclick=()=>gotoPage(curPage+1);
+  document.getElementById('lastPage').onclick=()=>gotoPage(Math.ceil(filtered().length/PAGESIZE));
 }
 
 /* ---------- 3D viewer (Three.js, pretty-lattice aesthetic) ---------- */
@@ -364,75 +700,90 @@ function parsePoscar(txt){
     at.push({e:per[i],x,y,z});}
   return {a,b,c,at};
 }
-function elColor(el){return (VIZ&&VIZ.colors[el])||'#c8a2c8';}
+let COLOR_OVERRIDE={};try{COLOR_OVERRIDE=JSON.parse(localStorage.getItem('pcm_colors')||'{}');}catch(e){}
+function elColor(el){return COLOR_OVERRIDE[el]||(VIZ&&VIZ.colors[el])||'#c8a2c8';}
 function elRad(el,model){const r=VIZ&&VIZ.radii[el];return r?(r[model]||1):(model==='vdw'?1.8:1.2);}
 
-function disposeThree(){
-  if(!three)return;
-  cancelAnimationFrame(three.raf);
-  three.renderer.dispose();
-  three.host.innerHTML='';
-  three=null;
+function disposeViewer(st){
+  if(!st)return;cancelAnimationFrame(st.raf);st.renderer.dispose();st.host.innerHTML='';
 }
-function buildStructure(){
-  // 清掉旧的原子/键/盒子组，保留灯光/相机
-  if(three.group){three.scene.remove(three.group);}
-  const g=new THREE.Group();three.group=g;three.scene.add(g);
-  const st=curStruct;
-  const mat=new THREE.MeshStandardMaterial({metalness:VIZ.material.metalness,roughness:VIZ.material.roughness});
-  // 原子（InstancedMesh，逐实例颜色+半径）
+function buildGroup(st){                       // 依据 st.struct + st.style 建/重建原子键盒
+  if(st.group)st.scene.remove(st.group);
+  const g=new THREE.Group();st.group=g;st.scene.add(g);
+  const S=st.struct;
+  const flat=VIZ.material.type==='basic';
+  const mat=flat?new THREE.MeshBasicMaterial({})
+                :new THREE.MeshStandardMaterial({metalness:VIZ.material.metalness,roughness:VIZ.material.roughness});
   const sph=new THREE.SphereGeometry(1,24,18);
-  const im=new THREE.InstancedMesh(sph,mat,st.at.length);
+  const im=new THREE.InstancedMesh(sph,mat,S.at.length);
   const dummy=new THREE.Object3D();const col=new THREE.Color();
-  const model=curStyle==='sf'?'vdw':'atomic';
-  const scale=curStyle==='sf'?1.0:0.42;
-  st.at.forEach((p,i)=>{
-    const rad=elRad(p.e,model)*scale;
+  const model=st.style==='sf'?'vdw':'atomic';const scale=st.style==='sf'?1.0:0.42;
+  S.at.forEach((p,i)=>{const rad=elRad(p.e,model)*scale;
     dummy.position.set(p.x,p.y,p.z);dummy.scale.setScalar(rad);dummy.updateMatrix();
-    im.setMatrixAt(i,dummy.matrix);
-    im.setColorAt(i,col.set(elColor(p.e)));
-  });
-  im.instanceMatrix.needsUpdate=true;if(im.instanceColor)im.instanceColor.needsUpdate=true;
-  g.add(im);
-  // 键（球棍模式，按半径和判定，直接距离）
-  if(curStyle==='bs'){
-    const bonds=[];const N=st.at.length;const BF=1.15;
-    for(let i=0;i<N;i++)for(let j=i+1;j<N;j++){
-      const A=st.at[i],B=st.at[j];
+    im.setMatrixAt(i,dummy.matrix);im.setColorAt(i,col.set(elColor(p.e)));});
+  im.instanceMatrix.needsUpdate=true;if(im.instanceColor)im.instanceColor.needsUpdate=true;g.add(im);
+  if(st.style==='bs'){
+    const bonds=[];const N=S.at.length;const BF=1.15;
+    for(let i=0;i<N;i++)for(let j=i+1;j<N;j++){const A=S.at[i],B=S.at[j];
       const dx=A.x-B.x,dy=A.y-B.y,dz=A.z-B.z;const d2=dx*dx+dy*dy+dz*dz;
       const cut=(elRad(A.e,'atomic')+elRad(B.e,'atomic'))*BF;
-      if(d2<cut*cut&&d2>0.64)bonds.push([i,j]);
-    }
+      if(d2<cut*cut&&d2>0.64)bonds.push([i,j]);}
     if(bonds.length){
+      // bicolor：每根键分两半，各用两端原子的元素色
       const cyl=new THREE.CylinderGeometry(0.13,0.13,1,10,1,true);
-      const bmat=new THREE.MeshStandardMaterial({color:0x9a9a9a,metalness:0.1,roughness:0.7});
-      const bm=new THREE.InstancedMesh(cyl,bmat,bonds.length);
-      const up=new THREE.Vector3(0,1,0);const q=new THREE.Quaternion();
-      const va=new THREE.Vector3(),vb=new THREE.Vector3(),dir=new THREE.Vector3();
-      bonds.forEach(([i,j],k)=>{
-        const A=st.at[i],B=st.at[j];va.set(A.x,A.y,A.z);vb.set(B.x,B.y,B.z);
-        dir.subVectors(vb,va);const len=dir.length();
-        dummy.position.copy(va).addScaledVector(dir,0.5);
-        q.setFromUnitVectors(up,dir.clone().normalize());dummy.quaternion.copy(q);
-        dummy.scale.set(1,len,1);dummy.updateMatrix();bm.setMatrixAt(k,dummy.matrix);
-      });
-      bm.instanceMatrix.needsUpdate=true;g.add(bm);
-    }
+      const bmat=flat?new THREE.MeshBasicMaterial({}):new THREE.MeshStandardMaterial({metalness:0.1,roughness:0.7});
+      const bm=new THREE.InstancedMesh(cyl,bmat,bonds.length*2);
+      const up=new THREE.Vector3(0,1,0),q=new THREE.Quaternion();
+      const va=new THREE.Vector3(),vb=new THREE.Vector3(),dir=new THREE.Vector3(),nd=new THREE.Vector3();
+      let k=0;
+      bonds.forEach(([i,j])=>{const A=S.at[i],B=S.at[j];va.set(A.x,A.y,A.z);vb.set(B.x,B.y,B.z);
+        dir.subVectors(vb,va);const len=dir.length();nd.copy(dir).normalize();q.setFromUnitVectors(up,nd);
+        dummy.quaternion.copy(q);dummy.scale.set(1,len/2,1);
+        dummy.position.copy(va).addScaledVector(dir,0.25);dummy.updateMatrix();
+        bm.setMatrixAt(k,dummy.matrix);bm.setColorAt(k,col.set(elColor(A.e)));k++;
+        dummy.position.copy(va).addScaledVector(dir,0.75);dummy.updateMatrix();
+        bm.setMatrixAt(k,dummy.matrix);bm.setColorAt(k,col.set(elColor(B.e)));k++;});
+      bm.instanceMatrix.needsUpdate=true;if(bm.instanceColor)bm.instanceColor.needsUpdate=true;g.add(bm);}
   }
-  // 晶胞盒子
-  const {a,b,c}=st;const O=[0,0,0];const ad=(u,w)=>[u[0]+w[0],u[1]+w[1],u[2]+w[2]];
-  const P=[O,a,b,c,ad(a,b),ad(a,c),ad(b,c),ad(ad(a,b),c)];
+  const {a,b,c}=S;const ad=(u,w)=>[u[0]+w[0],u[1]+w[1],u[2]+w[2]];
+  const P=[[0,0,0],a,b,c,ad(a,b),ad(a,c),ad(b,c),ad(ad(a,b),c)];
   const E=[[0,1],[0,2],[0,3],[1,4],[1,5],[2,4],[2,6],[3,5],[3,6],[4,7],[5,7],[6,7]];
   const pts=[];E.forEach(([p,q])=>{pts.push(...P[p],...P[q]);});
   const lg=new THREE.BufferGeometry();lg.setAttribute('position',new THREE.Float32BufferAttribute(pts,3));
   g.add(new THREE.LineSegments(lg,new THREE.LineBasicMaterial({color:0x9a9a9a,transparent:true,opacity:0.5})));
-  // 居中：晶胞几何中心
   const ctr=new THREE.Vector3((a[0]+b[0]+c[0])/2,(a[1]+b[1]+c[1])/2,(a[2]+b[2]+c[2])/2);
   g.position.set(-ctr.x,-ctr.y,-ctr.z);
   return Math.max(...[a,b,c].map(v=>Math.hypot(v[0],v[1],v[2])));
 }
+function makeViewer(host,struct){              // 工厂：创建独立查看器实例
+  host.innerHTML='';
+  const w=host.clientWidth||680,h=host.clientHeight||400;
+  const renderer=new THREE.WebGLRenderer({antialias:true});
+  renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(w,h);
+  host.appendChild(renderer.domElement);
+  const scene=new THREE.Scene();
+  scene.background=new THREE.Color(getComputedStyle(document.body).getPropertyValue('--viewer-bg').trim()||'#fff');
+  const camera=new THREE.PerspectiveCamera(45,w/h,0.1,8000);
+  const controls=new THREE.OrbitControls(camera,renderer.domElement);
+  controls.enableDamping=true;controls.dampingFactor=0.12;
+  const L=VIZ.lighting||{};
+  if(VIZ.material.type!=='basic'){        // 平面(basic)材质不受光照，无需加灯
+    if(L.hemi!==undefined)scene.add(new THREE.HemisphereLight(L.hemiSky||0xffffff,L.hemiGround||0xf0f0f0,L.hemi));
+    else if(L.ambient!==undefined)scene.add(new THREE.AmbientLight(0xffffff,L.ambient));
+    if(L.directional!==undefined){const dir=new THREE.DirectionalLight(0xffffff,L.directional);
+      dir.position.set(0.3,0.2,1);camera.add(dir);}
+  }
+  scene.add(camera);
+  const st={renderer,scene,camera,controls,host,group:null,raf:0,style:'bs',struct};
+  const R=buildGroup(st);
+  const dist=R/Math.tan(Math.PI/8)*0.95;camera.position.set(dist*0.6,dist*0.45,dist);controls.update();
+  (function loop(){st.raf=requestAnimationFrame(loop);controls.update();renderer.render(scene,camera);})();
+  return st;
+}
+function ensureVIZ(){return VIZ?Promise.resolve(VIZ):fetch('viz_assets.json').then(x=>x.json()).then(j=>VIZ=j);}
+
+let mainViewer=null;
 function openViewer(r){
-  curStruct=null;curStyle='bs';
   document.getElementById('mTitle').textContent=`${r.formula}  ·  ${r.phase} ${r.temperature}`;
   const M=[['m_natoms',r.natoms],['m_dens',r.density.toFixed(4)],['m_temp',r.temperature],
     ['m_phase',r.phase],['m_contrib',r.contributor],['m_src',r.hpc_source]];
@@ -440,41 +791,78 @@ function openViewer(r){
   const dl=document.getElementById('mDownload');dl.href=`structures/${r.sid}.poscar`;dl.download=`${r.formula}_${r.sid}_POSCAR.vasp`;
   document.getElementById('modal').classList.add('open');
   const host=document.getElementById('viewer3d');host.innerHTML='<div class="load">…</div>';
-  Promise.all([
-    fetch(`structures/${r.sid}.poscar`).then(x=>x.text()),
-    VIZ?Promise.resolve(VIZ):fetch('viz_assets.json').then(x=>x.json()).then(j=>VIZ=j),
-  ]).then(([txt])=>{
-    curStruct=parsePoscar(txt);
-    host.innerHTML='';
-    const w=host.clientWidth||680,h=host.clientHeight||400;
-    const renderer=new THREE.WebGLRenderer({antialias:true});
-    renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(w,h);
-    host.appendChild(renderer.domElement);
-    const scene=new THREE.Scene();
-    scene.background=new THREE.Color(getComputedStyle(document.body).getPropertyValue('--viewer-bg').trim()||'#fff');
-    const camera=new THREE.PerspectiveCamera(45,w/h,0.1,8000);
-    const controls=new THREE.OrbitControls(camera,renderer.domElement);
-    controls.enableDamping=true;controls.dampingFactor=0.12;
-    scene.add(new THREE.AmbientLight(0xffffff,VIZ.lighting.ambient));
-    const dir=new THREE.DirectionalLight(0xffffff,VIZ.lighting.directional);
-    dir.position.set(0.3,0.2,1);camera.add(dir);scene.add(camera);
-    three={renderer,scene,camera,controls,host,group:null,raf:0};
-    const R=buildStructure();
-    const dist=R/Math.tan(Math.PI/8)*0.95;camera.position.set(dist*0.6,dist*0.45,dist);
-    controls.update();
-    (function loop(){three.raf=requestAnimationFrame(loop);controls.update();renderer.render(scene,camera);})();
-  }).catch(e=>{host.innerHTML='<div class="load">3D 加载失败 / load failed</div>';});
+  Promise.all([fetch(`structures/${r.sid}.poscar`).then(x=>x.text()),ensureVIZ()]).then(([txt])=>{
+    const struct=parsePoscar(txt);
+    disposeViewer(mainViewer);mainViewer=makeViewer(host,struct);
+    buildColorEditor(struct);
+  }).catch(()=>{host.innerHTML='<div class="load">3D 加载失败 / load failed</div>';});
 }
-document.getElementById('mClose').onclick=()=>{document.getElementById('modal').classList.remove('open');disposeThree();};
+function buildColorEditor(struct){
+  const els=[...new Set(struct.at.map(p=>p.e))].sort();
+  const box=document.getElementById('mColors');
+  box.innerHTML=`<span class="mclabel">${t('elem_colors')}</span>`+
+    els.map(e=>`<label class="mcchip">${e}<input type="color" value="${elColor(e)}" data-el="${e}"></label>`).join('')+
+    `<button class="mcreset" id="mcReset">${t('reset')}</button>`;
+  box.querySelectorAll('input[type=color]').forEach(inp=>inp.oninput=()=>{
+    COLOR_OVERRIDE[inp.dataset.el]=inp.value;localStorage.setItem('pcm_colors',JSON.stringify(COLOR_OVERRIDE));
+    if(mainViewer)buildGroup(mainViewer);
+  });
+  document.getElementById('mcReset').onclick=()=>{
+    els.forEach(e=>delete COLOR_OVERRIDE[e]);localStorage.setItem('pcm_colors',JSON.stringify(COLOR_OVERRIDE));
+    if(mainViewer)buildGroup(mainViewer);buildColorEditor(struct);
+  };
+}
+document.getElementById('mClose').onclick=()=>{document.getElementById('modal').classList.remove('open');disposeViewer(mainViewer);mainViewer=null;};
 document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==='modal')document.getElementById('mClose').click();});
-document.getElementById('mStyle').onclick=()=>{if(!three||!curStruct)return;curStyle=curStyle==='bs'?'sf':'bs';buildStructure();};
+document.getElementById('mStyle').onclick=()=>{if(!mainViewer)return;mainViewer.style=mainViewer.style==='bs'?'sf':'bs';buildGroup(mainViewer);};
 
-window.addEventListener('resize',()=>{if(DATA)renderCharts();});
+/* ---------- upload (仅本地后端) ---------- */
+let upPreview=null,upCurrent=null;
+function cellVolume(a,b,c){
+  const cx=[b[1]*c[2]-b[2]*c[1],b[2]*c[0]-b[0]*c[2],b[0]*c[1]-b[1]*c[0]];
+  return Math.abs(a[0]*cx[0]+a[1]*cx[1]+a[2]*cx[2]);
+}
+function calcFormula(at){const m={};at.forEach(p=>m[p.e]=(m[p.e]||0)+1);
+  return Object.keys(m).sort().map(e=>`${e}${m[e]}`).join('');}
+fetch('api/ping').then(r=>r.ok?r.json():null).then(j=>{
+  if(j&&j.ok)document.getElementById('uploadBtn').style.display='';}).catch(()=>{});
+document.getElementById('uploadBtn').onclick=()=>document.getElementById('upModal').classList.add('open');
+function closeUp(){document.getElementById('upModal').classList.remove('open');disposeViewer(upPreview);upPreview=null;}
+document.getElementById('upClose').onclick=closeUp;
+document.getElementById('upCancel').onclick=closeUp;
+document.getElementById('upModal').addEventListener('click',e=>{if(e.target.id==='upModal')document.getElementById('upClose').click();});
+document.getElementById('upFile').addEventListener('change',e=>{
+  const f=e.target.files[0];if(!f)return;const rd=new FileReader();
+  rd.onload=()=>{let st;try{st=parsePoscar(rd.result);}catch(err){document.getElementById('upCalc').textContent=t('up_parsefail');return;}
+    const n=st.at.length,vol=cellVolume(st.a,st.b,st.c),dens=vol?n/vol:0,formula=calcFormula(st.at);
+    upCurrent={filename:f.name,content:rd.result};
+    document.getElementById('upCalc').innerHTML=t('up_calc')(formula,n,dens.toFixed(5));
+    if(!document.getElementById('upDest').value)document.getElementById('upDest').value=formula+'/model_01';
+    ensureVIZ().then(()=>{disposeViewer(upPreview);upPreview=makeViewer(document.getElementById('upViewer'),st);});};
+  rd.readAsText(f);
+});
+document.getElementById('upSubmit').onclick=()=>{
+  const status=document.getElementById('upStatus');
+  if(!upCurrent){status.textContent=t('up_parsefail');return;}
+  const contributor=document.getElementById('upContrib').value.trim(),dest=document.getElementById('upDest').value.trim();
+  if(!contributor||!dest){status.textContent=t('up_needfields');return;}
+  const body={filename:upCurrent.filename,content:upCurrent.content,phase:document.getElementById('upPhase').value,
+    functionality:document.getElementById('upFunc').value,
+    temperature:document.getElementById('upTemp').value,contributor,dest,hpc_source:document.getElementById('upSrc').value.trim()};
+  const btn=document.getElementById('upSubmit');btn.disabled=true;status.textContent='…';
+  fetch('api/upload',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)})
+    .then(r=>r.json()).then(j=>{btn.disabled=false;
+      if(j.ok){status.textContent=t('up_ok')+' '+j.record.formula;DATA.push(j.record);renderCharts();buildPT();curPage=1;renderTable();}
+      else status.textContent=t('up_fail')+j.error;})
+    .catch(e=>{btn.disabled=false;status.textContent=t('up_fail')+e;});
+};
+
+window.addEventListener('resize',debounce(()=>{if(DATA)renderCharts();},150));
 fetch('data.json').then(r=>r.json()).then(d=>{
   DATA=d;initFilters();buildPT();applyI18n();
   const m=location.hash.match(/#view=(s\d+)/);
   if(m){const r=DATA.find(x=>x.sid===m[1]);if(r)openViewer(r);}
-}).catch(()=>{document.getElementById('tbody').innerHTML=`<tr><td colspan="8" class="load">${t('noload')}</td></tr>`;});
+}).catch(()=>{document.getElementById('tbody').innerHTML=`<tr><td colspan="9" class="load">${t('noload')}</td></tr>`;});
 </script>
 </body>
 </html>

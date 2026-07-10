@@ -14,8 +14,16 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
 DEDUP = ROOT / "data" / "metadata" / "pcm_models_dedup.tsv"
 
-# 贡献者：本批数据统一署名 Qundao Xu；后续增量数据再按成员目录改各自真名
-CONTRIBUTOR = {}
+# 贡献者：按第一批成员目录映射真名
+CONTRIBUTOR = {
+    "xqd": "Qundao Xu",
+    "ysj": "Shaojie Yuan",
+    "yyf": "Yifan Yan",
+    "tsq": "Siqi Tang",
+    "hhy": "Henyi Hu",
+    "wyh": "Yuhao Wang",
+    "wh": "Huan Wang",
+}
 DEFAULT_CONTRIBUTOR = "Qundao Xu"
 
 

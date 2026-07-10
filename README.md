@@ -67,9 +67,17 @@ git add data/ && git commit -m "add: GeTe model_01"
 
 ```bash
 python scripts/build_site_data.py     # 由 metadata 生成 docs/data.json
-# 本地预览（必须走 HTTP，不能直接双击打开）
-python -m http.server 8000 --directory docs   # 然后访问 http://localhost:8000
+# 本地预览（纯静态，无上传）
+python -m http.server 8000 --directory docs   # 访问 http://localhost:8000
+
+# 本地维护模式（带网页上传功能，推荐维护者使用）
+python scripts/serve_local.py --port 8080     # 访问 http://localhost:8080
 ```
+
+**网页上传（仅本地维护模式）**：`serve_local.py` 在静态站基础上提供 `/api/upload`。
+浏览器点右上「⬆ 上传数据」→ 选 POSCAR/CONTCAR（自动算化学式/原子数/密度并 3D 预览）→
+填相态/温度/贡献者/存放路径 → 提交，即写入 `data/raw` + 追加 metadata + 更新 `docs/data.json`。
+之后 `python scripts/build_asedb.py` 重建主库、`git push` 发布。公开 Pages 无后端，上传按钮自动隐藏。
 
 启用 GitHub Pages：仓库 Settings → Pages → Source 选 `main` 分支的 `/docs` 目录。
 

@@ -1022,6 +1022,47 @@ let COLOR_OVERRIDE={};try{COLOR_OVERRIDE=JSON.parse(localStorage.getItem('pcm_co
 function elColor(el){return COLOR_OVERRIDE[el]||(VIZ&&VIZ.colors[el])||'#c8a2c8';}
 function elRad(el,model){const r=VIZ&&VIZ.radii[el];return r?(r[model]||1):(model==='vdw'?1.8:1.2);}
 
+/* pretty-lattice 材质预设（viz_assets.json 里原样嵌了它的 preset JSON，换风格＝换那段 JSON）。
+   本地 three 是 r128，与 pretty-lattice 的 r171 有两处必须补偿，否则观感对不上：
+   1) 无 ColorManagement：sRGB 十六进制色须手动转线性空间，否则配合 outputEncoding=sRGB 会发白。
+   2) r128 的 shader 在 #ifndef PHYSICALLY_CORRECT_LIGHTS 下把 ambient/hemisphere/directional
+      的 irradiance 统统乘 π；r171 已移除该分支。故必须开 physicallyCorrectLights，
+      preset 里 0.8 / 2.2 的强度才等价，否则整体过曝 π 倍。 */
+const MAT_CTOR={MeshBasicMaterial:'MeshBasicMaterial',MeshLambertMaterial:'MeshLambertMaterial',
+  MeshPhysicalMaterial:'MeshPhysicalMaterial',MeshStandardMaterial:'MeshStandardMaterial'};
+function srgb(hex){return new THREE.Color(hex).convertSRGBToLinear();}
+function presetOf(target){            // target: atom / bond / polyhedron
+  const P=VIZ.materialPreset,ov=P.overrides&&P.overrides[target];
+  return (ov&&ov.material)||P.material;
+}
+function presetMaterial(target){
+  const m=presetOf(target),name=MAT_CTOR[m.type]||'MeshStandardMaterial';
+  return new THREE[name](Object.assign({},m.props));
+}
+function presetUnlit(){return VIZ.materialPreset.material.type==='MeshBasicMaterial';}
+// cameraDirectional：跟随相机的方向光。光位 = 相机位 + R·(offset × 视距)，恒指向原点；
+// offset 随视距缩放，故缩放模型时高光位置不漂移（照抄 pretty-lattice 的 CameraHeadlight）。
+function addPresetLights(scene,camera){
+  const heads=[];
+  if(presetUnlit())return heads;      // 无光照材质无需加灯
+  (VIZ.materialPreset.lighting||[]).forEach(L=>{
+    const p=L.props||{},I=p.intensity===undefined?1:p.intensity;
+    if(L.type==='AmbientLight')scene.add(new THREE.AmbientLight(srgb(p.color||'#ffffff'),I));
+    else if(L.type==='HemisphereLight')
+      scene.add(new THREE.HemisphereLight(srgb(p.skyColor||'#ffffff'),srgb(p.groundColor||'#ffffff'),I));
+    else if(L.type==='cameraDirectional'){
+      const d=new THREE.DirectionalLight(srgb(p.color||'#ffffff'),I);
+      camera.add(d);                  // target 默认在世界原点（结构已居中于此）
+      heads.push({light:d,off:p.offset||[0.32,0.22,0]});
+    }
+  });
+  return heads;
+}
+function syncHeadlights(st){
+  const d=Math.max(st.camera.position.length(),4);   // MIN_LIGHT_DISTANCE=4
+  st.heads.forEach(h=>h.light.position.set(h.off[0]*d,h.off[1]*d,h.off[2]*d));
+}
+
 function disposeViewer(st){
   if(!st)return;cancelAnimationFrame(st.raf);st.renderer.dispose();st.host.innerHTML='';
 }
@@ -1029,16 +1070,14 @@ function buildGroup(st){                       // 依据 st.struct + st.style �
   if(st.group)st.scene.remove(st.group);
   const g=new THREE.Group();st.group=g;st.scene.add(g);
   const S=st.struct;
-  const flat=VIZ.material.type==='basic';
-  const mat=flat?new THREE.MeshBasicMaterial({})
-                :new THREE.MeshStandardMaterial({metalness:VIZ.material.metalness,roughness:VIZ.material.roughness});
+  const mat=presetMaterial('atom');
   const sph=new THREE.SphereGeometry(1,24,18);
   const im=new THREE.InstancedMesh(sph,mat,S.at.length);
   const dummy=new THREE.Object3D();const col=new THREE.Color();
   const model=st.style==='sf'?'vdw':'atomic';const scale=st.style==='sf'?1.0:0.42;
   S.at.forEach((p,i)=>{const rad=elRad(p.e,model)*scale;
     dummy.position.set(p.x,p.y,p.z);dummy.scale.setScalar(rad);dummy.updateMatrix();
-    im.setMatrixAt(i,dummy.matrix);im.setColorAt(i,col.set(elColor(p.e)));});
+    im.setMatrixAt(i,dummy.matrix);im.setColorAt(i,col.set(elColor(p.e)).convertSRGBToLinear());});
   im.instanceMatrix.needsUpdate=true;if(im.instanceColor)im.instanceColor.needsUpdate=true;g.add(im);
   if(st.style==='bs'){
     const bonds=[];const N=S.at.length;const BF=1.15;
@@ -1049,8 +1088,7 @@ function buildGroup(st){                       // 依据 st.struct + st.style �
     if(bonds.length){
       // bicolor：每根键分两半，各用两端原子的元素色
       const cyl=new THREE.CylinderGeometry(0.13,0.13,1,10,1,true);
-      const bmat=flat?new THREE.MeshBasicMaterial({}):new THREE.MeshStandardMaterial({metalness:0.1,roughness:0.7});
-      const bm=new THREE.InstancedMesh(cyl,bmat,bonds.length*2);
+      const bm=new THREE.InstancedMesh(cyl,presetMaterial('bond'),bonds.length*2);
       const up=new THREE.Vector3(0,1,0),q=new THREE.Quaternion();
       const va=new THREE.Vector3(),vb=new THREE.Vector3(),dir=new THREE.Vector3(),nd=new THREE.Vector3();
       let k=0;
@@ -1058,9 +1096,9 @@ function buildGroup(st){                       // 依据 st.struct + st.style �
         dir.subVectors(vb,va);const len=dir.length();nd.copy(dir).normalize();q.setFromUnitVectors(up,nd);
         dummy.quaternion.copy(q);dummy.scale.set(1,len/2,1);
         dummy.position.copy(va).addScaledVector(dir,0.25);dummy.updateMatrix();
-        bm.setMatrixAt(k,dummy.matrix);bm.setColorAt(k,col.set(elColor(A.e)));k++;
+        bm.setMatrixAt(k,dummy.matrix);bm.setColorAt(k,col.set(elColor(A.e)).convertSRGBToLinear());k++;
         dummy.position.copy(va).addScaledVector(dir,0.75);dummy.updateMatrix();
-        bm.setMatrixAt(k,dummy.matrix);bm.setColorAt(k,col.set(elColor(B.e)));k++;});
+        bm.setMatrixAt(k,dummy.matrix);bm.setColorAt(k,col.set(elColor(B.e)).convertSRGBToLinear());k++;});
       bm.instanceMatrix.needsUpdate=true;if(bm.instanceColor)bm.instanceColor.needsUpdate=true;g.add(bm);}
   }
   const {a,b,c}=S;const ad=(u,w)=>[u[0]+w[0],u[1]+w[1],u[2]+w[2]];
@@ -1068,7 +1106,7 @@ function buildGroup(st){                       // 依据 st.struct + st.style �
   const E=[[0,1],[0,2],[0,3],[1,4],[1,5],[2,4],[2,6],[3,5],[3,6],[4,7],[5,7],[6,7]];
   const pts=[];E.forEach(([p,q])=>{pts.push(...P[p],...P[q]);});
   const lg=new THREE.BufferGeometry();lg.setAttribute('position',new THREE.Float32BufferAttribute(pts,3));
-  g.add(new THREE.LineSegments(lg,new THREE.LineBasicMaterial({color:0x9a9a9a,transparent:true,opacity:0.5})));
+  g.add(new THREE.LineSegments(lg,new THREE.LineBasicMaterial({color:srgb('#9a9a9a'),transparent:true,opacity:0.5})));
   const ctr=new THREE.Vector3((a[0]+b[0]+c[0])/2,(a[1]+b[1]+c[1])/2,(a[2]+b[2]+c[2])/2);
   g.position.set(-ctr.x,-ctr.y,-ctr.z);
   return Math.max(...[a,b,c].map(v=>Math.hypot(v[0],v[1],v[2])));
@@ -1076,26 +1114,28 @@ function buildGroup(st){                       // 依据 st.struct + st.style �
 function makeViewer(host,struct){              // 工厂：创建独立查看器实例
   host.innerHTML='';
   const w=host.clientWidth||680,h=host.clientHeight||400;
-  const renderer=new THREE.WebGLRenderer({antialias:true});
+  const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,preserveDrawingBuffer:true});
   renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(w,h);
+  const RC=VIZ.renderer||{};
+  // 色彩管线对齐 pretty-lattice（react-three-fiber 默认：sRGB 输出 + ACESFilmic 色调映射）
+  if(RC.outputEncoding==='sRGB')renderer.outputEncoding=THREE.sRGBEncoding;
+  if(RC.toneMapping==='ACESFilmic')renderer.toneMapping=THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure=RC.toneMappingExposure??1;
+  renderer.physicallyCorrectLights=RC.physicallyCorrectLights!==false;   // 见上：抵消 r128 的 π 因子
   host.appendChild(renderer.domElement);
   const scene=new THREE.Scene();
+  // 背景走 clear color，不经色调映射/编码，故直接用 CSS 变量的原值
   scene.background=new THREE.Color(getComputedStyle(document.body).getPropertyValue('--viewer-bg').trim()||'#fff');
   const camera=new THREE.PerspectiveCamera(45,w/h,0.1,8000);
   const controls=new THREE.OrbitControls(camera,renderer.domElement);
   controls.enableDamping=true;controls.dampingFactor=0.12;
-  const L=VIZ.lighting||{};
-  if(VIZ.material.type!=='basic'){        // 平面(basic)材质不受光照，无需加灯
-    if(L.hemi!==undefined)scene.add(new THREE.HemisphereLight(L.hemiSky||0xffffff,L.hemiGround||0xf0f0f0,L.hemi));
-    else if(L.ambient!==undefined)scene.add(new THREE.AmbientLight(0xffffff,L.ambient));
-    if(L.directional!==undefined){const dir=new THREE.DirectionalLight(0xffffff,L.directional);
-      dir.position.set(0.3,0.2,1);camera.add(dir);}
-  }
+  const heads=addPresetLights(scene,camera);
   scene.add(camera);
-  const st={renderer,scene,camera,controls,host,group:null,raf:0,style:'bs',struct};
+  const st={renderer,scene,camera,controls,host,group:null,raf:0,style:'bs',struct,heads};
   const R=buildGroup(st);
   const dist=R/Math.tan(Math.PI/8)*0.95;camera.position.set(dist*0.6,dist*0.45,dist);controls.update();
-  (function loop(){st.raf=requestAnimationFrame(loop);controls.update();renderer.render(scene,camera);})();
+  syncHeadlights(st);
+  (function loop(){st.raf=requestAnimationFrame(loop);controls.update();syncHeadlights(st);renderer.render(scene,camera);})();
   return st;
 }
 function ensureVIZ(){return VIZ?Promise.resolve(VIZ):fetch('viz_assets.json').then(x=>x.json()).then(j=>VIZ=j);}

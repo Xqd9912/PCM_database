@@ -81,6 +81,15 @@ python scripts/serve_local.py --port 8080     # 访问 http://localhost:8080
 
 启用 GitHub Pages：仓库 Settings → Pages → Source 选 `main` 分支的 `/docs` 目录。
 
+**3D 结构可视化风格**：`docs/viz_assets.json` 的 `materialPreset` 字段原样内嵌 pretty-lattice 的
+材质预设 JSON（当前为 `modern-matte`）。换风格只需把该字段替换成 pretty-lattice
+`web/src/data/material-presets/presets/` 下的另一个预设。支持 `MeshBasic/Lambert/Standard/Physical`
+材质与 `AmbientLight / HemisphereLight / cameraDirectional` 三种灯光。
+
+> 本地 vendored three 是 r128，与 pretty-lattice 的 r171 有两处差异需补偿（已在 `index.html` 处理）：
+> r128 无 `ColorManagement`，sRGB 颜色须手动转线性；且其 shader 在未开
+> `physicallyCorrectLights` 时会把 ambient/directional 的 irradiance 乘 π，导致过曝 π 倍。
+
 ## 脚本
 
 | 脚本 | 用途 |

@@ -6,12 +6,14 @@
   docs/structures/<sid>.poscar —— 每条记录的代表结构文件副本（供 3D 预览/下载）
 """
 import json
+import math
 import re
 import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 META = ROOT / "data" / "metadata" / "pcm_metadata.json"
+ENERGY = ROOT / "data" / "metadata" / "energy.json"   # MLIP 预测能量(可选)
 DOCS = ROOT / "docs"
 OUT = DOCS / "data.json"
 STRUCT_DIR = DOCS / "structures"
@@ -24,6 +26,7 @@ def elements(formula: str):
 
 def main():
     recs = json.loads(META.read_text(encoding="utf-8"))
+    energy = json.loads(ENERGY.read_text())["values"] if ENERGY.is_file() else {}
     if STRUCT_DIR.exists():
         shutil.rmtree(STRUCT_DIR)
     STRUCT_DIR.mkdir(parents=True, exist_ok=True)
@@ -49,6 +52,7 @@ def main():
                 "path": r["结构文件"],
                 "hpc_source": r["HPC来源路径"],
                 "source_frame": r.get("代表帧来源", ""),
+                "energy_per_atom": (lambda v: v if (v is not None and math.isfinite(v)) else None)(energy.get(sid)),  # MLIP(eV/atom)，非 DFT；非有限值记 null
             }
         )
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

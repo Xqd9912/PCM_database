@@ -92,7 +92,30 @@ python scripts/serve_local.py --port 8080     # 访问 http://localhost:8080
 | `scripts/build_metadata.py` | ASE 提取，产出 metadata（批量流程） |
 | `scripts/build_asedb.py` | 由 metadata 构建 ASE 主库 |
 | `scripts/build_site_data.py` | 由 metadata 生成前端 docs/data.json |
+| `scripts/build_descriptors.py` | 预计算主库结构的 SOAP 描述符 |
+| `scripts/build_mlip_data.py` | 登记 MLIP 训练集，产出统计 / 直方图 / SOAP 抽样 |
 | `scripts/add_structure.py` | 贡献助手：新增单个结构 |
+
+## MLIP 训练数据集
+
+`data/MLIP_training_data_DFT_labeled/*.xyz`（extended XYZ，含 `REF_energy` / `REF_forces`）
+是用于训练机器学习势函数的 DFT 标注数据，共 **9608 帧 / 1381448 个原子**，四个数据集：
+GST225 (4577)、Sb2Te3 (2509)、GeTe (2439)、MP_filtered_pure_GST (83)。
+
+```bash
+python scripts/build_mlip_data.py              # 全量重建（解析 + SOAP）
+python scripts/build_mlip_data.py --skip-soap  # 只重算统计，复用已有描述符
+```
+
+产出：`data/metadata/mlip_metadata.{json,csv}`（每帧一条登记记录，全量）、
+`docs/mlip.json`（数据集统计 + 能量/受力直方图分箱）、
+`docs/mlip_descriptors.json`（抽样帧的 SOAP 向量，供前端做 PCA）。
+
+口径：直方图与数据集统计走**全量帧**；SOAP 分布图对每个数据集沿轨迹**均匀抽样，上限 800 帧/集**
+（MD 相邻帧高度相关，抽样几乎不改变分布形状，却把描述符文件压到与 `docs/descriptors.json` 同量级）。
+SOAP 超参与 `build_descriptors.py` 完全一致，故 MLIP 帧与主库结构落在同一可比特征空间。
+直方图按 0.1–99.9% 分位裁剪显示范围，范围外样本**单独计数并在图注中说明**（不折进边界箱，
+否则会造出并不存在的尖峰）。原始 xyz 体积过大不入 Git（见 `.gitignore`）。
 
 ## 数据来源说明（第一批）
 

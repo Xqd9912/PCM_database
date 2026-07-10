@@ -107,7 +107,7 @@ h1{font-size:clamp(34px,5.2vw,52px);line-height:1.08;margin:.28em 0 .18em;letter
 section{padding:34px 0}
 h2{font-size:22px;letter-spacing:-.01em;margin:0 0 4px;font-weight:700}
 .hint{color:var(--muted);font-size:13px;margin:0 0 18px;max-width:78ch}
-.charts{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
 @media(max-width:820px){.charts{grid-template-columns:1fr}}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px 20px 14px;
   box-shadow:var(--sh2);transition:transform .18s,box-shadow .18s}
@@ -137,10 +137,40 @@ text{fill:var(--ink2);font-size:11px;font-family:inherit}
 .controls input:focus,.controls select:focus{outline:none;border-color:var(--series);
   box-shadow:0 0 0 3px var(--series-soft)}
 .controls input[type=search]{min-width:220px;flex:1}
+.cbox{position:relative;display:inline-block}
+.cbox-btn{background:var(--surface);color:var(--ink);border:1px solid var(--border);
+  border-radius:9px;padding:9px 12px;font-family:inherit;font-size:13.5px;cursor:pointer;
+  display:inline-flex;align-items:center;transition:border-color .15s,box-shadow .15s}
+.cbox-btn:focus,.cbox-btn.open{outline:none;border-color:var(--series);box-shadow:0 0 0 3px var(--series-soft)}
+/* 统一下拉外观：原生 select 与自定义按钮共用同一个 chevron 与留白 */
+.controls select,.controls .cbox-btn{-webkit-appearance:none;appearance:none;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1.5 6 6.5 11 1.5' fill='none' stroke='%236b7280' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-repeat:no-repeat;background-position:right 12px center;padding-right:32px}
+/* 外层只负责圆角+裁剪，滚动交给内层 .cbox-list，避免滚动条把圆角切平 */
+.cbox-pop{position:absolute;z-index:40;top:calc(100% + 6px);left:0;min-width:230px;overflow:hidden;
+  background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:var(--sh3)}
+/* 半透明毛玻璃底色，贴近原生弹出菜单（不支持时回退为上面的实色） */
+@supports ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  .cbox-pop{background:color-mix(in srgb,var(--surface) 72%,transparent);
+    backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%)}
+}
+.cbox-pop[hidden]{display:none}
+.cbox-list{max-height:340px;overflow-y:auto;overscroll-behavior:contain;padding:6px;scrollbar-width:thin}
+.cbox-list::-webkit-scrollbar{width:9px}
+.cbox-list::-webkit-scrollbar-track{background:transparent}
+.cbox-list::-webkit-scrollbar-thumb{background:color-mix(in srgb,var(--muted) 45%,transparent);
+  border-radius:9px;border:2px solid transparent;background-clip:content-box}
+.cbox-grp{font-size:11px;color:var(--muted);font-weight:600;padding:7px 8px 2px}
+.cbox-opt{padding:6px 8px;border-radius:6px;cursor:pointer;font-size:13px;white-space:nowrap}
+.cbox-opt:hover{background:var(--series-soft)}
+.cbox-opt.sel{color:var(--series);font-weight:600}
+.cbox-more{width:100%;text-align:left;background:none;border:0;border-top:1px solid var(--border);
+  margin-top:4px;padding:8px;color:var(--series);cursor:pointer;font:inherit;font-size:12.5px}
 .count{color:var(--muted);font-size:12.5px;margin-left:auto;font-weight:500}
 .tblwrap{overflow-x:auto;border:1px solid var(--border);border-radius:14px;background:var(--surface);box-shadow:var(--sh2)}
 table{border-collapse:collapse;width:100%;font-size:13px}
-th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--border);white-space:nowrap}
+th,td{text-align:left;padding:9px 9px;border-bottom:1px solid var(--border);white-space:nowrap}
+td.fml,th.fml{max-width:210px;overflow:hidden;text-overflow:ellipsis}
 th{position:sticky;top:0;background:var(--soft);cursor:pointer;user-select:none;font-weight:600;color:var(--ink2);z-index:1;
   font-size:12px;letter-spacing:.02em;text-transform:uppercase}
 th:hover{color:var(--series)}
@@ -158,6 +188,54 @@ td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 td.path{max-width:300px;overflow:hidden;text-overflow:ellipsis;color:var(--muted);font-size:12px}
 tbody tr{cursor:pointer;transition:background .12s} tbody tr:hover{background:var(--series-soft)}
 .pill{display:inline-block;padding:2px 10px;border-radius:999px;font-size:11.5px;background:var(--series-soft);color:var(--brand-3);font-weight:600}
+td.idx{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--muted);letter-spacing:.3px}
+tr.hi td{background:var(--series-soft)}
+.vizpanel{width:100%;margin:14px auto 20px;background:var(--surface);border:1px solid var(--border);
+  border-radius:14px;padding:14px 16px 16px;box-shadow:var(--sh1)}
+.viztitle{margin:0 0 8px;font-size:15px}
+.vizfoot{margin:8px 0 0;font-size:12px;color:var(--muted)}
+.vizrow{display:flex;gap:16px;align-items:flex-start}
+.vizmain{flex:3;min-width:0}
+.vizctrl{flex:1;min-width:0;display:flex;flex-direction:column;gap:14px;padding-top:2px}
+.vizc-grp{display:flex;flex-direction:column;gap:5px}
+.vizc-lbl{font-size:12px;color:var(--muted);font-weight:600}
+.vizctrl select{background:var(--surface);color:var(--ink);border:1px solid var(--border);
+  border-radius:8px;padding:6px 8px;font:inherit;font-size:13px}
+.vizctrl select:focus{outline:none;border-color:var(--series)}
+.vizctrl input[type=range]{width:100%;accent-color:var(--series);cursor:pointer}
+.vizc-chk{display:inline-flex;align-items:center;gap:6px;margin-top:2px;font-size:12px;color:var(--muted);cursor:pointer}
+.vizc-chk input{accent-color:var(--series);cursor:pointer;margin:0}
+.vizlegend{width:100%;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;font-size:12px;color:var(--muted)}
+.vizlegend .lgdc{-webkit-appearance:none;appearance:none;width:16px;height:16px;padding:0;border:1px solid var(--border);border-radius:50%;background:none;cursor:pointer;flex:none}
+.vizlegend .lgdc::-webkit-color-swatch-wrapper{padding:0}
+.vizlegend .lgdc::-webkit-color-swatch{border:none;border-radius:50%}
+.vizlegend .lgdc::-moz-color-swatch{border:none;border-radius:50%}
+.lgdreset{background:none;border:0;color:var(--series);cursor:pointer;font-size:11px;padding:2px 4px}
+.cbar{width:100%;height:14px;border-radius:4px;border:1px solid var(--border)}
+.cbar-lbl{width:100%;display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:3px}
+.cbar-cap{width:100%;font-size:11px;color:var(--muted);margin-top:2px}
+@media(max-width:820px){.vizrow{flex-direction:column}.vizmain,.vizctrl{width:100%;flex:none}}
+#vizWrap,#mlipVizWrap{position:relative;width:100%}
+#vizCanvas,#mlipCanvas{display:block;width:100%;height:440px;border-radius:10px;cursor:crosshair}
+/* MLIP 数据集板块 */
+.mlipbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:18px 0 6px}
+.mlipbar-lbl{font-size:12.5px;color:var(--muted);font-weight:500}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--border);background:var(--surface);
+  color:var(--muted);border-radius:999px;padding:5px 12px;font-size:12.5px;font-family:inherit;font-weight:500;
+  cursor:pointer;transition:color .12s,border-color .12s,background .12s}
+.chip .dot{width:9px;height:9px;border-radius:50%;flex:none;opacity:.35;transition:opacity .12s}
+.chip.on{color:var(--ink);border-color:currentColor;background:color-mix(in srgb,currentColor 8%,var(--surface))}
+.chip.on .dot{opacity:1}
+.chip:hover{border-color:var(--series)}
+.chartfoot{font-size:11px;color:var(--muted);margin:8px 0 0;line-height:1.5}
+#mlipTbl th{cursor:default}#mlipTbl th:hover{color:var(--ink2)}
+#mlipTbl tbody tr{cursor:default}
+#mlipTbl .dscell{display:inline-flex;align-items:center;gap:7px;font-weight:600}
+#mlipTbl .dscell .dot{width:9px;height:9px;border-radius:50%;flex:none}
+.vizbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:2px 4px 10px;font-size:12.5px;color:var(--muted)}
+.vizbar .lgd,.vizlegend .lgd{display:inline-flex;align-items:center;gap:5px}
+.vizbar .dot,.vizlegend .dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
 .pill.fn-pcm{color:var(--fn-pcm)} .pill.fn-ots{color:var(--fn-ots)} .pill.fn-som{color:var(--fn-som)}
 .pill.fn-cand{color:var(--fn-cand)} .pill.fn-other{color:var(--fn-other)}
 .pill.fn-pcm,.pill.fn-ots,.pill.fn-som,.pill.fn-cand,.pill.fn-other{background:color-mix(in srgb,currentColor 15%,transparent)}
@@ -182,6 +260,7 @@ code{background:var(--soft);border:1px solid var(--border);border-radius:6px;pad
 #viewer3d canvas,#upViewer canvas{border-radius:0}
 .mmeta{padding:14px 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px 18px;font-size:13px}
 .mmeta div span{color:var(--muted);display:block;font-size:11.5px}
+.mmeta .mnote{grid-column:1/-1;font-size:11.5px;color:var(--muted);line-height:1.5;margin-top:2px}
 .mcolors{padding:2px 20px 12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .mcolors .mclabel{font-size:12px;color:var(--muted)}
 .mcchip{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;color:var(--ink2);
@@ -335,6 +414,7 @@ code{background:var(--soft);border:1px solid var(--border);border-radius:6px;pad
     <div class="charts">
       <div class="card"><h3 data-i18n="chart_sys"></h3><svg id="sysChart"></svg></div>
       <div class="card"><h3 data-i18n="chart_elem"></h3><svg id="elemChart"></svg></div>
+      <div class="card"><h3 data-i18n="chart_comp"></h3><svg id="compChart"></svg></div>
     </div>
   </section>
 
@@ -348,24 +428,63 @@ code{background:var(--soft);border:1px solid var(--border);border-radius:6px;pad
     </div>
     <div class="controls">
       <input type="search" id="q" data-i18n-ph="search_ph">
-      <select id="sysF"></select>
-      <select id="tempF"></select>
-      <select id="funcF"></select>
+      <div class="cbox" id="sysBox"><button type="button" class="cbox-btn" id="sysBtn"><span id="sysLab"></span></button><div class="cbox-pop" id="sysPop" hidden></div></div>
+      <div class="cbox" id="phaseBox"><button type="button" class="cbox-btn" id="phaseBtn"><span id="phaseLab"></span></button><div class="cbox-pop" id="phasePop" hidden></div></div>
+      <div class="cbox" id="tempBox"><button type="button" class="cbox-btn" id="tempBtn"><span id="tempLab"></span></button><div class="cbox-pop" id="tempPop" hidden></div></div>
+      <div class="cbox" id="funcBox"><button type="button" class="cbox-btn" id="funcBtn"><span id="funcLab"></span></button><div class="cbox-pop" id="funcPop" hidden></div></div>
+      <div class="cbox" id="contribBox"><button type="button" class="cbox-btn" id="contribBtn"><span id="contribLab"></span></button><div class="cbox-pop" id="contribPop" hidden></div></div>
       <span class="count" id="shown"></span>
+    </div>
+    <div class="vizpanel" id="vizSection">
+      <h3 class="viztitle" data-i18n="viz_title"></h3>
+      <div class="vizrow">
+        <div class="vizmain">
+          <div class="vizbar" id="vizBar"></div>
+          <div id="vizWrap"><canvas id="vizCanvas"></canvas></div>
+          <p class="vizfoot" data-i18n="viz_hint"></p>
+        </div>
+        <div class="vizctrl" id="vizCtrl">
+          <div class="vizc-grp">
+            <label class="vizc-lbl" data-i18n="viz_colorby"></label>
+            <select id="vizColorBy">
+              <option value="phase" data-i18n="viz_cb_phase"></option>
+              <option value="function" data-i18n="viz_cb_func"></option>
+              <option value="density" data-i18n="viz_cb_density"></option>
+              <option value="energy" data-i18n="viz_cb_energy"></option>
+            </select>
+          </div>
+          <div class="vizc-grp" id="vizCmapGroup">
+            <label class="vizc-lbl" data-i18n="viz_colormap"></label>
+            <select id="vizCmap"></select>
+            <label class="vizc-chk"><input type="checkbox" id="vizCmapRev"><span data-i18n="viz_cmap_rev"></span></label>
+          </div>
+          <div class="vizc-grp">
+            <label class="vizc-lbl"><span data-i18n="viz_size"></span> · <span id="vizSizeVal"></span></label>
+            <input type="range" id="vizSize" min="2" max="12" step="1">
+          </div>
+          <div class="vizc-grp">
+            <label class="vizc-lbl"><span data-i18n="viz_opacity"></span> · <span id="vizOpacityVal"></span></label>
+            <input type="range" id="vizOpacity" min="0.1" max="1" step="0.05">
+          </div>
+          <div class="vizlegend" id="vizLegend"></div>
+        </div>
+      </div>
     </div>
     <div class="tblwrap"><table id="tbl">
       <thead><tr>
+        <th data-k="sid"><span data-i18n="c_idx"></span></th>
         <th data-k="system"><span data-i18n="c_system"></span></th>
-        <th data-k="formula"><span data-i18n="c_formula"></span></th>
+        <th class="fml" data-k="formula"><span data-i18n="c_formula"></span></th>
         <th data-k="phase"><span data-i18n="c_phase"></span></th>
         <th data-k="functionality"><span data-i18n="c_func"></span></th>
         <th data-k="temperature"><span data-i18n="c_temp"></span></th>
         <th class="num" data-k="natoms"><span data-i18n="c_natoms"></span></th>
         <th class="num" data-k="density"><span data-i18n="c_density"></span></th>
+        <th class="num" data-k="energy_per_atom"><span data-i18n="c_energy"></span></th>
         <th data-k="contributor"><span data-i18n="c_contributor"></span></th>
         <th data-i18n="c_view"></th>
       </tr></thead>
-      <tbody id="tbody"><tr><td colspan="9" class="load">…</td></tr></tbody>
+      <tbody id="tbody"><tr><td colspan="11" class="load">…</td></tr></tbody>
     </table></div>
     <div class="pager" id="pager">
       <button class="tbtn" id="firstPage">«</button>
@@ -373,6 +492,73 @@ code{background:var(--soft);border:1px solid var(--border);border-radius:6px;pad
       <span id="pageInfo"></span>
       <button class="tbtn" id="nextPage">›</button>
       <button class="tbtn" id="lastPage">»</button>
+    </div>
+  </section>
+
+  <section id="mlipSection">
+    <h2 data-i18n="mlip"></h2>
+    <p class="hint" data-i18n="mlip_hint"></p>
+    <div class="tiles" id="mlipTiles"></div>
+    <div class="mlipbar">
+      <span class="mlipbar-lbl" data-i18n="mlip_ds"></span>
+      <div class="chips" id="mlipChips"></div>
+    </div>
+    <div class="tblwrap"><table id="mlipTbl">
+      <thead><tr>
+        <th data-i18n="mlip_c_ds"></th>
+        <th data-i18n="mlip_c_label"></th>
+        <th class="num" data-i18n="mlip_c_frames"></th>
+        <th class="num" data-i18n="mlip_c_atoms"></th>
+        <th class="num" data-i18n="mlip_c_natoms"></th>
+        <th data-i18n="mlip_c_elems"></th>
+        <th class="num" data-i18n="mlip_c_epa"></th>
+        <th class="num" data-i18n="mlip_c_fmax"></th>
+      </tr></thead>
+      <tbody id="mlipTbody"><tr><td colspan="8" class="load">…</td></tr></tbody>
+    </table></div>
+    <div class="charts">
+      <div class="card"><h3 data-i18n="mlip_chart_epa"></h3><svg id="mlipEpaChart"></svg>
+        <p class="chartfoot" id="mlipFootEpa"></p></div>
+      <div class="card"><h3 data-i18n="mlip_chart_fmag"></h3><svg id="mlipFmagChart"></svg>
+        <p class="chartfoot" id="mlipFootFmag"></p></div>
+      <div class="card"><h3 data-i18n="mlip_chart_fcomp"></h3><svg id="mlipFcompChart"></svg>
+        <p class="chartfoot" id="mlipFootFcomp"></p></div>
+    </div>
+    <div class="vizpanel">
+      <h3 class="viztitle" data-i18n="mlip_viz_title"></h3>
+      <div class="vizrow">
+        <div class="vizmain">
+          <div class="vizbar" id="mlipVizBar"></div>
+          <div id="mlipVizWrap"><canvas id="mlipCanvas"></canvas></div>
+          <p class="vizfoot" data-i18n="mlip_viz_hint"></p>
+        </div>
+        <div class="vizctrl">
+          <div class="vizc-grp">
+            <label class="vizc-lbl" data-i18n="viz_colorby"></label>
+            <select id="mlipColorBy">
+              <option value="dataset" data-i18n="mlip_cb_ds"></option>
+              <option value="epa" data-i18n="mlip_cb_epa"></option>
+              <option value="frms" data-i18n="mlip_cb_frms"></option>
+              <option value="fmax" data-i18n="mlip_cb_fmax"></option>
+              <option value="density" data-i18n="viz_cb_density"></option>
+            </select>
+          </div>
+          <div class="vizc-grp" id="mlipCmapGroup">
+            <label class="vizc-lbl" data-i18n="viz_colormap"></label>
+            <select id="mlipCmap"></select>
+            <label class="vizc-chk"><input type="checkbox" id="mlipCmapRev"><span data-i18n="viz_cmap_rev"></span></label>
+          </div>
+          <div class="vizc-grp">
+            <label class="vizc-lbl"><span data-i18n="viz_size"></span> · <span id="mlipSizeVal"></span></label>
+            <input type="range" id="mlipSize" min="1" max="10" step="1">
+          </div>
+          <div class="vizc-grp">
+            <label class="vizc-lbl"><span data-i18n="viz_opacity"></span> · <span id="mlipOpacityVal"></span></label>
+            <input type="range" id="mlipOpacity" min="0.1" max="1" step="0.05">
+          </div>
+          <div class="vizlegend" id="mlipLegend"></div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -425,10 +611,20 @@ const I18N={
  zh:{title:'硫系存储材料数据库',title_h:'硫系存储材料数据库',
    subtitle:'面向硫系存储材料——相变存储器（phase-change memory, PCM）、奥弗辛阈值开关（ovonic threshold switching, OTS）与选通器存储器（selector-only memory, SOM）——的第一性原理结构数据库，涵盖非晶与晶态模型：非晶来自课题组 HPC 熔淬-优化流程，晶态来自 Materials Project。可按成分、元素、原子数、密度检索，支持 3D 预览与下载。',
    overview:'数据概览',overview_hint:'悬停查看数值。库内含非晶与晶态结构。',
-   chart_sys:'材料体系 Top 15（按结构数）',chart_elem:'元素 Top 15（含该元素的结构数）',
-   explore:'结构浏览',pt_hint:'点击元素周期表筛选（含全部所选元素的结构）；元素底色越深=含该元素的结构越多；点表格行可 3D 预览。',
+   chart_sys:'材料体系 Top 10（按结构数）',chart_elem:'元素 Top 10（含该元素的结构数）',chart_comp:'材料组分数分布（按结构数）',
+   explore:'结构浏览',pt_hint:'点击元素周期表筛选（仅由所选元素精确组成的体系，如选 Sb 得纯 Sb、选 Sb+Te 得 SbTe）；元素底色越深=含该元素的结构越多；点表格行可 3D 预览。',
    clear:'清除元素',search_ph:'搜索化学式 / 体系 / 来源路径…',
-   c_formula:'化学式',c_system:'体系',c_phase:'相',c_func:'功能性',c_temp:'温度',c_natoms:'原子数',c_density:'数密度',c_contributor:'贡献者',c_view:'预览',
+   sys_all:'全部体系',sys_more:(n)=>`显示其余 ${n} 个 ▾`,sys_less:'收起 ▴',
+   phase_all:'全部相态',temp_all:'全部温度',func_all:'全部功能性',contrib_all:'全部贡献者',
+   c_idx:'序号',c_formula:'化学式',c_system:'体系',c_phase:'相',c_func:'功能性',c_temp:'温度',c_natoms:'原子数',c_density:'数密度',c_energy:'能量',c_energy_t:'MLIP(mace-omat-0-medium)预测的每原子能量 (eV/atom)，反映相对能量，非 DFT 绝对值',c_contributor:'贡献者',c_view:'预览',
+   m_energy:'MLIP 能量/原子',
+   viz_title:'结构描述符分布 (SOAP + PCA)',
+   viz_hint:'对当前筛选的结构做元素无关 SOAP 编码，z-score 标准化后 PCA 降到 2 维。悬停查看结构序号，点击点打开 3D 预览；按住鼠标框选可局部放大，点「重置」回到全图。',
+   viz_axis:(n,r)=>`PC${n} (${(r*100).toFixed(1)}%)`,
+   viz_need:'至少需要 3 个结构才能作图，请放宽筛选。',
+   viz_colorby:'着色依据',viz_cb_phase:'相态',viz_cb_func:'功能性',viz_cb_density:'数密度',viz_cb_energy:'MLIP能量',viz_colormap:'色带',
+   viz_size:'散点大小',viz_opacity:'透明度',viz_cmap_rev:'反转配色',
+   viz_count:(n)=>`${n} 个结构`,color_amor:'非晶',color_liq:'液态',color_cryst:'晶态',
    view:'▶ 3D',t_total:'结构总数',t_sys:'材料体系',t_natoms:'原子数范围',t_dens:'数密度中位',t_phase:'相态',phase_amor:'非晶',phase_cryst:'晶态',phase_liq:'液态',
    shown:(a,b)=>`显示 ${a} / ${b}`,page:(a,b)=>`第 ${a} / ${b} 页`,sel_none:'未选元素',sel_pre:'已选：',
    dl_poscar:'⬇ 下载 POSCAR',toggle_style:'切换显示（球棍/填充）',elem_colors:'元素颜色',reset:'↺ 重置',
@@ -439,15 +635,43 @@ const I18N={
    up_ok:'✓ 已入库',up_fail:'✗ 失败: ',up_calc:(f,n,d)=>`化学式 <b>${f}</b> · 原子数 <b>${n}</b> · 数密度 <b>${d}</b> Atom/Å³`,
    up_needfields:'请填写贡献者与存放路径',up_parsefail:'结构文件解析失败',
    m_natoms:'原子数',m_dens:'数密度',m_temp:'温度',m_phase:'相',m_contrib:'贡献者',m_src:'HPC 来源',
+   mlip:'MLIP 训练数据集',
+   mlip_hint:'用于训练机器学习势函数（MLIP）的 DFT 标注数据集：每一帧都带有 DFT 计算的总能量与原子受力（extended XYZ 的 REF_energy / REF_forces）。下方的能量与受力分布刻画了训练集的标签覆盖范围——分布越宽，势函数可外推的构型空间越大。',
+   mlip_ds:'数据集',
+   mlip_c_ds:'数据集',mlip_c_label:'体系',mlip_c_frames:'帧数',mlip_c_atoms:'原子数合计',mlip_c_natoms:'单帧原子数',
+   mlip_c_elems:'元素',mlip_c_epa:'能量 (eV/atom)',mlip_c_fmax:'最大 |F| (eV/Å)',
+   mt_frames:'标注帧数',mt_atoms:'标注原子数',mt_ds:'数据集',mt_label:'标注等级',
+   mlip_chart_epa:'每原子能量分布',mlip_chart_fmag:'原子受力模长 |F| 分布',mlip_chart_fcomp:'受力分量分布',
+   mlip_foot_epa:(n)=>`按帧统计，共 ${n.toLocaleString()} 帧。不同体系的绝对能量参考点不同，跨数据集比较看分布宽度而非位置。`,
+   mlip_foot_fmag:(n)=>`按原子统计，共 ${n.toLocaleString()} 个原子受力矢量。纵轴为 log₁₀(计数+1)，以显示高受力尾部。`,
+   mlip_foot_fcomp:(n)=>`按受力分量统计，共 ${n.toLocaleString()} 个分量。分布应关于 0 对称——这是无净受力的合理性检查。`,
+   mlip_clipped:(n,p)=>`另有 ${n.toLocaleString()} 个样本（${p.toFixed(2)}%）落在显示范围外，未计入柱形。`,
+   mlip_none:'请至少选择一个数据集。',
+   mlip_viz_title:'训练集构型分布 (SOAP + PCA)',
+   mlip_viz_hint:'对抽样帧做元素无关 SOAP 编码（超参与主库结构图一致，故两图落在同一特征空间），z-score 标准化后 PCA 降到 2 维。默认视野裁到 1–99% 分位，以免二聚体等微小晶胞的极端离群点压缩主分布；点「全图」查看全部点。悬停查看帧信息；按住鼠标框选可局部放大。',
+   mlip_fullext:'⤢ 全图',mlip_hidden:(n)=>`${n} 个点在视野外`,
+   mlip_cb_ds:'数据集',mlip_cb_epa:'能量/原子',mlip_cb_frms:'受力 RMS',mlip_cb_fmax:'最大 |F|',
+   mlip_sampled:(s,n)=>`${s.toLocaleString()} / ${n.toLocaleString()} 帧（沿轨迹均匀抽样）`,
+   mlip_loading:'正在加载描述符…',mlip_fail:'mlip 数据加载失败',
    footer:'数据与代码托管于本仓库。构建主库 python scripts/build_asedb.py；查询 ase db data/pcm.db；贡献 python scripts/add_structure.py（详见 README）。',
    noload:'无法加载 data.json —— 请通过 HTTP 或 GitHub Pages 访问，而非直接双击打开。'},
  en:{title:'Chalcogenide Memory Materials Database',title_h:'Chalcogenide Memory Materials Database',
    subtitle:'A first-principles structure database of chalcogenide memory materials — phase-change memory (PCM), ovonic threshold switching (OTS), and selector-only memory (SOM) — spanning amorphous and crystalline models: amorphous from the group’s HPC melt-quench workflow, crystalline from the Materials Project. Search by composition, element, atom count and density; preview in 3D and download.',
    overview:'Overview',overview_hint:'Hover for values. The library contains amorphous and crystalline structures.',
-   chart_sys:'Top 15 material systems (by count)',chart_elem:'Top 15 elements (structures containing it)',
-   explore:'Explore structures',pt_hint:'Click the periodic table to filter (structures containing ALL selected elements); darker cell = more structures with that element; click a row for 3D preview.',
+   chart_sys:'Top 10 material systems (by count)',chart_elem:'Top 10 elements (structures containing it)',chart_comp:'Composition (n-ary) distribution (by count)',
+   explore:'Explore structures',pt_hint:'Click the periodic table to filter (systems made of EXACTLY the selected elements — e.g. Sb → pure Sb, Sb+Te → SbTe); darker cell = more structures with that element; click a row for 3D preview.',
    clear:'Clear elements',search_ph:'Search formula / system / source path…',
-   c_formula:'Formula',c_system:'System',c_phase:'Phase',c_func:'Function',c_temp:'Temp',c_natoms:'Atoms',c_density:'Density',c_contributor:'Contributor',c_view:'View',
+   sys_all:'All systems',sys_more:(n)=>`Show ${n} more ▾`,sys_less:'Show less ▴',
+   phase_all:'All phases',temp_all:'All temps',func_all:'All functions',contrib_all:'All contributors',
+   c_idx:'ID',c_formula:'Formula',c_system:'System',c_phase:'Phase',c_func:'Function',c_temp:'Temp',c_natoms:'Atoms',c_density:'Density',c_energy:'Energy',c_energy_t:'MLIP (mace-omat-0-medium) predicted energy per atom (eV/atom): reflects relative energy, not absolute DFT values',c_contributor:'Contributor',c_view:'View',
+   m_energy:'Energy/atom (MLIP)',
+   viz_title:'Structure descriptor map (SOAP + PCA)',
+   viz_hint:'Element-agnostic SOAP encoding of the filtered structures, z-scored then reduced to 2D by PCA. Hover for the structure ID; click a point to open the 3D preview. Drag to box-zoom; press Reset for the full view.',
+   viz_axis:(n,r)=>`PC${n} (${(r*100).toFixed(1)}%)`,
+   viz_need:'Need at least 3 structures to plot — loosen the filter.',
+   viz_colorby:'Color by',viz_cb_phase:'Phase',viz_cb_func:'Function',viz_cb_density:'Density',viz_cb_energy:'Energy (MLIP)',viz_colormap:'Colormap',
+   viz_size:'Point size',viz_opacity:'Opacity',viz_cmap_rev:'Reverse',
+   viz_count:(n)=>`${n} structures`,color_amor:'amorphous',color_liq:'liquid',color_cryst:'crystalline',
    view:'▶ 3D',t_total:'Structures',t_sys:'Material systems',t_natoms:'Atom-count range',t_dens:'Median density',t_phase:'Phase',phase_amor:'amorph.',phase_cryst:'cryst.',phase_liq:'liquid',
    shown:(a,b)=>`Showing ${a} / ${b}`,page:(a,b)=>`Page ${a} / ${b}`,sel_none:'No elements selected',sel_pre:'Selected: ',
    dl_poscar:'⬇ Download POSCAR',toggle_style:'Toggle style (ball-stick/space-fill)',elem_colors:'Element colors',reset:'↺ Reset',
@@ -458,6 +682,24 @@ const I18N={
    up_ok:'✓ Added',up_fail:'✗ Failed: ',up_calc:(f,n,d)=>`Formula <b>${f}</b> · atoms <b>${n}</b> · density <b>${d}</b> Atom/Å³`,
    up_needfields:'Contributor and store path are required',up_parsefail:'Failed to parse structure',
    m_natoms:'Atoms',m_dens:'Density',m_temp:'Temperature',m_phase:'Phase',m_contrib:'Contributor',m_src:'HPC source',
+   mlip:'MLIP training dataset',
+   mlip_hint:'DFT-labeled data for training machine-learning interatomic potentials (MLIP): every frame carries a DFT total energy and per-atom forces (REF_energy / REF_forces in extended XYZ). The energy and force distributions below characterise the label coverage of the training set — the wider the spread, the larger the configuration space the potential can be expected to handle.',
+   mlip_ds:'Datasets',
+   mlip_c_ds:'Dataset',mlip_c_label:'System',mlip_c_frames:'Frames',mlip_c_atoms:'Total atoms',mlip_c_natoms:'Atoms/frame',
+   mlip_c_elems:'Elements',mlip_c_epa:'Energy (eV/atom)',mlip_c_fmax:'Max |F| (eV/Å)',
+   mt_frames:'Labeled frames',mt_atoms:'Labeled atoms',mt_ds:'Datasets',mt_label:'Label level',
+   mlip_chart_epa:'Energy per atom',mlip_chart_fmag:'Force magnitude |F|',mlip_chart_fcomp:'Force components',
+   mlip_foot_epa:(n)=>`Over ${n.toLocaleString()} frames. Absolute energy references differ per chemistry — compare spread across datasets, not position.`,
+   mlip_foot_fmag:(n)=>`Over ${n.toLocaleString()} per-atom force vectors. The y-axis is log₁₀(count+1) so the high-force tail stays visible.`,
+   mlip_foot_fcomp:(n)=>`Over ${n.toLocaleString()} force components. The distribution should be symmetric about 0 — a sanity check for zero net force.`,
+   mlip_clipped:(n,p)=>`A further ${n.toLocaleString()} samples (${p.toFixed(2)}%) fall outside the plotted range and are not drawn.`,
+   mlip_none:'Select at least one dataset.',
+   mlip_viz_title:'Training-set configuration map (SOAP + PCA)',
+   mlip_viz_hint:'Element-agnostic SOAP encoding of the subsampled frames (same hyperparameters as the structure map above, so both live in the same feature space), z-scored then reduced to 2D by PCA. The default view is clipped to the 1–99% quantile so that extreme outliers (dimers and other tiny cells) do not squash the main distribution; press Full extent to see every point. Hover for frame details; drag to box-zoom.',
+   mlip_fullext:'⤢ Full extent',mlip_hidden:(n)=>`${n} points outside view`,
+   mlip_cb_ds:'Dataset',mlip_cb_epa:'Energy/atom',mlip_cb_frms:'Force RMS',mlip_cb_fmax:'Max |F|',
+   mlip_sampled:(s,n)=>`${s.toLocaleString()} / ${n.toLocaleString()} frames (uniform subsample along each trajectory)`,
+   mlip_loading:'Loading descriptors…',mlip_fail:'Failed to load MLIP data',
    footer:'Data and code live in this repository. Build the main DB: python scripts/build_asedb.py; query: ase db data/pcm.db; contribute: python scripts/add_structure.py (see README).',
    noload:'Cannot load data.json — open via HTTP or GitHub Pages, not by double-clicking the file.'}
 };
@@ -468,8 +710,10 @@ function applyI18n(){
   document.title=t('title');
   document.querySelectorAll('[data-i18n]').forEach(e=>e.textContent=t(e.dataset.i18n));
   document.querySelectorAll('[data-i18n-ph]').forEach(e=>e.placeholder=t(e.dataset.i18nPh));
+  document.querySelectorAll('[data-i18n-title]').forEach(e=>e.title=t(e.dataset.i18nTitle));
   document.getElementById('langBtn').textContent=LANG==='zh'?'EN':'中';
-  if(DATA){renderTiles();renderCharts();renderTable();renderSelEls();}
+  if(DATA){renderTiles();renderCharts();renderTable();renderSelEls();buildCboxItems();if(vizState){renderVizBar(vizState);renderLegend();}}
+  renderMlip();
 }
 function renderTiles(){
   const box=document.getElementById('tiles');if(!box||!DATA)return;
@@ -499,6 +743,8 @@ document.getElementById('themeBtn').onclick=()=>{
   rootEl.setAttribute('data-theme',curTheme()==='dark'?'light':'dark');
   localStorage.setItem('pcm_theme',curTheme());
   if(DATA)renderCharts();
+  if(vizState){computeColors();drawViz();renderLegend();}
+  renderMlip();if(mlipState)drawMlipViz();      // 主题只影响坐标轴/网格色，散点配色不随主题变
 };
 {const s=localStorage.getItem('pcm_theme');if(s)rootEl.setAttribute('data-theme',s);}
 document.getElementById('langBtn').onclick=()=>{LANG=LANG==='zh'?'en':'zh';localStorage.setItem('pcm_lang',LANG);applyI18n();};
@@ -510,7 +756,7 @@ function debounce(fn,ms){let h;return(...a)=>{clearTimeout(h);h=setTimeout(()=>f
 let DATA=null;
 
 function barChart(svg,rows,label,value){
-  svg.innerHTML='';const W=svg.clientWidth||520,rh=26,padL=120,padR=48,padT=6;
+  svg.innerHTML='';const W=svg.clientWidth||520,rh=20,padL=120,padR=48,padT=6;
   const H=rows.length*rh+padT+8;svg.setAttribute('viewBox',`0 0 ${W} ${H}`);svg.style.height=H+'px';
   const max=Math.max(...rows.map(value))||1,sc=(W-padL-padR)/max;
   const gid=(svg.id||'bc')+'-grad';                 // 玫瑰红→蓝 横向渐变（跨绘图区，条越长越偏蓝）
@@ -525,34 +771,48 @@ function barChart(svg,rows,label,value){
     b.addEventListener('mousemove',e=>showTip(e,`<b>${label(r)}</b><br>${value(r)}`));b.addEventListener('mouseleave',hideTip);
     svg.appendChild(b);svg.appendChild(el('text',{x:padL+bw+6,y:y+rh/2+3})).textContent=value(r);});
 }
-function histogram(svg,vals,fmt,unit){
-  svg.innerHTML='';const W=svg.clientWidth||900,H=210,padL=44,padR=14,padT=10,padB=34;
+// 预分箱直方图：edges 长度 = counts 长度 + 1。opts={fmt,unit,logY}
+// logY 用于力分布——原子级计数跨数个数量级，线性轴会把尾部压成零。
+function histBars(svg,edges,counts,opts){
+  const o=Object.assign({fmt:v=>v.toFixed(2),unit:'',logY:false},opts||{});
+  svg.innerHTML='';const W=svg.clientWidth||900,H=210,padL=52,padR=14,padT=10,padB=34;
   svg.setAttribute('viewBox',`0 0 ${W} ${H}`);svg.style.height=H+'px';
-  const min=Math.min(...vals),max=Math.max(...vals),span=(max-min)||1,bins=Math.min(30,Math.max(12,Math.round(Math.sqrt(vals.length))));
-  const bw=span/bins,cnt=new Array(bins).fill(0);
-  vals.forEach(v=>{let b=Math.floor((v-min)/bw);if(b>=bins)b=bins-1;if(b<0)b=0;cnt[b]++;});
-  const cmax=Math.max(...cnt)||1,plotW=W-padL-padR,plotH=H-padT-padB;
+  const bins=counts.length,min=edges[0],max=edges[bins],span=(max-min)||1;
+  const plotW=W-padL-padR,plotH=H-padT-padB;
+  const cmax=Math.max(...counts)||1;
+  const tf=c=>o.logY?Math.log10(c+1):c,tmax=tf(cmax)||1;
+  const yLab=f=>{const v=o.logY?Math.pow(10,tmax*f)-1:cmax*f;
+    return v>=1e6?(v/1e6).toFixed(1)+'M':v>=1e3?(v/1e3).toFixed(0)+'k':Math.round(v);};
   for(let tck=0;tck<=4;tck++){const y=padT+plotH-plotH*tck/4;
     svg.appendChild(el('line',{x1:padL,y1:y,x2:W-padR,y2:y,class:'grid-line'}));
-    svg.appendChild(el('text',{x:padL-6,y:y+3,'text-anchor':'end'})).textContent=Math.round(cmax*tck/4);}
+    svg.appendChild(el('text',{x:padL-6,y:y+3,'text-anchor':'end'})).textContent=yLab(tck/4);}
   const cw=plotW/bins;
-  cnt.forEach((c,i)=>{const x=padL+i*cw,bh=plotH*c/cmax;
-    const b=el('rect',{x:x+1,y:padT+plotH-bh,width:Math.max(1,cw-2),height:bh,rx:3,class:'bar'});
-    const lo=min+i*bw;b.addEventListener('mousemove',e=>showTip(e,`${fmt(lo)}–${fmt(lo+bw)} ${unit}<br><b>${c}</b>`));
+  counts.forEach((c,i)=>{const x=padL+i*cw,bh=c?Math.max(1,plotH*tf(c)/tmax):0;
+    const b=el('rect',{x:x+1,y:padT+plotH-bh,width:Math.max(1,cw-2),height:bh,rx:2,class:'bar'});
+    const lo=edges[i],hi=edges[i+1];
+    b.addEventListener('mousemove',e=>showTip(e,`${o.fmt(lo)} – ${o.fmt(hi)} ${o.unit}<br><b>${c.toLocaleString()}</b>`));
     b.addEventListener('mouseleave',hideTip);svg.appendChild(b);});
   svg.appendChild(el('line',{x1:padL,y1:padT+plotH,x2:W-padR,y2:padT+plotH,class:'axis-line'}));
-  for(let tck=0;tck<=5;tck++){svg.appendChild(el('text',{x:padL+plotW*tck/5,y:H-padB+18,'text-anchor':'middle'})).textContent=fmt(min+span*tck/5);}
+  for(let tck=0;tck<=5;tck++){svg.appendChild(el('text',{x:padL+plotW*tck/5,y:H-padB+18,'text-anchor':'middle'})).textContent=o.fmt(min+span*tck/5);}
 }
 function elementCounts(){
   const c={};DATA.forEach(r=>r.elements.forEach(e=>c[e]=(c[e]||0)+1));return c;
 }
+function naryLabel(n){
+  const zh=['','一元','二元','三元','四元','五元','六元','七元','八元'];
+  const en=['','Unary','Binary','Ternary','Quaternary','Quinary','Senary','Septenary','Octonary'];
+  return LANG==='zh'?(zh[n]||`${n}元`):(en[n]||`${n}-element`);
+}
 function renderCharts(){
   const bySys={};DATA.forEach(r=>bySys[r.system]=(bySys[r.system]||0)+1);
-  const top=Object.entries(bySys).sort((a,b)=>b[1]-a[1]).slice(0,15).map(([k,v])=>({k,v}));
+  const top=Object.entries(bySys).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([k,v])=>({k,v}));
   barChart(document.getElementById('sysChart'),top,r=>r.k,r=>r.v);
   const ec=elementCounts();
-  const els=Object.entries(ec).sort((a,b)=>b[1]-a[1]).slice(0,15).map(([k,v])=>({k,v}));
+  const els=Object.entries(ec).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([k,v])=>({k,v}));
   barChart(document.getElementById('elemChart'),els,r=>r.k,r=>r.v);
+  const comp={};DATA.forEach(r=>{const n=r.elements.length;comp[n]=(comp[n]||0)+1;});
+  const crows=Object.keys(comp).map(Number).sort((a,b)=>a-b).map(n=>({k:naryLabel(n),v:comp[n]}));
+  barChart(document.getElementById('compChart'),crows,r=>r.k,r=>r.v);
 }
 
 /* ---------- periodic table ---------- */
@@ -585,7 +845,7 @@ function buildPT(){
       d.addEventListener('mousemove',e=>showTip(e,`<b>${sym}</b> · ${cnt}`));
       d.addEventListener('mouseleave',hideTip);
       d.onclick=()=>{const on=SEL.has(sym);if(on)SEL.delete(sym);else SEL.add(sym);
-        d.classList.toggle('sel');renderSelEls();curPage=1;renderTable();};
+        d.classList.toggle('sel');renderSelEls();curPage=1;renderTable();updateVizDebounced();};
     } else d.className='pt';
     g.appendChild(d);
   }));
@@ -594,7 +854,7 @@ function renderSelEls(){
   const s=document.getElementById('selEls');
   s.textContent=SEL.size?t('sel_pre')+[...SEL].join(' · '):t('sel_none');
 }
-document.getElementById('clearEls').onclick=()=>{SEL.clear();document.querySelectorAll('.pt.sel').forEach(e=>e.classList.remove('sel'));renderSelEls();curPage=1;renderTable();};
+document.getElementById('clearEls').onclick=()=>{SEL.clear();document.querySelectorAll('.pt.sel').forEach(e=>e.classList.remove('sel'));renderSelEls();curPage=1;renderTable();updateVizDebounced();};
 
 /* ---------- table + pagination ---------- */
 let sortK='natoms',sortDir=-1,curPage=1;
@@ -617,12 +877,14 @@ function normFormula(f){                 // 组分归一化为百分比：元素
 }
 function filtered(){
   const q=document.getElementById('q').value.toLowerCase().trim();
-  const sf=document.getElementById('sysF').value,tf=document.getElementById('tempF').value,ff=document.getElementById('funcF').value;
+  const sf=CBOX.sys.sel,pf=CBOX.phase.sel,tf=CBOX.temp.sel,ff=CBOX.func.sel,cf=CBOX.contrib.sel;
   return DATA.filter(r=>{
     if(sf&&r.system!==sf)return false;
+    if(pf&&r.phase!==pf)return false;
     if(tf&&r.temperature!==tf)return false;
     if(ff&&(r.functionality||'Others')!==ff)return false;
-    if(SEL.size&&![...SEL].every(e=>r.elements.includes(e)))return false;
+    if(cf&&r.contributor!==cf)return false;
+    if(SEL.size&&(r.elements.length!==SEL.size||![...SEL].every(e=>r.elements.includes(e))))return false;
     if(q&&!(r.formula.toLowerCase().includes(q)||r.system.toLowerCase().includes(q)||r.path.toLowerCase().includes(q)))return false;
     return true;
   });
@@ -636,9 +898,10 @@ function renderTable(){
   const tb=document.getElementById('tbody');tb.innerHTML='';const fr=document.createDocumentFragment();
   slice.forEach(r=>{const tr=document.createElement('tr');tr.onclick=()=>openViewer(r);
     const fn=r.functionality||'Others';
-    tr.innerHTML=`<td>${r.system}</td><td title="${r.formula}">${normFormula(r.formula)}</td><td><span class="pill">${r.phase}</span></td>`+
+    tr.innerHTML=`<td class="idx" title="${r.sid}">${r.sid}</td><td>${r.system}</td><td class="fml" title="${r.formula}">${normFormula(r.formula)}</td><td><span class="pill">${r.phase}</span></td>`+
       `<td><span class="pill ${fnClass(fn)}">${fnLabel(fn)}</span></td>`+
       `<td>${r.temperature}</td><td class="num">${r.natoms}</td><td class="num">${r.density.toFixed(4)}</td>`+
+      `<td class="num">${r.energy_per_atom!=null?r.energy_per_atom.toFixed(3):'—'}</td>`+
       `<td>${r.contributor}</td><td class="act">${t('view')}</td>`;fr.appendChild(tr);});
   tb.appendChild(fr);
   document.getElementById('shown').textContent=t('shown')(total,DATA.length);
@@ -656,19 +919,74 @@ function updateSortIndicators(){
   });
 }
 function gotoPage(p){curPage=p;renderTable();document.querySelector('.tblwrap').scrollIntoView({block:'nearest'});}
+/* ---------- 通用自定义下拉（体系/相态/温度/功能性/贡献者共用） ----------
+   sys 组分分组、每组各显示 top10；其余为平铺列表，超过 10 项同样折叠 + 展开。 */
+const CBOX_TOP=10;
+const CBOX={
+  sys:    {allKey:'sys_all',    grouped:true,  sel:'',items:[],expN:{},expanded:false},
+  phase:  {allKey:'phase_all',  grouped:false, sel:'',items:[],expN:{},expanded:false},
+  temp:   {allKey:'temp_all',   grouped:false, sel:'',items:[],expN:{},expanded:false},
+  func:   {allKey:'func_all',   grouped:false, sel:'',items:[],expN:{},expanded:false},
+  contrib:{allKey:'contrib_all',grouped:false, sel:'',items:[],expN:{},expanded:false},
+};
+function cboxLabel(k){const s=CBOX[k],it=s.items.find(x=>x.v===s.sel);
+  document.getElementById(k+'Lab').textContent=(s.sel&&it)?it.label:t(s.allKey);}
+function cboxRenderPop(k){
+  const s=CBOX[k],pop=document.getElementById(k+'Pop');
+  const opt=x=>`<div class="cbox-opt${s.sel===x.v?' sel':''}" data-v="${x.v}">${x.label}</div>`;
+  const more=(g,exp,rest)=>`<button type="button" class="cbox-more" data-g="${g}">${exp?t('sys_less'):t('sys_more')(rest)}</button>`;
+  let html=`<div class="cbox-opt${s.sel===''?' sel':''}" data-v="">${t(s.allKey)}</div>`;
+  if(s.grouped){
+    const byN={};s.items.forEach(x=>{(byN[x.n]=byN[x.n]||[]).push(x);});   // items 已按结构数降序 → 组内亦降序
+    Object.keys(byN).map(Number).sort((a,b)=>a-b).forEach(n=>{
+      const grp=byN[n],exp=!!s.expN[n],shown=exp?grp:grp.slice(0,CBOX_TOP);
+      html+=`<div class="cbox-grp">${naryLabel(n)} · ${grp.length}</div>`;
+      shown.forEach(x=>html+=opt(x));
+      if(grp.length>CBOX_TOP)html+=more(n,exp,grp.length-CBOX_TOP);
+    });
+  }else{
+    const shown=s.expanded?s.items:s.items.slice(0,CBOX_TOP);
+    shown.forEach(x=>html+=opt(x));
+    if(s.items.length>CBOX_TOP)html+=more('',s.expanded,s.items.length-CBOX_TOP);
+  }
+  const prev=pop.querySelector('.cbox-list'),keepTop=prev?prev.scrollTop:0;
+  pop.innerHTML=`<div class="cbox-list">${html}</div>`;
+  pop.querySelector('.cbox-list').scrollTop=keepTop;            // 展开/收起后保持滚动位置
+  pop.querySelectorAll('.cbox-opt').forEach(o=>o.onclick=()=>{
+    s.sel=o.dataset.v;cboxLabel(k);cboxClose(k);curPage=1;renderTable();updateVizDebounced();});
+  // stopPropagation：重建 innerHTML 后旧按钮已脱离 DOM，冒泡到 document 会被误判成“点了外部”而关闭面板
+  pop.querySelectorAll('.cbox-more').forEach(b=>b.onclick=e=>{e.stopPropagation();
+    if(s.grouped)s.expN[+b.dataset.g]=!s.expN[+b.dataset.g];else s.expanded=!s.expanded;
+    cboxRenderPop(k);});
+}
+function cboxOpen(k){Object.keys(CBOX).forEach(o=>{if(o!==k)cboxClose(o);});
+  document.getElementById(k+'Pop').hidden=false;document.getElementById(k+'Btn').classList.add('open');cboxRenderPop(k);}
+function cboxClose(k){const p=document.getElementById(k+'Pop');if(!p)return;
+  p.hidden=true;document.getElementById(k+'Btn').classList.remove('open');}
+// 重建各下拉的选项（语言切换时也会调用，选中值保留在 CBOX[k].sel）
+function buildCboxItems(){
+  const sc={},sysN={},pc={},fc={},tc={},cc={};
+  DATA.forEach(r=>{sc[r.system]=(sc[r.system]||0)+1;sysN[r.system]=r.elements.length;
+    pc[r.phase]=(pc[r.phase]||0)+1;const f=r.functionality||'Others';fc[f]=(fc[f]||0)+1;
+    tc[r.temperature]=(tc[r.temperature]||0)+1;cc[r.contributor]=(cc[r.contributor]||0)+1;});
+  CBOX.sys.items=Object.keys(sc).map(s=>({v:s,label:`${s} (${sc[s]})`,n:sysN[s],c:sc[s]})).sort((a,b)=>b.c-a.c);
+  CBOX.phase.items=PHASE_ORDER.filter(p=>pc[p]).map(p=>({v:p,label:`${t(PHASE_LKEY[p])} (${pc[p]})`}));
+  CBOX.temp.items=Object.keys(tc).sort((a,b)=>parseInt(a)-parseInt(b)).map(x=>({v:x,label:`${x} (${tc[x]})`}));
+  CBOX.func.items=FN_ORDER.filter(f=>fc[f]).map(f=>({v:f,label:`${fnLabel(f)} (${fc[f]})`}));
+  CBOX.contrib.items=Object.keys(cc).sort((a,b)=>cc[b]-cc[a]).map(n=>({v:n,label:`${n} (${cc[n]})`}));
+  Object.keys(CBOX).forEach(k=>{cboxLabel(k);if(!document.getElementById(k+'Pop').hidden)cboxRenderPop(k);});
+}
 function initFilters(){
-  const sc={},temps=new Set();DATA.forEach(r=>{sc[r.system]=(sc[r.system]||0)+1;temps.add(r.temperature);r.elements.forEach(e=>AVAIL.add(e));});
-  const sysF=document.getElementById('sysF');sysF.innerHTML='';
-  sysF.appendChild(Object.assign(document.createElement('option'),{value:'',textContent:LANG==='zh'?'全部体系':'All systems'}));
-  Object.entries(sc).sort((a,b)=>b[1]-a[1]).forEach(([k,v])=>sysF.appendChild(Object.assign(document.createElement('option'),{value:k,textContent:`${k} (${v})`})));
-  const tempF=document.getElementById('tempF');tempF.innerHTML='';
-  tempF.appendChild(Object.assign(document.createElement('option'),{value:'',textContent:LANG==='zh'?'全部温度':'All temps'}));
-  [...temps].sort().forEach(x=>tempF.appendChild(Object.assign(document.createElement('option'),{value:x,textContent:x})));
-  const fc={};DATA.forEach(r=>{const f=r.functionality||'Others';fc[f]=(fc[f]||0)+1;});
-  const funcF=document.getElementById('funcF');funcF.innerHTML='';
-  funcF.appendChild(Object.assign(document.createElement('option'),{value:'',textContent:LANG==='zh'?'全部功能性':'All functions'}));
-  FN_ORDER.filter(f=>fc[f]).forEach(f=>funcF.appendChild(Object.assign(document.createElement('option'),{value:f,textContent:`${fnLabel(f)} (${fc[f]})`})));
-  ['q','sysF','tempF','funcF'].forEach(id=>document.getElementById(id).addEventListener('input',()=>{curPage=1;renderTable();}));
+  DATA.forEach(r=>r.elements.forEach(e=>AVAIL.add(e)));
+  buildCboxItems();
+  Object.keys(CBOX).forEach(k=>{
+    document.getElementById(k+'Btn').onclick=e=>{e.stopPropagation();
+      document.getElementById(k+'Pop').hidden?cboxOpen(k):cboxClose(k);};
+  });
+  document.addEventListener('click',e=>{
+    if(!e.target.isConnected)return;                             // 目标已被重建移除，不能据此判断“点了外部”
+    Object.keys(CBOX).forEach(k=>{if(!document.getElementById(k+'Box').contains(e.target))cboxClose(k);});});
+  document.getElementById('q').addEventListener('input',()=>{curPage=1;renderTable();updateVizDebounced();});
   document.querySelectorAll('th[data-k]').forEach(th=>{
     if(!th.querySelector('.sind'))th.insertAdjacentHTML('beforeend','<span class="sind"><i class="up"></i><i class="dn"></i></span>');
     th.onclick=()=>{const k=th.dataset.k;sortDir=(sortK===k)?-sortDir:1;sortK=k;curPage=1;renderTable();};
@@ -785,9 +1103,11 @@ function ensureVIZ(){return VIZ?Promise.resolve(VIZ):fetch('viz_assets.json').th
 let mainViewer=null;
 function openViewer(r){
   document.getElementById('mTitle').textContent=`${r.formula}  ·  ${r.phase} ${r.temperature}`;
+  const eStr=r.energy_per_atom!=null?`${r.energy_per_atom.toFixed(3)} eV/atom`:'—';
   const M=[['m_natoms',r.natoms],['m_dens',r.density.toFixed(4)],['m_temp',r.temperature],
-    ['m_phase',r.phase],['m_contrib',r.contributor],['m_src',r.hpc_source]];
-  document.getElementById('mMeta').innerHTML=M.map(([k,v])=>`<div><span>${t(k)}</span>${v}</div>`).join('');
+    ['m_phase',r.phase],['m_energy',eStr],['m_contrib',r.contributor],['m_src',r.hpc_source]];
+  document.getElementById('mMeta').innerHTML=M.map(([k,v])=>`<div><span>${t(k)}</span>${v}</div>`).join('')+
+    `<div class="mnote">${t('c_energy_t')}</div>`;
   const dl=document.getElementById('mDownload');dl.href=`structures/${r.sid}.poscar`;dl.download=`${r.formula}_${r.sid}_POSCAR.vasp`;
   document.getElementById('modal').classList.add('open');
   const host=document.getElementById('viewer3d');host.innerHTML='<div class="load">…</div>';
@@ -857,12 +1177,474 @@ document.getElementById('upSubmit').onclick=()=>{
     .catch(e=>{btn.disabled=false;status.textContent=t('up_fail')+e;});
 };
 
+/* ---------- Structure Descriptors Visualization (beta): SOAP + PCA ---------- */
+let DESC=null,DESC_LOADING=null;               // {dim, idx:{sid->row}, arr:Float32Array}
+function loadDesc(){
+  if(DESC)return Promise.resolve(DESC);
+  if(DESC_LOADING)return DESC_LOADING;
+  const dec=s=>{const bin=atob(s),n=bin.length,b=new Uint8Array(n);for(let i=0;i<n;i++)b[i]=bin.charCodeAt(i);return new Float32Array(b.buffer);};
+  DESC_LOADING=fetch('descriptors.json').then(r=>r.json()).then(p=>{
+    const arr=dec(p.data),idx={};
+    p.sids.forEach((s,i)=>idx[s]=i);
+    DESC={dim:p.dim,idx,arr};
+    return DESC;
+  });
+  return DESC_LOADING;
+}
+// 子集轴：对筛选子集做 z-score 标准化后再 PCA→2D。
+// 协方差 C=AᵀA/m，用幂迭代取前两主成分（deflation）。
+function pcaProject(rows){
+  const m=rows.length,d=rows[0].length;
+  const mean=new Float64Array(d),std=new Float64Array(d);
+  for(const r of rows)for(let j=0;j<d;j++)mean[j]+=r[j];
+  for(let j=0;j<d;j++)mean[j]/=m;
+  for(const r of rows)for(let j=0;j<d;j++){const t=r[j]-mean[j];std[j]+=t*t;}
+  for(let j=0;j<d;j++){std[j]=Math.sqrt(std[j]/m)||1;}
+  const A=new Float64Array(m*d);   // 标准化矩阵（已零均值单位方差）
+  for(let i=0;i<m;i++){const r=rows[i],off=i*d;for(let j=0;j<d;j++)A[off+j]=(r[j]-mean[j])/std[j];}
+  let totvar=0;for(let i=0;i<m*d;i++)totvar+=A[i]*A[i];totvar/=m;if(totvar<=0)totvar=1;
+  function topPC(){
+    let v=new Float64Array(d);for(let j=0;j<d;j++)v[j]=Math.sin(j*0.7+1);
+    let lambda=0;
+    for(let it=0;it<200;it++){
+      const tv=new Float64Array(m);
+      for(let i=0;i<m;i++){let s=0;const off=i*d;for(let j=0;j<d;j++)s+=A[off+j]*v[j];tv[i]=s;}
+      const w=new Float64Array(d);
+      for(let i=0;i<m;i++){const s=tv[i],off=i*d;for(let j=0;j<d;j++)w[j]+=A[off+j]*s;}
+      for(let j=0;j<d;j++)w[j]/=m;
+      let norm=0;for(let j=0;j<d;j++)norm+=w[j]*w[j];norm=Math.sqrt(norm)||1;
+      for(let j=0;j<d;j++)w[j]/=norm;
+      let diff=0;for(let j=0;j<d;j++)diff+=Math.abs(w[j]-v[j]);
+      v=w;lambda=norm;if(diff<1e-7)break;
+    }
+    return {v,lambda};
+  }
+  const pc1=topPC(),proj1=new Float64Array(m);
+  for(let i=0;i<m;i++){let s=0;const off=i*d;for(let j=0;j<d;j++)s+=A[off+j]*pc1.v[j];proj1[i]=s;}
+  for(let i=0;i<m;i++){const p=proj1[i],off=i*d;for(let j=0;j<d;j++)A[off+j]-=p*pc1.v[j];}
+  const pc2=topPC(),proj2=new Float64Array(m);
+  for(let i=0;i<m;i++){let s=0;const off=i*d;for(let j=0;j<d;j++)s+=A[off+j]*pc2.v[j];proj2[i]=s;}
+  return {x:proj1,y:proj2,ev1:pc1.lambda/totvar,ev2:pc2.lambda/totvar};
+}
+const PHASE_COLOR={amorphous:'#2f74dd',liquid:'#f0a020',crystalline:'#d6336c'};
+const PHASE_LKEY={amorphous:'color_amor',liquid:'color_liq',crystalline:'color_cryst'};
+const PHASE_ORDER=['amorphous','liquid','crystalline'];
+// 连续型 colormap（锚点色线性插值近似 matplotlib）
+const CMAPS={
+  coolwarm:['#3b4cc0','#6788ee','#9abbff','#c9d7f0','#edd1c2','#f7a889','#e26952','#b40426'],
+  bwr:['#0000ff','#ffffff','#ff0000'],
+  PiYG:['#c51b7d','#de77ae','#f1b6da','#fde0ef','#f7f7f7','#e6f5d0','#b8e186','#7fbc41','#4d9221'],
+  Viridis:['#440154','#414487','#2a788e','#22a884','#7ad151','#fde725'],
+  plasma:['#0d0887','#6a00a8','#b12a90','#e16462','#fca636','#f0f921'],
+  GnBu:['#f7fcf0','#e0f3db','#ccebc5','#a8ddb5','#7bccc4','#4eb3d3','#2b8cbe','#0868ac','#084081'],
+  Blues:['#f7fbff','#deebf7','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b'],
+  Reds:['#fff5f0','#fee0d2','#fcbba1','#fc9272','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d'],
+  Greens:['#f7fcf5','#e5f5e0','#c7e9c0','#a1d99b','#74c476','#41ab5d','#238b45','#006d2c','#00441b']
+};
+const FUNC_VAR={'PCM':'--fn-pcm','OTS':'--fn-ots','SOM':'--fn-som','PCM candidates':'--fn-cand','Others':'--fn-other'};
+function hex2rgb(h){h=h.replace('#','');return [parseInt(h.slice(0,2),16),parseInt(h.slice(2,4),16),parseInt(h.slice(4,6),16)];}
+// 取色带的锚点色（rev=true 时反转，等价于 matplotlib 的 *_r）
+function cmapStops(name,rev){const s=CMAPS[name]||CMAPS.Viridis;return rev?s.slice().reverse():s;}
+function cmapColor(name,t,rev){const s=cmapStops(name,rev);t=t<0?0:t>1?1:t;
+  const x=t*(s.length-1),i=Math.min(s.length-2,Math.floor(x)),f=x-i,a=hex2rgb(s[i]),b=hex2rgb(s[i+1]);
+  return `rgb(${Math.round(a[0]+(b[0]-a[0])*f)},${Math.round(a[1]+(b[1]-a[1])*f)},${Math.round(a[2]+(b[2]-a[2])*f)})`;}
+function funcColor(f){return getComputedStyle(document.body).getPropertyValue(FUNC_VAR[f]||'--fn-other').trim()||'#888';}
+const CLIP=[0.02,0.98];                 // 连续着色的分位裁剪范围（抑制离群值拉伸色标）
+function quantile(sorted,q){if(!sorted.length)return 0;const p=(sorted.length-1)*q,b=Math.floor(p),r=p-b;
+  return sorted[b+1]!==undefined?sorted[b]+r*(sorted[b+1]-sorted[b]):sorted[b];}
+let vizColorBy=localStorage.getItem('pcm_viz_colorby')||'phase';
+let vizCmap=localStorage.getItem('pcm_viz_cmap')||'Viridis';
+if(!CMAPS[vizCmap])vizCmap='Viridis';
+let vizCmapRev=localStorage.getItem('pcm_viz_cmap_rev')==='1';
+let vizPointSize=+(localStorage.getItem('pcm_viz_size')||5);
+let vizPointAlpha=+(localStorage.getItem('pcm_viz_alpha')||0.8);
+let vizCatColors=(()=>{try{return JSON.parse(localStorage.getItem('pcm_viz_catcolors')||'{}');}catch(e){return {};}})();
+function toHex(c){c=(c||'').trim();if(/^#[0-9a-fA-F]{6}$/.test(c))return c.toLowerCase();
+  const m=c.match(/rgba?\(([^)]+)\)/);if(m){const p=m[1].split(',').map(x=>parseInt(x));
+    return '#'+p.slice(0,3).map(v=>('0'+((v||0)&255).toString(16)).slice(-2)).join('');}return '#888888';}
+const DS_COLOR={GST225:'#2f74dd',GeTe:'#d6336c',Sb2Te3:'#f0a020',MP_pure_GST:'#21a179'};
+// 离散类别取色：优先用户覆盖，否则默认（phase/dataset=固定色，function=表格 --fn-* 主题色）
+function catColor(mode,cat){const ov=(vizCatColors[mode]||{})[cat];if(ov)return ov;
+  if(mode==='phase')return PHASE_COLOR[cat]||'#888';
+  if(mode==='dataset')return DS_COLOR[cat]||'#888';
+  return funcColor(cat);}
+// 连续量着色（density / energy）——按当前子集 min/max 映射到 colormap
+const CONT={
+  density:{get:r=>r.density,cap:()=>`${t('c_density')} (Atom/Å³)`,fmt:v=>v.toFixed(4)},
+  energy:{get:r=>r.energy_per_atom,cap:()=>`${t('viz_cb_energy')} (eV/atom)`,fmt:v=>v.toFixed(3)}
+};
+// 连续量着色的公共实现：分位裁剪 → 归一化 → colormap。返回 {colors,colorInfo}
+function contColors(items,get,cmapName,rev){
+  const vv=items.map(get).filter(v=>v!=null&&isFinite(v)).sort((a,b)=>a-b);
+  let lo=quantile(vv,CLIP[0]),hi=quantile(vv,CLIP[1]);
+  if(!(hi>lo)){lo=vv[0]??0;hi=vv[vv.length-1]??lo+1;}if(!(hi>lo))hi=lo+1;
+  const clipped=!!vv.length&&(vv[0]<lo-1e-9||vv[vv.length-1]>hi+1e-9);
+  return {colors:items.map(r=>{const v=get(r);return (v==null||!isFinite(v))?'#c0c0c0':cmapColor(cmapName,(v-lo)/(hi-lo),rev);}),
+          colorInfo:{lo,hi,clipped}};
+}
+function computeColors(){
+  if(!vizState)return;const items=vizState.items;
+  if(CONT[vizColorBy]){const r=contColors(items,CONT[vizColorBy].get,vizCmap,vizCmapRev);
+    vizState.colors=r.colors;vizState.colorInfo=r.colorInfo;}
+  else{const mode=vizColorBy==='function'?'function':'phase';
+    const key=mode==='function'?(r=>r.functionality||'Others'):(r=>r.phase);
+    vizState.colors=items.map(r=>catColor(mode,key(r)));vizState.colorInfo=null;}
+}
+// 连续色标图例（色带 + 上下限 + 标题）
+function contLegend(box,C,ci,cmapName,rev){
+  const s=cmapStops(cmapName,rev),stops=s.map((c,i)=>`${c} ${(i/(s.length-1)*100).toFixed(0)}%`).join(',');
+  const pre=ci.clipped?['≤ ','≥ ']:['',''];
+  box.innerHTML=`<div class="cbar" style="background:linear-gradient(90deg,${stops})"></div>`+
+    `<div class="cbar-lbl"><span>${pre[0]}${C.fmt(ci.lo)}</span><span>${pre[1]}${C.fmt(ci.hi)}</span></div>`+
+    `<div class="cbar-cap">${C.cap()}${ci.clipped?` · ${(CLIP[0]*100)|0}–${(CLIP[1]*100)|0}% clip`:''}</div>`;
+}
+// 离散类别图例：每类一个取色器，可重置为默认配色
+function catLegend(box,mode,cats,label,onChange){
+  box.innerHTML=cats.map(c=>`<label class="lgd"><input type="color" class="lgdc" data-cat="${c}" value="${toHex(catColor(mode,c))}">${label(c)}</label>`).join('')+
+    `<button class="lgdreset" data-reset="1">${t('reset')}</button>`;
+  const save=()=>localStorage.setItem('pcm_viz_catcolors',JSON.stringify(vizCatColors));
+  box.querySelectorAll('.lgdc').forEach(inp=>inp.oninput=()=>{
+    (vizCatColors[mode]=vizCatColors[mode]||{})[inp.dataset.cat]=inp.value;save();onChange(false);});
+  box.querySelector('[data-reset]').onclick=()=>{delete vizCatColors[mode];save();onChange(true);};
+}
+function renderLegend(){
+  const box=document.getElementById('vizLegend');if(!box)return;
+  if(!vizState){box.innerHTML='';return;}
+  if(CONT[vizColorBy]){contLegend(box,CONT[vizColorBy],vizState.colorInfo||{lo:0,hi:1},vizCmap,vizCmapRev);return;}
+  const items=vizState.items,mode=vizColorBy;let cats,label;
+  if(mode==='function'){cats=FN_ORDER.filter(f=>items.some(r=>(r.functionality||'Others')===f));label=fnLabel;}
+  else{cats=PHASE_ORDER.filter(p=>items.some(r=>r.phase===p));label=p=>t(PHASE_LKEY[p]||'')||p;}
+  catLegend(box,mode,cats,label,relegend=>{computeColors();drawViz();if(relegend)renderLegend();});
+}
+let vizState=null;
+// 常驻面板：根据当前筛选结果重算并绘制（随筛选实时更新）。
+function updateViz(){
+  const bar=document.getElementById('vizBar');if(!bar)return;
+  loadDesc().then(D=>{
+    const items=[],vecs=[];
+    filtered().forEach(r=>{const i=D.idx[r.sid];if(i===undefined)return;
+      items.push(r);vecs.push(D.arr.subarray(i*D.dim,i*D.dim+D.dim));});
+    if(items.length<3){vizState=null;renderVizBar(null);renderLegend();
+      const cv=document.getElementById('vizCanvas');cv.width=cv.clientWidth;cv.height=cv.clientHeight;
+      cv.getContext('2d').clearRect(0,0,cv.width,cv.height);return;}
+    const pca=pcaProject(vecs);
+    let xmin=Math.min(...pca.x),xmax=Math.max(...pca.x),ymin=Math.min(...pca.y),ymax=Math.max(...pca.y);
+    const px=(xmax-xmin)*0.06||1,py=(ymax-ymin)*0.06||1;
+    const full={xmin:xmin-px,xmax:xmax+px,ymin:ymin-py,ymax:ymax+py};
+    vizState={items,x:pca.x,y:pca.y,ev1:pca.ev1,ev2:pca.ev2,pts:[],hover:null,
+      full,view:Object.assign({},full),plot:null,colors:null,colorInfo:null};
+    computeColors();renderVizBar(vizState);drawViz();renderLegend();
+  }).catch(()=>{bar.textContent='descriptors.json load failed';});
+}
+const updateVizDebounced=debounce(updateViz,220);
+function resetViz(){if(vizState){vizState.view=Object.assign({},vizState.full);drawViz();}}
+function renderVizBar(st){
+  const bar=document.getElementById('vizBar');
+  const rst=`<button class="tbtn" id="vizReset">${t('reset')}</button>`;
+  if(!st){bar.innerHTML=`<span>${t('viz_need')}</span>`;}
+  else{bar.innerHTML=rst+`<span>${t('viz_count')(st.items.length)}</span>`+
+      `<span>${t('viz_axis')(1,st.ev1)} · ${t('viz_axis')(2,st.ev2)}</span>`;}
+  const rb=document.getElementById('vizReset');if(rb)rb.onclick=resetViz;
+}
+function niceTicks(min,max,n){
+  const span=(max-min)||1,raw=span/n,mag=Math.pow(10,Math.floor(Math.log10(raw))),norm=raw/mag;
+  const step=(norm<1.5?1:norm<3?2:norm<7?5:10)*mag,out=[];
+  for(let v=Math.ceil(min/step)*step;v<=max+1e-9;v+=step)out.push(v);
+  return out;
+}
+// 通用散点渲染：主库结构图与 MLIP 分布图共用（st 为 {items,x,y,view,plot,colors,pts}）
+function drawScatterOn(cv,st,sizePx,alpha,sel){   // sel: 可选的框选矩形(像素) 用于缩放叠加
+  if(!st)return;
+  const dpr=Math.min(devicePixelRatio||1,2);
+  const cssW=cv.clientWidth,cssH=cv.clientHeight;
+  cv.width=cssW*dpr;cv.height=cssH*dpr;
+  const ctx=cv.getContext('2d');ctx.setTransform(dpr,0,0,dpr,0,0);ctx.clearRect(0,0,cssW,cssH);
+  const mL=54,mR=14,mT=14,mB=32,pX=mL,pY=mT,pW=cssW-mL-mR,pH=cssH-mT-mB;
+  st.plot={x:pX,y:pY,w:pW,h:pH};
+  const V=st.view;
+  const sx=v=>pX+(v-V.xmin)/(V.xmax-V.xmin)*pW,sy=v=>pY+pH-(v-V.ymin)/(V.ymax-V.ymin)*pH;
+  const css=getComputedStyle(document.body);
+  const grid=css.getPropertyValue('--border').trim()||'#e6e6e8';
+  const muted=css.getPropertyValue('--muted').trim()||'#8a8a8a';
+  // 灰色网格线 + 刻度值
+  ctx.font='10px ui-sans-serif,system-ui';ctx.lineWidth=1;
+  ctx.textAlign='center';ctx.textBaseline='top';
+  niceTicks(V.xmin,V.xmax,8).forEach(v=>{const X=sx(v);if(X<pX-0.5||X>pX+pW+0.5)return;
+    ctx.strokeStyle=grid;ctx.globalAlpha=0.6;ctx.beginPath();ctx.moveTo(X,pY);ctx.lineTo(X,pY+pH);ctx.stroke();
+    ctx.globalAlpha=1;ctx.fillStyle=muted;ctx.fillText(v.toFixed(2),X,pY+pH+5);});
+  ctx.textAlign='right';ctx.textBaseline='middle';
+  niceTicks(V.ymin,V.ymax,6).forEach(v=>{const Y=sy(v);if(Y<pY-0.5||Y>pY+pH+0.5)return;
+    ctx.strokeStyle=grid;ctx.globalAlpha=0.6;ctx.beginPath();ctx.moveTo(pX,Y);ctx.lineTo(pX+pW,Y);ctx.stroke();
+    ctx.globalAlpha=1;ctx.fillStyle=muted;ctx.fillText(v.toFixed(2),pX-6,Y);});
+  // x/y 轴（PC=0 处，若在视野内加深显示）
+  ctx.strokeStyle=muted;ctx.globalAlpha=0.55;ctx.lineWidth=1.3;
+  if(0>V.ymin&&0<V.ymax){const Y=sy(0);ctx.beginPath();ctx.moveTo(pX,Y);ctx.lineTo(pX+pW,Y);ctx.stroke();}
+  if(0>V.xmin&&0<V.xmax){const X=sx(0);ctx.beginPath();ctx.moveTo(X,pY);ctx.lineTo(X,pY+pH);ctx.stroke();}
+  ctx.globalAlpha=1;
+  // 绘图区边框
+  ctx.strokeStyle=grid;ctx.lineWidth=1;ctx.strokeRect(pX,pY,pW,pH);
+  // 数据点（裁剪到绘图区；仅可见点参与命中）
+  ctx.save();ctx.beginPath();ctx.rect(pX,pY,pW,pH);ctx.clip();
+  const {x,y,items}=st,pts=[];
+  for(let i=0;i<items.length;i++){const cx=sx(x[i]),cy=sy(y[i]);
+    if(cx<pX||cx>pX+pW||cy<pY||cy>pY+pH)continue;
+    pts.push({px:cx,py:cy,r:items[i]});
+    ctx.beginPath();ctx.arc(cx,cy,sizePx,0,6.2832);
+    ctx.fillStyle=(st.colors&&st.colors[i])||'#888';ctx.globalAlpha=alpha;ctx.fill();
+    ctx.globalAlpha=1;ctx.lineWidth=1;ctx.strokeStyle='rgba(0,0,0,.28)';ctx.stroke();}
+  ctx.restore();
+  st.pts=pts;
+  // 框选叠加
+  if(sel){const rx=Math.min(sel.x0,sel.x1),ry=Math.min(sel.y0,sel.y1),rw=Math.abs(sel.x1-sel.x0),rh=Math.abs(sel.y1-sel.y0);
+    ctx.fillStyle='rgba(47,116,221,0.14)';ctx.strokeStyle='rgba(47,116,221,0.85)';ctx.lineWidth=1;
+    ctx.fillRect(rx,ry,rw,rh);ctx.strokeRect(rx,ry,rw,rh);}
+}
+function drawViz(sel){drawScatterOn(document.getElementById('vizCanvas'),vizState,vizPointSize,vizPointAlpha,sel);}
+// 通用交互：悬停 tooltip、框选缩放、点击回调。cfg={state,draw,size,tip,click}
+function attachScatter(cv,cfg){
+  let drag=null;                                     // {x0,y0,x1,y1,moved}
+  const rel=e=>{const r=cv.getBoundingClientRect();return{mx:e.clientX-r.left,my:e.clientY-r.top};};
+  const inPlot=(p,mx,my)=>p&&mx>=p.x&&mx<=p.x+p.w&&my>=p.y&&my<=p.y+p.h;
+  cv.addEventListener('mousedown',e=>{const st=cfg.state();if(!st)return;const {mx,my}=rel(e);
+    if(!inPlot(st.plot,mx,my))return;drag={x0:mx,y0:my,x1:mx,y1:my,moved:false};hideTip();});
+  cv.addEventListener('mousemove',e=>{
+    const st=cfg.state();if(!st)return;const {mx,my}=rel(e);
+    if(drag){drag.x1=mx;drag.y1=my;if(Math.abs(mx-drag.x0)>4||Math.abs(my-drag.y0)>4)drag.moved=true;
+      cfg.draw(drag.moved?drag:null);return;}
+    if(!st.pts.length)return;
+    let best=null,bd=1e9;const s=cfg.size(),tol=(s+5)*(s+5);
+    for(const p of st.pts){const dx=p.px-mx,dy=p.py-my,dd=dx*dx+dy*dy;if(dd<bd){bd=dd;best=p;}}
+    if(best&&bd<=tol){cv.style.cursor=cfg.click?'pointer':'default';st.hover=best;showTip(e,cfg.tip(best.r));}
+    else{cv.style.cursor='crosshair';st.hover=null;hideTip();}
+  });
+  window.addEventListener('mouseup',()=>{
+    const st=cfg.state();
+    if(!drag||!st){drag=null;return;}
+    const d=drag;drag=null;
+    if(d.moved){                                     // 框选缩放
+      const p=st.plot,V=st.view;
+      const dataX=px=>V.xmin+(px-p.x)/p.w*(V.xmax-V.xmin),dataY=py=>V.ymin+(p.y+p.h-py)/p.h*(V.ymax-V.ymin);
+      const nx0=dataX(Math.min(d.x0,d.x1)),nx1=dataX(Math.max(d.x0,d.x1));
+      const ny0=dataY(Math.max(d.y0,d.y1)),ny1=dataY(Math.min(d.y0,d.y1));
+      if(nx1-nx0>1e-9&&ny1-ny0>1e-9)st.view={xmin:nx0,xmax:nx1,ymin:ny0,ymax:ny1};
+      cfg.draw();
+    }else if(st.hover&&cfg.click){cfg.click(st.hover.r);}
+  });
+  cv.addEventListener('mouseleave',()=>{if(!drag){hideTip();const st=cfg.state();if(st)st.hover=null;}});
+}
+(function(){
+  attachScatter(document.getElementById('vizCanvas'),{
+    state:()=>vizState,draw:drawViz,size:()=>vizPointSize,
+    tip:r=>`<b>${r.sid}</b> · ${normFormula(r.formula)}<br>${r.system} · ${r.phase} ${r.temperature}`,
+    click:r=>openViewer(r),                          // 点击点→结构页(不关闭 map)
+  });
+  // 控制面板：着色依据 + colormap
+  const cbSel=document.getElementById('vizColorBy'),cmSel=document.getElementById('vizCmap');
+  Object.keys(CMAPS).forEach(n=>cmSel.appendChild(Object.assign(document.createElement('option'),{value:n,textContent:n})));
+  cbSel.value=vizColorBy;cmSel.value=vizCmap;
+  const syncCmapVis=()=>{document.getElementById('vizCmapGroup').style.display=CONT[vizColorBy]?'':'none';};
+  syncCmapVis();
+  const recolor=()=>{if(vizState){computeColors();drawViz();renderLegend();}};
+  cbSel.onchange=()=>{vizColorBy=cbSel.value;localStorage.setItem('pcm_viz_colorby',vizColorBy);syncCmapVis();recolor();};
+  cmSel.onchange=()=>{vizCmap=cmSel.value;localStorage.setItem('pcm_viz_cmap',vizCmap);recolor();};
+  const revChk=document.getElementById('vizCmapRev');
+  revChk.checked=vizCmapRev;
+  revChk.onchange=()=>{vizCmapRev=revChk.checked;localStorage.setItem('pcm_viz_cmap_rev',vizCmapRev?'1':'0');recolor();};
+  // 散点大小 / 透明度
+  const szSel=document.getElementById('vizSize'),opSel=document.getElementById('vizOpacity');
+  const szVal=document.getElementById('vizSizeVal'),opVal=document.getElementById('vizOpacityVal');
+  szSel.value=vizPointSize;opSel.value=vizPointAlpha;szVal.textContent=vizPointSize;opVal.textContent=(+vizPointAlpha).toFixed(2);
+  szSel.oninput=()=>{vizPointSize=+szSel.value;szVal.textContent=vizPointSize;localStorage.setItem('pcm_viz_size',vizPointSize);if(vizState)drawViz();};
+  opSel.oninput=()=>{vizPointAlpha=+opSel.value;opVal.textContent=vizPointAlpha.toFixed(2);localStorage.setItem('pcm_viz_alpha',vizPointAlpha);if(vizState)drawViz();};
+  window.addEventListener('resize',debounce(()=>{if(vizState)drawViz();},150));
+})();
+
+/* ---------- MLIP dataset：能量/受力分布 + SOAP-PCA 构型图 ---------- */
+// mlip.json 轻量(~130KB)随页面加载；mlip_descriptors.json(~2.8MB) 等板块进入视口再取。
+let MLIP=null,MDESC=null,MDESC_LOADING=null,MITEMS=[],mlipState=null;
+let mlipSel=new Set();                                   // 选中的数据集 key
+let mlipColorBy=localStorage.getItem('pcm_mlip_colorby')||'dataset';
+let mlipCmap=localStorage.getItem('pcm_mlip_cmap')||'Viridis';
+if(!CMAPS[mlipCmap])mlipCmap='Viridis';
+let mlipCmapRev=localStorage.getItem('pcm_mlip_cmap_rev')==='1';
+let mlipPointSize=+(localStorage.getItem('pcm_mlip_size')||3);
+let mlipPointAlpha=+(localStorage.getItem('pcm_mlip_alpha')||0.7);
+const MCONT={
+  epa:{get:p=>p.epa,cap:()=>`${t('mlip_cb_epa')} (eV/atom)`,fmt:v=>v.toFixed(3)},
+  frms:{get:p=>p.frms,cap:()=>`${t('mlip_cb_frms')} (eV/Å)`,fmt:v=>v.toFixed(3)},
+  fmax:{get:p=>p.fmax,cap:()=>`${t('mlip_cb_fmax')} (eV/Å)`,fmt:v=>v.toFixed(2)},
+  density:{get:p=>p.density,cap:()=>`${t('c_density')} (Atom/Å³)`,fmt:v=>v.toFixed(4)}
+};
+const dsKeys=()=>MLIP.datasets.map(d=>d.key);
+const dsOf=k=>MLIP.datasets.find(d=>d.key===k);
+function loadMdesc(){
+  if(MDESC)return Promise.resolve(MDESC);
+  if(MDESC_LOADING)return MDESC_LOADING;
+  const dec=s=>{const bin=atob(s),n=bin.length,b=new Uint8Array(n);for(let i=0;i<n;i++)b[i]=bin.charCodeAt(i);return new Float32Array(b.buffer);};
+  MDESC_LOADING=fetch('mlip_descriptors.json').then(r=>r.json()).then(p=>{MDESC={dim:p.dim,arr:dec(p.data)};return MDESC;});
+  return MDESC_LOADING;
+}
+function renderMlipTiles(){
+  const box=document.getElementById('mlipTiles'),m=MLIP.meta;
+  const items=[[m.n_frames.toLocaleString(),t('mt_frames'),''],[m.n_atoms.toLocaleString(),t('mt_atoms'),''],
+    [m.n_datasets,t('mt_ds'),''],[m.label_level,t('mt_label'),' tv']];
+  box.innerHTML=items.map(([v,l,c])=>`<div class="tile"><div class="v${c}">${v}</div><div class="l">${l}</div></div>`).join('');
+}
+function renderMlipChips(){
+  const box=document.getElementById('mlipChips');
+  box.innerHTML=MLIP.datasets.map(d=>{const on=mlipSel.has(d.key);
+    return `<button type="button" class="chip${on?' on':''}" data-ds="${d.key}" style="color:${on?catColor('dataset',d.key):''}">`+
+      `<span class="dot" style="background:${catColor('dataset',d.key)}"></span>${d.key} <span style="opacity:.65">${d.n_frames.toLocaleString()}</span></button>`;}).join('');
+  box.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{
+    const k=b.dataset.ds;
+    if(mlipSel.has(k)){if(mlipSel.size>1)mlipSel.delete(k);}else mlipSel.add(k);
+    renderMlipChips();renderMlipCharts();updateMlipVizDebounced();});
+}
+function renderMlipTable(){
+  const rows=MLIP.datasets.map(d=>`<tr>
+    <td><span class="dscell"><span class="dot" style="background:${catColor('dataset',d.key)}"></span>${d.key}</span></td>
+    <td>${d.label}</td><td class="num">${d.n_frames.toLocaleString()}</td><td class="num">${d.n_atoms.toLocaleString()}</td>
+    <td class="num">${d.natoms_min}–${d.natoms_max}</td><td>${d.elements.join(' · ')}</td>
+    <td class="num">${d.epa.min.toFixed(3)} … ${d.epa.max.toFixed(3)}</td>
+    <td class="num">${d.fmag.max.toFixed(2)}</td></tr>`).join('');
+  document.getElementById('mlipTbody').innerHTML=rows;
+}
+// 选中数据集的分箱计数逐箱相加（各数据集共享同一 edges，故可直接叠加）
+// 返回 {counts, shown, outside, total}；outside = 落在显示范围外、未画出的样本数
+function sumCounts(h){
+  const keys=dsKeys().filter(k=>mlipSel.has(k));
+  const n=h.edges.length-1,counts=new Array(n).fill(0);let outside=0;
+  keys.forEach(k=>{h.counts[k].forEach((c,i)=>counts[i]+=c);outside+=h.outside[k][0]+h.outside[k][1];});
+  const shown=counts.reduce((a,b)=>a+b,0);
+  return {counts,shown,outside,total:shown+outside};
+}
+function renderMlipCharts(){
+  const H=MLIP.hist;
+  const epa=sumCounts(H.epa),fmag=sumCounts(H.fmag),fcomp=sumCounts(H.fcomp);
+  histBars(document.getElementById('mlipEpaChart'),H.epa.edges,epa.counts,{fmt:v=>v.toFixed(2),unit:'eV/atom'});
+  histBars(document.getElementById('mlipFmagChart'),H.fmag.edges,fmag.counts,{fmt:v=>v.toFixed(1),unit:'eV/Å',logY:true});
+  histBars(document.getElementById('mlipFcompChart'),H.fcomp.edges,fcomp.counts,{fmt:v=>v.toFixed(1),unit:'eV/Å',logY:true});
+  const foot=(id,key,r)=>document.getElementById(id).textContent=t(key)(r.total)+
+    (r.outside?' '+t('mlip_clipped')(r.outside,100*r.outside/r.total):'');
+  foot('mlipFootEpa','mlip_foot_epa',epa);
+  foot('mlipFootFmag','mlip_foot_fmag',fmag);
+  foot('mlipFootFcomp','mlip_foot_fcomp',fcomp);
+}
+function computeMlipColors(){
+  if(!mlipState)return;const items=mlipState.items;
+  if(MCONT[mlipColorBy]){const r=contColors(items,MCONT[mlipColorBy].get,mlipCmap,mlipCmapRev);
+    mlipState.colors=r.colors;mlipState.colorInfo=r.colorInfo;}
+  else{mlipState.colors=items.map(p=>catColor('dataset',p.ds));mlipState.colorInfo=null;}
+}
+function renderMlipLegend(){
+  const box=document.getElementById('mlipLegend');if(!box)return;
+  if(!mlipState){box.innerHTML='';return;}
+  if(MCONT[mlipColorBy]){contLegend(box,MCONT[mlipColorBy],mlipState.colorInfo||{lo:0,hi:1},mlipCmap,mlipCmapRev);return;}
+  const cats=dsKeys().filter(k=>mlipState.items.some(p=>p.ds===k));
+  catLegend(box,'dataset',cats,k=>k,relegend=>{
+    computeMlipColors();drawMlipViz();renderMlipChips();renderMlipTable();if(relegend)renderMlipLegend();});
+}
+// sel===undefined 表示一次「最终」重绘（非框选拖拽中），此时刷新状态栏里的视野外点数
+function drawMlipViz(sel){
+  drawScatterOn(document.getElementById('mlipCanvas'),mlipState,mlipPointSize,mlipPointAlpha,sel);
+  if(sel===undefined&&mlipState)renderMlipVizBar(mlipState);
+}
+function setMlipView(v){if(mlipState){mlipState.view=Object.assign({},v);drawMlipViz();}}
+function pad(xmin,xmax,ymin,ymax){
+  const px=(xmax-xmin)*0.06||1,py=(ymax-ymin)*0.06||1;
+  return {xmin:xmin-px,xmax:xmax+px,ymin:ymin-py,ymax:ymax+py};
+}
+// 训练集含 2–4 原子的二聚体/孤立原子构型（教势函数短程排斥）。它们在平均 SOAP 空间里
+// 离主云极远，若按全域 min/max 定轴会把 90% 的点压成一个像素点。默认视野取 1–99% 分位，
+// 离群点仍然画出，只是初始不在视野内——「全图」按钮可看全部。
+function robustView(x,y){
+  const sx=[...x].sort((a,b)=>a-b),sy=[...y].sort((a,b)=>a-b),q=0.01;
+  let xmin=quantile(sx,q),xmax=quantile(sx,1-q),ymin=quantile(sy,q),ymax=quantile(sy,1-q);
+  if(!(xmax>xmin)){xmin=sx[0];xmax=sx[sx.length-1];}
+  if(!(ymax>ymin)){ymin=sy[0];ymax=sy[sy.length-1];}
+  return pad(xmin,xmax,ymin,ymax);
+}
+function hiddenCount(st){
+  const V=st.view;let n=0;
+  for(let i=0;i<st.items.length;i++)if(st.x[i]<V.xmin||st.x[i]>V.xmax||st.y[i]<V.ymin||st.y[i]>V.ymax)n++;
+  return n;
+}
+function renderMlipVizBar(st){
+  const bar=document.getElementById('mlipVizBar');
+  if(!st){bar.innerHTML=`<span>${t('mlip_none')}</span>`;return;}
+  const hid=hiddenCount(st);
+  bar.innerHTML=`<button class="tbtn" id="mlipReset">${t('reset')}</button>`+
+    `<button class="tbtn" id="mlipFull">${t('mlip_fullext')}</button>`+
+    `<span>${t('mlip_sampled')(st.items.length,MLIP.meta.n_frames)}</span>`+
+    `<span>${t('viz_axis')(1,st.ev1)} · ${t('viz_axis')(2,st.ev2)}</span>`+
+    (hid?`<span>${t('mlip_hidden')(hid)}</span>`:'');
+  document.getElementById('mlipReset').onclick=()=>setMlipView(st.full);
+  document.getElementById('mlipFull').onclick=()=>setMlipView(st.extent);
+}
+function updateMlipViz(){
+  const bar=document.getElementById('mlipVizBar');if(!bar||!MLIP)return;
+  bar.innerHTML=`<span>${t('mlip_loading')}</span>`;
+  loadMdesc().then(D=>{
+    const items=[],vecs=[];
+    MITEMS.forEach(p=>{if(!mlipSel.has(p.ds))return;
+      items.push(p);vecs.push(D.arr.subarray(p.i*D.dim,(p.i+1)*D.dim));});
+    if(items.length<3){mlipState=null;renderMlipVizBar(null);renderMlipLegend();
+      const cv=document.getElementById('mlipCanvas');cv.width=cv.clientWidth;cv.height=cv.clientHeight;
+      cv.getContext('2d').clearRect(0,0,cv.width,cv.height);return;}
+    const pca=pcaProject(vecs);
+    const full=robustView(pca.x,pca.y);                 // 默认视野（1–99% 分位）
+    const extent=pad(Math.min(...pca.x),Math.max(...pca.x),Math.min(...pca.y),Math.max(...pca.y));
+    mlipState={items,x:pca.x,y:pca.y,ev1:pca.ev1,ev2:pca.ev2,pts:[],hover:null,
+      full,extent,view:Object.assign({},full),plot:null,colors:null,colorInfo:null};
+    computeMlipColors();drawMlipViz();renderMlipLegend();
+  }).catch(()=>{bar.textContent=t('mlip_fail');});
+}
+const updateMlipVizDebounced=debounce(updateMlipViz,220);
+function renderMlip(){                                   // 语言/主题切换后重绘（不重算 PCA）
+  if(!MLIP)return;
+  renderMlipTiles();renderMlipChips();renderMlipTable();renderMlipCharts();
+  if(mlipState){renderMlipVizBar(mlipState);renderMlipLegend();}
+  else if(!MDESC)document.getElementById('mlipVizBar').innerHTML=`<span>${t('mlip_loading')}</span>`;
+}
+(function(){
+  const cv=document.getElementById('mlipCanvas');
+  attachScatter(cv,{state:()=>mlipState,draw:drawMlipViz,size:()=>mlipPointSize,
+    tip:p=>`<b>${p.fid}</b> · ${p.formula}<br>${p.natoms} atoms · ${p.epa.toFixed(3)} eV/atom<br>|F|max ${p.fmax.toFixed(2)} eV/Å`});
+  const cb=document.getElementById('mlipColorBy'),cm=document.getElementById('mlipCmap'),rev=document.getElementById('mlipCmapRev');
+  Object.keys(CMAPS).forEach(n=>cm.appendChild(Object.assign(document.createElement('option'),{value:n,textContent:n})));
+  cb.value=mlipColorBy;cm.value=mlipCmap;rev.checked=mlipCmapRev;
+  const syncCmapVis=()=>{document.getElementById('mlipCmapGroup').style.display=MCONT[mlipColorBy]?'':'none';};
+  syncCmapVis();
+  const recolor=()=>{if(mlipState){computeMlipColors();drawMlipViz();renderMlipLegend();}};
+  cb.onchange=()=>{mlipColorBy=cb.value;localStorage.setItem('pcm_mlip_colorby',mlipColorBy);syncCmapVis();recolor();};
+  cm.onchange=()=>{mlipCmap=cm.value;localStorage.setItem('pcm_mlip_cmap',mlipCmap);recolor();};
+  rev.onchange=()=>{mlipCmapRev=rev.checked;localStorage.setItem('pcm_mlip_cmap_rev',mlipCmapRev?'1':'0');recolor();};
+  const sz=document.getElementById('mlipSize'),op=document.getElementById('mlipOpacity');
+  const szV=document.getElementById('mlipSizeVal'),opV=document.getElementById('mlipOpacityVal');
+  sz.value=mlipPointSize;op.value=mlipPointAlpha;szV.textContent=mlipPointSize;opV.textContent=(+mlipPointAlpha).toFixed(2);
+  sz.oninput=()=>{mlipPointSize=+sz.value;szV.textContent=mlipPointSize;localStorage.setItem('pcm_mlip_size',mlipPointSize);if(mlipState)drawMlipViz();};
+  op.oninput=()=>{mlipPointAlpha=+op.value;opV.textContent=mlipPointAlpha.toFixed(2);localStorage.setItem('pcm_mlip_alpha',mlipPointAlpha);if(mlipState)drawMlipViz();};
+  window.addEventListener('resize',debounce(()=>{if(MLIP)renderMlipCharts();if(mlipState)drawMlipViz();},150));
+})();
+fetch('mlip.json').then(r=>r.json()).then(d=>{
+  MLIP=d;mlipSel=new Set(dsKeys());
+  const P=d.points;
+  MITEMS=P.ds.map((di,i)=>({i,ds:dsKeys()[di],fid:P.fid[i],formula:d.formulas[P.formula[i]],
+    natoms:P.natoms[i],epa:P.epa[i],fmax:P.fmax[i],frms:P.frms[i],density:P.density[i]}));
+  renderMlipTiles();renderMlipChips();renderMlipTable();renderMlipCharts();
+  document.getElementById('mlipVizBar').innerHTML=`<span>${t('mlip_loading')}</span>`;
+  // 描述符较大：板块首次进入视口时才拉取并作图
+  const sec=document.getElementById('mlipSection');
+  const io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)){io.disconnect();updateMlipViz();}},{rootMargin:'200px'});
+  io.observe(sec);
+}).catch(()=>{document.getElementById('mlipTbody').innerHTML=`<tr><td colspan="8" class="load">${t('mlip_fail')}</td></tr>`;});
+
 window.addEventListener('resize',debounce(()=>{if(DATA)renderCharts();},150));
 fetch('data.json').then(r=>r.json()).then(d=>{
-  DATA=d;initFilters();buildPT();applyI18n();
+  DATA=d;initFilters();buildPT();applyI18n();updateViz();
   const m=location.hash.match(/#view=(s\d+)/);
   if(m){const r=DATA.find(x=>x.sid===m[1]);if(r)openViewer(r);}
-}).catch(()=>{document.getElementById('tbody').innerHTML=`<tr><td colspan="9" class="load">${t('noload')}</td></tr>`;});
+}).catch(()=>{document.getElementById('tbody').innerHTML=`<tr><td colspan="11" class="load">${t('noload')}</td></tr>`;});
 </script>
 </body>
 </html>
